@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Historical Timeline</title>
+<style>
+  /* ============ THEME ============ */
+  :root {
+    --bg: #000000;
+    --fg: #FFFFFF;
+  }
+  body.cream {
+    --bg: #FFF1E0;
+    --fg: #000000;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; overflow: hidden; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    transition: background 0.25s, color 0.25s;
+  }
+
+  /* ============ TOP BAR ============ */
+  #topbar {
+    position: fixed; top: 0; left: 0; right: 0; height: 52px;
+    display: flex; align-items: center; gap: 10px;
+    padding: 0 16px; z-index: 20;
+    background: var(--bg);
+    border-bottom: 1px solid var(--fg);
+  }
+  #topbar h1 { font-size: 15px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-right: auto; }
+  .btn {
+    background: none; border: 1px solid var(--fg); color: var(--fg);
+    font: inherit; font-size: 12px; padding: 5px 12px; cursor: pointer;
+    border-radius: 999px; transition: background 0.15s, color 0.15s;
+  }
+  .btn:hover { background: var(--fg); color: var(--bg); }
+  .btn.icon { width: 32px; height: 32px; padding: 0; font-size: 15px; line-height: 1; }
+
+  /* ============ SEARCH ============ */
+  #searchWrap { position: relative; }
+  #search {
+    background: none; border: 1px solid var(--fg); color: var(--fg);
+    font: inherit; font-size: 12px; padding: 5px 14px; border-radius: 999px; width: 230px;
+  }
+  #search::placeholder { color: var(--fg); opacity: 0.45; }
+  #search:focus { outline: none; box-shadow: 0 0 0 1px var(--fg); }
+  #results {
+    position: absolute; top: 38px; left: 0; width: 330px; display: none;
+    background: var(--bg); border: 1px solid var(--fg);
+    max-height: 330px; overflow-y: auto; z-index: 40;
+  }
+  .res { padding: 8px 11px; font-size: 12px; cursor: pointer; }
+  .res + .res { border-top: 1px solid var(--fg); }
+  .res:hover { background: var(--fg); color: var(--bg); }
+  .res .r-date { opacity: 0.65; font-size: 10.5px; margin-right: 7px; }
+  .res .hl { background: var(--fg); color: var(--bg); padding: 0 1px; }
+  .res:hover .hl { background: var(--bg); color: var(--fg); }
+  .res.none { cursor: default; opacity: 0.6; }
+  .res.none:hover { background: none; color: var(--fg); }
+  .res .tag { font-size: 10px; opacity: 0.7; letter-spacing: 0.03em; }
+  .res:hover .tag { opacity: 0.85; }
+
+  /* ============ SIDE PANEL ============ */
+  #panel {
+    position: fixed; top: 52px; left: 0; bottom: 0; width: 230px;
+    background: var(--bg); border-right: 1px solid var(--fg);
+    padding: 18px 16px; z-index: 15;
+    transform: translateX(0); transition: transform 0.25s;
+    overflow-y: auto;
+  }
+  #panel.hidden { transform: translateX(-100%); }
+  #panel h2 { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 14px; }
+  .cat { display: flex; align-items: center; gap: 9px; margin-bottom: 11px; cursor: pointer; font-size: 13px; user-select: none; }
+  .cat input { display: none; }
+  .cat .box {
+    width: 14px; height: 14px; border: 1px solid var(--fg); flex-shrink: 0;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 10px;
+  }
+  .cat input:checked + .box::after { content: ""; width: 8px; height: 8px; background: var(--fg); }
+  .panel-actions { margin-top: 16px; display: flex; gap: 8px; }
+  .panel-actions .btn { font-size: 11px; padding: 4px 10px; }
+
+  /* ============ STAGE ============ */
+  #stage { position: fixed; top: 52px; left: 0; right: 0; bottom: 0; cursor: grab; }
+  #stage.dragging { cursor: grabbing; }
+  svg { display: block; width: 100%; height: 100%; }
+  svg text { fill: var(--fg); user-select: none; }
+  svg .axis { stroke: var(--fg); stroke-width: 1.5; }
+  svg .tick { stroke: var(--fg); stroke-width: 1; }
+  svg .connector { stroke: var(--fg); stroke-width: 0.75; }
+  svg .dot { fill: var(--fg); cursor: pointer; }
+  svg .flash { fill: none; stroke: var(--fg); stroke-width: 1.5; }
+  svg .evt-date { font-size: 10px; opacity: 0.75; }
+  svg .evt-sum { font-size: 11.5px; }
+  svg .lbl-year { font-size: 12px; letter-spacing: 0.05em; }
+  svg .lane { stroke: var(--fg); stroke-width: 0.75; opacity: 0.28; }
+  svg .lane-label { font-size: 9.5px; letter-spacing: 0.14em; opacity: 0.85; cursor: grab; }
+  svg .lbl-month { font-size: 10.5px; opacity: 0.85; }
+  svg .lbl-day { font-size: 9.5px; opacity: 0.7; }
+
+  /* ============ ZOOM CONTROLS ============ */
+  #zoomctl {
+    position: fixed; right: 18px; bottom: 18px; z-index: 20;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  #hint {
+    position: fixed; left: 50%; transform: translateX(-50%); bottom: 16px;
+    font-size: 11px; opacity: 0.55; z-index: 10; pointer-events: none;
+  }
+
+  /* ============ FOOTER ============ */
+  #footer {
+    position: fixed; left: 18px; bottom: 16px; z-index: 10;
+    font-size: 10.5px; opacity: 0.55;
+  }
+  #footer a { color: var(--fg); }
+
+  /* ============ TOOLTIP ============ */
+  #tip {
+    position: fixed; z-index: 30; display: none; max-width: 300px;
+    background: var(--bg); border: 1px solid var(--fg); color: var(--fg);
+    padding: 10px 12px; font-size: 12px; pointer-events: none;
+  }
+  #tip .t-date { font-weight: 600; margin-bottom: 5px; }
+  #tip .t-evt { margin-bottom: 4px; }
+  #tip .t-cat { opacity: 0.6; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em; }
+</style>
+</head>
+<body>
+
+<div id="topbar">
+  <button class="btn icon" id="panelToggle" title="Show / hide categories">☰</button>
+  <h1>Historical Timeline</h1>
+  <div id="searchWrap">
+    <input id="search" type="text" placeholder="Search events or dates…" autocomplete="off" spellcheck="false">
+    <div id="results"></div>
+  </div>
+  <button class="btn" id="orientToggle" title="Switch orientation">Vertical</button>
+  <button class="btn" id="dirToggle" title="Reverse chronological direction">⇄ Reverse</button>
+  <button class="btn" id="themeToggle" title="Switch background">Cream</button>
+</div>
+
+<div id="panel">
+  <h2>Categories</h2>
+  <div id="cats"></div>
+  <div class="panel-actions">
+    <button class="btn" id="allCats">All</button>
+    <button class="btn" id="noCats">None</button>
+  </div>
+</div>
+
+<div id="stage"><svg id="svg"></svg></div>
+
+<div id="zoomctl">
+  <button class="btn icon" id="zin" title="Zoom in">+</button>
+  <button class="btn icon" id="zout" title="Zoom out">−</button>
+</div>
+<div id="hint">Scroll or ⌘↑ / ⌘↓ to zoom · arrows, side-scroll or drag to traverse</div>
+<footer id="footer">Some source material from <a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</footer>
+<div id="tip"></div>
+
+<script>
+"use strict";
+
+/* =====================================================
+   DATA — replace/extend this with data/events.json later
+   Schema: date "YYYY.MM.DD", category key, importance 1–5,
+   summary ≤ 40 chars, source = Wikipedia URL
+   ===================================================== */
+const CATEGORIES = {
+  history:     "Historical Events",
+  politics:    "Politics",
+  religion:    "Religion & Belief",
+  science:     "Science & Nature",
+  tech:        "Technology",
+  arts:        "Arts & Literature",
+  pop:         "Pop Culture & Leisure",
+  sport:       "Sport",
+  exploration: "Exploration & Discovery"
+};
+
+const EVENTS = [
+  {date:"1903.12.17", category:"tech",        importance:5, tags:["aviation","engineering"], summary:"Wright brothers achieve powered flight", source:"https://en.wikipedia.org/wiki/Wright_Flyer"},
+  {date:"1905.06.30", category:"science",     importance:4, tags:["physics"], summary:"Einstein submits relativity paper", source:"https://en.wikipedia.org/wiki/Annus_mirabilis_papers"},
+  {date:"1911.12.14", category:"exploration", importance:4, tags:["polar","expedition"], summary:"Amundsen reaches the South Pole", source:"https://en.wikipedia.org/wiki/Roald_Amundsen"},
+  {date:"1912.04.15", category:"history",     importance:5, tags:["maritime","disaster"], summary:"Titanic sinks in the North Atlantic", source:"https://en.wikipedia.org/wiki/Sinking_of_the_Titanic"},
+  {date:"1913.05.29", category:"arts",        importance:3, tags:["music","ballet"], summary:"Rite of Spring premiere causes riot", source:"https://en.wikipedia.org/wiki/The_Rite_of_Spring"},
+  {date:"1914.07.28", category:"history",     importance:5, tags:["war","wwi"], summary:"First World War begins", source:"https://en.wikipedia.org/wiki/World_War_I"},
+  {date:"1918.11.11", category:"history",     importance:5, tags:["war","wwi"], summary:"Armistice ends the First World War", source:"https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"},
+  {date:"1920.08.18", category:"politics",    importance:4, tags:["suffrage","social-movement"], summary:"US women win the right to vote", source:"https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution"},
+  {date:"1922.02.02", category:"arts",        importance:3, tags:["literature"], summary:"Joyce's Ulysses is published", source:"https://en.wikipedia.org/wiki/Ulysses_(novel)"},
+  {date:"1926.01.26", category:"tech",        importance:3, tags:["television","media"], summary:"Baird demonstrates television", source:"https://en.wikipedia.org/wiki/John_Logie_Baird"},
+  {date:"1928.09.28", category:"science",     importance:5, tags:["medicine","biology"], summary:"Fleming discovers penicillin", source:"https://en.wikipedia.org/wiki/Alexander_Fleming"},
+  {date:"1928.11.18", category:"pop",         importance:3, tags:["film","animation"], summary:"Mickey Mouse debuts on screen", source:"https://en.wikipedia.org/wiki/Steamboat_Willie"},
+  {date:"1929.10.29", category:"history",     importance:5, tags:["economics","finance"], summary:"Wall Street Crash: Black Tuesday", source:"https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929"},
+  {date:"1933.01.30", category:"politics",    importance:5, tags:["germany","fascism"], summary:"Hitler named German chancellor", source:"https://en.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power"},
+  {date:"1936.08.03", category:"sport",       importance:4, tags:["olympics","athletics"], summary:"Owens wins 100m at Berlin Games", source:"https://en.wikipedia.org/wiki/Jesse_Owens"},
+  {date:"1939.09.01", category:"history",     importance:5, tags:["war","wwii"], summary:"Second World War begins", source:"https://en.wikipedia.org/wiki/Invasion_of_Poland"},
+  {date:"1945.05.08", category:"history",     importance:5, tags:["war","wwii"], summary:"VE Day: war ends in Europe", source:"https://en.wikipedia.org/wiki/Victory_in_Europe_Day"},
+  {date:"1945.08.06", category:"history",     importance:5, tags:["war","wwii","nuclear"], summary:"Atomic bomb dropped on Hiroshima", source:"https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"},
+  {date:"1947.08.15", category:"politics",    importance:5, tags:["independence","india"], summary:"India gains independence", source:"https://en.wikipedia.org/wiki/Independence_Day_(India)"},
+  {date:"1947.12.23", category:"tech",        importance:4, tags:["computing","electronics"], summary:"Transistor invented at Bell Labs", source:"https://en.wikipedia.org/wiki/Transistor"},
+  {date:"1950.07.16", category:"sport",       importance:3, tags:["football","world-cup"], summary:"Uruguay stuns Brazil in Cup final", source:"https://en.wikipedia.org/wiki/Maracanazo"},
+  {date:"1950.11.01", category:"religion",    importance:3, tags:["christianity","catholic"], summary:"Pope defines Assumption as dogma", source:"https://en.wikipedia.org/wiki/Munificentissimus_Deus"},
+  {date:"1953.04.25", category:"science",     importance:5, tags:["biology","genetics"], summary:"DNA double helix published", source:"https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids"},
+  {date:"1953.05.29", category:"exploration", importance:4, tags:["mountaineering"], summary:"Hillary and Norgay summit Everest", source:"https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"},
+  {date:"1954.05.06", category:"sport",       importance:3, tags:["athletics","running"], summary:"Bannister runs four-minute mile", source:"https://en.wikipedia.org/wiki/Roger_Bannister"},
+  {date:"1955.07.17", category:"pop",         importance:3, tags:["leisure","theme-park"], summary:"Disneyland opens in California", source:"https://en.wikipedia.org/wiki/Disneyland"},
+  {date:"1957.03.25", category:"politics",    importance:4, tags:["europe","treaty","economics"], summary:"Treaty of Rome founds the EEC", source:"https://en.wikipedia.org/wiki/Treaty_of_Rome"},
+  {date:"1957.10.04", category:"tech",        importance:5, tags:["space","cold-war"], summary:"Sputnik 1 launched into orbit", source:"https://en.wikipedia.org/wiki/Sputnik_1"},
+  {date:"1960.01.23", category:"exploration", importance:3, tags:["ocean","deep-sea"], summary:"Trieste reaches Challenger Deep", source:"https://en.wikipedia.org/wiki/Bathyscaphe_Trieste"},
+  {date:"1962.10.11", category:"religion",    importance:4, tags:["christianity","catholic"], summary:"Second Vatican Council opens", source:"https://en.wikipedia.org/wiki/Second_Vatican_Council"},
+  {date:"1963.11.22", category:"history",     importance:5, tags:["assassination","usa"], summary:"President Kennedy assassinated", source:"https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"},
+  {date:"1964.02.09", category:"pop",         importance:3, tags:["music","television"], summary:"Beatles play the Ed Sullivan Show", source:"https://en.wikipedia.org/wiki/The_Beatles"},
+  {date:"1966.07.30", category:"sport",       importance:3, tags:["football","world-cup"], summary:"England wins the World Cup", source:"https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Final"},
+  {date:"1969.07.20", category:"science",     importance:5, tags:["space","nasa"], summary:"Apollo 11 lands humans on the Moon", source:"https://en.wikipedia.org/wiki/Apollo_11"},
+  {date:"1969.07.20", category:"pop",         importance:4, tags:["television","space"], summary:"600 million watch the Moon walk", source:"https://en.wikipedia.org/wiki/Apollo_11"},
+  {date:"1969.08.15", category:"pop",         importance:3, tags:["music","festival"], summary:"Woodstock festival begins", source:"https://en.wikipedia.org/wiki/Woodstock"},
+  {date:"1969.10.29", category:"tech",        importance:4, tags:["internet","computing"], summary:"First ARPANET message sent", source:"https://en.wikipedia.org/wiki/ARPANET"},
+  {date:"1977.05.25", category:"pop",         importance:4, tags:["film"], summary:"Star Wars opens in theaters", source:"https://en.wikipedia.org/wiki/Star_Wars_(film)"},
+  {date:"1979.02.01", category:"religion",    importance:4, tags:["islam","iran"], summary:"Khomeini returns to lead Iran", source:"https://en.wikipedia.org/wiki/Iranian_Revolution"},
+  {date:"1980.02.22", category:"sport",       importance:2, tags:["olympics","ice-hockey"], summary:"Miracle on Ice at Lake Placid", source:"https://en.wikipedia.org/wiki/Miracle_on_Ice"},
+  {date:"1980.05.18", category:"science",     importance:3, tags:["natural-disaster","volcano"], summary:"Mount St. Helens erupts", source:"https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens"},
+  {date:"1981.08.01", category:"pop",         importance:2, tags:["music","television"], summary:"MTV begins broadcasting", source:"https://en.wikipedia.org/wiki/MTV"},
+  {date:"1981.08.12", category:"tech",        importance:3, tags:["computing"], summary:"IBM PC goes on sale", source:"https://en.wikipedia.org/wiki/IBM_Personal_Computer"},
+  {date:"1989.11.09", category:"history",     importance:5, tags:["cold-war","germany"], summary:"Berlin Wall falls", source:"https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"},
+  {date:"1989.11.09", category:"politics",    importance:4, tags:["cold-war","germany"], summary:"East Germany opens its borders", source:"https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"},
+  {date:"1991.08.06", category:"tech",        importance:5, tags:["internet","web"], summary:"World Wide Web opens to the public", source:"https://en.wikipedia.org/wiki/World_Wide_Web"},
+  {date:"1991.12.26", category:"politics",    importance:5, tags:["cold-war","ussr"], summary:"Soviet Union is dissolved", source:"https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"},
+  {date:"1994.05.10", category:"politics",    importance:5, tags:["south-africa","civil-rights"], summary:"Mandela sworn in as SA president", source:"https://en.wikipedia.org/wiki/Nelson_Mandela"},
+  {date:"1997.02.22", category:"science",     importance:3, tags:["biology","cloning"], summary:"Dolly the cloned sheep revealed", source:"https://en.wikipedia.org/wiki/Dolly_(sheep)"},
+  {date:"1997.06.26", category:"arts",        importance:3, tags:["literature"], summary:"First Harry Potter book published", source:"https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"},
+  {date:"2001.09.11", category:"history",     importance:5, tags:["terrorism","usa"], summary:"September 11 attacks on the US", source:"https://en.wikipedia.org/wiki/September_11_attacks"},
+  {date:"2004.12.26", category:"science",     importance:4, tags:["natural-disaster","earthquake"], summary:"Indian Ocean tsunami strikes", source:"https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"},
+  {date:"2007.06.29", category:"tech",        importance:4, tags:["smartphone","apple"], summary:"iPhone goes on sale", source:"https://en.wikipedia.org/wiki/IPhone_(1st_generation)"},
+  {date:"2008.09.15", category:"history",     importance:4, tags:["economics","finance"], summary:"Lehman Brothers files for bankruptcy", source:"https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"},
+  {date:"2009.08.16", category:"sport",       importance:2, tags:["athletics","running"], summary:"Bolt runs 100m in 9.58 seconds", source:"https://en.wikipedia.org/wiki/Usain_Bolt"},
+  {date:"2012.07.04", category:"science",     importance:4, tags:["physics"], summary:"Higgs boson discovery announced", source:"https://en.wikipedia.org/wiki/Higgs_boson"},
+  {date:"2013.03.13", category:"religion",    importance:3, tags:["christianity","catholic"], summary:"Pope Francis elected", source:"https://en.wikipedia.org/wiki/Pope_Francis"},
+  {date:"2016.06.23", category:"politics",    importance:4, tags:["europe","brexit"], summary:"UK votes to leave the EU", source:"https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum"},
+  {date:"2020.03.11", category:"history",     importance:5, tags:["pandemic","health"], summary:"WHO declares COVID-19 a pandemic", source:"https://en.wikipedia.org/wiki/COVID-19_pandemic"},
+  {date:"2022.02.24", category:"history",     importance:5, tags:["war","ukraine"], summary:"Russia invades Ukraine", source:"https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"},
+  {date:"2022.11.30", category:"tech",        importance:4, tags:["ai","software"], summary:"ChatGPT released to the public", source:"https://en.wikipedia.org/wiki/ChatGPT"}
+];
+
+/* =====================================================
+   TIME MATH — everything is measured in days since epoch
+   ===================================================== */
+const EPOCH = Date.UTC(1900, 0, 1);
+const MS_DAY = 86400000;
+const START_DAY = 0;
+const END_DAY = (Date.UTC(2026, 11, 31) - EPOCH) / MS_DAY;
+const TOTAL_DAYS = END_DAY - START_DAY;
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function dayOf(dateStr) { // "YYYY.MM.DD" -> day index
+  const [y, m, d] = dateStr.split(".").map(Number);
+  return (Date.UTC(y, m - 1, d) - EPOCH) / MS_DAY;
+}
+EVENTS.forEach(e => e.day = dayOf(e.date));
+
+/* Display format: storage stays "YYYY.MM.DD", display is "YYYY.MMM.DD" (e.g. 1969.JUL.20) */
+function displayDate(dateStr) {
+  const [y, m, d] = dateStr.split(".");
+  return y + "." + MONTHS[Number(m) - 1].toUpperCase() + "." + d;
+}
+
+/* =====================================================
+   STATE
+   ===================================================== */
+const state = {
+  theme: "black",          // "black" | "cream"
+  orient: "horizontal",    // "horizontal" | "vertical"
+  reversed: false,         // false = oldest at left/top; true = newest at left/top
+  cross: 0,                // cross-axis offset in px (arrow-key traversal off the axis)
+  catOrder: Object.keys(CATEGORIES), // swimlane order, user-draggable
+  ppd: 0,                  // pixels per day (set on init)
+  center: START_DAY + TOTAL_DAYS / 2, // day index at viewport center
+  active: new Set(Object.keys(CATEGORIES)),
+  panelOpen: true,
+  flash: null              // day index to highlight after a search jump
+};
+
+const svg = document.getElementById("svg");
+const stage = document.getElementById("stage");
+const tip = document.getElementById("tip");
+const NS = "http://www.w3.org/2000/svg";
+
+function viewLen() { // pixels along the time axis
+  return state.orient === "horizontal" ? stage.clientWidth : stage.clientHeight;
+}
+function minPpd() { return viewLen() / TOTAL_DAYS; }
+const MAX_PPD = 80;
+
+/* Zoom level -> which events are visible.
+   Events only appear once months appear (ppd >= 0.8). */
+function impThreshold(ppd) {
+  if (ppd < 0.8) return Infinity;
+  if (ppd < 2)   return 5;
+  if (ppd < 5)   return 4;
+  if (ppd < 12)  return 3;
+  if (ppd < 25)  return 2;
+  return 1;
+}
+
+/* =====================================================
+   RENDER
+   ===================================================== */
+function el(name, attrs, text) {
+  const n = document.createElementNS(NS, name);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  if (text !== undefined) n.textContent = text;
+  return n;
+}
+
+function chronoDir() { return state.reversed ? -1 : 1; }
+function dayToPx(day) {
+  return viewLen() / 2 + chronoDir() * (day - state.center) * state.ppd;
+}
+function pxToDay(px) {
+  return state.center + chronoDir() * (px - viewLen() / 2) / state.ppd;
+}
+
+function render() {
+  svg.innerHTML = "";
+  const H = state.orient === "horizontal";
+  const W = stage.clientWidth, Ht = stage.clientHeight;
+  const axisPos = (H ? Ht / 2 : W / 2) + state.cross; // cross-axis position of the line
+  const len = viewLen();
+  const dA = pxToDay(0), dB = pxToDay(len);
+  const firstDay = Math.max(START_DAY, Math.floor(Math.min(dA, dB)));
+  const lastDay = Math.min(END_DAY, Math.ceil(Math.max(dA, dB)));
+
+  // --- axis line ---
+  svg.appendChild(H
+    ? el("line", { class: "axis", x1: 0, y1: axisPos, x2: W, y2: axisPos })
+    : el("line", { class: "axis", x1: axisPos, y1: 0, x2: axisPos, y2: Ht }));
+
+  drawTicks(H, axisPos, firstDay, lastDay);
+  drawLanes(H, axisPos, firstDay, lastDay, W, Ht);
+}
+
+/* ---- ticks: years always; months when ppd>=0.8; days when ppd>=12 ---- */
+function drawTicks(H, axisPos, firstDay, lastDay) {
+  const ppd = state.ppd;
+  const d0 = new Date(EPOCH + firstDay * MS_DAY);
+  const d1 = new Date(EPOCH + lastDay * MS_DAY);
+
+  // year ticks — choose a step so labels are >= 55px apart
+  const pxPerYear = 365.25 * ppd;
+  const steps = [1, 2, 5, 10, 20, 25, 50];
+  const yearStep = steps.find(s => s * pxPerYear >= 55) || 50;
+  for (let y = Math.ceil(d0.getUTCFullYear() / yearStep) * yearStep; y <= d1.getUTCFullYear(); y += yearStep) {
+    const p = dayToPx((Date.UTC(y, 0, 1) - EPOCH) / MS_DAY);
+    tick(H, axisPos, p, 10, "lbl-year", String(y), 24);
+  }
+
+  // month ticks
+  if (ppd >= 0.8) {
+    for (let y = d0.getUTCFullYear(); y <= d1.getUTCFullYear(); y++) {
+      for (let m = 0; m < 12; m++) {
+        const day = (Date.UTC(y, m, 1) - EPOCH) / MS_DAY;
+        if (day < firstDay || day > lastDay || m === 0) continue;
+        const p = dayToPx(day);
+        tick(H, axisPos, p, 6, "lbl-month", MONTHS[m], 18);
+      }
+    }
+  }
+
+  // day ticks
+  if (ppd >= 12) {
+    for (let d = Math.floor(firstDay); d <= lastDay; d++) {
+      const dt = new Date(EPOCH + d * MS_DAY);
+      const dom = dt.getUTCDate();
+      if (dom === 1) continue;
+      const p = dayToPx(d);
+      const showLbl = ppd >= 22 || dom % 5 === 0;
+      tick(H, axisPos, p, 3, "lbl-day", showLbl ? String(dom) : "", 13);
+    }
+  }
+}
+
+function tick(H, axisPos, p, size, cls, label, lblOff) {
+  if (H) {
+    svg.appendChild(el("line", { class: "tick", x1: p, y1: axisPos - size, x2: p, y2: axisPos + size }));
+    if (label) svg.appendChild(el("text", { class: cls, x: p, y: axisPos + lblOff + 6, "text-anchor": "middle" }, label));
+  } else {
+    svg.appendChild(el("line", { class: "tick", x1: axisPos - size, y1: p, x2: axisPos + size, y2: p }));
+    if (label) svg.appendChild(el("text", { class: cls, x: axisPos - lblOff - 6, y: p + 3, "text-anchor": "end" }, label));
+  }
+}
+
+/* ---- swimlanes: one lane per active category, above/below (H) or
+        left/right (V) of the axis; drag the lane label to reorder ---- */
+function activeLanes() { return state.catOrder.filter(k => state.active.has(k)); }
+
+function laneOffsets(n, H) {
+  const crossHalf = (H ? stage.clientHeight : stage.clientWidth) / 2;
+  const nA = Math.ceil(n / 2); // lanes above (H) / left (V) of the axis
+  const step = Math.min(H ? 105 : 145, Math.max(64, (crossHalf - 70) / Math.max(nA, 1)));
+  return Array.from({ length: n }, (_, i) =>
+    i < nA ? -(nA - i) * step : (i - nA + 1) * step);
+}
+
+function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
+  const lanes = activeLanes();
+  if (!lanes.length) return;
+  const offs = laneOffsets(lanes.length, H);
+  const thr = impThreshold(state.ppd);
+
+  lanes.forEach((key, i) => {
+    const linePos = axisPos + offs[i];
+
+    // lane guide line
+    svg.appendChild(H
+      ? el("line", { class: "lane", x1: 0, y1: linePos, x2: W, y2: linePos })
+      : el("line", { class: "lane", x1: linePos, y1: 0, x2: linePos, y2: Ht }));
+
+    // lane label = drag handle
+    let lbl;
+    if (H) {
+      const lx = state.panelOpen ? 246 : 14;
+      lbl = el("text", { class: "lane-label", x: lx, y: linePos - 6 }, CATEGORIES[key].toUpperCase());
+    } else {
+      const ly = linePos + 5;
+      lbl = el("text", { class: "lane-label", x: ly, y: 12, transform: "rotate(90 " + ly + " 12)" }, CATEGORIES[key].toUpperCase());
+    }
+    lbl.addEventListener("mousedown", ev => {
+      ev.stopPropagation(); ev.preventDefault();
+      laneDrag = { key };
+    });
+    svg.appendChild(lbl);
+
+    if (thr === Infinity) return; // zoomed out to years: lanes only, no events
+
+    // this category's visible events, grouped by date (shared dot per date)
+    const groups = new Map();
+    for (const e of EVENTS) {
+      if (e.category !== key || e.importance < thr) continue;
+      if (e.day < firstDay - 60 || e.day > lastDay + 60) continue;
+      if (!groups.has(e.day)) groups.set(e.day, []);
+      groups.get(e.day).push(e);
+    }
+    const dots = [...groups.entries()].sort((a, b) => dayToPx(a[0]) - dayToPx(b[0]));
+    const lastEnd = [-Infinity, -Infinity]; // sub-slot occupancy: 0 = above/left, 1 = below/right
+
+    dots.forEach(([day, evts]) => {
+      const p = dayToPx(day);
+      const label = evts[0].summary + (evts.length > 1 ? "  (+" + (evts.length - 1) + ")" : "");
+      const dateTxt = displayDate(evts[0].date);
+      const extent = H ? Math.max(label.length, dateTxt.length) * 6.6 + 10 : 30;
+
+      const s = lastEnd[0] <= lastEnd[1] ? 0 : 1; // emptier side of the lane line
+      lastEnd[s] = p + extent / 2;
+      const dir = s === 0 ? -1 : 1;
+
+      const g = el("g", {});
+      if (H) {
+        svg.appendChild(el("line", { class: "connector", x1: p, y1: linePos + dir * 4, x2: p, y2: linePos + dir * 10 }));
+        g.appendChild(el("text", { class: "evt-date", x: p, y: dir === -1 ? linePos - 26 : linePos + 22, "text-anchor": "middle" }, dateTxt));
+        g.appendChild(el("text", { class: "evt-sum",  x: p, y: dir === -1 ? linePos - 14 : linePos + 34, "text-anchor": "middle" }, label));
+      } else {
+        const anchor = dir === -1 ? "end" : "start";
+        const lx = linePos + dir * 12;
+        svg.appendChild(el("line", { class: "connector", x1: linePos + dir * 4, y1: p, x2: linePos + dir * 9, y2: p }));
+        g.appendChild(el("text", { class: "evt-date", x: lx, y: p - 3, "text-anchor": anchor }, dateTxt));
+        g.appendChild(el("text", { class: "evt-sum",  x: lx, y: p + 10, "text-anchor": anchor }, label));
+      }
+      attachTip(g, evts);
+      svg.appendChild(g);
+
+      const dot = el("circle", { class: "dot", cx: H ? p : linePos, cy: H ? linePos : p, r: evts.length > 1 ? 5 : 3.5 });
+      attachTip(dot, evts);
+      svg.appendChild(dot);
+
+      // search-jump highlight ring
+      if (state.flash === day) {
+        svg.appendChild(el("circle", { class: "flash", cx: H ? p : linePos, cy: H ? linePos : p, r: 10 }));
+      }
+    });
+  });
+}
+
+/* ---- swimlane drag-to-reorder ---- */
+let laneDrag = null;
+window.addEventListener("mousemove", ev => {
+  if (!laneDrag) return;
+  const H = state.orient === "horizontal";
+  const c = H ? ev.clientY - 52 : ev.clientX; // pointer position on the cross axis
+  const lanes = activeLanes();
+  const axisPos = (H ? stage.clientHeight / 2 : stage.clientWidth / 2) + state.cross;
+  const offs = laneOffsets(lanes.length, H);
+  let target = 0, best = Infinity;
+  offs.forEach((o, j) => {
+    const d = Math.abs(axisPos + o - c);
+    if (d < best) { best = d; target = j; }
+  });
+  const cur = lanes.indexOf(laneDrag.key);
+  if (target !== cur) {
+    lanes.splice(cur, 1);
+    lanes.splice(target, 0, laneDrag.key);
+    state.catOrder = lanes.concat(state.catOrder.filter(k => !state.active.has(k)));
+    render();
+  }
+});
+window.addEventListener("mouseup", () => { laneDrag = null; });
+
+/* ---- tooltip listing every event on the dot ---- */
+function attachTip(node, evts) {
+  node.style.cursor = "pointer";
+  node.addEventListener("mousemove", ev => {
+    tip.innerHTML = '<div class="t-date">' + displayDate(evts[0].date) + "</div>" +
+      evts.map(e => '<div class="t-evt">' + e.summary +
+        ' <span class="t-cat">' + CATEGORIES[e.category] +
+        ((e.tags && e.tags.length) ? "  ·  " + e.tags.map(t => "#" + t).join(" ") : "") +
+        "</span></div>").join("");
+    tip.style.display = "block";
+    tip.style.left = Math.min(ev.clientX + 14, innerWidth - 310) + "px";
+    tip.style.top = (ev.clientY + 14) + "px";
+  });
+  node.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+  node.addEventListener("click", () => window.open(evts[0].source, "_blank"));
+}
+
+/* =====================================================
+   INTERACTION
+   ===================================================== */
+function clampCenter() {
+  const half = viewLen() / 2 / state.ppd;
+  state.center = Math.max(START_DAY + half * 0.2, Math.min(END_DAY - half * 0.2, state.center));
+}
+
+function zoomAt(px, factor) {
+  const dayAtCursor = pxToDay(px);
+  state.ppd = Math.max(minPpd(), Math.min(MAX_PPD, state.ppd * factor));
+  // keep the date under the cursor fixed
+  state.center = dayAtCursor - chronoDir() * (px - viewLen() / 2) / state.ppd;
+  clampCenter();
+  render();
+}
+
+stage.addEventListener("wheel", ev => {
+  ev.preventDefault();
+  if (Math.abs(ev.deltaX) > Math.abs(ev.deltaY)) {
+    // secondary (tilt/horizontal) wheel — traverse the timeline
+    state.center += chronoDir() * ev.deltaX / state.ppd;
+    clampCenter();
+    render();
+  } else {
+    // primary (vertical) wheel — zoom, anchored at the cursor
+    const px = state.orient === "horizontal" ? ev.clientX : ev.clientY - 52;
+    zoomAt(px, ev.deltaY < 0 ? 1.18 : 1 / 1.18);
+  }
+}, { passive: false });
+
+let drag = null;
+stage.addEventListener("mousedown", ev => {
+  drag = { x: ev.clientX, y: ev.clientY, center: state.center };
+  stage.classList.add("dragging");
+});
+window.addEventListener("mousemove", ev => {
+  if (!drag) return;
+  const dpx = state.orient === "horizontal" ? ev.clientX - drag.x : ev.clientY - drag.y;
+  state.center = drag.center - chronoDir() * dpx / state.ppd;
+  clampCenter();
+  render();
+});
+window.addEventListener("mouseup", () => { drag = null; stage.classList.remove("dragging"); });
+
+// touch: one-finger pan, two-finger pinch zoom
+let touch = null;
+stage.addEventListener("touchstart", ev => {
+  if (ev.touches.length === 1) {
+    touch = { mode: "pan", x: ev.touches[0].clientX, y: ev.touches[0].clientY, center: state.center };
+  } else if (ev.touches.length === 2) {
+    const d = dist(ev.touches);
+    touch = { mode: "pinch", d, ppd: state.ppd };
+  }
+}, { passive: true });
+stage.addEventListener("touchmove", ev => {
+  if (!touch) return;
+  if (touch.mode === "pan" && ev.touches.length === 1) {
+    const dpx = state.orient === "horizontal"
+      ? ev.touches[0].clientX - touch.x : ev.touches[0].clientY - touch.y;
+    state.center = touch.center - chronoDir() * dpx / state.ppd;
+    clampCenter(); render();
+  } else if (touch.mode === "pinch" && ev.touches.length === 2) {
+    state.ppd = Math.max(minPpd(), Math.min(MAX_PPD, touch.ppd * dist(ev.touches) / touch.d));
+    clampCenter(); render();
+  }
+}, { passive: true });
+stage.addEventListener("touchend", () => { touch = null; });
+function dist(t) { return Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY); }
+
+document.getElementById("zin").onclick = () => zoomAt(viewLen() / 2, 1.5);
+document.getElementById("zout").onclick = () => zoomAt(viewLen() / 2, 1 / 1.5);
+
+/* ---- keyboard: arrows traverse in four directions; Cmd/Ctrl+Up/Down zooms ---- */
+function clampCross(v) {
+  const H = state.orient === "horizontal";
+  const lim = Math.max(0, (H ? stage.clientHeight : stage.clientWidth) / 2 - 80);
+  return Math.max(-lim, Math.min(lim, v));
+}
+window.addEventListener("keydown", ev => {
+  if (ev.target && ev.target.tagName === "INPUT") return; // typing in search box
+  const keys = ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"];
+  if (!keys.includes(ev.key)) return;
+  // Command (or Ctrl on Windows/Linux) + Up/Down = zoom in/out at viewport center
+  if (ev.metaKey || ev.ctrlKey) {
+    if (ev.key === "ArrowUp" || ev.key === "ArrowDown") {
+      ev.preventDefault();
+      zoomAt(viewLen() / 2, ev.key === "ArrowUp" ? 1.3 : 1 / 1.3);
+    }
+    return;
+  }
+  ev.preventDefault();
+  const H = state.orient === "horizontal";
+  const STEP = 60; // px per key press
+  const timePan = k => { state.center += chronoDir() * k * STEP / state.ppd; clampCenter(); };
+  const crossPan = k => { state.cross = clampCross(state.cross - k * STEP); };
+  if (H) {
+    if (ev.key === "ArrowRight") timePan(1);
+    else if (ev.key === "ArrowLeft") timePan(-1);
+    else if (ev.key === "ArrowDown") crossPan(1);
+    else crossPan(-1); // ArrowUp
+  } else {
+    if (ev.key === "ArrowDown") timePan(1);
+    else if (ev.key === "ArrowUp") timePan(-1);
+    else if (ev.key === "ArrowRight") crossPan(1);
+    else crossPan(-1); // ArrowLeft
+  }
+  render();
+});
+
+/* ---- toggles ---- */
+document.getElementById("themeToggle").onclick = function () {
+  state.theme = state.theme === "black" ? "cream" : "black";
+  document.body.classList.toggle("cream", state.theme === "cream");
+  this.textContent = state.theme === "black" ? "Cream" : "Black";
+};
+document.getElementById("orientToggle").onclick = function () {
+  state.orient = state.orient === "horizontal" ? "vertical" : "horizontal";
+  this.textContent = state.orient === "horizontal" ? "Vertical" : "Horizontal";
+  state.cross = 0;
+  state.ppd = Math.max(state.ppd, minPpd());
+  clampCenter(); render();
+};
+document.getElementById("dirToggle").onclick = function () {
+  state.reversed = !state.reversed;
+  const H = state.orient === "horizontal";
+  this.title = state.reversed
+    ? "Newest at " + (H ? "left" : "top") + " — click to restore"
+    : "Reverse chronological direction";
+  render();
+};
+document.getElementById("panelToggle").onclick = () => {
+  state.panelOpen = !state.panelOpen;
+  document.getElementById("panel").classList.toggle("hidden", !state.panelOpen);
+  render(); // lane labels shift clear of the panel
+};
+
+/* ---- category filters ---- */
+const catsBox = document.getElementById("cats");
+for (const key in CATEGORIES) {
+  const lbl = document.createElement("label");
+  lbl.className = "cat";
+  lbl.innerHTML = '<input type="checkbox" checked data-key="' + key + '"><span class="box"></span>' + CATEGORIES[key];
+  catsBox.appendChild(lbl);
+}
+catsBox.addEventListener("change", ev => {
+  const key = ev.target.dataset.key;
+  if (ev.target.checked) state.active.add(key); else state.active.delete(key);
+  render();
+});
+document.getElementById("allCats").onclick = () => setAll(true);
+document.getElementById("noCats").onclick = () => setAll(false);
+function setAll(on) {
+  catsBox.querySelectorAll("input").forEach(i => {
+    i.checked = on;
+    if (on) state.active.add(i.dataset.key); else state.active.delete(i.dataset.key);
+  });
+  render();
+}
+
+/* =====================================================
+   SEARCH — find events by name, or jump to a date
+   ===================================================== */
+const searchBox = document.getElementById("search");
+const resultsBox = document.getElementById("results");
+const MAX_RESULTS = 8;
+
+function escapeHtml(s) { return s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function escapeReg(s)  { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+// minimum zoom at which an event of this importance is visible
+function neededPpd(imp) { return { 5: 1, 4: 2.5, 3: 6, 2: 13, 1: 26 }[imp] || 26; }
+
+let flashTimer = null;
+function goToEvent(e) {
+  // make sure the event's category lane is visible
+  if (!state.active.has(e.category)) {
+    state.active.add(e.category);
+    const cb = catsBox.querySelector('input[data-key="' + e.category + '"]');
+    if (cb) cb.checked = true;
+  }
+  state.ppd = Math.min(MAX_PPD, Math.max(state.ppd, neededPpd(e.importance)));
+  state.center = e.day;
+  clampCenter();
+  state.flash = e.day;
+  render();
+  clearTimeout(flashTimer);
+  flashTimer = setTimeout(() => { state.flash = null; render(); }, 2500);
+  closeResults();
+}
+
+function goToDate(day, minZoom) {
+  state.ppd = Math.min(MAX_PPD, Math.max(state.ppd, minZoom));
+  state.center = Math.max(START_DAY, Math.min(END_DAY, day));
+  clampCenter();
+  render();
+  closeResults();
+}
+
+function closeResults() { resultsBox.style.display = "none"; }
+
+function runSearch() {
+  const q = searchBox.value.trim();
+  if (!q) { closeResults(); return; }
+  const items = [];
+
+  // date query: "1969", "1969.07", "1969.07.20" (also / or - separators)
+  const dm = q.match(/^(\d{4})(?:[./-](\d{1,2})(?:[./-](\d{1,2}))?)?$/);
+  if (dm) {
+    const y = +dm[1], m = dm[2] ? +dm[2] : 1, d = dm[3] ? +dm[3] : 1;
+    if (y >= 1900 && y <= 2026 && m >= 1 && m <= 12 && d >= 1 && d <= 31) {
+      const day = (Date.UTC(y, m - 1, d) - EPOCH) / MS_DAY;
+      const zoom = dm[3] ? 20 : dm[2] ? 6 : 1.2; // deeper zoom for more specific dates
+      items.push({ html: 'Go to date <span class="hl">' + escapeHtml(q) + "</span>", act: () => goToDate(day, zoom) });
+    }
+  }
+
+  // text query: up to MAX_RESULTS events whose summary OR tags contain the term,
+  // with the matched term highlighted (in the summary, and in any matched tag chip)
+  const rx = new RegExp(escapeReg(q), "ig");
+  const ql = q.toLowerCase();
+  const matches = EVENTS.filter(e =>
+    e.summary.toLowerCase().includes(ql) ||
+    (e.tags || []).some(t => t.toLowerCase().includes(ql))
+  ).slice(0, MAX_RESULTS);
+  for (const e of matches) {
+    let html = '<span class="r-date">' + displayDate(e.date) + "</span>" +
+      escapeHtml(e.summary).replace(rx, m0 => '<span class="hl">' + m0 + "</span>");
+    const hitTags = (e.tags || []).filter(t => t.toLowerCase().includes(ql));
+    if (hitTags.length) {
+      html += " " + hitTags.map(t =>
+        '<span class="tag">#' + escapeHtml(t).replace(rx, m0 => '<span class="hl">' + m0 + "</span>") + "</span>"
+      ).join(" ");
+    }
+    items.push({ html, act: () => goToEvent(e) });
+  }
+
+  resultsBox.innerHTML = "";
+  if (!items.length) {
+    const d = document.createElement("div");
+    d.className = "res none";
+    d.textContent = "No matches";
+    resultsBox.appendChild(d);
+  } else {
+    items.forEach(it => {
+      const d = document.createElement("div");
+      d.className = "res";
+      d.innerHTML = it.html;
+      d.addEventListener("mousedown", ev => { ev.preventDefault(); it.act(); }); // mousedown beats input blur
+      resultsBox.appendChild(d);
+    });
+  }
+  resultsBox.style.display = "block";
+}
+
+searchBox.addEventListener("input", runSearch);
+searchBox.addEventListener("focus", runSearch);
+searchBox.addEventListener("keydown", ev => {
+  if (ev.key === "Enter") {
+    const first = resultsBox.querySelector(".res:not(.none)");
+    if (first) first.dispatchEvent(new MouseEvent("mousedown", { bubbles: true, cancelable: true }));
+  } else if (ev.key === "Escape") {
+    closeResults();
+    searchBox.blur();
+  }
+});
+document.addEventListener("mousedown", ev => {
+  if (!ev.target.closest || !ev.target.closest("#searchWrap")) closeResults();
+});
+
+/* ---- init ---- */
+window.addEventListener("resize", () => {
+  state.ppd = Math.max(state.ppd, minPpd());
+  clampCenter(); render();
+});
+state.ppd = minPpd();
+render();
+</script>
+</body>
+</html>

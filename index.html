@@ -235,10 +235,12 @@ function viewLen() { // pixels along the time axis
 function minPpd() { return viewLen() / TOTAL_DAYS; }
 const MAX_PPD = 80;
 
-/* Zoom level -> which events are visible.
-   Events only appear once months appear (ppd >= 0.8). */
+/* Zoom level -> lowest importance shown.
+   Importance-5 (top) events show even when fully zoomed out, so the
+   timeline is never empty; less important events appear as you zoom in.
+   Labels that don't fit are suppressed per-lane (see drawLanes), so
+   showing events early stays uncluttered — you see dots, not a wall of text. */
 function impThreshold(ppd) {
-  if (ppd < 0.8) return Infinity;
   if (ppd < 2)   return 5;
   if (ppd < 5)   return 4;
   if (ppd < 12)  return 3;
@@ -374,8 +376,6 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
     });
     svg.appendChild(lbl);
 
-    if (thr === Infinity) return; // zoomed out to years: lanes only, no events
-
     // this category's visible events, grouped by date (shared dot per date)
     const groups = new Map();
     for (const e of EVENTS) {
@@ -385,18 +385,40 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
       groups.get(e.day).push(e);
     }
     const dots = [...groups.entries()].sort((a, b) => dayToPx(a[0]) - dayToPx(b[0]));
-    const lastEnd = [-Infinity, -Infinity]; // sub-slot occupancy: 0 = above/left, 1 = below/right
+    // lastEnd tracks the furthest-along-axis point each side's labels reach,
+    // so we can skip a label that would overlap the previous one. The DOT is
+    // always drawn; only the text is conditional. This keeps the view readable
+    // even when importance-5 events are shown fully zoomed out.
+    const lastEnd = [-Infinity, -Infinity]; // 0 = above/left side, 1 = below/right side
+    const GAP = 6; // min px between adjacent labels on the same side
 
     dots.forEach(([day, evts]) => {
       const p = dayToPx(day);
+
+      // dot is unconditional
+      const dot = el("circle", { class: "dot", cx: H ? p : linePos, cy: H ? linePos : p, r: evts.length > 1 ? 5 : 3.5 });
+      attachTip(dot, evts);
+      svg.appendChild(dot);
+
+      // search-jump highlight ring
+      if (state.flash === day) {
+        svg.appendChild(el("circle", { class: "flash", cx: H ? p : linePos, cy: H ? linePos : p, r: 10 }));
+      }
+
+      // decide whether a text label fits: try the emptier side, then the other
       const label = evts[0].summary + (evts.length > 1 ? "  (+" + (evts.length - 1) + ")" : "");
       const dateTxt = displayDate(evts[0].date);
-      const extent = H ? Math.max(label.length, dateTxt.length) * 6.6 + 10 : 30;
+      const extent = H ? Math.max(label.length, dateTxt.length) * 6.6 + 10 : 26;
+      let s = lastEnd[0] <= lastEnd[1] ? 0 : 1;
+      let fits = (p - extent / 2) >= lastEnd[s] + GAP;
+      if (!fits) {
+        const other = 1 - s;
+        if ((p - extent / 2) >= lastEnd[other] + GAP) { s = other; fits = true; }
+      }
+      if (!fits) return; // too crowded here — dot only, label suppressed (hover for details)
 
-      const s = lastEnd[0] <= lastEnd[1] ? 0 : 1; // emptier side of the lane line
       lastEnd[s] = p + extent / 2;
       const dir = s === 0 ? -1 : 1;
-
       const g = el("g", {});
       if (H) {
         svg.appendChild(el("line", { class: "connector", x1: p, y1: linePos + dir * 4, x2: p, y2: linePos + dir * 10 }));
@@ -411,15 +433,6 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
       }
       attachTip(g, evts);
       svg.appendChild(g);
-
-      const dot = el("circle", { class: "dot", cx: H ? p : linePos, cy: H ? linePos : p, r: evts.length > 1 ? 5 : 3.5 });
-      attachTip(dot, evts);
-      svg.appendChild(dot);
-
-      // search-jump highlight ring
-      if (state.flash === day) {
-        svg.appendChild(el("circle", { class: "flash", cx: H ? p : linePos, cy: H ? linePos : p, r: 10 }));
-      }
     });
   });
 }

@@ -1,0 +1,668 @@
+[
+  {
+    "date": "1903.12.17",
+    "category": "tech",
+    "importance": 5,
+    "tags": [
+      "aviation",
+      "engineering"
+    ],
+    "summary": "Wright brothers achieve powered flight",
+    "source": "https://en.wikipedia.org/wiki/Wright_Flyer"
+  },
+  {
+    "date": "1905.06.30",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Einstein submits relativity paper",
+    "source": "https://en.wikipedia.org/wiki/Annus_mirabilis_papers"
+  },
+  {
+    "date": "1911.12.14",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "polar",
+      "expedition"
+    ],
+    "summary": "Amundsen reaches the South Pole",
+    "source": "https://en.wikipedia.org/wiki/Roald_Amundsen"
+  },
+  {
+    "date": "1912.04.15",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "maritime",
+      "disaster"
+    ],
+    "summary": "Titanic sinks in the North Atlantic",
+    "source": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic"
+  },
+  {
+    "date": "1913.05.29",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "ballet"
+    ],
+    "summary": "Rite of Spring premiere causes riot",
+    "source": "https://en.wikipedia.org/wiki/The_Rite_of_Spring"
+  },
+  {
+    "date": "1914.07.28",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "war",
+      "wwi"
+    ],
+    "summary": "First World War begins",
+    "source": "https://en.wikipedia.org/wiki/World_War_I"
+  },
+  {
+    "date": "1918.11.11",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "war",
+      "wwi"
+    ],
+    "summary": "Armistice ends the First World War",
+    "source": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"
+  },
+  {
+    "date": "1920.08.18",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "suffrage",
+      "social-movement"
+    ],
+    "summary": "US women win the right to vote",
+    "source": "https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution"
+  },
+  {
+    "date": "1922.02.02",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature"
+    ],
+    "summary": "Joyce's Ulysses is published",
+    "source": "https://en.wikipedia.org/wiki/Ulysses_(novel)"
+  },
+  {
+    "date": "1926.01.26",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "television",
+      "media"
+    ],
+    "summary": "Baird demonstrates television",
+    "source": "https://en.wikipedia.org/wiki/John_Logie_Baird"
+  },
+  {
+    "date": "1928.09.28",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "medicine",
+      "biology"
+    ],
+    "summary": "Fleming discovers penicillin",
+    "source": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+  },
+  {
+    "date": "1928.11.18",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "animation"
+    ],
+    "summary": "Mickey Mouse debuts on screen",
+    "source": "https://en.wikipedia.org/wiki/Steamboat_Willie"
+  },
+  {
+    "date": "1929.10.29",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "economics",
+      "finance"
+    ],
+    "summary": "Wall Street Crash: Black Tuesday",
+    "source": "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929"
+  },
+  {
+    "date": "1933.01.30",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Hitler named German chancellor",
+    "source": "https://en.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power"
+  },
+  {
+    "date": "1936.08.03",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "olympics",
+      "athletics"
+    ],
+    "summary": "Owens wins 100m at Berlin Games",
+    "source": "https://en.wikipedia.org/wiki/Jesse_Owens"
+  },
+  {
+    "date": "1939.09.01",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "war",
+      "wwii"
+    ],
+    "summary": "Second World War begins",
+    "source": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+  },
+  {
+    "date": "1945.05.08",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "war",
+      "wwii"
+    ],
+    "summary": "VE Day: war ends in Europe",
+    "source": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
+  },
+  {
+    "date": "1945.08.06",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "war",
+      "wwii",
+      "nuclear"
+    ],
+    "summary": "Atomic bomb dropped on Hiroshima",
+    "source": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+  },
+  {
+    "date": "1947.08.15",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "independence",
+      "india"
+    ],
+    "summary": "India gains independence",
+    "source": "https://en.wikipedia.org/wiki/Independence_Day_(India)"
+  },
+  {
+    "date": "1947.12.23",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "computing",
+      "electronics"
+    ],
+    "summary": "Transistor invented at Bell Labs",
+    "source": "https://en.wikipedia.org/wiki/Transistor"
+  },
+  {
+    "date": "1950.07.16",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "Uruguay stuns Brazil in Cup final",
+    "source": "https://en.wikipedia.org/wiki/Maracanazo"
+  },
+  {
+    "date": "1950.11.01",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "catholic"
+    ],
+    "summary": "Pope defines Assumption as dogma",
+    "source": "https://en.wikipedia.org/wiki/Munificentissimus_Deus"
+  },
+  {
+    "date": "1953.04.25",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "biology",
+      "genetics"
+    ],
+    "summary": "DNA double helix published",
+    "source": "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids"
+  },
+  {
+    "date": "1953.05.29",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "mountaineering"
+    ],
+    "summary": "Hillary and Norgay summit Everest",
+    "source": "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
+  },
+  {
+    "date": "1954.05.06",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "athletics",
+      "running"
+    ],
+    "summary": "Bannister runs four-minute mile",
+    "source": "https://en.wikipedia.org/wiki/Roger_Bannister"
+  },
+  {
+    "date": "1955.07.17",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "leisure",
+      "theme-park"
+    ],
+    "summary": "Disneyland opens in California",
+    "source": "https://en.wikipedia.org/wiki/Disneyland"
+  },
+  {
+    "date": "1957.03.25",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "europe",
+      "treaty",
+      "economics"
+    ],
+    "summary": "Treaty of Rome founds the EEC",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Rome"
+  },
+  {
+    "date": "1957.10.04",
+    "category": "tech",
+    "importance": 5,
+    "tags": [
+      "space",
+      "cold-war"
+    ],
+    "summary": "Sputnik 1 launched into orbit",
+    "source": "https://en.wikipedia.org/wiki/Sputnik_1"
+  },
+  {
+    "date": "1960.01.23",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "ocean",
+      "deep-sea"
+    ],
+    "summary": "Trieste reaches Challenger Deep",
+    "source": "https://en.wikipedia.org/wiki/Bathyscaphe_Trieste"
+  },
+  {
+    "date": "1962.10.11",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "christianity",
+      "catholic"
+    ],
+    "summary": "Second Vatican Council opens",
+    "source": "https://en.wikipedia.org/wiki/Second_Vatican_Council"
+  },
+  {
+    "date": "1963.11.22",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "assassination",
+      "usa"
+    ],
+    "summary": "President Kennedy assassinated",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
+  },
+  {
+    "date": "1964.02.09",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "television"
+    ],
+    "summary": "Beatles play the Ed Sullivan Show",
+    "source": "https://en.wikipedia.org/wiki/The_Beatles"
+  },
+  {
+    "date": "1966.07.30",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "England wins the World Cup",
+    "source": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Final"
+  },
+  {
+    "date": "1969.07.20",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Apollo 11 lands humans on the Moon",
+    "source": "https://en.wikipedia.org/wiki/Apollo_11"
+  },
+  {
+    "date": "1969.07.20",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "television",
+      "space"
+    ],
+    "summary": "600 million watch the Moon walk",
+    "source": "https://en.wikipedia.org/wiki/Apollo_11"
+  },
+  {
+    "date": "1969.08.15",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "festival"
+    ],
+    "summary": "Woodstock festival begins",
+    "source": "https://en.wikipedia.org/wiki/Woodstock"
+  },
+  {
+    "date": "1969.10.29",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "internet",
+      "computing"
+    ],
+    "summary": "First ARPANET message sent",
+    "source": "https://en.wikipedia.org/wiki/ARPANET"
+  },
+  {
+    "date": "1977.05.25",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film"
+    ],
+    "summary": "Star Wars opens in theaters",
+    "source": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+  },
+  {
+    "date": "1979.02.01",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "islam",
+      "iran"
+    ],
+    "summary": "Khomeini returns to lead Iran",
+    "source": "https://en.wikipedia.org/wiki/Iranian_Revolution"
+  },
+  {
+    "date": "1980.02.22",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "olympics",
+      "ice-hockey"
+    ],
+    "summary": "Miracle on Ice at Lake Placid",
+    "source": "https://en.wikipedia.org/wiki/Miracle_on_Ice"
+  },
+  {
+    "date": "1980.05.18",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "natural-disaster",
+      "volcano"
+    ],
+    "summary": "Mount St. Helens erupts",
+    "source": "https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens"
+  },
+  {
+    "date": "1981.08.01",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "music",
+      "television"
+    ],
+    "summary": "MTV begins broadcasting",
+    "source": "https://en.wikipedia.org/wiki/MTV"
+  },
+  {
+    "date": "1981.08.12",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "computing"
+    ],
+    "summary": "IBM PC goes on sale",
+    "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
+  },
+  {
+    "date": "1989.11.09",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "cold-war",
+      "germany"
+    ],
+    "summary": "Berlin Wall falls",
+    "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+  },
+  {
+    "date": "1989.11.09",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "cold-war",
+      "germany"
+    ],
+    "summary": "East Germany opens its borders",
+    "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+  },
+  {
+    "date": "1991.08.06",
+    "category": "tech",
+    "importance": 5,
+    "tags": [
+      "internet",
+      "web"
+    ],
+    "summary": "World Wide Web opens to the public",
+    "source": "https://en.wikipedia.org/wiki/World_Wide_Web"
+  },
+  {
+    "date": "1991.12.26",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "cold-war",
+      "ussr"
+    ],
+    "summary": "Soviet Union is dissolved",
+    "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+  },
+  {
+    "date": "1994.05.10",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "south-africa",
+      "civil-rights"
+    ],
+    "summary": "Mandela sworn in as SA president",
+    "source": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+  },
+  {
+    "date": "1997.02.22",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "biology",
+      "cloning"
+    ],
+    "summary": "Dolly the cloned sheep revealed",
+    "source": "https://en.wikipedia.org/wiki/Dolly_(sheep)"
+  },
+  {
+    "date": "1997.06.26",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature"
+    ],
+    "summary": "First Harry Potter book published",
+    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+  },
+  {
+    "date": "2001.09.11",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "terrorism",
+      "usa"
+    ],
+    "summary": "September 11 attacks on the US",
+    "source": "https://en.wikipedia.org/wiki/September_11_attacks"
+  },
+  {
+    "date": "2004.12.26",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "natural-disaster",
+      "earthquake"
+    ],
+    "summary": "Indian Ocean tsunami strikes",
+    "source": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
+  },
+  {
+    "date": "2007.06.29",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "smartphone",
+      "apple"
+    ],
+    "summary": "iPhone goes on sale",
+    "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+  },
+  {
+    "date": "2008.09.15",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "economics",
+      "finance"
+    ],
+    "summary": "Lehman Brothers files for bankruptcy",
+    "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
+  },
+  {
+    "date": "2009.08.16",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "athletics",
+      "running"
+    ],
+    "summary": "Bolt runs 100m in 9.58 seconds",
+    "source": "https://en.wikipedia.org/wiki/Usain_Bolt"
+  },
+  {
+    "date": "2012.07.04",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Higgs boson discovery announced",
+    "source": "https://en.wikipedia.org/wiki/Higgs_boson"
+  },
+  {
+    "date": "2013.03.13",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "catholic"
+    ],
+    "summary": "Pope Francis elected",
+    "source": "https://en.wikipedia.org/wiki/Pope_Francis"
+  },
+  {
+    "date": "2016.06.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "europe",
+      "brexit"
+    ],
+    "summary": "UK votes to leave the EU",
+    "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum"
+  },
+  {
+    "date": "2020.03.11",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "pandemic",
+      "health"
+    ],
+    "summary": "WHO declares COVID-19 a pandemic",
+    "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+  },
+  {
+    "date": "2022.02.24",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "war",
+      "ukraine"
+    ],
+    "summary": "Russia invades Ukraine",
+    "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+  },
+  {
+    "date": "2022.11.30",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "ai",
+      "software"
+    ],
+    "summary": "ChatGPT released to the public",
+    "source": "https://en.wikipedia.org/wiki/ChatGPT"
+  }
+]

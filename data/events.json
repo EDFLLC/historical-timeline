@@ -48,7 +48,7 @@
       "radio",
       "transatlantic"
     ],
-    "summary": "Marconi sends first transatlantic signal",
+    "summary": "Marconi reports a transatlantic signal",
     "source": "https://en.wikipedia.org/wiki/Signal_Hill,_Newfoundland_and_Labrador"
   },
   {
@@ -417,7 +417,7 @@
       "natural-disaster",
       "earthquake"
     ],
-    "summary": "Great Kantō earthquake hits Japan",
+    "summary": "Great Kanto earthquake hits Japan",
     "source": "https://en.wikipedia.org/wiki/Great_Kant%C5%8D_Earthquake"
   },
   {
@@ -508,7 +508,7 @@
       "aviation"
     ],
     "summary": "Norge airship flies over North Pole",
-    "source": "https://en.wikipedia.org/wiki/Norge_(airship)"
+    "source": "https://en.wikipedia.org/wiki/Roald_Amundsen"
   },
   {
     "date": "1927.05.21",
@@ -2215,7 +2215,7 @@
     "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
   },
   {
-    "date": "1982.11.30",
+    "date": "1982.11.29",
     "category": "pop",
     "importance": 4,
     "tags": [
@@ -3554,7 +3554,7 @@
       "vatican"
     ],
     "summary": "Leo XIV elected pope",
-    "source": "https://en.wikipedia.org/wiki/2025_papal_conclave"
+    "source": "https://en.wikipedia.org/wiki/2025_conclave"
   },
   {
     "date": "2026.02.06",

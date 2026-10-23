@@ -1,6 +1,8 @@
 # Historical Timeline Website — Build Guide
 
-Version 1.3 · October 2026 · For a coding novice using Claude Cowork, Cursor, and GitHub
+Version 1.4 · October 2026 · For a coding novice using Claude Cowork, Cursor, and GitHub
+
+> **What's new in v1.4:** Zoom density is now *adaptive per lane*. Instead of fixed importance thresholds per zoom level, each lane shows the lowest importance tier that keeps its dots in the current view at or below a cap (6 dots fully zoomed out, rising smoothly to 14 at ~20 years or less). Search-jump targets are always shown. See "How zoom works".
 
 > **What's new in v1.3:** (1) Data now lives in its own file, `data/events.json`, loaded by `index.html` at startup — the code file no longer grows as you add events. (2) The top-tier (importance-5) events now show even when fully zoomed out, so the timeline is never empty on load. (3) Added label collision-skipping: a dot is always drawn, but its text label appears only when there's room, so no two labels overlap at any zoom level. See Part 2 (data location and loading) and Part 2's zoom section.
 >
@@ -82,13 +84,15 @@ Rules: `date` is YYYY.MM.DD; `category` is exactly one of the nine keys `history
 
 The timeline tracks one number: **pixels per day (ppd)**.
 
-- ppd < ~0.15 → year mode: year gridlines/labels, plus the top-tier (importance-5) events shown as dots so the view is never empty
-- ppd ~0.15–2 → month mode: month labels appear, events with importance ≥ 4 appear
-- ppd > ~2 → day mode: day labels appear, importance threshold relaxes with zoom until all events show
+- ppd < ~0.15 → year mode: year gridlines/labels
+- ppd ~0.15–2 → month mode: month labels appear
+- ppd > ~2 → day mode: day labels appear
 
-Zooming multiplies ppd; panning shifts the visible date window. Only events inside the visible window are drawn (this keeps it fast). Every zoom bug you ever report to Cursor will be about ppd thresholds or the visible-window math — knowing these two concepts lets you describe bugs precisely.
+*Which events appear* is independent of these label modes. Each lane runs `laneThreshold()`: it counts the lane's events in the visible window (±60 days) and picks the lowest importance tier whose cumulative count stays within a cap. The cap = clamp(round(300 / spanYears + 4), 6, 14), so it grows smoothly as you zoom in. A search-jump target is always shown regardless of tier.
 
-**Dots vs. labels.** Two separate rules govern what you see. *Which events qualify* is set by importance and zoom (above). *Whether a qualifying event also gets a text label* is decided per lane by available space: the dot is always drawn, but the 40-char label appears only if it doesn't overlap the previous label in that lane. So a crowded lane shows mostly dots (hover for the tooltip), and labels fill in as you zoom and space opens up. If the zoomed-out view ever feels too busy or too bare, these are the two knobs to ask Cursor to adjust: the importance-per-zoom thresholds, and the minimum spacing between labels.
+Zooming multiplies ppd; panning shifts the visible date window. Only events inside the visible window are drawn (this keeps it fast). Every zoom bug you ever report to Cursor will be about the lane cap or the visible-window math — knowing these two concepts lets you describe bugs precisely.
+
+**Dots vs. labels.** Two separate rules govern what you see. *Which events qualify* is set by importance and zoom (above). *Whether a qualifying event also gets a text label* is decided per lane by available space: the dot is always drawn, but the 40-char label appears only if it doesn't overlap the previous label in that lane. So a crowded lane shows mostly dots (hover for the tooltip), and labels fill in as you zoom and space opens up. If the zoomed-out view ever feels too busy or too bare, these are the two knobs to ask Cursor to adjust: the per-lane dot cap (`LANE_CAP` and the cap formula), and the minimum spacing between labels.
 
 ---
 

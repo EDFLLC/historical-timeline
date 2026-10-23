@@ -240,11 +240,25 @@ const MAX_PPD = 80;
    timeline is never empty; less important events appear as you zoom in.
    Labels that don't fit are suppressed per-lane (see drawLanes), so
    showing events early stays uncluttered — you see dots, not a wall of text. */
-function impThreshold(ppd) {
-  if (ppd < 2)   return 5;
-  if (ppd < 5)   return 4;
-  if (ppd < 12)  return 3;
-  if (ppd < 25)  return 2;
+/* Adaptive version (v1.4): each lane shows the lowest importance level
+   that keeps its dots in the current view at or below LANE_CAP. So a sparse
+   lane or a narrow view shows everything, and a crowded view shows only the
+   top events. The cap is smaller when the whole timeline is in view, so the
+   first load stays calm. This keeps working as the dataset grows. */
+const LANE_CAP = 14;
+function laneThreshold(key, firstDay, lastDay) {
+  // the cap grows smoothly from ~6 (whole timeline) to 14 (20 years or less)
+  const spanYears = (lastDay - firstDay) / 365.25;
+  const cap = Math.max(6, Math.min(LANE_CAP, Math.round(300 / spanYears + 4)));
+  const counts = [0, 0, 0, 0, 0, 0];
+  for (const e of EVENTS) {
+    if (e.category === key && e.day >= firstDay - 60 && e.day <= lastDay + 60) counts[e.importance]++;
+  }
+  let acc = 0;
+  for (let t = 5; t >= 1; t--) {
+    acc += counts[t];
+    if (acc > cap) return Math.min(5, t + 1);
+  }
   return 1;
 }
 
@@ -351,10 +365,9 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
   const lanes = activeLanes();
   if (!lanes.length) return;
   const offs = laneOffsets(lanes.length, H);
-  const thr = impThreshold(state.ppd);
-
   lanes.forEach((key, i) => {
     const linePos = axisPos + offs[i];
+    const thr = laneThreshold(key, firstDay, lastDay);
 
     // lane guide line
     svg.appendChild(H
@@ -379,7 +392,7 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
     // this category's visible events, grouped by date (shared dot per date)
     const groups = new Map();
     for (const e of EVENTS) {
-      if (e.category !== key || e.importance < thr) continue;
+      if (e.category !== key || (e.importance < thr && e.day !== state.flash)) continue;
       if (e.day < firstDay - 60 || e.day > lastDay + 60) continue;
       if (!groups.has(e.day)) groups.set(e.day, []);
       groups.get(e.day).push(e);

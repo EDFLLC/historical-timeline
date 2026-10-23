@@ -83,6 +83,28 @@
     "source": "https://en.wikipedia.org/wiki/Russo-Japanese_War"
   },
   {
+    "date": "1904.02.17",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "theatre"
+    ],
+    "summary": "Madama Butterfly premieres at La Scala",
+    "source": "https://en.wikipedia.org/wiki/Madama_Butterfly"
+  },
+  {
+    "date": "1904.12.27",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "theatre",
+      "literature"
+    ],
+    "summary": "Peter Pan premieres in London",
+    "source": "https://en.wikipedia.org/wiki/Peter_Pan_%28play_and_novel%29"
+  },
+  {
     "date": "1905.01.22",
     "category": "history",
     "importance": 3,
@@ -199,7 +221,7 @@
       "revolution"
     ],
     "summary": "Republic of China is established",
-    "source": "https://en.wikipedia.org/wiki/Republic_of_China_(1912%E2%80%931949)"
+    "source": "https://en.wikipedia.org/wiki/Republic_of_China_%281912%E2%80%931949%29"
   },
   {
     "date": "1912.01.17",
@@ -386,7 +408,7 @@
       "media"
     ],
     "summary": "KDKA broadcasts election returns",
-    "source": "https://en.wikipedia.org/wiki/KDKA_(AM)"
+    "source": "https://en.wikipedia.org/wiki/KDKA_%28AM%29"
   },
   {
     "date": "1922.02.02",
@@ -396,7 +418,7 @@
       "literature"
     ],
     "summary": "Joyce's Ulysses is published",
-    "source": "https://en.wikipedia.org/wiki/Ulysses_(novel)"
+    "source": "https://en.wikipedia.org/wiki/Ulysses_%28novel%29"
   },
   {
     "date": "1922.11.04",
@@ -600,6 +622,17 @@
     "source": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art"
   },
   {
+    "date": "1930.02.18",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy",
+      "space"
+    ],
+    "summary": "Tombaugh discovers Pluto",
+    "source": "https://en.wikipedia.org/wiki/Clyde_Tombaugh"
+  },
+  {
     "date": "1930.07.13",
     "category": "sport",
     "importance": 5,
@@ -641,7 +674,7 @@
       "cinema"
     ],
     "summary": "King Kong premieres in New York",
-    "source": "https://en.wikipedia.org/wiki/King_Kong_(1933_film)"
+    "source": "https://en.wikipedia.org/wiki/King_Kong_%281933_film%29"
   },
   {
     "date": "1933.07.20",
@@ -677,6 +710,17 @@
     ],
     "summary": "Nazi Germany enacts the Nuremberg Laws",
     "source": "https://en.wikipedia.org/wiki/Nuremberg_Laws"
+  },
+  {
+    "date": "1936.06.30",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Gone with the Wind is published",
+    "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_%28novel%29"
   },
   {
     "date": "1936.07.17",
@@ -754,7 +798,7 @@
       "animation"
     ],
     "summary": "Snow White premieres in Los Angeles",
-    "source": "https://en.wikipedia.org/wiki/Snow_White_(1937_film)"
+    "source": "https://en.wikipedia.org/wiki/Snow_White_%281937_film%29"
   },
   {
     "date": "1938.06.22",
@@ -776,7 +820,7 @@
       "media"
     ],
     "summary": "War of the Worlds radio drama airs",
-    "source": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama)"
+    "source": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_%281938_radio_drama%29"
   },
   {
     "date": "1938.11.09",
@@ -821,7 +865,7 @@
       "cinema"
     ],
     "summary": "Gone with the Wind premieres in Atlanta",
-    "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)"
+    "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_%28film%29"
   },
   {
     "date": "1941.05.01",
@@ -924,7 +968,7 @@
       "wwii"
     ],
     "summary": "First nuclear weapon test at Trinity",
-    "source": "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)"
+    "source": "https://en.wikipedia.org/wiki/Trinity_%28nuclear_test%29"
   },
   {
     "date": "1945.08.06",
@@ -1002,7 +1046,7 @@
       "india"
     ],
     "summary": "India gains independence",
-    "source": "https://en.wikipedia.org/wiki/Independence_Day_(India)"
+    "source": "https://en.wikipedia.org/wiki/Independence_Day_%28India%29"
   },
   {
     "date": "1947.10.14",
@@ -1352,7 +1396,7 @@
       "ocean"
     ],
     "summary": "Nautilus submarine reaches North Pole",
-    "source": "https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)"
+    "source": "https://en.wikipedia.org/wiki/USS_Nautilus_%28SSN-571%29"
   },
   {
     "date": "1958.09.12",
@@ -1508,7 +1552,7 @@
       "film"
     ],
     "summary": "Dr. No premieres in London",
-    "source": "https://en.wikipedia.org/wiki/Dr._No_(film)"
+    "source": "https://en.wikipedia.org/wiki/Dr._No_%28film%29"
   },
   {
     "date": "1962.10.11",
@@ -1884,7 +1928,7 @@
       "first"
     ],
     "summary": "First handheld mobile phone call",
-    "source": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+    "source": "https://en.wikipedia.org/wiki/Martin_Cooper_%28inventor%29"
   },
   {
     "date": "1973.09.20",
@@ -1895,7 +1939,7 @@
       "social-movement"
     ],
     "summary": "King beats Riggs in Battle of the Sexes",
-    "source": "https://en.wikipedia.org/wiki/Battle_of_the_Sexes_(tennis)"
+    "source": "https://en.wikipedia.org/wiki/Battle_of_the_Sexes_%28tennis%29"
   },
   {
     "date": "1973.10.06",
@@ -1958,7 +2002,7 @@
       "blockbuster"
     ],
     "summary": "Jaws opens in US theaters",
-    "source": "https://en.wikipedia.org/wiki/Jaws_(film)"
+    "source": "https://en.wikipedia.org/wiki/Jaws_%28film%29"
   },
   {
     "date": "1975.07.17",
@@ -1980,7 +2024,7 @@
       "record"
     ],
     "summary": "Comaneci scores first Olympic perfect 10",
-    "source": "https://en.wikipedia.org/wiki/Perfect_10_(gymnastics)"
+    "source": "https://en.wikipedia.org/wiki/Perfect_10_%28gymnastics%29"
   },
   {
     "date": "1976.07.20",
@@ -2013,7 +2057,7 @@
       "film"
     ],
     "summary": "Star Wars opens in theaters",
-    "source": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+    "source": "https://en.wikipedia.org/wiki/Star_Wars_%28film%29"
   },
   {
     "date": "1977.09.05",
@@ -2222,7 +2266,7 @@
       "music"
     ],
     "summary": "Michael Jackson releases Thriller",
-    "source": "https://en.wikipedia.org/wiki/Thriller_(album)"
+    "source": "https://en.wikipedia.org/wiki/Thriller_%28album%29"
   },
   {
     "date": "1984.01.24",
@@ -2312,7 +2356,7 @@
       "football"
     ],
     "summary": "Maradona scores the Hand of God goal",
-    "source": "https://en.wikipedia.org/wiki/Argentina_v_England_(1986_FIFA_World_Cup)"
+    "source": "https://en.wikipedia.org/wiki/Argentina_v_England_%281986_FIFA_World_Cup%29"
   },
   {
     "date": "1988.09.24",
@@ -2323,7 +2367,7 @@
       "athletics"
     ],
     "summary": "Ben Johnson wins 100m, then disqualified",
-    "source": "https://en.wikipedia.org/wiki/Ben_Johnson_(Canadian_sprinter)"
+    "source": "https://en.wikipedia.org/wiki/Ben_Johnson_%28Canadian_sprinter%29"
   },
   {
     "date": "1988.09.26",
@@ -2607,7 +2651,7 @@
       "cloning"
     ],
     "summary": "Dolly the cloned sheep revealed",
-    "source": "https://en.wikipedia.org/wiki/Dolly_(sheep)"
+    "source": "https://en.wikipedia.org/wiki/Dolly_%28sheep%29"
   },
   {
     "date": "1997.05.11",
@@ -2662,7 +2706,7 @@
       "blockbuster"
     ],
     "summary": "Titanic opens in US theaters",
-    "source": "https://en.wikipedia.org/wiki/Titanic_(1997_film)"
+    "source": "https://en.wikipedia.org/wiki/Titanic_%281997_film%29"
   },
   {
     "date": "1998.01.21",
@@ -2717,7 +2761,7 @@
       "engineering"
     ],
     "summary": "First ISS module launches",
-    "source": "https://en.wikipedia.org/wiki/Zarya_(ISS_module)"
+    "source": "https://en.wikipedia.org/wiki/Zarya_%28ISS_module%29"
   },
   {
     "date": "1999.03.31",
@@ -2750,6 +2794,17 @@
     ],
     "summary": "Tate Modern opens in London",
     "source": "https://en.wikipedia.org/wiki/Tate_Modern"
+  },
+  {
+    "date": "2000.11.02",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "human-spaceflight"
+    ],
+    "summary": "First crew arrives at the ISS",
+    "source": "https://en.wikipedia.org/wiki/Expedition_1"
   },
   {
     "date": "2001.09.11",
@@ -2808,6 +2863,17 @@
     "source": "https://en.wikipedia.org/wiki/Gene_Robinson"
   },
   {
+    "date": "2004.01.04",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "mars",
+      "nasa"
+    ],
+    "summary": "Spirit rover lands on Mars",
+    "source": "https://en.wikipedia.org/wiki/Spirit_%28rover%29"
+  },
+  {
     "date": "2004.02.04",
     "category": "tech",
     "importance": 4,
@@ -2828,6 +2894,17 @@
     ],
     "summary": "Indian Ocean tsunami strikes",
     "source": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
+  },
+  {
+    "date": "2005.01.14",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "astronomy"
+    ],
+    "summary": "Huygens probe lands on Titan",
+    "source": "https://en.wikipedia.org/wiki/Huygens_%28spacecraft%29"
   },
   {
     "date": "2005.02.14",
@@ -2894,7 +2971,18 @@
       "apple"
     ],
     "summary": "iPhone goes on sale",
-    "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+    "source": "https://en.wikipedia.org/wiki/IPhone_%281st_generation%29"
+  },
+  {
+    "date": "2007.07.21",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Last Harry Potter novel is published",
+    "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows"
   },
   {
     "date": "2008.08.08",
@@ -2952,6 +3040,17 @@
     "source": "https://en.wikipedia.org/wiki/Bitcoin"
   },
   {
+    "date": "2009.06.25",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "death"
+    ],
+    "summary": "Michael Jackson dies at 50",
+    "source": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson"
+  },
+  {
     "date": "2009.08.16",
     "category": "sport",
     "importance": 4,
@@ -2982,7 +3081,7 @@
       "electronics"
     ],
     "summary": "Apple announces the iPad",
-    "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation)"
+    "source": "https://en.wikipedia.org/wiki/IPad_%281st_generation%29"
   },
   {
     "date": "2010.06.11",
@@ -3167,7 +3266,7 @@
       "music"
     ],
     "summary": "Hamilton opens on Broadway",
-    "source": "https://en.wikipedia.org/wiki/Hamilton_(musical)"
+    "source": "https://en.wikipedia.org/wiki/Hamilton_%28musical%29"
   },
   {
     "date": "2015.11.13",
@@ -3388,7 +3487,18 @@
       "nasa"
     ],
     "summary": "Perseverance rover lands on Mars",
-    "source": "https://en.wikipedia.org/wiki/Perseverance_(rover)"
+    "source": "https://en.wikipedia.org/wiki/Perseverance_%28rover%29"
+  },
+  {
+    "date": "2021.03.11",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art",
+      "cryptocurrency"
+    ],
+    "summary": "Beeple NFT sells for $69 million",
+    "source": "https://en.wikipedia.org/wiki/Everydays:_the_First_5000_Days"
   },
   {
     "date": "2021.04.19",
@@ -3422,7 +3532,18 @@
       "afghanistan"
     ],
     "summary": "Taliban take Kabul",
-    "source": "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021)"
+    "source": "https://en.wikipedia.org/wiki/Fall_of_Kabul_%282021%29"
+  },
+  {
+    "date": "2021.09.17",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "streaming",
+      "television"
+    ],
+    "summary": "Squid Game premieres on Netflix",
+    "source": "https://en.wikipedia.org/wiki/Squid_Game"
   },
   {
     "date": "2022.02.24",
@@ -3491,6 +3612,16 @@
     "source": "https://en.wikipedia.org/wiki/GPT-4"
   },
   {
+    "date": "2023.03.17",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "music"
+    ],
+    "summary": "Taylor Swift's Eras Tour begins",
+    "source": "https://en.wikipedia.org/wiki/The_Eras_Tour"
+  },
+  {
     "date": "2023.07.21",
     "category": "pop",
     "importance": 3,
@@ -3535,6 +3666,17 @@
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election"
   },
   {
+    "date": "2024.12.07",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "architecture",
+      "christianity"
+    ],
+    "summary": "Notre-Dame reopens after the fire",
+    "source": "https://en.wikipedia.org/wiki/Reopening_of_Notre-Dame_de_Paris"
+  },
+  {
     "date": "2025.04.21",
     "category": "religion",
     "importance": 3,
@@ -3555,6 +3697,17 @@
     ],
     "summary": "Leo XIV elected pope",
     "source": "https://en.wikipedia.org/wiki/2025_conclave"
+  },
+  {
+    "date": "2025.10.19",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "museum",
+      "art"
+    ],
+    "summary": "Thieves steal jewels from the Louvre",
+    "source": "https://en.wikipedia.org/wiki/2025_Louvre_heist"
   },
   {
     "date": "2026.02.06",

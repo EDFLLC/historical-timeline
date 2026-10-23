@@ -85,6 +85,14 @@ Dates use calendar dates as Wikipedia gives them, in the Gregorian calendar.
 5. A human spot-checks 3 to 5 entries per batch against Wikipedia.
 6. One commit per batch.
 
+## Ambiguous dates
+
+If sources disagree on the day (e.g. the Hahn-Strassmann fission experiment: 17 vs 19 Dec 1938), drop the event rather than guess. Use plain ASCII in summaries (no diacritics) to keep labels short.
+
+## Audit (run before big releases)
+
+Run `python3 tools/validate_events.py --strict-tags`, then re-verify a random ~10% sample against Wikipedia and check for duplicates and importance-mix drift with `coverage_report.py`.
+
 ## Tools
 
 ```

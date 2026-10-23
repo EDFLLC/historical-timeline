@@ -1,7 +1,9 @@
 # Historical Timeline Website — Build Guide
 
-Version 1.2 · July 2026 · For a coding novice using Claude Cowork, Cursor, and GitHub
+Version 1.3 · October 2026 · For a coding novice using Claude Cowork, Cursor, and GitHub
 
+> **What's new in v1.3:** (1) Data now lives in its own file, `data/events.json`, loaded by `index.html` at startup — the code file no longer grows as you add events. (2) The top-tier (importance-5) events now show even when fully zoomed out, so the timeline is never empty on load. (3) Added label collision-skipping: a dot is always drawn, but its text label appears only when there's room, so no two labels overlap at any zoom level. See Part 2 (data location and loading) and Part 2's zoom section.
+>
 > **What's new in v1.2:** Categories revised to nine swimlanes (added Religion & Belief; renamed Geography to Exploration & Discovery). Added an optional `tags` field to the data schema so fine-grained topics (specific sports, religions, "AI", "space", wars, etc.) are searchable and filterable *without* creating more lanes. Search now matches tags as well as summaries. See the Appendix and Part 2 for the updated schema and category list.
 
 ---
@@ -51,7 +53,11 @@ timeline-website/
     └── events.json ← your curated dataset (the crown jewel)
 ```
 
-The prototype you received keeps everything in **one index.html** for simplicity. When the file grows past ~2,000 lines, ask Cursor to split it into index.html / style.css / app.js — a five-minute, zero-risk refactor.
+The prototype keeps all the **code** in `index.html` and all the **data** in `data/events.json`. `index.html` loads that JSON at startup, so the code file stays a fixed size and only the data file grows as you add events. This separation is the whole point: you edit data without ever touching code.
+
+**Important consequence — local preview.** Because the page now *fetches* a separate file, double-clicking `index.html` straight from your hard drive will show an on-screen "couldn't load data" message: browsers block a local file from fetching another local file for security reasons. Two ways to preview: view your live GitHub Pages URL (a real web server, works normally), or ask Cursor to "start a local preview server for this folder" and open the address it gives you. This only affects local double-clicking; the live site is unaffected.
+
+If you later want to tidy the code itself, you can ask Cursor to split `index.html` into `index.html` / `style.css` / `app.js` — a five-minute, zero-risk refactor — but it's optional and separate from the data split, which is already done.
 
 ### The data schema (memorize this)
 
@@ -76,11 +82,13 @@ Rules: `date` is YYYY.MM.DD; `category` is exactly one of the nine keys `history
 
 The timeline tracks one number: **pixels per day (ppd)**.
 
-- ppd < ~0.15 → year mode: year gridlines/labels only, no events
+- ppd < ~0.15 → year mode: year gridlines/labels, plus the top-tier (importance-5) events shown as dots so the view is never empty
 - ppd ~0.15–2 → month mode: month labels appear, events with importance ≥ 4 appear
 - ppd > ~2 → day mode: day labels appear, importance threshold relaxes with zoom until all events show
 
 Zooming multiplies ppd; panning shifts the visible date window. Only events inside the visible window are drawn (this keeps it fast). Every zoom bug you ever report to Cursor will be about ppd thresholds or the visible-window math — knowing these two concepts lets you describe bugs precisely.
+
+**Dots vs. labels.** Two separate rules govern what you see. *Which events qualify* is set by importance and zoom (above). *Whether a qualifying event also gets a text label* is decided per lane by available space: the dot is always drawn, but the 40-char label appears only if it doesn't overlap the previous label in that lane. So a crowded lane shows mostly dots (hover for the tooltip), and labels fill in as you zoom and space opens up. If the zoomed-out view ever feels too busy or too bare, these are the two knobs to ask Cursor to adjust: the importance-per-zoom thresholds, and the minimum spacing between labels.
 
 ---
 
@@ -113,7 +121,7 @@ Workflow for every change, forever: **describe in Cursor → test in browser →
 
 ### Stage 2 — Install the prototype (~10 min)
 
-1. Copy the `index.html` prototype file (delivered with this guide) into your `historical-timeline` folder.
+1. Copy both `index.html` **and** the `data` folder (containing `events.json`) into your `historical-timeline` folder. You need both — `index.html` loads its events from `data/events.json`, so without the data folder the timeline is empty.
 2. Double-click `index.html` — it opens in your browser and works immediately. Play with every toggle: theme, orientation, direction, zoom, filters, swimlane dragging, search.
 3. In **GitHub Desktop** you'll see the new file listed. Type a summary in the box bottom-left, e.g., `Add timeline prototype` → click **Commit to main** → click **Push origin** (top bar). Your code is now safely on GitHub.
 

@@ -138,3 +138,14 @@ mountaineering
 ocean
 deep-sea
 archaeology
+
+# --- added Day 3 ---
+election
+middle-east
+vietnam
+genocide
+museum
+astronomy
+social-media
+telephony
+ireland

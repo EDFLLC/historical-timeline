@@ -1082,6 +1082,18 @@
     "source": "https://en.wikipedia.org/wiki/Bathyscaphe_Trieste"
   },
   {
+    "date": "1960.07.11",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "novel",
+      "civil-rights"
+    ],
+    "summary": "To Kill a Mockingbird published",
+    "source": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird"
+  },
+  {
     "date": "1961.04.12",
     "category": "exploration",
     "importance": 5,
@@ -1103,6 +1115,18 @@
     ],
     "summary": "Second Vatican Council opens",
     "source": "https://en.wikipedia.org/wiki/Second_Vatican_Council"
+  },
+  {
+    "date": "1962.10.16",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "cold-war",
+      "usa",
+      "ussr"
+    ],
+    "summary": "Cuban Missile Crisis begins",
+    "source": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
   },
   {
     "date": "1963.11.22",
@@ -1127,6 +1151,28 @@
     "source": "https://en.wikipedia.org/wiki/The_Beatles"
   },
   {
+    "date": "1964.07.02",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "civil-rights",
+      "usa"
+    ],
+    "summary": "US Civil Rights Act signed into law",
+    "source": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964"
+  },
+  {
+    "date": "1965.12.08",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Second Vatican Council closes",
+    "source": "https://en.wikipedia.org/wiki/Second_Vatican_Council"
+  },
+  {
     "date": "1966.07.30",
     "category": "sport",
     "importance": 3,
@@ -1136,6 +1182,39 @@
     ],
     "summary": "England wins the World Cup",
     "source": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Final"
+  },
+  {
+    "date": "1967.05.26",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "music",
+      "rock-and-roll"
+    ],
+    "summary": "Sgt. Pepper released in the UK",
+    "source": "https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band"
+  },
+  {
+    "date": "1967.06.05",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "middle-east"
+    ],
+    "summary": "Six-Day War begins",
+    "source": "https://en.wikipedia.org/wiki/Six-Day_War"
+  },
+  {
+    "date": "1967.12.03",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "medicine",
+      "first"
+    ],
+    "summary": "First human heart transplant",
+    "source": "https://en.wikipedia.org/wiki/Christiaan_Barnard"
   },
   {
     "date": "1968.10.16",
@@ -1193,14 +1272,81 @@
     "source": "https://en.wikipedia.org/wiki/ARPANET"
   },
   {
-    "date": "1974.10.30",
+    "date": "1970.06.21",
     "category": "sport",
     "importance": 4,
+    "tags": [
+      "world-cup",
+      "football"
+    ],
+    "summary": "Brazil win World Cup; Pele's third",
+    "source": "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_final"
+  },
+  {
+    "date": "1971.11.15",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "computing",
+      "electronics"
+    ],
+    "summary": "Intel announces the 4004 microprocessor",
+    "source": "https://en.wikipedia.org/wiki/Intel_4004"
+  },
+  {
+    "date": "1972.09.05",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "terrorism",
+      "olympics"
+    ],
+    "summary": "Munich Olympics massacre",
+    "source": "https://en.wikipedia.org/wiki/Munich_massacre"
+  },
+  {
+    "date": "1972.12.11",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "nasa",
+      "human-spaceflight"
+    ],
+    "summary": "Apollo 17 makes the last Moon landing",
+    "source": "https://en.wikipedia.org/wiki/Apollo_17"
+  },
+  {
+    "date": "1973.04.03",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "telephony",
+      "first"
+    ],
+    "summary": "First handheld mobile phone call",
+    "source": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+  },
+  {
+    "date": "1974.10.30",
+    "category": "sport",
+    "importance": 5,
     "tags": [
       "boxing"
     ],
     "summary": "Ali beats Foreman in Kinshasa",
     "source": "https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle"
+  },
+  {
+    "date": "1975.04.30",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "vietnam"
+    ],
+    "summary": "Saigon falls to North Vietnam",
+    "source": "https://en.wikipedia.org/wiki/Fall_of_Saigon"
   },
   {
     "date": "1975.06.20",
@@ -1214,14 +1360,58 @@
     "source": "https://en.wikipedia.org/wiki/Jaws_(film)"
   },
   {
+    "date": "1976.07.18",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "olympics",
+      "record"
+    ],
+    "summary": "Comaneci scores first Olympic perfect 10",
+    "source": "https://en.wikipedia.org/wiki/Perfect_10_(gymnastics)"
+  },
+  {
+    "date": "1977.01.31",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "architecture",
+      "museum"
+    ],
+    "summary": "Centre Pompidou opens in Paris",
+    "source": "https://en.wikipedia.org/wiki/Centre_Pompidou"
+  },
+  {
     "date": "1977.05.25",
     "category": "pop",
-    "importance": 4,
+    "importance": 5,
     "tags": [
       "film"
     ],
     "summary": "Star Wars opens in theaters",
     "source": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+  },
+  {
+    "date": "1977.09.05",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Voyager 1 launches",
+    "source": "https://en.wikipedia.org/wiki/Voyager_1"
+  },
+  {
+    "date": "1978.07.25",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "medicine",
+      "first"
+    ],
+    "summary": "First IVF baby, Louise Brown, is born",
+    "source": "https://en.wikipedia.org/wiki/History_of_in_vitro_fertilisation"
   },
   {
     "date": "1978.10.16",
@@ -1247,15 +1437,37 @@
     "source": "https://en.wikipedia.org/wiki/Iranian_Revolution"
   },
   {
+    "date": "1979.05.03",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "election",
+      "europe"
+    ],
+    "summary": "Thatcher wins UK general election",
+    "source": "https://en.wikipedia.org/wiki/1979_United_Kingdom_general_election"
+  },
+  {
     "date": "1980.02.22",
     "category": "sport",
-    "importance": 2,
+    "importance": 4,
     "tags": [
       "olympics",
       "ice-hockey"
     ],
     "summary": "Miracle on Ice at Lake Placid",
     "source": "https://en.wikipedia.org/wiki/Miracle_on_Ice"
+  },
+  {
+    "date": "1980.05.08",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "health",
+      "medicine"
+    ],
+    "summary": "WHO declares smallpox eradicated",
+    "source": "https://en.wikipedia.org/wiki/Smallpox"
   },
   {
     "date": "1980.05.18",
@@ -1267,6 +1479,40 @@
     ],
     "summary": "Mount St. Helens erupts",
     "source": "https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens"
+  },
+  {
+    "date": "1980.11.04",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "election",
+      "usa"
+    ],
+    "summary": "Reagan wins US presidency",
+    "source": "https://en.wikipedia.org/wiki/1980_United_States_presidential_election"
+  },
+  {
+    "date": "1980.12.08",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "music",
+      "death"
+    ],
+    "summary": "John Lennon is shot dead in New York",
+    "source": "https://en.wikipedia.org/wiki/Murder_of_John_Lennon"
+  },
+  {
+    "date": "1981.04.12",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "nasa",
+      "human-spaceflight"
+    ],
+    "summary": "First Space Shuttle mission launches",
+    "source": "https://en.wikipedia.org/wiki/STS-1"
   },
   {
     "date": "1981.08.01",
@@ -1290,6 +1536,39 @@
     "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
   },
   {
+    "date": "1982.11.30",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "music"
+    ],
+    "summary": "Michael Jackson releases Thriller",
+    "source": "https://en.wikipedia.org/wiki/Thriller_(album)"
+  },
+  {
+    "date": "1984.01.24",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "apple",
+      "computing"
+    ],
+    "summary": "Apple launches the Macintosh",
+    "source": "https://en.wikipedia.org/wiki/Macintosh_128K"
+  },
+  {
+    "date": "1985.07.13",
+    "category": "pop",
+    "importance": 5,
+    "tags": [
+      "music",
+      "charity",
+      "television"
+    ],
+    "summary": "Live Aid concerts raise famine relief",
+    "source": "https://en.wikipedia.org/wiki/Live_Aid"
+  },
+  {
     "date": "1985.09.01",
     "category": "exploration",
     "importance": 4,
@@ -1300,6 +1579,52 @@
     ],
     "summary": "Ballard expedition finds Titanic wreck",
     "source": "https://en.wikipedia.org/wiki/Wreck_of_the_Titanic"
+  },
+  {
+    "date": "1986.01.28",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "space",
+      "nasa",
+      "disaster"
+    ],
+    "summary": "Space Shuttle Challenger breaks apart",
+    "source": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster"
+  },
+  {
+    "date": "1986.04.26",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "disaster",
+      "nuclear",
+      "ussr"
+    ],
+    "summary": "Chernobyl reactor explodes",
+    "source": "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+  },
+  {
+    "date": "1986.06.22",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "world-cup",
+      "football"
+    ],
+    "summary": "Maradona scores the Hand of God goal",
+    "source": "https://en.wikipedia.org/wiki/Argentina_v_England_(1986_FIFA_World_Cup)"
+  },
+  {
+    "date": "1989.06.04",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "china",
+      "human-rights"
+    ],
+    "summary": "Tiananmen protests end in crackdown",
+    "source": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
   },
   {
     "date": "1989.11.09",
@@ -1324,6 +1649,50 @@
     "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
   },
   {
+    "date": "1990.02.11",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "south-africa",
+      "racism"
+    ],
+    "summary": "Mandela freed after 27 years in prison",
+    "source": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+  },
+  {
+    "date": "1990.04.24",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "space",
+      "astronomy"
+    ],
+    "summary": "Hubble Space Telescope launched",
+    "source": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+  },
+  {
+    "date": "1990.10.03",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "cold-war"
+    ],
+    "summary": "Germany reunifies",
+    "source": "https://en.wikipedia.org/wiki/German_reunification"
+  },
+  {
+    "date": "1991.01.17",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "middle-east"
+    ],
+    "summary": "Gulf War air campaign begins",
+    "source": "https://en.wikipedia.org/wiki/Gulf_War_air_campaign"
+  },
+  {
     "date": "1991.08.06",
     "category": "tech",
     "importance": 5,
@@ -1335,6 +1704,17 @@
     "source": "https://en.wikipedia.org/wiki/World_Wide_Web"
   },
   {
+    "date": "1991.09.24",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "rock-and-roll"
+    ],
+    "summary": "Nirvana releases Nevermind",
+    "source": "https://en.wikipedia.org/wiki/Nevermind"
+  },
+  {
     "date": "1991.12.26",
     "category": "politics",
     "importance": 5,
@@ -1344,6 +1724,27 @@
     ],
     "summary": "Soviet Union is dissolved",
     "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+  },
+  {
+    "date": "1992.02.07",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "europe",
+      "treaty"
+    ],
+    "summary": "Maastricht Treaty signed",
+    "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty"
+  },
+  {
+    "date": "1994.04.07",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "genocide"
+    ],
+    "summary": "Rwandan genocide begins",
+    "source": "https://en.wikipedia.org/wiki/Rwandan_genocide"
   },
   {
     "date": "1994.05.10",
@@ -1378,6 +1779,61 @@
     "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
   },
   {
+    "date": "1997.10.18",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "architecture",
+      "museum"
+    ],
+    "summary": "Guggenheim Museum Bilbao opens",
+    "source": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao"
+  },
+  {
+    "date": "1997.12.19",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "blockbuster"
+    ],
+    "summary": "Titanic opens in US theaters",
+    "source": "https://en.wikipedia.org/wiki/Titanic_(1997_film)"
+  },
+  {
+    "date": "1998.04.10",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "ireland",
+      "treaty"
+    ],
+    "summary": "Good Friday Agreement signed",
+    "source": "https://en.wikipedia.org/wiki/Good_Friday_Agreement"
+  },
+  {
+    "date": "1998.09.04",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "internet",
+      "software"
+    ],
+    "summary": "Google is incorporated",
+    "source": "https://en.wikipedia.org/wiki/History_of_Google"
+  },
+  {
+    "date": "1998.11.20",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "engineering"
+    ],
+    "summary": "First ISS module launches",
+    "source": "https://en.wikipedia.org/wiki/Zarya_(ISS_module)"
+  },
+  {
     "date": "2001.09.11",
     "category": "history",
     "importance": 5,
@@ -1387,6 +1843,17 @@
     ],
     "summary": "September 11 attacks on the US",
     "source": "https://en.wikipedia.org/wiki/September_11_attacks"
+  },
+  {
+    "date": "2003.03.20",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "middle-east"
+    ],
+    "summary": "US-led invasion of Iraq begins",
+    "source": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq"
   },
   {
     "date": "2003.04.14",
@@ -1401,6 +1868,17 @@
     "source": "https://en.wikipedia.org/wiki/Human_Genome_Project"
   },
   {
+    "date": "2004.02.04",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "internet",
+      "social-media"
+    ],
+    "summary": "Facebook launches at Harvard",
+    "source": "https://en.wikipedia.org/wiki/History_of_Facebook"
+  },
+  {
     "date": "2004.12.26",
     "category": "science",
     "importance": 4,
@@ -1410,6 +1888,17 @@
     ],
     "summary": "Indian Ocean tsunami strikes",
     "source": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
+  },
+  {
+    "date": "2005.04.02",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "catholic",
+      "death"
+    ],
+    "summary": "Pope John Paul II dies",
+    "source": "https://en.wikipedia.org/wiki/Death_and_funeral_of_Pope_John_Paul_II"
   },
   {
     "date": "2007.06.29",
@@ -1423,6 +1912,17 @@
     "source": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
   },
   {
+    "date": "2008.08.08",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "olympics",
+      "china"
+    ],
+    "summary": "Beijing Olympics open",
+    "source": "https://en.wikipedia.org/wiki/2008_Summer_Olympics_opening_ceremony"
+  },
+  {
     "date": "2008.09.15",
     "category": "history",
     "importance": 4,
@@ -1434,15 +1934,37 @@
     "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
   },
   {
+    "date": "2008.11.04",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "election",
+      "usa"
+    ],
+    "summary": "Obama elected first Black US president",
+    "source": "https://en.wikipedia.org/wiki/2008_United_States_presidential_election"
+  },
+  {
     "date": "2009.08.16",
     "category": "sport",
-    "importance": 2,
+    "importance": 4,
     "tags": [
       "athletics",
       "running"
     ],
     "summary": "Bolt runs 100m in 9.58 seconds",
     "source": "https://en.wikipedia.org/wiki/Usain_Bolt"
+  },
+  {
+    "date": "2011.03.11",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "earthquake",
+      "natural-disaster"
+    ],
+    "summary": "Tohoku earthquake and tsunami strike",
+    "source": "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami"
   },
   {
     "date": "2012.07.04",
@@ -1453,6 +1975,17 @@
     ],
     "summary": "Higgs boson discovery announced",
     "source": "https://en.wikipedia.org/wiki/Higgs_boson"
+  },
+  {
+    "date": "2013.02.11",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Benedict XVI announces resignation",
+    "source": "https://en.wikipedia.org/wiki/Resignation_of_Pope_Benedict_XVI"
   },
   {
     "date": "2013.03.13",
@@ -1466,6 +1999,28 @@
     "source": "https://en.wikipedia.org/wiki/Pope_Francis"
   },
   {
+    "date": "2015.07.14",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "New Horizons flies past Pluto",
+    "source": "https://en.wikipedia.org/wiki/New_Horizons"
+  },
+  {
+    "date": "2016.02.11",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics",
+      "relativity"
+    ],
+    "summary": "Gravitational waves detection announced",
+    "source": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+  },
+  {
     "date": "2016.06.23",
     "category": "politics",
     "importance": 4,
@@ -1477,6 +2032,28 @@
     "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum"
   },
   {
+    "date": "2016.11.08",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "election",
+      "usa"
+    ],
+    "summary": "Trump wins US presidency",
+    "source": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election"
+  },
+  {
+    "date": "2019.04.10",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "astronomy",
+      "physics"
+    ],
+    "summary": "First black hole image released",
+    "source": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope"
+  },
+  {
     "date": "2020.03.11",
     "category": "history",
     "importance": 5,
@@ -1486,6 +2063,17 @@
     ],
     "summary": "WHO declares COVID-19 a pandemic",
     "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+  },
+  {
+    "date": "2020.05.30",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "human-spaceflight"
+    ],
+    "summary": "SpaceX flies NASA crew on Crew Dragon",
+    "source": "https://en.wikipedia.org/wiki/Crew_Dragon_Demo-2"
   },
   {
     "date": "2022.02.24",
@@ -1508,5 +2096,16 @@
     ],
     "summary": "ChatGPT released to the public",
     "source": "https://en.wikipedia.org/wiki/ChatGPT"
+  },
+  {
+    "date": "2022.12.18",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "world-cup",
+      "football"
+    ],
+    "summary": "Argentina win the World Cup",
+    "source": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final"
   }
 ]

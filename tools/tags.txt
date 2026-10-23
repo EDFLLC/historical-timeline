@@ -1,0 +1,132 @@
+# Approved tag vocabulary. One tag per line, lowercase, hyphenated.
+# Before adding a tag, check whether an existing one already fits.
+# Lines starting with # are comments.
+
+# --- event types ---
+war
+wwi
+wwii
+cold-war
+disaster
+natural-disaster
+maritime
+shipwreck
+earthquake
+volcano
+assassination
+terrorism
+treaty
+independence
+pandemic
+health
+birth
+death
+first
+record
+
+# --- politics and society ---
+civil-rights
+human-rights
+suffrage
+social-movement
+racism
+united-nations
+brexit
+germany
+fascism
+europe
+ussr
+usa
+china
+india
+iran
+turkey
+south-africa
+ukraine
+tibet
+egypt
+
+# --- economics ---
+economics
+finance
+manufacturing
+
+# --- religion ---
+christianity
+catholic
+vatican
+islam
+caliphate
+buddhism
+
+# --- science ---
+physics
+relativity
+nuclear
+biology
+genetics
+genomics
+cloning
+medicine
+
+# --- technology ---
+aviation
+transatlantic
+automobile
+engineering
+computing
+electronics
+internet
+web
+software
+ai
+smartphone
+apple
+space
+nasa
+human-spaceflight
+television
+media
+
+# --- arts ---
+art
+modernism
+literature
+novel
+theatre
+absurdism
+dystopia
+music
+ballet
+
+# --- pop culture ---
+film
+cinema
+sound-film
+animation
+rock-and-roll
+blockbuster
+festival
+charity
+leisure
+theme-park
+
+# --- sport ---
+olympics
+athletics
+running
+football
+world-cup
+baseball
+boxing
+cycling
+ice-hockey
+
+# --- exploration ---
+exploration
+expedition
+polar
+mountaineering
+ocean
+deep-sea
+archaeology

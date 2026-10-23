@@ -1,5 +1,15 @@
 [
   {
+    "date": "1903.07.01",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "cycling"
+    ],
+    "summary": "First Tour de France begins",
+    "source": "https://en.wikipedia.org/wiki/1903_Tour_de_France"
+  },
+  {
     "date": "1903.12.17",
     "category": "tech",
     "importance": 5,
@@ -19,6 +29,17 @@
     ],
     "summary": "Einstein submits relativity paper",
     "source": "https://en.wikipedia.org/wiki/Annus_mirabilis_papers"
+  },
+  {
+    "date": "1908.10.01",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "automobile",
+      "manufacturing"
+    ],
+    "summary": "Ford introduces the Model T",
+    "source": "https://en.wikipedia.org/wiki/Ford_Model_T"
   },
   {
     "date": "1911.12.14",
@@ -43,6 +64,17 @@
     "source": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic"
   },
   {
+    "date": "1913.02.17",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art",
+      "modernism"
+    ],
+    "summary": "Armory Show opens in New York",
+    "source": "https://en.wikipedia.org/wiki/Armory_Show"
+  },
+  {
     "date": "1913.05.29",
     "category": "arts",
     "importance": 3,
@@ -63,6 +95,17 @@
     ],
     "summary": "First World War begins",
     "source": "https://en.wikipedia.org/wiki/World_War_I"
+  },
+  {
+    "date": "1915.11.25",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "physics",
+      "relativity"
+    ],
+    "summary": "Einstein presents his field equations",
+    "source": "https://en.wikipedia.org/wiki/History_of_general_relativity"
   },
   {
     "date": "1918.11.11",
@@ -97,6 +140,40 @@
     "source": "https://en.wikipedia.org/wiki/Ulysses_(novel)"
   },
   {
+    "date": "1922.11.04",
+    "category": "exploration",
+    "importance": 5,
+    "tags": [
+      "archaeology",
+      "egypt"
+    ],
+    "summary": "Carter's team finds Tutankhamun's tomb",
+    "source": "https://en.wikipedia.org/wiki/Discovery_of_the_tomb_of_Tutankhamun"
+  },
+  {
+    "date": "1924.03.03",
+    "category": "religion",
+    "importance": 5,
+    "tags": [
+      "islam",
+      "caliphate",
+      "turkey"
+    ],
+    "summary": "Turkey abolishes the Islamic caliphate",
+    "source": "https://en.wikipedia.org/wiki/Abolition_of_the_Caliphate"
+  },
+  {
+    "date": "1925.04.10",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "The Great Gatsby is published",
+    "source": "https://en.wikipedia.org/wiki/The_Great_Gatsby"
+  },
+  {
     "date": "1926.01.26",
     "category": "tech",
     "importance": 3,
@@ -106,6 +183,28 @@
     ],
     "summary": "Baird demonstrates television",
     "source": "https://en.wikipedia.org/wiki/John_Logie_Baird"
+  },
+  {
+    "date": "1927.05.21",
+    "category": "exploration",
+    "importance": 5,
+    "tags": [
+      "aviation",
+      "transatlantic"
+    ],
+    "summary": "Lindbergh completes solo Atlantic flight",
+    "source": "https://en.wikipedia.org/wiki/Spirit_of_St._Louis"
+  },
+  {
+    "date": "1927.10.06",
+    "category": "pop",
+    "importance": 5,
+    "tags": [
+      "film",
+      "sound-film"
+    ],
+    "summary": "The Jazz Singer popularizes sound film",
+    "source": "https://en.wikipedia.org/wiki/The_Jazz_Singer"
   },
   {
     "date": "1928.09.28",
@@ -141,6 +240,17 @@
     "source": "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929"
   },
   {
+    "date": "1930.07.13",
+    "category": "sport",
+    "importance": 5,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "First FIFA World Cup matches are played",
+    "source": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup"
+  },
+  {
     "date": "1933.01.30",
     "category": "politics",
     "importance": 5,
@@ -163,6 +273,17 @@
     "source": "https://en.wikipedia.org/wiki/Jesse_Owens"
   },
   {
+    "date": "1937.12.21",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "animation"
+    ],
+    "summary": "Snow White premieres in Los Angeles",
+    "source": "https://en.wikipedia.org/wiki/Snow_White_(1937_film)"
+  },
+  {
     "date": "1939.09.01",
     "category": "history",
     "importance": 5,
@@ -172,6 +293,18 @@
     ],
     "summary": "Second World War begins",
     "source": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+  },
+  {
+    "date": "1942.12.02",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "nuclear",
+      "physics",
+      "wwii"
+    ],
+    "summary": "First controlled nuclear chain reaction",
+    "source": "https://en.wikipedia.org/wiki/Chicago_Pile-1"
   },
   {
     "date": "1945.05.08",
@@ -197,6 +330,28 @@
     "source": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
   },
   {
+    "date": "1946.02.14",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "computing",
+      "electronics"
+    ],
+    "summary": "ENIAC computer unveiled to the public",
+    "source": "https://en.wikipedia.org/wiki/ENIAC"
+  },
+  {
+    "date": "1947.04.15",
+    "category": "sport",
+    "importance": 5,
+    "tags": [
+      "baseball",
+      "civil-rights"
+    ],
+    "summary": "Jackie Robinson debuts for the Dodgers",
+    "source": "https://en.wikipedia.org/wiki/Jackie_Robinson"
+  },
+  {
     "date": "1947.08.15",
     "category": "politics",
     "importance": 5,
@@ -219,6 +374,40 @@
     "source": "https://en.wikipedia.org/wiki/Transistor"
   },
   {
+    "date": "1948.12.10",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "human-rights",
+      "united-nations"
+    ],
+    "summary": "UN adopts Declaration of Human Rights",
+    "source": "https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights"
+  },
+  {
+    "date": "1949.06.08",
+    "category": "arts",
+    "importance": 5,
+    "tags": [
+      "literature",
+      "novel",
+      "dystopia"
+    ],
+    "summary": "Orwell publishes Nineteen Eighty-Four",
+    "source": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
+  },
+  {
+    "date": "1949.10.01",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "china",
+      "cold-war"
+    ],
+    "summary": "People's Republic of China proclaimed",
+    "source": "https://en.wikipedia.org/wiki/Proclamation_of_the_People%27s_Republic_of_China"
+  },
+  {
     "date": "1950.07.16",
     "category": "sport",
     "importance": 3,
@@ -239,6 +428,17 @@
     ],
     "summary": "Pope defines Assumption as dogma",
     "source": "https://en.wikipedia.org/wiki/Munificentissimus_Deus"
+  },
+  {
+    "date": "1953.01.05",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "theatre",
+      "absurdism"
+    ],
+    "summary": "Waiting for Godot premieres in Paris",
+    "source": "https://en.wikipedia.org/wiki/Waiting_for_Godot"
   },
   {
     "date": "1953.04.25",
@@ -271,6 +471,17 @@
     ],
     "summary": "Bannister runs four-minute mile",
     "source": "https://en.wikipedia.org/wiki/Roger_Bannister"
+  },
+  {
+    "date": "1954.07.05",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Elvis records That's All Right",
+    "source": "https://en.wikipedia.org/wiki/That%27s_All_Right"
   },
   {
     "date": "1955.07.17",
@@ -307,6 +518,17 @@
     "source": "https://en.wikipedia.org/wiki/Sputnik_1"
   },
   {
+    "date": "1959.03.17",
+    "category": "religion",
+    "importance": 5,
+    "tags": [
+      "buddhism",
+      "tibet"
+    ],
+    "summary": "Dalai Lama flees Lhasa into exile",
+    "source": "https://en.wikipedia.org/wiki/1959_Tibetan_uprising"
+  },
+  {
     "date": "1960.01.23",
     "category": "exploration",
     "importance": 3,
@@ -316,6 +538,18 @@
     ],
     "summary": "Trieste reaches Challenger Deep",
     "source": "https://en.wikipedia.org/wiki/Bathyscaphe_Trieste"
+  },
+  {
+    "date": "1961.04.12",
+    "category": "exploration",
+    "importance": 5,
+    "tags": [
+      "human-spaceflight",
+      "space",
+      "ussr"
+    ],
+    "summary": "Gagarin is first human in space",
+    "source": "https://en.wikipedia.org/wiki/Vostok_1"
   },
   {
     "date": "1962.10.11",
@@ -362,15 +596,15 @@
     "source": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Final"
   },
   {
-    "date": "1969.07.20",
-    "category": "science",
-    "importance": 5,
+    "date": "1968.10.16",
+    "category": "sport",
+    "importance": 4,
     "tags": [
-      "space",
-      "nasa"
+      "olympics",
+      "civil-rights"
     ],
-    "summary": "Apollo 11 lands humans on the Moon",
-    "source": "https://en.wikipedia.org/wiki/Apollo_11"
+    "summary": "Smith and Carlos raise fists at Olympics",
+    "source": "https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute"
   },
   {
     "date": "1969.07.20",
@@ -381,6 +615,17 @@
       "space"
     ],
     "summary": "600 million watch the Moon walk",
+    "source": "https://en.wikipedia.org/wiki/Apollo_11"
+  },
+  {
+    "date": "1969.07.20",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Apollo 11 lands humans on the Moon",
     "source": "https://en.wikipedia.org/wiki/Apollo_11"
   },
   {
@@ -406,6 +651,27 @@
     "source": "https://en.wikipedia.org/wiki/ARPANET"
   },
   {
+    "date": "1974.10.30",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "boxing"
+    ],
+    "summary": "Ali beats Foreman in Kinshasa",
+    "source": "https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle"
+  },
+  {
+    "date": "1975.06.20",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "blockbuster"
+    ],
+    "summary": "Jaws opens in US theaters",
+    "source": "https://en.wikipedia.org/wiki/Jaws_(film)"
+  },
+  {
     "date": "1977.05.25",
     "category": "pop",
     "importance": 4,
@@ -414,6 +680,18 @@
     ],
     "summary": "Star Wars opens in theaters",
     "source": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+  },
+  {
+    "date": "1978.10.16",
+    "category": "religion",
+    "importance": 5,
+    "tags": [
+      "christianity",
+      "catholic",
+      "vatican"
+    ],
+    "summary": "John Paul II elected first Polish pope",
+    "source": "https://en.wikipedia.org/wiki/October_1978_conclave"
   },
   {
     "date": "1979.02.01",
@@ -468,6 +746,18 @@
     ],
     "summary": "IBM PC goes on sale",
     "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
+  },
+  {
+    "date": "1985.09.01",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "ocean",
+      "deep-sea",
+      "shipwreck"
+    ],
+    "summary": "Ballard expedition finds Titanic wreck",
+    "source": "https://en.wikipedia.org/wiki/Wreck_of_the_Titanic"
   },
   {
     "date": "1989.11.09",
@@ -555,6 +845,18 @@
     ],
     "summary": "September 11 attacks on the US",
     "source": "https://en.wikipedia.org/wiki/September_11_attacks"
+  },
+  {
+    "date": "2003.04.14",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "genomics",
+      "genetics",
+      "biology"
+    ],
+    "summary": "Human Genome Project declared complete",
+    "source": "https://en.wikipedia.org/wiki/Human_Genome_Project"
   },
   {
     "date": "2004.12.26",

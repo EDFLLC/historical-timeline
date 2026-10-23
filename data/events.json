@@ -83,6 +83,17 @@
     "source": "https://en.wikipedia.org/wiki/Russo-Japanese_War"
   },
   {
+    "date": "1905.01.22",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "revolution",
+      "europe"
+    ],
+    "summary": "Bloody Sunday shootings in St Petersburg",
+    "source": "https://en.wikipedia.org/wiki/Russian_Revolution_of_1905"
+  },
+  {
     "date": "1905.06.30",
     "category": "science",
     "importance": 4,
@@ -115,6 +126,17 @@
     "source": "https://en.wikipedia.org/wiki/Tunguska_event"
   },
   {
+    "date": "1908.07.24",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "athletics"
+    ],
+    "summary": "Pietri collapses in Olympic marathon",
+    "source": "https://en.wikipedia.org/wiki/Dorando_Pietri"
+  },
+  {
     "date": "1908.10.01",
     "category": "tech",
     "importance": 4,
@@ -124,6 +146,27 @@
     ],
     "summary": "Ford introduces the Model T",
     "source": "https://en.wikipedia.org/wiki/Ford_Model_T"
+  },
+  {
+    "date": "1909.07.25",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Bleriot flies across the Channel",
+    "source": "https://en.wikipedia.org/wiki/Bl%C3%A9riot_XI"
+  },
+  {
+    "date": "1910.11.20",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "revolution"
+    ],
+    "summary": "Mexican Revolution begins",
+    "source": "https://en.wikipedia.org/wiki/Mexican_Revolution"
   },
   {
     "date": "1911.07.24",
@@ -236,6 +279,17 @@
     "source": "https://en.wikipedia.org/wiki/Panama_Canal"
   },
   {
+    "date": "1915.02.08",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Birth of a Nation premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Birth_of_a_Nation"
+  },
+  {
     "date": "1915.11.25",
     "category": "science",
     "importance": 5,
@@ -245,6 +299,27 @@
     ],
     "summary": "Einstein presents his field equations",
     "source": "https://en.wikipedia.org/wiki/History_of_general_relativity"
+  },
+  {
+    "date": "1916.07.01",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "wwi"
+    ],
+    "summary": "Battle of the Somme begins",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_the_Somme"
+  },
+  {
+    "date": "1917.05.13",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic"
+    ],
+    "summary": "First reported Fatima apparition",
+    "source": "https://en.wikipedia.org/wiki/Our_Lady_of_F%C3%A1tima"
   },
   {
     "date": "1917.11.07",
@@ -346,6 +421,17 @@
     "source": "https://en.wikipedia.org/wiki/Great_Kant%C5%8D_Earthquake"
   },
   {
+    "date": "1923.11.08",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Hitler launches the Beer Hall Putsch",
+    "source": "https://en.wikipedia.org/wiki/Beer_Hall_Putsch"
+  },
+  {
     "date": "1924.01.25",
     "category": "sport",
     "importance": 3,
@@ -380,6 +466,29 @@
     "source": "https://en.wikipedia.org/wiki/The_Great_Gatsby"
   },
   {
+    "date": "1925.07.10",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "biology"
+    ],
+    "summary": "Scopes trial begins in Tennessee",
+    "source": "https://en.wikipedia.org/wiki/Scopes_trial"
+  },
+  {
+    "date": "1925.12.21",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema",
+      "ussr"
+    ],
+    "summary": "Battleship Potemkin screens in Moscow",
+    "source": "https://en.wikipedia.org/wiki/Battleship_Potemkin"
+  },
+  {
     "date": "1926.01.26",
     "category": "tech",
     "importance": 3,
@@ -391,6 +500,17 @@
     "source": "https://en.wikipedia.org/wiki/John_Logie_Baird"
   },
   {
+    "date": "1926.05.12",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "polar",
+      "aviation"
+    ],
+    "summary": "Norge airship flies over North Pole",
+    "source": "https://en.wikipedia.org/wiki/Norge_(airship)"
+  },
+  {
     "date": "1927.05.21",
     "category": "exploration",
     "importance": 5,
@@ -400,6 +520,17 @@
     ],
     "summary": "Lindbergh completes solo Atlantic flight",
     "source": "https://en.wikipedia.org/wiki/Spirit_of_St._Louis"
+  },
+  {
+    "date": "1927.09.30",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball",
+      "record"
+    ],
+    "summary": "Babe Ruth hits his 60th home run",
+    "source": "https://en.wikipedia.org/wiki/Babe_Ruth"
   },
   {
     "date": "1927.10.06",
@@ -480,6 +611,17 @@
     "source": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup"
   },
   {
+    "date": "1931.05.27",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Piccard balloon reaches stratosphere",
+    "source": "https://en.wikipedia.org/wiki/Auguste_Piccard"
+  },
+  {
     "date": "1933.01.30",
     "category": "politics",
     "importance": 5,
@@ -489,6 +631,64 @@
     ],
     "summary": "Hitler named German chancellor",
     "source": "https://en.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power"
+  },
+  {
+    "date": "1933.03.02",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "King Kong premieres in New York",
+    "source": "https://en.wikipedia.org/wiki/King_Kong_(1933_film)"
+  },
+  {
+    "date": "1933.07.20",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "germany",
+      "treaty"
+    ],
+    "summary": "Vatican and Germany sign Reichskonkordat",
+    "source": "https://en.wikipedia.org/wiki/Reichskonkordat"
+  },
+  {
+    "date": "1934.08.15",
+    "category": "exploration",
+    "importance": 2,
+    "tags": [
+      "ocean",
+      "deep-sea"
+    ],
+    "summary": "Bathysphere dives to 923 meters",
+    "source": "https://en.wikipedia.org/wiki/Bathysphere"
+  },
+  {
+    "date": "1935.09.15",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "fascism",
+      "racism"
+    ],
+    "summary": "Nazi Germany enacts the Nuremberg Laws",
+    "source": "https://en.wikipedia.org/wiki/Nuremberg_Laws"
+  },
+  {
+    "date": "1936.07.17",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "fascism",
+      "europe"
+    ],
+    "summary": "Spanish Civil War begins",
+    "source": "https://en.wikipedia.org/wiki/Spanish_Civil_War"
   },
   {
     "date": "1936.08.01",
@@ -522,6 +722,17 @@
     ],
     "summary": "BBC starts regular television service",
     "source": "https://en.wikipedia.org/wiki/BBC_Television"
+  },
+  {
+    "date": "1937.05.06",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "aviation"
+    ],
+    "summary": "Hindenburg airship burns at Lakehurst",
+    "source": "https://en.wikipedia.org/wiki/LZ_129_Hindenburg"
   },
   {
     "date": "1937.07.07",
@@ -602,6 +813,17 @@
     "source": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
   },
   {
+    "date": "1939.12.15",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Gone with the Wind premieres in Atlanta",
+    "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)"
+  },
+  {
     "date": "1941.05.01",
     "category": "pop",
     "importance": 4,
@@ -669,6 +891,18 @@
     ],
     "summary": "Allied forces land in Normandy",
     "source": "https://en.wikipedia.org/wiki/Normandy_landings"
+  },
+  {
+    "date": "1945.02.04",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "ussr",
+      "usa"
+    ],
+    "summary": "Yalta Conference opens",
+    "source": "https://en.wikipedia.org/wiki/Yalta_Conference"
   },
   {
     "date": "1945.05.08",
@@ -749,6 +983,17 @@
     "source": "https://en.wikipedia.org/wiki/Marshall_Plan"
   },
   {
+    "date": "1947.08.07",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "expedition",
+      "ocean"
+    ],
+    "summary": "Kon-Tiki raft reaches Polynesia",
+    "source": "https://en.wikipedia.org/wiki/Kon-Tiki_expedition"
+  },
+  {
     "date": "1947.08.15",
     "category": "politics",
     "importance": 5,
@@ -781,6 +1026,17 @@
     "source": "https://en.wikipedia.org/wiki/Transistor"
   },
   {
+    "date": "1948.01.30",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "india",
+      "assassination"
+    ],
+    "summary": "Gandhi is assassinated in Delhi",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Mahatma_Gandhi"
+  },
+  {
     "date": "1948.05.14",
     "category": "politics",
     "importance": 4,
@@ -789,6 +1045,26 @@
     ],
     "summary": "Israel declares independence",
     "source": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence"
+  },
+  {
+    "date": "1948.07.29",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "London Olympics open after the war",
+    "source": "https://en.wikipedia.org/wiki/1948_Summer_Olympics"
+  },
+  {
+    "date": "1948.08.23",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity"
+    ],
+    "summary": "World Council of Churches founded",
+    "source": "https://en.wikipedia.org/wiki/World_Council_of_Churches"
   },
   {
     "date": "1948.12.10",
@@ -867,6 +1143,17 @@
     ],
     "summary": "Uruguay stuns Brazil in Cup final",
     "source": "https://en.wikipedia.org/wiki/Maracanazo"
+  },
+  {
+    "date": "1950.10.02",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "comics",
+      "usa"
+    ],
+    "summary": "Peanuts debuts in newspapers",
+    "source": "https://en.wikipedia.org/wiki/Peanuts"
   },
   {
     "date": "1950.11.01",
@@ -1046,6 +1333,17 @@
     "source": "https://en.wikipedia.org/wiki/Sputnik_1"
   },
   {
+    "date": "1957.11.03",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "first"
+    ],
+    "summary": "Laika orbits aboard Sputnik 2",
+    "source": "https://en.wikipedia.org/wiki/Soviet_space_dogs"
+  },
+  {
     "date": "1958.08.03",
     "category": "exploration",
     "importance": 3,
@@ -1180,6 +1478,29 @@
     "source": "https://en.wikipedia.org/wiki/Vostok_1"
   },
   {
+    "date": "1961.08.13",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "cold-war",
+      "germany"
+    ],
+    "summary": "East Germany begins building Berlin Wall",
+    "source": "https://en.wikipedia.org/wiki/Berlin_Wall"
+  },
+  {
+    "date": "1962.02.20",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "nasa",
+      "human-spaceflight"
+    ],
+    "summary": "Glenn is first American to orbit",
+    "source": "https://en.wikipedia.org/wiki/John_Glenn"
+  },
+  {
     "date": "1962.10.05",
     "category": "pop",
     "importance": 3,
@@ -1302,6 +1623,28 @@
     "source": "https://en.wikipedia.org/wiki/Second_Vatican_Council"
   },
   {
+    "date": "1966.02.03",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "first"
+    ],
+    "summary": "Luna 9 lands softly on the Moon",
+    "source": "https://en.wikipedia.org/wiki/Luna_9"
+  },
+  {
+    "date": "1966.05.16",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "china",
+      "revolution"
+    ],
+    "summary": "Cultural Revolution begins in China",
+    "source": "https://en.wikipedia.org/wiki/16_May_Notification"
+  },
+  {
     "date": "1966.07.30",
     "category": "sport",
     "importance": 3,
@@ -1311,6 +1654,16 @@
     ],
     "summary": "England wins the World Cup",
     "source": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Final"
+  },
+  {
+    "date": "1967.01.15",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "usa"
+    ],
+    "summary": "First Super Bowl is played",
+    "source": "https://en.wikipedia.org/wiki/Super_Bowl_I"
   },
   {
     "date": "1967.05.26",
@@ -1356,6 +1709,38 @@
     ],
     "summary": "Martin Luther King Jr. assassinated",
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr."
+  },
+  {
+    "date": "1968.07.29",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Humanae Vitae is released",
+    "source": "https://en.wikipedia.org/wiki/Humanae_vitae"
+  },
+  {
+    "date": "1968.08.20",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "cold-war",
+      "europe"
+    ],
+    "summary": "Warsaw Pact troops invade Czechoslovakia",
+    "source": "https://en.wikipedia.org/wiki/Prague_Spring"
+  },
+  {
+    "date": "1968.10.12",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Mexico City Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1968_Summer_Olympics"
   },
   {
     "date": "1968.10.16",
@@ -1413,6 +1798,18 @@
     "source": "https://en.wikipedia.org/wiki/ARPANET"
   },
   {
+    "date": "1970.04.13",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "nasa",
+      "disaster"
+    ],
+    "summary": "Apollo 13 oxygen tank fails",
+    "source": "https://en.wikipedia.org/wiki/Apollo_13"
+  },
+  {
     "date": "1970.06.21",
     "category": "sport",
     "importance": 4,
@@ -1422,6 +1819,27 @@
     ],
     "summary": "Brazil win World Cup; Pele's third",
     "source": "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_final"
+  },
+  {
+    "date": "1971.03.26",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Bangladesh declares independence",
+    "source": "https://en.wikipedia.org/wiki/Proclamation_of_Bangladeshi_Independence"
+  },
+  {
+    "date": "1971.04.19",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "ussr"
+    ],
+    "summary": "Salyut 1 space station launches",
+    "source": "https://en.wikipedia.org/wiki/Salyut_1"
   },
   {
     "date": "1971.11.15",
@@ -1501,6 +1919,16 @@
     "source": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
   },
   {
+    "date": "1974.08.09",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "usa"
+    ],
+    "summary": "Nixon resigns the US presidency",
+    "source": "https://en.wikipedia.org/wiki/Richard_Nixon%27s_resignation_speech"
+  },
+  {
     "date": "1974.10.30",
     "category": "sport",
     "importance": 5,
@@ -1531,6 +1959,17 @@
     ],
     "summary": "Jaws opens in US theaters",
     "source": "https://en.wikipedia.org/wiki/Jaws_(film)"
+  },
+  {
+    "date": "1975.07.17",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "cold-war"
+    ],
+    "summary": "Apollo and Soyuz dock in orbit",
+    "source": "https://en.wikipedia.org/wiki/Apollo%E2%80%93Soyuz"
   },
   {
     "date": "1976.07.18",
@@ -1610,6 +2049,17 @@
     "source": "https://en.wikipedia.org/wiki/Pope_John_Paul_I"
   },
   {
+    "date": "1978.09.17",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "middle-east",
+      "treaty"
+    ],
+    "summary": "Camp David Accords signed",
+    "source": "https://en.wikipedia.org/wiki/Camp_David_Accords"
+  },
+  {
     "date": "1978.10.16",
     "category": "religion",
     "importance": 5,
@@ -1620,6 +2070,17 @@
     ],
     "summary": "John Paul II elected first Polish pope",
     "source": "https://en.wikipedia.org/wiki/October_1978_conclave"
+  },
+  {
+    "date": "1978.11.18",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "cult",
+      "disaster"
+    ],
+    "summary": "Jonestown deaths in Guyana",
+    "source": "https://en.wikipedia.org/wiki/Jonestown"
   },
   {
     "date": "1979.02.01",
@@ -2040,6 +2501,28 @@
     "source": "https://en.wikipedia.org/wiki/1992_Summer_Olympics_opening_ceremony"
   },
   {
+    "date": "1992.10.31",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "John Paul II addresses Galileo case",
+    "source": "https://en.wikipedia.org/wiki/Galileo_affair"
+  },
+  {
+    "date": "1993.02.28",
+    "category": "religion",
+    "importance": 2,
+    "tags": [
+      "cult",
+      "usa"
+    ],
+    "summary": "Waco siege begins",
+    "source": "https://en.wikipedia.org/wiki/Waco_siege"
+  },
+  {
     "date": "1993.04.30",
     "category": "tech",
     "importance": 3,
@@ -2081,6 +2564,17 @@
     ],
     "summary": "Mandela sworn in as SA president",
     "source": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+  },
+  {
+    "date": "1995.03.20",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "terrorism",
+      "cult"
+    ],
+    "summary": "Aum Shinrikyo attacks Tokyo subway",
+    "source": "https://en.wikipedia.org/wiki/Tokyo_subway_sarin_attack"
   },
   {
     "date": "1995.06.24",
@@ -2171,6 +2665,17 @@
     "source": "https://en.wikipedia.org/wiki/Titanic_(1997_film)"
   },
   {
+    "date": "1998.01.21",
+    "category": "religion",
+    "importance": 2,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "John Paul II begins visit to Cuba",
+    "source": "https://en.wikipedia.org/wiki/Cuba%E2%80%93Holy_See_relations"
+  },
+  {
     "date": "1998.04.10",
     "category": "politics",
     "importance": 3,
@@ -2223,6 +2728,17 @@
     ],
     "summary": "The Matrix opens in US theaters",
     "source": "https://en.wikipedia.org/wiki/The_Matrix"
+  },
+  {
+    "date": "2000.03.12",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "John Paul II holds Day of Pardon",
+    "source": "https://en.wikipedia.org/wiki/List_of_apologies_made_by_Pope_John_Paul_II"
   },
   {
     "date": "2000.05.11",
@@ -2281,6 +2797,17 @@
     "source": "https://en.wikipedia.org/wiki/Human_Genome_Project"
   },
   {
+    "date": "2003.11.02",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "human-rights"
+    ],
+    "summary": "Gene Robinson is consecrated a bishop",
+    "source": "https://en.wikipedia.org/wiki/Gene_Robinson"
+  },
+  {
     "date": "2004.02.04",
     "category": "tech",
     "importance": 4,
@@ -2337,6 +2864,28 @@
     "source": "https://en.wikipedia.org/wiki/Hurricane_Katrina"
   },
   {
+    "date": "2006.03.21",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "internet",
+      "social-media"
+    ],
+    "summary": "First tweet is posted",
+    "source": "https://en.wikipedia.org/wiki/History_of_Twitter"
+  },
+  {
+    "date": "2007.01.16",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "internet",
+      "streaming"
+    ],
+    "summary": "Netflix launches streaming",
+    "source": "https://en.wikipedia.org/wiki/Netflix"
+  },
+  {
     "date": "2007.06.29",
     "category": "tech",
     "importance": 4,
@@ -2370,6 +2919,17 @@
     "source": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
   },
   {
+    "date": "2008.10.07",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "music",
+      "streaming"
+    ],
+    "summary": "Spotify launches in Sweden",
+    "source": "https://en.wikipedia.org/wiki/Spotify"
+  },
+  {
     "date": "2008.11.04",
     "category": "politics",
     "importance": 4,
@@ -2401,6 +2961,28 @@
     ],
     "summary": "Bolt runs 100m in 9.58 seconds",
     "source": "https://en.wikipedia.org/wiki/Usain_Bolt"
+  },
+  {
+    "date": "2010.01.12",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "earthquake",
+      "natural-disaster"
+    ],
+    "summary": "Haiti earthquake strikes",
+    "source": "https://en.wikipedia.org/wiki/2010_Haiti_earthquake"
+  },
+  {
+    "date": "2010.01.27",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "apple",
+      "electronics"
+    ],
+    "summary": "Apple announces the iPad",
+    "source": "https://en.wikipedia.org/wiki/IPad_(1st_generation)"
   },
   {
     "date": "2010.06.11",
@@ -2447,6 +3029,17 @@
     "source": "https://en.wikipedia.org/wiki/Game_of_Thrones"
   },
   {
+    "date": "2011.05.02",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "terrorism",
+      "usa"
+    ],
+    "summary": "US forces kill Osama bin Laden",
+    "source": "https://en.wikipedia.org/wiki/Killing_of_Osama_bin_Laden"
+  },
+  {
     "date": "2012.07.04",
     "category": "science",
     "importance": 4,
@@ -2455,6 +3048,17 @@
     ],
     "summary": "Higgs boson discovery announced",
     "source": "https://en.wikipedia.org/wiki/Higgs_boson"
+  },
+  {
+    "date": "2012.07.15",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "internet"
+    ],
+    "summary": "Gangnam Style posted to YouTube",
+    "source": "https://en.wikipedia.org/wiki/Gangnam_Style"
   },
   {
     "date": "2012.07.27",
@@ -2500,6 +3104,50 @@
     "source": "https://en.wikipedia.org/wiki/2014_Russian_annexation_of_Crimea"
   },
   {
+    "date": "2014.07.17",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "ukraine",
+      "aviation"
+    ],
+    "summary": "Flight MH17 shot down over Ukraine",
+    "source": "https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17"
+  },
+  {
+    "date": "2014.08.08",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "pandemic",
+      "health"
+    ],
+    "summary": "WHO declares Ebola an emergency",
+    "source": "https://en.wikipedia.org/wiki/Western_African_Ebola_epidemic"
+  },
+  {
+    "date": "2015.01.07",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "terrorism",
+      "europe"
+    ],
+    "summary": "Charlie Hebdo office attacked in Paris",
+    "source": "https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting"
+  },
+  {
+    "date": "2015.06.18",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "climate"
+    ],
+    "summary": "Pope Francis releases Laudato si'",
+    "source": "https://en.wikipedia.org/wiki/Laudato_si%27"
+  },
+  {
     "date": "2015.07.14",
     "category": "exploration",
     "importance": 4,
@@ -2520,6 +3168,17 @@
     ],
     "summary": "Hamilton opens on Broadway",
     "source": "https://en.wikipedia.org/wiki/Hamilton_(musical)"
+  },
+  {
+    "date": "2015.11.13",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "terrorism",
+      "europe"
+    ],
+    "summary": "Coordinated attacks strike Paris",
+    "source": "https://en.wikipedia.org/wiki/November_2015_Paris_attacks"
   },
   {
     "date": "2015.12.12",
@@ -2555,6 +3214,17 @@
     "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum"
   },
   {
+    "date": "2016.07.06",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "games",
+      "smartphone"
+    ],
+    "summary": "Pokemon Go is released",
+    "source": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+  },
+  {
     "date": "2016.08.05",
     "category": "sport",
     "importance": 3,
@@ -2576,6 +3246,28 @@
     "source": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election"
   },
   {
+    "date": "2017.10.16",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy",
+      "physics"
+    ],
+    "summary": "LIGO sees neutron stars collide",
+    "source": "https://en.wikipedia.org/wiki/GW170817"
+  },
+  {
+    "date": "2018.02.06",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "space",
+      "engineering"
+    ],
+    "summary": "Falcon Heavy makes first launch",
+    "source": "https://en.wikipedia.org/wiki/Falcon_Heavy"
+  },
+  {
     "date": "2019.04.10",
     "category": "science",
     "importance": 4,
@@ -2585,6 +3277,39 @@
     ],
     "summary": "First black hole image released",
     "source": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope"
+  },
+  {
+    "date": "2019.04.15",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "architecture",
+      "europe"
+    ],
+    "summary": "Notre-Dame cathedral catches fire",
+    "source": "https://en.wikipedia.org/wiki/Notre-Dame_fire"
+  },
+  {
+    "date": "2019.04.26",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "blockbuster"
+    ],
+    "summary": "Avengers: Endgame opens in US",
+    "source": "https://en.wikipedia.org/wiki/Avengers:_Endgame"
+  },
+  {
+    "date": "2020.01.31",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "brexit",
+      "europe"
+    ],
+    "summary": "UK leaves the European Union",
+    "source": "https://en.wikipedia.org/wiki/Brexit"
   },
   {
     "date": "2020.03.11",
@@ -2598,6 +3323,18 @@
     "source": "https://en.wikipedia.org/wiki/COVID-19_pandemic"
   },
   {
+    "date": "2020.05.25",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "racism",
+      "civil-rights",
+      "usa"
+    ],
+    "summary": "George Floyd killed in Minneapolis",
+    "source": "https://en.wikipedia.org/wiki/George_Floyd_protests"
+  },
+  {
     "date": "2020.05.30",
     "category": "exploration",
     "importance": 3,
@@ -2607,6 +3344,17 @@
     ],
     "summary": "SpaceX flies NASA crew on Crew Dragon",
     "source": "https://en.wikipedia.org/wiki/Crew_Dragon_Demo-2"
+  },
+  {
+    "date": "2020.08.04",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "middle-east"
+    ],
+    "summary": "Beirut port explosion",
+    "source": "https://en.wikipedia.org/wiki/2020_Beirut_explosion"
   },
   {
     "date": "2020.12.08",
@@ -2643,6 +3391,18 @@
     "source": "https://en.wikipedia.org/wiki/Perseverance_(rover)"
   },
   {
+    "date": "2021.04.19",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "mars",
+      "nasa"
+    ],
+    "summary": "Ingenuity flies on Mars",
+    "source": "https://en.wikipedia.org/wiki/List_of_Ingenuity_flights"
+  },
+  {
     "date": "2021.07.23",
     "category": "sport",
     "importance": 3,
@@ -2652,6 +3412,17 @@
     ],
     "summary": "Tokyo Olympics open after delay",
     "source": "https://en.wikipedia.org/wiki/2020_Summer_Olympics_opening_ceremony"
+  },
+  {
+    "date": "2021.08.15",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "afghanistan"
+    ],
+    "summary": "Taliban take Kabul",
+    "source": "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021)"
   },
   {
     "date": "2022.02.24",
@@ -2676,6 +3447,17 @@
     "source": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
   },
   {
+    "date": "2022.09.08",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe",
+      "death"
+    ],
+    "summary": "Queen Elizabeth II dies",
+    "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Elizabeth_II"
+  },
+  {
     "date": "2022.11.30",
     "category": "tech",
     "importance": 4,
@@ -2698,6 +3480,28 @@
     "source": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final"
   },
   {
+    "date": "2023.03.14",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "ai",
+      "software"
+    ],
+    "summary": "OpenAI releases GPT-4",
+    "source": "https://en.wikipedia.org/wiki/GPT-4"
+  },
+  {
+    "date": "2023.07.21",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "blockbuster"
+    ],
+    "summary": "Barbie and Oppenheimer open",
+    "source": "https://en.wikipedia.org/wiki/Barbenheimer"
+  },
+  {
     "date": "2023.10.07",
     "category": "history",
     "importance": 4,
@@ -2718,6 +3522,39 @@
     ],
     "summary": "Paris Olympics open on the Seine",
     "source": "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony"
+  },
+  {
+    "date": "2024.11.05",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "election",
+      "usa"
+    ],
+    "summary": "Trump wins second US presidency",
+    "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election"
+  },
+  {
+    "date": "2025.04.21",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "death"
+    ],
+    "summary": "Pope Francis dies",
+    "source": "https://en.wikipedia.org/wiki/Death_and_funeral_of_Pope_Francis"
+  },
+  {
+    "date": "2025.05.08",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Leo XIV elected pope",
+    "source": "https://en.wikipedia.org/wiki/2025_papal_conclave"
   },
   {
     "date": "2026.02.06",

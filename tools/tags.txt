@@ -158,3 +158,9 @@ rugby
 tennis
 hurricane
 climate
+
+# --- added Day 5 ---
+cult
+comics
+afghanistan
+streaming

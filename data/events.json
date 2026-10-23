@@ -1,5 +1,15 @@
 [
   {
+    "date": "1900.05.14",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Paris Olympics begin",
+    "source": "https://en.wikipedia.org/wiki/1900_Summer_Olympics"
+  },
+  {
     "date": "1900.12.14",
     "category": "science",
     "importance": 5,
@@ -9,6 +19,16 @@
     ],
     "summary": "Planck presents his quantum hypothesis",
     "source": "https://en.wikipedia.org/wiki/Planck%27s_law"
+  },
+  {
+    "date": "1901.01.01",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Australian federation takes effect",
+    "source": "https://en.wikipedia.org/wiki/Federation_of_Australia"
   },
   {
     "date": "1901.12.10",
@@ -23,7 +43,7 @@
   {
     "date": "1901.12.12",
     "category": "tech",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "radio",
       "transatlantic"
@@ -34,7 +54,7 @@
   {
     "date": "1903.07.01",
     "category": "sport",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "cycling"
     ],
@@ -51,6 +71,16 @@
     ],
     "summary": "Wright brothers achieve powered flight",
     "source": "https://en.wikipedia.org/wiki/Wright_Flyer"
+  },
+  {
+    "date": "1904.02.08",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war"
+    ],
+    "summary": "Russo-Japanese War begins",
+    "source": "https://en.wikipedia.org/wiki/Russo-Japanese_War"
   },
   {
     "date": "1905.06.30",
@@ -77,7 +107,7 @@
   {
     "date": "1908.06.30",
     "category": "science",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "natural-disaster"
     ],
@@ -98,7 +128,7 @@
   {
     "date": "1911.07.24",
     "category": "exploration",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "archaeology",
       "expedition"
@@ -120,7 +150,7 @@
   {
     "date": "1912.01.01",
     "category": "politics",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "china",
       "revolution"
@@ -153,7 +183,7 @@
   {
     "date": "1913.02.17",
     "category": "arts",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "art",
       "modernism"
@@ -164,12 +194,12 @@
   {
     "date": "1913.05.29",
     "category": "arts",
-    "importance": 3,
+    "importance": 5,
     "tags": [
       "music",
       "ballet"
     ],
-    "summary": "Rite of Spring premiere causes riot",
+    "summary": "The Rite of Spring premieres in Paris",
     "source": "https://en.wikipedia.org/wiki/The_Rite_of_Spring"
   },
   {
@@ -275,7 +305,7 @@
   {
     "date": "1920.11.02",
     "category": "pop",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "radio",
       "media"
@@ -286,7 +316,7 @@
   {
     "date": "1922.02.02",
     "category": "arts",
-    "importance": 3,
+    "importance": 5,
     "tags": [
       "literature"
     ],
@@ -307,7 +337,7 @@
   {
     "date": "1923.09.01",
     "category": "science",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "natural-disaster",
       "earthquake"
@@ -318,7 +348,7 @@
   {
     "date": "1924.01.25",
     "category": "sport",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "olympics",
       "winter-sports"
@@ -407,7 +437,7 @@
   {
     "date": "1929.02.11",
     "category": "religion",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "vatican",
       "catholic",
@@ -430,7 +460,7 @@
   {
     "date": "1929.11.07",
     "category": "arts",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "art",
       "modernism"
@@ -463,7 +493,7 @@
   {
     "date": "1936.08.01",
     "category": "sport",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "olympics",
       "germany"
@@ -485,7 +515,7 @@
   {
     "date": "1936.11.02",
     "category": "tech",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "television",
       "media"
@@ -518,7 +548,7 @@
   {
     "date": "1938.06.22",
     "category": "sport",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "boxing",
       "usa"
@@ -529,7 +559,7 @@
   {
     "date": "1938.10.30",
     "category": "pop",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "radio",
       "media"
@@ -709,7 +739,7 @@
   {
     "date": "1947.06.05",
     "category": "politics",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "economics",
       "europe",
@@ -732,7 +762,7 @@
   {
     "date": "1947.10.14",
     "category": "exploration",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "aviation"
     ],
@@ -809,7 +839,7 @@
   {
     "date": "1950.05.13",
     "category": "sport",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "motorsport"
     ],
@@ -852,7 +882,7 @@
   {
     "date": "1951.07.16",
     "category": "arts",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "literature",
       "novel"
@@ -863,7 +893,7 @@
   {
     "date": "1952.08.29",
     "category": "arts",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "music"
     ],
@@ -903,6 +933,18 @@
     "source": "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
   },
   {
+    "date": "1953.07.27",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "war",
+      "treaty",
+      "cold-war"
+    ],
+    "summary": "Korean War armistice signed",
+    "source": "https://en.wikipedia.org/wiki/Korean_Armistice_Agreement"
+  },
+  {
     "date": "1954.05.06",
     "category": "sport",
     "importance": 3,
@@ -928,7 +970,7 @@
   {
     "date": "1954.07.05",
     "category": "pop",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "rock-and-roll",
       "music"
@@ -970,6 +1012,17 @@
     "source": "https://en.wikipedia.org/wiki/Rosa_Parks"
   },
   {
+    "date": "1956.10.29",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "middle-east"
+    ],
+    "summary": "Suez Crisis begins",
+    "source": "https://en.wikipedia.org/wiki/Suez_Crisis"
+  },
+  {
     "date": "1957.03.25",
     "category": "politics",
     "importance": 4,
@@ -995,7 +1048,7 @@
   {
     "date": "1958.08.03",
     "category": "exploration",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "polar",
       "ocean"
@@ -1006,7 +1059,7 @@
   {
     "date": "1958.09.12",
     "category": "tech",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "electronics",
       "computing"
@@ -1017,7 +1070,7 @@
   {
     "date": "1959.01.25",
     "category": "religion",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "christianity",
       "catholic",
@@ -1040,7 +1093,7 @@
   {
     "date": "1959.08.17",
     "category": "arts",
-    "importance": 4,
+    "importance": 5,
     "tags": [
       "music",
       "jazz"
@@ -1051,7 +1104,7 @@
   {
     "date": "1959.09.13",
     "category": "exploration",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "space",
       "ussr"
@@ -1062,7 +1115,7 @@
   {
     "date": "1959.10.21",
     "category": "arts",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "art",
       "architecture"
@@ -1082,6 +1135,17 @@
     "source": "https://en.wikipedia.org/wiki/Bathyscaphe_Trieste"
   },
   {
+    "date": "1960.05.22",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "earthquake",
+      "natural-disaster"
+    ],
+    "summary": "Valdivia earthquake strikes Chile",
+    "source": "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+  },
+  {
     "date": "1960.07.11",
     "category": "arts",
     "importance": 4,
@@ -1094,6 +1158,16 @@
     "source": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird"
   },
   {
+    "date": "1960.08.25",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Rome Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1960_Summer_Olympics"
+  },
+  {
     "date": "1961.04.12",
     "category": "exploration",
     "importance": 5,
@@ -1104,6 +1178,16 @@
     ],
     "summary": "Gagarin is first human in space",
     "source": "https://en.wikipedia.org/wiki/Vostok_1"
+  },
+  {
+    "date": "1962.10.05",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film"
+    ],
+    "summary": "Dr. No premieres in London",
+    "source": "https://en.wikipedia.org/wiki/Dr._No_(film)"
   },
   {
     "date": "1962.10.11",
@@ -1129,6 +1213,18 @@
     "source": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
   },
   {
+    "date": "1963.06.16",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "human-spaceflight",
+      "first"
+    ],
+    "summary": "Tereshkova is first woman in space",
+    "source": "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+  },
+  {
     "date": "1963.11.22",
     "category": "history",
     "importance": 4,
@@ -1151,6 +1247,17 @@
     "source": "https://en.wikipedia.org/wiki/The_Beatles"
   },
   {
+    "date": "1964.03.27",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "earthquake",
+      "natural-disaster"
+    ],
+    "summary": "Great Alaska earthquake strikes",
+    "source": "https://en.wikipedia.org/wiki/1964_Alaska_earthquake"
+  },
+  {
     "date": "1964.07.02",
     "category": "politics",
     "importance": 4,
@@ -1160,6 +1267,28 @@
     ],
     "summary": "US Civil Rights Act signed into law",
     "source": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964"
+  },
+  {
+    "date": "1964.10.10",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Tokyo Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1964_Summer_Olympics"
+  },
+  {
+    "date": "1965.03.18",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "human-spaceflight",
+      "first"
+    ],
+    "summary": "Leonov makes the first spacewalk",
+    "source": "https://en.wikipedia.org/wiki/Alexei_Leonov"
   },
   {
     "date": "1965.12.08",
@@ -1217,6 +1346,18 @@
     "source": "https://en.wikipedia.org/wiki/Christiaan_Barnard"
   },
   {
+    "date": "1968.04.04",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "assassination",
+      "civil-rights",
+      "usa"
+    ],
+    "summary": "Martin Luther King Jr. assassinated",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr."
+  },
+  {
     "date": "1968.10.16",
     "category": "sport",
     "importance": 4,
@@ -1230,7 +1371,7 @@
   {
     "date": "1969.07.20",
     "category": "pop",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "television",
       "space"
@@ -1328,6 +1469,38 @@
     "source": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
   },
   {
+    "date": "1973.09.20",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "tennis",
+      "social-movement"
+    ],
+    "summary": "King beats Riggs in Battle of the Sexes",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_the_Sexes_(tennis)"
+  },
+  {
+    "date": "1973.10.06",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "middle-east"
+    ],
+    "summary": "Yom Kippur War begins",
+    "source": "https://en.wikipedia.org/wiki/Yom_Kippur_War"
+  },
+  {
+    "date": "1973.10.20",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "architecture"
+    ],
+    "summary": "Sydney Opera House opens",
+    "source": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+  },
+  {
     "date": "1974.10.30",
     "category": "sport",
     "importance": 5,
@@ -1371,6 +1544,18 @@
     "source": "https://en.wikipedia.org/wiki/Perfect_10_(gymnastics)"
   },
   {
+    "date": "1976.07.20",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "mars",
+      "nasa"
+    ],
+    "summary": "Viking 1 lands on Mars",
+    "source": "https://en.wikipedia.org/wiki/Viking_1"
+  },
+  {
     "date": "1977.01.31",
     "category": "arts",
     "importance": 3,
@@ -1412,6 +1597,17 @@
     ],
     "summary": "First IVF baby, Louise Brown, is born",
     "source": "https://en.wikipedia.org/wiki/History_of_in_vitro_fertilisation"
+  },
+  {
+    "date": "1978.08.26",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "John Paul I elected pope",
+    "source": "https://en.wikipedia.org/wiki/Pope_John_Paul_I"
   },
   {
     "date": "1978.10.16",
@@ -1515,6 +1711,28 @@
     "source": "https://en.wikipedia.org/wiki/STS-1"
   },
   {
+    "date": "1981.05.13",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "assassination"
+    ],
+    "summary": "Pope John Paul II is shot in Rome",
+    "source": "https://en.wikipedia.org/wiki/Attempted_assassination_of_Pope_John_Paul_II"
+  },
+  {
+    "date": "1981.06.05",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "health",
+      "medicine"
+    ],
+    "summary": "CDC publishes first AIDS case report",
+    "source": "https://en.wikipedia.org/wiki/Timeline_of_HIV/AIDS"
+  },
+  {
     "date": "1981.08.01",
     "category": "pop",
     "importance": 2,
@@ -1557,6 +1775,16 @@
     "source": "https://en.wikipedia.org/wiki/Macintosh_128K"
   },
   {
+    "date": "1985.05.16",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "climate"
+    ],
+    "summary": "Ozone hole over Antarctica reported",
+    "source": "https://en.wikipedia.org/wiki/Ozone_depletion"
+  },
+  {
     "date": "1985.07.13",
     "category": "pop",
     "importance": 5,
@@ -1571,7 +1799,7 @@
   {
     "date": "1985.09.01",
     "category": "exploration",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "ocean",
       "deep-sea",
@@ -1579,6 +1807,16 @@
     ],
     "summary": "Ballard expedition finds Titanic wreck",
     "source": "https://en.wikipedia.org/wiki/Wreck_of_the_Titanic"
+  },
+  {
+    "date": "1985.09.13",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "games"
+    ],
+    "summary": "Super Mario Bros. released in Japan",
+    "source": "https://en.wikipedia.org/wiki/Super_Mario_Bros."
   },
   {
     "date": "1986.01.28",
@@ -1616,6 +1854,50 @@
     "source": "https://en.wikipedia.org/wiki/Argentina_v_England_(1986_FIFA_World_Cup)"
   },
   {
+    "date": "1988.09.24",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "athletics"
+    ],
+    "summary": "Ben Johnson wins 100m, then disqualified",
+    "source": "https://en.wikipedia.org/wiki/Ben_Johnson_(Canadian_sprinter)"
+  },
+  {
+    "date": "1988.09.26",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "The Satanic Verses is published",
+    "source": "https://en.wikipedia.org/wiki/The_Satanic_Verses"
+  },
+  {
+    "date": "1989.02.14",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "islam",
+      "iran"
+    ],
+    "summary": "Khomeini issues fatwa against Rushdie",
+    "source": "https://en.wikipedia.org/wiki/Satanic_Verses_controversy"
+  },
+  {
+    "date": "1989.03.29",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "architecture",
+      "museum"
+    ],
+    "summary": "Louvre Pyramid opens to the public",
+    "source": "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+  },
+  {
     "date": "1989.06.04",
     "category": "politics",
     "importance": 4,
@@ -1640,7 +1922,7 @@
   {
     "date": "1989.11.09",
     "category": "politics",
-    "importance": 4,
+    "importance": 3,
     "tags": [
       "cold-war",
       "germany"
@@ -1669,6 +1951,17 @@
     ],
     "summary": "Hubble Space Telescope launched",
     "source": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+  },
+  {
+    "date": "1990.08.02",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "middle-east"
+    ],
+    "summary": "Iraq invades Kuwait",
+    "source": "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Kuwait"
   },
   {
     "date": "1990.10.03",
@@ -1737,6 +2030,38 @@
     "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty"
   },
   {
+    "date": "1992.07.25",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Barcelona Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1992_Summer_Olympics_opening_ceremony"
+  },
+  {
+    "date": "1993.04.30",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "web",
+      "internet"
+    ],
+    "summary": "CERN releases the Web to public domain",
+    "source": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+  },
+  {
+    "date": "1993.06.11",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "blockbuster"
+    ],
+    "summary": "Jurassic Park opens in US theaters",
+    "source": "https://en.wikipedia.org/wiki/Jurassic_Park"
+  },
+  {
     "date": "1994.04.07",
     "category": "history",
     "importance": 4,
@@ -1758,6 +2083,28 @@
     "source": "https://en.wikipedia.org/wiki/Nelson_Mandela"
   },
   {
+    "date": "1995.06.24",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "rugby",
+      "south-africa"
+    ],
+    "summary": "South Africa win the Rugby World Cup",
+    "source": "https://en.wikipedia.org/wiki/1995_Rugby_World_Cup"
+  },
+  {
+    "date": "1995.11.22",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "animation"
+    ],
+    "summary": "Toy Story opens, first CGI feature",
+    "source": "https://en.wikipedia.org/wiki/Toy_Story"
+  },
+  {
     "date": "1997.02.22",
     "category": "science",
     "importance": 3,
@@ -1769,6 +2116,17 @@
     "source": "https://en.wikipedia.org/wiki/Dolly_(sheep)"
   },
   {
+    "date": "1997.05.11",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "ai",
+      "computing"
+    ],
+    "summary": "Deep Blue beats Kasparov in a match",
+    "source": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"
+  },
+  {
     "date": "1997.06.26",
     "category": "arts",
     "importance": 3,
@@ -1777,6 +2135,18 @@
     ],
     "summary": "First Harry Potter book published",
     "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+  },
+  {
+    "date": "1997.07.04",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "mars",
+      "nasa"
+    ],
+    "summary": "Pathfinder and Sojourner land on Mars",
+    "source": "https://en.wikipedia.org/wiki/Mars_Pathfinder"
   },
   {
     "date": "1997.10.18",
@@ -1812,6 +2182,17 @@
     "source": "https://en.wikipedia.org/wiki/Good_Friday_Agreement"
   },
   {
+    "date": "1998.07.12",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "world-cup",
+      "football"
+    ],
+    "summary": "France win the World Cup",
+    "source": "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup"
+  },
+  {
     "date": "1998.09.04",
     "category": "tech",
     "importance": 4,
@@ -1834,6 +2215,27 @@
     "source": "https://en.wikipedia.org/wiki/Zarya_(ISS_module)"
   },
   {
+    "date": "1999.03.31",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film"
+    ],
+    "summary": "The Matrix opens in US theaters",
+    "source": "https://en.wikipedia.org/wiki/The_Matrix"
+  },
+  {
+    "date": "2000.05.11",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art",
+      "museum"
+    ],
+    "summary": "Tate Modern opens in London",
+    "source": "https://en.wikipedia.org/wiki/Tate_Modern"
+  },
+  {
     "date": "2001.09.11",
     "category": "history",
     "importance": 5,
@@ -1843,6 +2245,17 @@
     ],
     "summary": "September 11 attacks on the US",
     "source": "https://en.wikipedia.org/wiki/September_11_attacks"
+  },
+  {
+    "date": "2001.10.23",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "apple",
+      "electronics"
+    ],
+    "summary": "Apple announces the iPod",
+    "source": "https://en.wikipedia.org/wiki/IPod"
   },
   {
     "date": "2003.03.20",
@@ -1890,6 +2303,17 @@
     "source": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
   },
   {
+    "date": "2005.02.14",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "internet",
+      "media"
+    ],
+    "summary": "YouTube is founded",
+    "source": "https://en.wikipedia.org/wiki/YouTube"
+  },
+  {
     "date": "2005.04.02",
     "category": "religion",
     "importance": 4,
@@ -1899,6 +2323,18 @@
     ],
     "summary": "Pope John Paul II dies",
     "source": "https://en.wikipedia.org/wiki/Death_and_funeral_of_Pope_John_Paul_II"
+  },
+  {
+    "date": "2005.08.29",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "hurricane",
+      "natural-disaster",
+      "usa"
+    ],
+    "summary": "Hurricane Katrina hits the Gulf Coast",
+    "source": "https://en.wikipedia.org/wiki/Hurricane_Katrina"
   },
   {
     "date": "2007.06.29",
@@ -1945,6 +2381,17 @@
     "source": "https://en.wikipedia.org/wiki/2008_United_States_presidential_election"
   },
   {
+    "date": "2009.01.03",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "cryptocurrency",
+      "finance"
+    ],
+    "summary": "First Bitcoin block is mined",
+    "source": "https://en.wikipedia.org/wiki/Bitcoin"
+  },
+  {
     "date": "2009.08.16",
     "category": "sport",
     "importance": 4,
@@ -1954,6 +2401,29 @@
     ],
     "summary": "Bolt runs 100m in 9.58 seconds",
     "source": "https://en.wikipedia.org/wiki/Usain_Bolt"
+  },
+  {
+    "date": "2010.06.11",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "world-cup",
+      "football",
+      "south-africa"
+    ],
+    "summary": "First World Cup in Africa opens",
+    "source": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup"
+  },
+  {
+    "date": "2010.12.17",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "middle-east"
+    ],
+    "summary": "Bouazizi's protest sparks Arab Spring",
+    "source": "https://en.wikipedia.org/wiki/Arab_Spring"
   },
   {
     "date": "2011.03.11",
@@ -1967,6 +2437,16 @@
     "source": "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami"
   },
   {
+    "date": "2011.04.17",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "television"
+    ],
+    "summary": "Game of Thrones premieres on HBO",
+    "source": "https://en.wikipedia.org/wiki/Game_of_Thrones"
+  },
+  {
     "date": "2012.07.04",
     "category": "science",
     "importance": 4,
@@ -1975,6 +2455,16 @@
     ],
     "summary": "Higgs boson discovery announced",
     "source": "https://en.wikipedia.org/wiki/Higgs_boson"
+  },
+  {
+    "date": "2012.07.27",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "London Olympics open",
+    "source": "https://en.wikipedia.org/wiki/2012_Summer_Olympics_opening_ceremony"
   },
   {
     "date": "2013.02.11",
@@ -1999,6 +2489,17 @@
     "source": "https://en.wikipedia.org/wiki/Pope_Francis"
   },
   {
+    "date": "2014.03.18",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "ukraine",
+      "treaty"
+    ],
+    "summary": "Russia signs annexation of Crimea",
+    "source": "https://en.wikipedia.org/wiki/2014_Russian_annexation_of_Crimea"
+  },
+  {
     "date": "2015.07.14",
     "category": "exploration",
     "importance": 4,
@@ -2008,6 +2509,28 @@
     ],
     "summary": "New Horizons flies past Pluto",
     "source": "https://en.wikipedia.org/wiki/New_Horizons"
+  },
+  {
+    "date": "2015.08.06",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "Hamilton opens on Broadway",
+    "source": "https://en.wikipedia.org/wiki/Hamilton_(musical)"
+  },
+  {
+    "date": "2015.12.12",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "climate",
+      "treaty"
+    ],
+    "summary": "Paris climate agreement adopted",
+    "source": "https://en.wikipedia.org/wiki/Paris_Agreement"
   },
   {
     "date": "2016.02.11",
@@ -2030,6 +2553,16 @@
     ],
     "summary": "UK votes to leave the EU",
     "source": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum"
+  },
+  {
+    "date": "2016.08.05",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Rio Olympics open",
+    "source": "https://en.wikipedia.org/wiki/2016_Summer_Olympics_opening_ceremony"
   },
   {
     "date": "2016.11.08",
@@ -2076,6 +2609,51 @@
     "source": "https://en.wikipedia.org/wiki/Crew_Dragon_Demo-2"
   },
   {
+    "date": "2020.12.08",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine",
+      "pandemic"
+    ],
+    "summary": "UK begins mass COVID-19 vaccination",
+    "source": "https://en.wikipedia.org/wiki/COVID-19_vaccination_in_the_United_Kingdom"
+  },
+  {
+    "date": "2021.01.06",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "usa",
+      "election"
+    ],
+    "summary": "Trump supporters storm the US Capitol",
+    "source": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack"
+  },
+  {
+    "date": "2021.02.18",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "mars",
+      "nasa"
+    ],
+    "summary": "Perseverance rover lands on Mars",
+    "source": "https://en.wikipedia.org/wiki/Perseverance_(rover)"
+  },
+  {
+    "date": "2021.07.23",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "pandemic"
+    ],
+    "summary": "Tokyo Olympics open after delay",
+    "source": "https://en.wikipedia.org/wiki/2020_Summer_Olympics_opening_ceremony"
+  },
+  {
     "date": "2022.02.24",
     "category": "history",
     "importance": 4,
@@ -2085,6 +2663,17 @@
     ],
     "summary": "Russia invades Ukraine",
     "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+  },
+  {
+    "date": "2022.07.12",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy",
+      "space"
+    ],
+    "summary": "Webb telescope releases first images",
+    "source": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
   },
   {
     "date": "2022.11.30",
@@ -2107,5 +2696,49 @@
     ],
     "summary": "Argentina win the World Cup",
     "source": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final"
+  },
+  {
+    "date": "2023.10.07",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "middle-east",
+      "terrorism"
+    ],
+    "summary": "Hamas attacks Israel on October 7",
+    "source": "https://en.wikipedia.org/wiki/October_7_attacks"
+  },
+  {
+    "date": "2024.07.26",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Paris Olympics open on the Seine",
+    "source": "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony"
+  },
+  {
+    "date": "2026.02.06",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "winter-sports"
+    ],
+    "summary": "Milan Cortina Winter Olympics open",
+    "source": "https://en.wikipedia.org/wiki/2026_Winter_Olympics_opening_ceremony"
+  },
+  {
+    "date": "2026.07.19",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "world-cup",
+      "football"
+    ],
+    "summary": "Spain win the World Cup",
+    "source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final"
   }
 ]

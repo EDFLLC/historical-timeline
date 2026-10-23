@@ -149,3 +149,12 @@ astronomy
 social-media
 telephony
 ireland
+
+# --- added Day 4 ---
+games
+cryptocurrency
+mars
+rugby
+tennis
+hurricane
+climate

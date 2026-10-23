@@ -26,8 +26,8 @@ Each event goes in exactly one lane: the one where its **primary significance** 
 | `religion` | Religion & Belief | Religious leaders, institutions, doctrine, councils, schisms. If a religious leader or body is the actor, use this lane |
 | `science` | Science & Nature | Discoveries, theories, experiments, natural phenomena and natural disasters |
 | `tech` | Technology | Inventions, products, computing, engineering, spacecraft hardware |
-| `arts` | Arts & Literature | Literature, visual art, classical and art music, theatre, architecture, philosophy |
-| `pop` | Pop Culture & Leisure | Film, TV, popular music, games, celebrity, mass entertainment |
+| `arts` | Arts & Literature | Literature, visual art, classical and art music, jazz, theatre, architecture, museums, philosophy |
+| `pop` | Pop Culture & Leisure | Film, TV, radio and broadcasting, rock/pop and other popular music, games, celebrity, mass entertainment |
 | `sport` | Sport | Competitions, athletes, records, sporting milestones |
 | `exploration` | Exploration & Discovery | Expeditions, firsts (ascents, voyages, flights, spaceflight), archaeological discoveries, exploration of the deep sea |
 

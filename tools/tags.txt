@@ -25,6 +25,7 @@ first
 record
 
 # --- politics and society ---
+revolution
 civil-rights
 human-rights
 suffrage
@@ -60,6 +61,8 @@ caliphate
 buddhism
 
 # --- science ---
+quantum
+nobel
 physics
 relativity
 nuclear
@@ -70,6 +73,7 @@ cloning
 medicine
 
 # --- technology ---
+radio
 aviation
 transatlantic
 automobile
@@ -89,6 +93,8 @@ television
 media
 
 # --- arts ---
+jazz
+architecture
 art
 modernism
 literature
@@ -112,6 +118,8 @@ leisure
 theme-park
 
 # --- sport ---
+motorsport
+winter-sports
 olympics
 athletics
 running

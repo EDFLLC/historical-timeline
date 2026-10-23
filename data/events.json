@@ -1,5 +1,37 @@
 [
   {
+    "date": "1900.12.14",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "physics",
+      "quantum"
+    ],
+    "summary": "Planck presents his quantum hypothesis",
+    "source": "https://en.wikipedia.org/wiki/Planck%27s_law"
+  },
+  {
+    "date": "1901.12.10",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "nobel"
+    ],
+    "summary": "First Nobel Prizes are awarded",
+    "source": "https://en.wikipedia.org/wiki/Nobel_Prize"
+  },
+  {
+    "date": "1901.12.12",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "radio",
+      "transatlantic"
+    ],
+    "summary": "Marconi sends first transatlantic signal",
+    "source": "https://en.wikipedia.org/wiki/Signal_Hill,_Newfoundland_and_Labrador"
+  },
+  {
     "date": "1903.07.01",
     "category": "sport",
     "importance": 4,
@@ -31,6 +63,28 @@
     "source": "https://en.wikipedia.org/wiki/Annus_mirabilis_papers"
   },
   {
+    "date": "1906.04.18",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "natural-disaster",
+      "earthquake",
+      "usa"
+    ],
+    "summary": "San Francisco earthquake strikes",
+    "source": "https://en.wikipedia.org/wiki/1906_San_Francisco_earthquake"
+  },
+  {
+    "date": "1908.06.30",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "natural-disaster"
+    ],
+    "summary": "Tunguska event flattens Siberian forest",
+    "source": "https://en.wikipedia.org/wiki/Tunguska_event"
+  },
+  {
     "date": "1908.10.01",
     "category": "tech",
     "importance": 4,
@@ -42,6 +96,17 @@
     "source": "https://en.wikipedia.org/wiki/Ford_Model_T"
   },
   {
+    "date": "1911.07.24",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "archaeology",
+      "expedition"
+    ],
+    "summary": "Bingham reaches Machu Picchu",
+    "source": "https://en.wikipedia.org/wiki/Hiram_Bingham_III"
+  },
+  {
     "date": "1911.12.14",
     "category": "exploration",
     "importance": 4,
@@ -51,6 +116,28 @@
     ],
     "summary": "Amundsen reaches the South Pole",
     "source": "https://en.wikipedia.org/wiki/Roald_Amundsen"
+  },
+  {
+    "date": "1912.01.01",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "china",
+      "revolution"
+    ],
+    "summary": "Republic of China is established",
+    "source": "https://en.wikipedia.org/wiki/Republic_of_China_(1912%E2%80%931949)"
+  },
+  {
+    "date": "1912.01.17",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "polar",
+      "expedition"
+    ],
+    "summary": "Scott's party reaches the South Pole",
+    "source": "https://en.wikipedia.org/wiki/Robert_Falcon_Scott"
   },
   {
     "date": "1912.04.15",
@@ -86,6 +173,17 @@
     "source": "https://en.wikipedia.org/wiki/The_Rite_of_Spring"
   },
   {
+    "date": "1914.06.28",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "assassination",
+      "wwi"
+    ],
+    "summary": "Archduke Franz Ferdinand assassinated",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+  },
+  {
     "date": "1914.07.28",
     "category": "history",
     "importance": 5,
@@ -95,6 +193,17 @@
     ],
     "summary": "First World War begins",
     "source": "https://en.wikipedia.org/wiki/World_War_I"
+  },
+  {
+    "date": "1914.08.15",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "engineering",
+      "maritime"
+    ],
+    "summary": "Panama Canal opens to traffic",
+    "source": "https://en.wikipedia.org/wiki/Panama_Canal"
   },
   {
     "date": "1915.11.25",
@@ -108,15 +217,49 @@
     "source": "https://en.wikipedia.org/wiki/History_of_general_relativity"
   },
   {
+    "date": "1917.11.07",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "ussr",
+      "revolution"
+    ],
+    "summary": "Bolsheviks seize power in Petrograd",
+    "source": "https://en.wikipedia.org/wiki/October_Revolution"
+  },
+  {
     "date": "1918.11.11",
     "category": "history",
-    "importance": 5,
+    "importance": 4,
     "tags": [
       "war",
       "wwi"
     ],
     "summary": "Armistice ends the First World War",
     "source": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"
+  },
+  {
+    "date": "1919.05.29",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics",
+      "relativity"
+    ],
+    "summary": "Eclipse expedition tests relativity",
+    "source": "https://en.wikipedia.org/wiki/Arthur_Eddington"
+  },
+  {
+    "date": "1919.06.28",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "wwi",
+      "germany"
+    ],
+    "summary": "Treaty of Versailles is signed",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
   },
   {
     "date": "1920.08.18",
@@ -128,6 +271,17 @@
     ],
     "summary": "US women win the right to vote",
     "source": "https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution"
+  },
+  {
+    "date": "1920.11.02",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "radio",
+      "media"
+    ],
+    "summary": "KDKA broadcasts election returns",
+    "source": "https://en.wikipedia.org/wiki/KDKA_(AM)"
   },
   {
     "date": "1922.02.02",
@@ -149,6 +303,28 @@
     ],
     "summary": "Carter's team finds Tutankhamun's tomb",
     "source": "https://en.wikipedia.org/wiki/Discovery_of_the_tomb_of_Tutankhamun"
+  },
+  {
+    "date": "1923.09.01",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "natural-disaster",
+      "earthquake"
+    ],
+    "summary": "Great Kantō earthquake hits Japan",
+    "source": "https://en.wikipedia.org/wiki/Great_Kant%C5%8D_Earthquake"
+  },
+  {
+    "date": "1924.01.25",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "olympics",
+      "winter-sports"
+    ],
+    "summary": "First Winter Olympics open in Chamonix",
+    "source": "https://en.wikipedia.org/wiki/1924_Winter_Olympics"
   },
   {
     "date": "1924.03.03",
@@ -229,6 +405,18 @@
     "source": "https://en.wikipedia.org/wiki/Steamboat_Willie"
   },
   {
+    "date": "1929.02.11",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "vatican",
+      "catholic",
+      "treaty"
+    ],
+    "summary": "Lateran Treaty creates Vatican City",
+    "source": "https://en.wikipedia.org/wiki/Lateran_Treaty"
+  },
+  {
     "date": "1929.10.29",
     "category": "history",
     "importance": 5,
@@ -238,6 +426,17 @@
     ],
     "summary": "Wall Street Crash: Black Tuesday",
     "source": "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929"
+  },
+  {
+    "date": "1929.11.07",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art",
+      "modernism"
+    ],
+    "summary": "Museum of Modern Art opens in New York",
+    "source": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art"
   },
   {
     "date": "1930.07.13",
@@ -262,6 +461,17 @@
     "source": "https://en.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power"
   },
   {
+    "date": "1936.08.01",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "olympics",
+      "germany"
+    ],
+    "summary": "Berlin Olympics open under Nazi rule",
+    "source": "https://en.wikipedia.org/wiki/1936_Summer_Olympics"
+  },
+  {
     "date": "1936.08.03",
     "category": "sport",
     "importance": 4,
@@ -271,6 +481,28 @@
     ],
     "summary": "Owens wins 100m at Berlin Games",
     "source": "https://en.wikipedia.org/wiki/Jesse_Owens"
+  },
+  {
+    "date": "1936.11.02",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "television",
+      "media"
+    ],
+    "summary": "BBC starts regular television service",
+    "source": "https://en.wikipedia.org/wiki/BBC_Television"
+  },
+  {
+    "date": "1937.07.07",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "china"
+    ],
+    "summary": "Second Sino-Japanese War begins",
+    "source": "https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident"
   },
   {
     "date": "1937.12.21",
@@ -284,6 +516,51 @@
     "source": "https://en.wikipedia.org/wiki/Snow_White_(1937_film)"
   },
   {
+    "date": "1938.06.22",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "boxing",
+      "usa"
+    ],
+    "summary": "Louis knocks out Schmeling in round one",
+    "source": "https://en.wikipedia.org/wiki/Joe_Louis_vs._Max_Schmeling_II"
+  },
+  {
+    "date": "1938.10.30",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "radio",
+      "media"
+    ],
+    "summary": "War of the Worlds radio drama airs",
+    "source": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama)"
+  },
+  {
+    "date": "1938.11.09",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Nazis stage the Kristallnacht pogrom",
+    "source": "https://en.wikipedia.org/wiki/Kristallnacht"
+  },
+  {
+    "date": "1939.08.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "ussr",
+      "germany"
+    ],
+    "summary": "Molotov-Ribbentrop Pact is signed",
+    "source": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact"
+  },
+  {
     "date": "1939.09.01",
     "category": "history",
     "importance": 5,
@@ -293,6 +570,40 @@
     ],
     "summary": "Second World War begins",
     "source": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+  },
+  {
+    "date": "1941.05.01",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film"
+    ],
+    "summary": "Citizen Kane opens in New York",
+    "source": "https://en.wikipedia.org/wiki/Citizen_Kane"
+  },
+  {
+    "date": "1941.06.22",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "wwii",
+      "ussr"
+    ],
+    "summary": "Germany invades the Soviet Union",
+    "source": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
+  },
+  {
+    "date": "1941.12.07",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "wwii",
+      "usa"
+    ],
+    "summary": "Japan attacks Pearl Harbor",
+    "source": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
   },
   {
     "date": "1942.12.02",
@@ -307,15 +618,49 @@
     "source": "https://en.wikipedia.org/wiki/Chicago_Pile-1"
   },
   {
+    "date": "1943.02.02",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "wwii",
+      "ussr"
+    ],
+    "summary": "Battle of Stalingrad ends",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
+  },
+  {
+    "date": "1944.06.06",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "wwii"
+    ],
+    "summary": "Allied forces land in Normandy",
+    "source": "https://en.wikipedia.org/wiki/Normandy_landings"
+  },
+  {
     "date": "1945.05.08",
     "category": "history",
-    "importance": 5,
+    "importance": 4,
     "tags": [
       "war",
       "wwii"
     ],
     "summary": "VE Day: war ends in Europe",
     "source": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
+  },
+  {
+    "date": "1945.07.16",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "nuclear",
+      "wwii"
+    ],
+    "summary": "First nuclear weapon test at Trinity",
+    "source": "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)"
   },
   {
     "date": "1945.08.06",
@@ -328,6 +673,16 @@
     ],
     "summary": "Atomic bomb dropped on Hiroshima",
     "source": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+  },
+  {
+    "date": "1945.10.24",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "united-nations"
+    ],
+    "summary": "United Nations is founded",
+    "source": "https://en.wikipedia.org/wiki/United_Nations"
   },
   {
     "date": "1946.02.14",
@@ -352,6 +707,18 @@
     "source": "https://en.wikipedia.org/wiki/Jackie_Robinson"
   },
   {
+    "date": "1947.06.05",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "economics",
+      "europe",
+      "cold-war"
+    ],
+    "summary": "Marshall announces plan to aid Europe",
+    "source": "https://en.wikipedia.org/wiki/Marshall_Plan"
+  },
+  {
     "date": "1947.08.15",
     "category": "politics",
     "importance": 5,
@@ -361,6 +728,16 @@
     ],
     "summary": "India gains independence",
     "source": "https://en.wikipedia.org/wiki/Independence_Day_(India)"
+  },
+  {
+    "date": "1947.10.14",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "Yeager breaks the sound barrier",
+    "source": "https://en.wikipedia.org/wiki/Chuck_Yeager"
   },
   {
     "date": "1947.12.23",
@@ -374,15 +751,37 @@
     "source": "https://en.wikipedia.org/wiki/Transistor"
   },
   {
+    "date": "1948.05.14",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Israel declares independence",
+    "source": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence"
+  },
+  {
     "date": "1948.12.10",
     "category": "politics",
-    "importance": 5,
+    "importance": 4,
     "tags": [
       "human-rights",
       "united-nations"
     ],
     "summary": "UN adopts Declaration of Human Rights",
     "source": "https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights"
+  },
+  {
+    "date": "1949.04.04",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "cold-war",
+      "usa"
+    ],
+    "summary": "North Atlantic Treaty is signed",
+    "source": "https://en.wikipedia.org/wiki/NATO"
   },
   {
     "date": "1949.06.08",
@@ -408,6 +807,27 @@
     "source": "https://en.wikipedia.org/wiki/Proclamation_of_the_People%27s_Republic_of_China"
   },
   {
+    "date": "1950.05.13",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "motorsport"
+    ],
+    "summary": "First Formula One championship race",
+    "source": "https://en.wikipedia.org/wiki/1950_British_Grand_Prix"
+  },
+  {
+    "date": "1950.06.25",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "cold-war"
+    ],
+    "summary": "North Korea invades South Korea",
+    "source": "https://en.wikipedia.org/wiki/Korean_War"
+  },
+  {
     "date": "1950.07.16",
     "category": "sport",
     "importance": 3,
@@ -428,6 +848,27 @@
     ],
     "summary": "Pope defines Assumption as dogma",
     "source": "https://en.wikipedia.org/wiki/Munificentissimus_Deus"
+  },
+  {
+    "date": "1951.07.16",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "The Catcher in the Rye is published",
+    "source": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye"
+  },
+  {
+    "date": "1952.08.29",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "music"
+    ],
+    "summary": "John Cage's silent piece premieres",
+    "source": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3"
   },
   {
     "date": "1953.01.05",
@@ -473,6 +914,18 @@
     "source": "https://en.wikipedia.org/wiki/Roger_Bannister"
   },
   {
+    "date": "1954.05.17",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "civil-rights",
+      "usa",
+      "racism"
+    ],
+    "summary": "Brown v. Board bans school segregation",
+    "source": "https://en.wikipedia.org/wiki/Brown_v._Board_of_Education"
+  },
+  {
     "date": "1954.07.05",
     "category": "pop",
     "importance": 4,
@@ -484,6 +937,17 @@
     "source": "https://en.wikipedia.org/wiki/That%27s_All_Right"
   },
   {
+    "date": "1955.04.12",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "medicine",
+      "health"
+    ],
+    "summary": "Salk polio vaccine declared safe",
+    "source": "https://en.wikipedia.org/wiki/Announcement_of_polio_vaccine_success"
+  },
+  {
     "date": "1955.07.17",
     "category": "pop",
     "importance": 3,
@@ -493,6 +957,17 @@
     ],
     "summary": "Disneyland opens in California",
     "source": "https://en.wikipedia.org/wiki/Disneyland"
+  },
+  {
+    "date": "1955.12.01",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "civil-rights",
+      "usa"
+    ],
+    "summary": "Rosa Parks is arrested in Montgomery",
+    "source": "https://en.wikipedia.org/wiki/Rosa_Parks"
   },
   {
     "date": "1957.03.25",
@@ -518,6 +993,40 @@
     "source": "https://en.wikipedia.org/wiki/Sputnik_1"
   },
   {
+    "date": "1958.08.03",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "polar",
+      "ocean"
+    ],
+    "summary": "Nautilus submarine reaches North Pole",
+    "source": "https://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)"
+  },
+  {
+    "date": "1958.09.12",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "electronics",
+      "computing"
+    ],
+    "summary": "Kilby shows first integrated circuit",
+    "source": "https://en.wikipedia.org/wiki/Jack_Kilby"
+  },
+  {
+    "date": "1959.01.25",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "christianity",
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Pope announces Second Vatican Council",
+    "source": "https://en.wikipedia.org/wiki/Second_Vatican_Council"
+  },
+  {
     "date": "1959.03.17",
     "category": "religion",
     "importance": 5,
@@ -527,6 +1036,39 @@
     ],
     "summary": "Dalai Lama flees Lhasa into exile",
     "source": "https://en.wikipedia.org/wiki/1959_Tibetan_uprising"
+  },
+  {
+    "date": "1959.08.17",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "music",
+      "jazz"
+    ],
+    "summary": "Miles Davis releases Kind of Blue",
+    "source": "https://en.wikipedia.org/wiki/Kind_of_Blue"
+  },
+  {
+    "date": "1959.09.13",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "ussr"
+    ],
+    "summary": "Luna 2 is first craft to reach Moon",
+    "source": "https://en.wikipedia.org/wiki/Luna_2"
+  },
+  {
+    "date": "1959.10.21",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "summary": "Guggenheim Museum opens in New York",
+    "source": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum"
   },
   {
     "date": "1960.01.23",
@@ -565,7 +1107,7 @@
   {
     "date": "1963.11.22",
     "category": "history",
-    "importance": 5,
+    "importance": 4,
     "tags": [
       "assassination",
       "usa"
@@ -948,7 +1490,7 @@
   {
     "date": "2022.02.24",
     "category": "history",
-    "importance": 5,
+    "importance": 4,
     "tags": [
       "war",
       "ukraine"

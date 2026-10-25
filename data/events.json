@@ -1306,6 +1306,17 @@
     "source": "https://en.wikipedia.org/wiki/De_Havilland_Comet"
   },
   {
+    "date": "1952.07.19",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "ussr"
+    ],
+    "summary": "Helsinki Games open; USSR debuts",
+    "source": "https://en.wikipedia.org/wiki/1952_Summer_Olympics"
+  },
+  {
     "date": "1952.07.23",
     "category": "politics",
     "importance": 4,
@@ -1579,6 +1590,17 @@
     "source": "https://en.wikipedia.org/wiki/That%27s_All_Right"
   },
   {
+    "date": "1954.07.17",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "jazz",
+      "festival"
+    ],
+    "summary": "First Newport Jazz Festival opens",
+    "source": "https://en.wikipedia.org/wiki/Newport_Jazz_Festival"
+  },
+  {
     "date": "1954.07.29",
     "category": "arts",
     "importance": 4,
@@ -1700,6 +1722,17 @@
     "source": "https://en.wikipedia.org/wiki/Warsaw_Pact"
   },
   {
+    "date": "1955.06.11",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "motorsport",
+      "disaster"
+    ],
+    "summary": "Le Mans disaster kills over 80",
+    "source": "https://en.wikipedia.org/wiki/1955_Le_Mans_disaster"
+  },
+  {
     "date": "1955.07.09",
     "category": "politics",
     "importance": 3,
@@ -1767,6 +1800,17 @@
     "source": "https://en.wikipedia.org/wiki/Rosa_Parks"
   },
   {
+    "date": "1956.01.26",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "olympics",
+      "winter-sports"
+    ],
+    "summary": "Cortina Winter Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1956_Winter_Olympics"
+  },
+  {
     "date": "1956.01.27",
     "category": "pop",
     "importance": 3,
@@ -1808,6 +1852,27 @@
     ],
     "summary": "Minamata disease is officially reported",
     "source": "https://en.wikipedia.org/wiki/Minamata_disease"
+  },
+  {
+    "date": "1956.05.24",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "television"
+    ],
+    "summary": "First Eurovision Song Contest",
+    "source": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1956"
+  },
+  {
+    "date": "1956.06.13",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football"
+    ],
+    "summary": "Real Madrid wins first European Cup",
+    "source": "https://en.wikipedia.org/wiki/1956_European_Cup_final"
   },
   {
     "date": "1956.08.09",
@@ -1862,6 +1927,16 @@
     ],
     "summary": "First transatlantic phone cable opens",
     "source": "https://en.wikipedia.org/wiki/TAT-1"
+  },
+  {
+    "date": "1956.10.08",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Larsen pitches World Series perfect game",
+    "source": "https://en.wikipedia.org/wiki/Don_Larsen"
   },
   {
     "date": "1956.10.23",
@@ -1941,6 +2016,28 @@
     "source": "https://en.wikipedia.org/wiki/On_the_Road"
   },
   {
+    "date": "1957.09.26",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "West Side Story opens on Broadway",
+    "source": "https://en.wikipedia.org/wiki/West_Side_Story"
+  },
+  {
+    "date": "1957.10.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine",
+      "health"
+    ],
+    "summary": "Thalidomide launched in West Germany",
+    "source": "https://en.wikipedia.org/wiki/Thalidomide"
+  },
+  {
     "date": "1957.10.02",
     "category": "pop",
     "importance": 3,
@@ -1963,6 +2060,16 @@
     "source": "https://en.wikipedia.org/wiki/Sputnik_1"
   },
   {
+    "date": "1957.10.08",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Dodgers announce move to Los Angeles",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles_Dodgers"
+  },
+  {
     "date": "1957.11.03",
     "category": "exploration",
     "importance": 3,
@@ -1974,6 +2081,17 @@
     "source": "https://en.wikipedia.org/wiki/Soviet_space_dogs"
   },
   {
+    "date": "1957.12.02",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "nuclear",
+      "usa"
+    ],
+    "summary": "Shippingport reactor goes critical",
+    "source": "https://en.wikipedia.org/wiki/Shippingport_Atomic_Power_Station"
+  },
+  {
     "date": "1958.01.28",
     "category": "tech",
     "importance": 2,
@@ -1982,6 +2100,17 @@
     ],
     "summary": "Classic Lego brick is patented",
     "source": "https://en.wikipedia.org/wiki/Lego"
+  },
+  {
+    "date": "1958.02.06",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "disaster"
+    ],
+    "summary": "Munich air disaster hits Man United",
+    "source": "https://en.wikipedia.org/wiki/Munich_air_disaster"
   },
   {
     "date": "1958.03.02",

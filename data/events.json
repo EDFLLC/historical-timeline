@@ -2382,6 +2382,17 @@
     "source": "https://en.wikipedia.org/wiki/Greensboro_sit-ins"
   },
   {
+    "date": "1960.02.05",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "La Dolce Vita opens in Italy",
+    "source": "https://en.wikipedia.org/wiki/La_Dolce_Vita"
+  },
+  {
     "date": "1960.03.21",
     "category": "politics",
     "importance": 4,
@@ -2391,6 +2402,17 @@
     ],
     "summary": "Sharpeville massacre in South Africa",
     "source": "https://en.wikipedia.org/wiki/Sharpeville_massacre"
+  },
+  {
+    "date": "1960.04.21",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "architecture",
+      "modernism"
+    ],
+    "summary": "Brasilia is inaugurated as capital",
+    "source": "https://en.wikipedia.org/wiki/Bras%C3%ADlia"
   },
   {
     "date": "1960.05.16",
@@ -2446,6 +2468,17 @@
     ],
     "summary": "To Kill a Mockingbird published",
     "source": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird"
+  },
+  {
+    "date": "1960.07.14",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "biology",
+      "exploration"
+    ],
+    "summary": "Goodall begins chimpanzee study at Gombe",
+    "source": "https://en.wikipedia.org/wiki/Jane_Goodall"
   },
   {
     "date": "1960.08.25",
@@ -2514,6 +2547,16 @@
     "source": "https://en.wikipedia.org/wiki/Algerian_War"
   },
   {
+    "date": "1962.07.09",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art"
+    ],
+    "summary": "Warhol's Soup Cans first exhibited",
+    "source": "https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans"
+  },
+  {
     "date": "1962.07.10",
     "category": "tech",
     "importance": 3,
@@ -2557,6 +2600,17 @@
     "source": "https://en.wikipedia.org/wiki/Dr._No_%28film%29"
   },
   {
+    "date": "1962.10.10",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine",
+      "health"
+    ],
+    "summary": "Kefauver-Harris drug law is signed",
+    "source": "https://en.wikipedia.org/wiki/Kefauver%E2%80%93Harris_Amendment"
+  },
+  {
     "date": "1962.10.11",
     "category": "religion",
     "importance": 4,
@@ -2580,6 +2634,17 @@
     "source": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
   },
   {
+    "date": "1962.12.10",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Lawrence of Arabia premieres in London",
+    "source": "https://en.wikipedia.org/wiki/Lawrence_of_Arabia_%28film%29"
+  },
+  {
     "date": "1963.02.19",
     "category": "arts",
     "importance": 3,
@@ -2589,6 +2654,17 @@
     ],
     "summary": "The Feminine Mystique is published",
     "source": "https://en.wikipedia.org/wiki/The_Feminine_Mystique"
+  },
+  {
+    "date": "1963.06.03",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "death",
+      "catholic"
+    ],
+    "summary": "Pope John XXIII dies",
+    "source": "https://en.wikipedia.org/wiki/Pope_John_XXIII"
   },
   {
     "date": "1963.06.16",
@@ -2601,6 +2677,17 @@
     ],
     "summary": "Tereshkova is first woman in space",
     "source": "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+  },
+  {
+    "date": "1963.06.21",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Paul VI is elected pope",
+    "source": "https://en.wikipedia.org/wiki/1963_conclave"
   },
   {
     "date": "1963.06.26",
@@ -2644,6 +2731,17 @@
     ],
     "summary": "President Kennedy assassinated",
     "source": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
+  },
+  {
+    "date": "1964.01.11",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "health",
+      "medicine"
+    ],
+    "summary": "US report links smoking to lung cancer",
+    "source": "https://en.wikipedia.org/wiki/Smoking_and_Health"
   },
   {
     "date": "1964.01.29",
@@ -2741,6 +2839,28 @@
     "source": "https://en.wikipedia.org/wiki/Project_596"
   },
   {
+    "date": "1964.11.21",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Lumen gentium is promulgated",
+    "source": "https://en.wikipedia.org/wiki/Lumen_gentium"
+  },
+  {
+    "date": "1965.03.02",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Sound of Music premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Sound_of_Music_%28film%29"
+  },
+  {
     "date": "1965.03.07",
     "category": "politics",
     "importance": 3,
@@ -2761,6 +2881,17 @@
     ],
     "summary": "Leonov makes the first spacewalk",
     "source": "https://en.wikipedia.org/wiki/Alexei_Leonov"
+  },
+  {
+    "date": "1965.07.20",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Dylan releases Like a Rolling Stone",
+    "source": "https://en.wikipedia.org/wiki/Like_a_Rolling_Stone"
   },
   {
     "date": "1965.07.25",
@@ -2785,6 +2916,39 @@
     "source": "https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965"
   },
   {
+    "date": "1965.10.04",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "united-nations"
+    ],
+    "summary": "Paul VI addresses the United Nations",
+    "source": "https://en.wikipedia.org/wiki/1965_visit_by_Pope_Paul_VI_to_the_United_States"
+  },
+  {
+    "date": "1965.10.28",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Nostra aetate is promulgated",
+    "source": "https://en.wikipedia.org/wiki/Nostra_aetate"
+  },
+  {
+    "date": "1965.12.07",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "catholic"
+    ],
+    "summary": "Rome and Constantinople lift 1054 bans",
+    "source": "https://en.wikipedia.org/wiki/Catholic%E2%80%93Orthodox_Joint_Declaration_of_1965"
+  },
+  {
     "date": "1965.12.08",
     "category": "religion",
     "importance": 3,
@@ -2805,6 +2969,17 @@
     ],
     "summary": "Luna 9 lands softly on the Moon",
     "source": "https://en.wikipedia.org/wiki/Luna_9"
+  },
+  {
+    "date": "1966.05.16",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Beach Boys release Pet Sounds",
+    "source": "https://en.wikipedia.org/wiki/Pet_Sounds"
   },
   {
     "date": "1966.05.16",
@@ -2858,6 +3033,17 @@
     ],
     "summary": "Apollo 1 fire kills three astronauts",
     "source": "https://en.wikipedia.org/wiki/Apollo_1"
+  },
+  {
+    "date": "1967.03.18",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "maritime",
+      "disaster"
+    ],
+    "summary": "Torrey Canyon oil spill off Cornwall",
+    "source": "https://en.wikipedia.org/wiki/Torrey_Canyon_oil_spill"
   },
   {
     "date": "1967.04.21",
@@ -2934,6 +3120,17 @@
     ],
     "summary": "Che Guevara is executed in Bolivia",
     "source": "https://en.wikipedia.org/wiki/Che_Guevara"
+  },
+  {
+    "date": "1967.10.18",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "ussr"
+    ],
+    "summary": "Venera 4 probes the Venus atmosphere",
+    "source": "https://en.wikipedia.org/wiki/Venera_4"
   },
   {
     "date": "1967.12.03",
@@ -3077,6 +3274,28 @@
     "source": "https://en.wikipedia.org/wiki/Super_Bowl_III"
   },
   {
+    "date": "1969.01.28",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "climate"
+    ],
+    "summary": "Santa Barbara oil spill begins",
+    "source": "https://en.wikipedia.org/wiki/1969_Santa_Barbara_oil_spill"
+  },
+  {
+    "date": "1969.01.30",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Beatles play their rooftop concert",
+    "source": "https://en.wikipedia.org/wiki/The_Beatles%27_rooftop_concert"
+  },
+  {
     "date": "1969.02.09",
     "category": "tech",
     "importance": 3,
@@ -3171,6 +3390,17 @@
     ],
     "summary": "Sesame Street premieres",
     "source": "https://en.wikipedia.org/wiki/Sesame_Street"
+  },
+  {
+    "date": "1969.12.06",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "festival",
+      "music"
+    ],
+    "summary": "Altamont Free Concert turns deadly",
+    "source": "https://en.wikipedia.org/wiki/Altamont_Free_Concert"
   },
   {
     "date": "1970.04.13",

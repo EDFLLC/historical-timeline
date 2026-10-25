@@ -2525,6 +2525,17 @@
     "source": "https://en.wikipedia.org/wiki/Berlin_Wall"
   },
   {
+    "date": "1961.10.10",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Catch-22 is published",
+    "source": "https://en.wikipedia.org/wiki/Catch-22"
+  },
+  {
     "date": "1962.02.20",
     "category": "exploration",
     "importance": 4,
@@ -3426,6 +3437,16 @@
     "source": "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_final"
   },
   {
+    "date": "1971.03.08",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "boxing"
+    ],
+    "summary": "Frazier beats Ali in Fight of Century",
+    "source": "https://en.wikipedia.org/wiki/Fight_of_the_Century"
+  },
+  {
     "date": "1971.03.26",
     "category": "politics",
     "importance": 3,
@@ -3458,6 +3479,49 @@
     "source": "https://en.wikipedia.org/wiki/Intel_4004"
   },
   {
+    "date": "1972.01.30",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "ireland"
+    ],
+    "summary": "Bloody Sunday in Derry",
+    "source": "https://en.wikipedia.org/wiki/Bloody_Sunday_%281972%29"
+  },
+  {
+    "date": "1972.02.21",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "china",
+      "cold-war",
+      "usa"
+    ],
+    "summary": "Nixon arrives in China",
+    "source": "https://en.wikipedia.org/wiki/1972_visit_by_Richard_Nixon_to_China"
+  },
+  {
+    "date": "1972.03.24",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Godfather opens across the US",
+    "source": "https://en.wikipedia.org/wiki/The_Godfather"
+  },
+  {
+    "date": "1972.06.17",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "usa"
+    ],
+    "summary": "Watergate break-in at the DNC",
+    "source": "https://en.wikipedia.org/wiki/Watergate_scandal"
+  },
+  {
     "date": "1972.09.05",
     "category": "history",
     "importance": 4,
@@ -3481,6 +3545,28 @@
     "source": "https://en.wikipedia.org/wiki/Apollo_17"
   },
   {
+    "date": "1973.01.22",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "human-rights",
+      "usa"
+    ],
+    "summary": "Roe v. Wade is decided",
+    "source": "https://en.wikipedia.org/wiki/Roe_v._Wade"
+  },
+  {
+    "date": "1973.03.01",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Pink Floyd release Dark Side",
+    "source": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon"
+  },
+  {
     "date": "1973.04.03",
     "category": "tech",
     "importance": 4,
@@ -3490,6 +3576,37 @@
     ],
     "summary": "First handheld mobile phone call",
     "source": "https://en.wikipedia.org/wiki/Martin_Cooper_%28inventor%29"
+  },
+  {
+    "date": "1973.05.14",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Skylab space station launches",
+    "source": "https://en.wikipedia.org/wiki/Skylab"
+  },
+  {
+    "date": "1973.06.09",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "record"
+    ],
+    "summary": "Secretariat wins Belmont by 31 lengths",
+    "source": "https://en.wikipedia.org/wiki/1973_Belmont_Stakes"
+  },
+  {
+    "date": "1973.09.11",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "cold-war"
+    ],
+    "summary": "Coup overthrows Allende in Chile",
+    "source": "https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat"
   },
   {
     "date": "1973.09.20",
@@ -3524,6 +3641,38 @@
     "source": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
   },
   {
+    "date": "1974.04.25",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "europe"
+    ],
+    "summary": "Carnation Revolution in Portugal",
+    "source": "https://en.wikipedia.org/wiki/Carnation_Revolution"
+  },
+  {
+    "date": "1974.07.20",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe",
+      "war"
+    ],
+    "summary": "Turkey invades Cyprus",
+    "source": "https://en.wikipedia.org/wiki/Turkish_invasion_of_Cyprus"
+  },
+  {
+    "date": "1974.07.24",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe"
+    ],
+    "summary": "Karamanlis sworn in as Greek premier",
+    "source": "https://en.wikipedia.org/wiki/Metapolitefsi"
+  },
+  {
     "date": "1974.08.09",
     "category": "politics",
     "importance": 4,
@@ -3542,6 +3691,27 @@
     ],
     "summary": "Ali beats Foreman in Kinshasa",
     "source": "https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle"
+  },
+  {
+    "date": "1975.04.04",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "software",
+      "computing"
+    ],
+    "summary": "Microsoft is founded",
+    "source": "https://en.wikipedia.org/wiki/Microsoft"
+  },
+  {
+    "date": "1975.04.17",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "genocide"
+    ],
+    "summary": "Khmer Rouge take Phnom Penh",
+    "source": "https://en.wikipedia.org/wiki/Khmer_Rouge"
   },
   {
     "date": "1975.04.30",
@@ -3566,6 +3736,16 @@
     "source": "https://en.wikipedia.org/wiki/Jaws_%28film%29"
   },
   {
+    "date": "1975.06.25",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "india"
+    ],
+    "summary": "India declares the Emergency",
+    "source": "https://en.wikipedia.org/wiki/The_Emergency_%28India%29"
+  },
+  {
     "date": "1975.07.17",
     "category": "exploration",
     "importance": 3,
@@ -3575,6 +3755,49 @@
     ],
     "summary": "Apollo and Soyuz dock in orbit",
     "source": "https://en.wikipedia.org/wiki/Apollo%E2%80%93Soyuz"
+  },
+  {
+    "date": "1975.11.20",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "death",
+      "europe"
+    ],
+    "summary": "Franco dies; Spain's transition begins",
+    "source": "https://en.wikipedia.org/wiki/Death_and_funeral_of_Francisco_Franco"
+  },
+  {
+    "date": "1976.01.21",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "Concorde enters passenger service",
+    "source": "https://en.wikipedia.org/wiki/Concorde"
+  },
+  {
+    "date": "1976.04.01",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "apple",
+      "computing"
+    ],
+    "summary": "Apple Computer is founded",
+    "source": "https://en.wikipedia.org/wiki/History_of_Apple_Inc."
+  },
+  {
+    "date": "1976.06.16",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "south-africa",
+      "racism"
+    ],
+    "summary": "Soweto uprising begins",
+    "source": "https://en.wikipedia.org/wiki/Soweto_uprising"
   },
   {
     "date": "1976.07.18",
@@ -3600,6 +3823,17 @@
     "source": "https://en.wikipedia.org/wiki/Viking_1"
   },
   {
+    "date": "1976.09.09",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "death",
+      "china"
+    ],
+    "summary": "Mao Zedong dies",
+    "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Mao_Zedong"
+  },
+  {
     "date": "1977.01.31",
     "category": "arts",
     "importance": 3,
@@ -3619,6 +3853,17 @@
     ],
     "summary": "Star Wars opens in theaters",
     "source": "https://en.wikipedia.org/wiki/Star_Wars_%28film%29"
+  },
+  {
+    "date": "1977.08.16",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "death",
+      "rock-and-roll"
+    ],
+    "summary": "Elvis Presley dies at Graceland",
+    "source": "https://en.wikipedia.org/wiki/Elvis_Presley"
   },
   {
     "date": "1977.09.05",
@@ -3699,6 +3944,28 @@
     "source": "https://en.wikipedia.org/wiki/Iranian_Revolution"
   },
   {
+    "date": "1979.03.26",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "middle-east"
+    ],
+    "summary": "Egypt and Israel sign peace treaty",
+    "source": "https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty"
+  },
+  {
+    "date": "1979.03.28",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "nuclear",
+      "disaster"
+    ],
+    "summary": "Three Mile Island partial meltdown",
+    "source": "https://en.wikipedia.org/wiki/Three_Mile_Island_accident"
+  },
+  {
     "date": "1979.05.03",
     "category": "politics",
     "importance": 3,
@@ -3708,6 +3975,39 @@
     ],
     "summary": "Thatcher wins UK general election",
     "source": "https://en.wikipedia.org/wiki/1979_United_Kingdom_general_election"
+  },
+  {
+    "date": "1979.06.02",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "John Paul II begins first Poland visit",
+    "source": "https://en.wikipedia.org/wiki/List_of_pastoral_visits_of_Pope_John_Paul_II"
+  },
+  {
+    "date": "1979.07.01",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "electronics",
+      "music"
+    ],
+    "summary": "Sony Walkman goes on sale in Japan",
+    "source": "https://en.wikipedia.org/wiki/Walkman"
+  },
+  {
+    "date": "1979.11.04",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "iran",
+      "usa"
+    ],
+    "summary": "Iran hostage crisis begins",
+    "source": "https://en.wikipedia.org/wiki/Iran_hostage_crisis"
   },
   {
     "date": "1980.02.22",

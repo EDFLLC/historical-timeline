@@ -2371,6 +2371,39 @@
     "source": "https://en.wikipedia.org/wiki/Bathyscaphe_Trieste"
   },
   {
+    "date": "1960.02.01",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "civil-rights",
+      "racism"
+    ],
+    "summary": "Greensboro sit-ins begin",
+    "source": "https://en.wikipedia.org/wiki/Greensboro_sit-ins"
+  },
+  {
+    "date": "1960.03.21",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "south-africa",
+      "racism"
+    ],
+    "summary": "Sharpeville massacre in South Africa",
+    "source": "https://en.wikipedia.org/wiki/Sharpeville_massacre"
+  },
+  {
+    "date": "1960.05.16",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics",
+      "first"
+    ],
+    "summary": "Maiman operates the first laser",
+    "source": "https://en.wikipedia.org/wiki/Laser"
+  },
+  {
     "date": "1960.05.22",
     "category": "science",
     "importance": 4,
@@ -2380,6 +2413,27 @@
     ],
     "summary": "Valdivia earthquake strikes Chile",
     "source": "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+  },
+  {
+    "date": "1960.06.16",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Hitchcock's Psycho premieres",
+    "source": "https://en.wikipedia.org/wiki/Psycho_%281960_film%29"
+  },
+  {
+    "date": "1960.06.30",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Congo gains independence from Belgium",
+    "source": "https://en.wikipedia.org/wiki/Congo_Crisis"
   },
   {
     "date": "1960.07.11",
@@ -2416,6 +2470,17 @@
     "source": "https://en.wikipedia.org/wiki/Vostok_1"
   },
   {
+    "date": "1961.04.17",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "cold-war",
+      "usa"
+    ],
+    "summary": "Bay of Pigs invasion begins",
+    "source": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion"
+  },
+  {
     "date": "1961.08.13",
     "category": "history",
     "importance": 4,
@@ -2437,6 +2502,49 @@
     ],
     "summary": "Glenn is first American to orbit",
     "source": "https://en.wikipedia.org/wiki/John_Glenn"
+  },
+  {
+    "date": "1962.07.05",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Algeria becomes independent",
+    "source": "https://en.wikipedia.org/wiki/Algerian_War"
+  },
+  {
+    "date": "1962.07.10",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "space",
+      "television"
+    ],
+    "summary": "Telstar 1 launches",
+    "source": "https://en.wikipedia.org/wiki/Telstar_1"
+  },
+  {
+    "date": "1962.09.27",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "biology"
+    ],
+    "summary": "Silent Spring is published",
+    "source": "https://en.wikipedia.org/wiki/Silent_Spring"
+  },
+  {
+    "date": "1962.10.05",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Beatles release Love Me Do",
+    "source": "https://en.wikipedia.org/wiki/Love_Me_Do"
   },
   {
     "date": "1962.10.05",
@@ -2472,6 +2580,17 @@
     "source": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
   },
   {
+    "date": "1963.02.19",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "social-movement"
+    ],
+    "summary": "The Feminine Mystique is published",
+    "source": "https://en.wikipedia.org/wiki/The_Feminine_Mystique"
+  },
+  {
     "date": "1963.06.16",
     "category": "exploration",
     "importance": 3,
@@ -2482,6 +2601,38 @@
     ],
     "summary": "Tereshkova is first woman in space",
     "source": "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+  },
+  {
+    "date": "1963.06.26",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "germany",
+      "cold-war"
+    ],
+    "summary": "Kennedy: Ich bin ein Berliner",
+    "source": "https://en.wikipedia.org/wiki/Ich_bin_ein_Berliner"
+  },
+  {
+    "date": "1963.08.05",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "nuclear"
+    ],
+    "summary": "Partial Nuclear Test Ban Treaty signed",
+    "source": "https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty"
+  },
+  {
+    "date": "1963.08.28",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "civil-rights"
+    ],
+    "summary": "King gives I Have a Dream speech",
+    "source": "https://en.wikipedia.org/wiki/I_Have_a_Dream"
   },
   {
     "date": "1963.11.22",
@@ -2495,6 +2646,17 @@
     "source": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
   },
   {
+    "date": "1964.01.29",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cold-war"
+    ],
+    "summary": "Dr. Strangelove is released",
+    "source": "https://en.wikipedia.org/wiki/Dr._Strangelove"
+  },
+  {
     "date": "1964.02.09",
     "category": "pop",
     "importance": 3,
@@ -2504,6 +2666,16 @@
     ],
     "summary": "Beatles play the Ed Sullivan Show",
     "source": "https://en.wikipedia.org/wiki/The_Beatles"
+  },
+  {
+    "date": "1964.02.25",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "boxing"
+    ],
+    "summary": "Clay beats Liston for heavyweight title",
+    "source": "https://en.wikipedia.org/wiki/Sonny_Liston_vs._Cassius_Clay"
   },
   {
     "date": "1964.03.27",
@@ -2517,6 +2689,16 @@
     "source": "https://en.wikipedia.org/wiki/1964_Alaska_earthquake"
   },
   {
+    "date": "1964.04.07",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "computing"
+    ],
+    "summary": "IBM announces System/360",
+    "source": "https://en.wikipedia.org/wiki/IBM_System/360"
+  },
+  {
     "date": "1964.07.02",
     "category": "politics",
     "importance": 4,
@@ -2526,6 +2708,16 @@
     ],
     "summary": "US Civil Rights Act signed into law",
     "source": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964"
+  },
+  {
+    "date": "1964.10.01",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Tokaido Shinkansen opens",
+    "source": "https://en.wikipedia.org/wiki/Tokaido_Shinkansen"
   },
   {
     "date": "1964.10.10",
@@ -2538,6 +2730,27 @@
     "source": "https://en.wikipedia.org/wiki/1964_Summer_Olympics"
   },
   {
+    "date": "1964.10.16",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "china",
+      "nuclear"
+    ],
+    "summary": "China tests its first atomic bomb",
+    "source": "https://en.wikipedia.org/wiki/Project_596"
+  },
+  {
+    "date": "1965.03.07",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "civil-rights"
+    ],
+    "summary": "Bloody Sunday in Selma",
+    "source": "https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches"
+  },
+  {
     "date": "1965.03.18",
     "category": "exploration",
     "importance": 4,
@@ -2548,6 +2761,28 @@
     ],
     "summary": "Leonov makes the first spacewalk",
     "source": "https://en.wikipedia.org/wiki/Alexei_Leonov"
+  },
+  {
+    "date": "1965.07.25",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Dylan goes electric at Newport",
+    "source": "https://en.wikipedia.org/wiki/Electric_Dylan_controversy"
+  },
+  {
+    "date": "1965.08.06",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "civil-rights",
+      "suffrage"
+    ],
+    "summary": "Voting Rights Act is signed",
+    "source": "https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965"
   },
   {
     "date": "1965.12.08",
@@ -2594,6 +2829,16 @@
     "source": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_Final"
   },
   {
+    "date": "1966.09.08",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "television"
+    ],
+    "summary": "Star Trek premieres on NBC",
+    "source": "https://en.wikipedia.org/wiki/Star_Trek%3A_The_Original_Series"
+  },
+  {
     "date": "1967.01.15",
     "category": "sport",
     "importance": 3,
@@ -2602,6 +2847,38 @@
     ],
     "summary": "First Super Bowl is played",
     "source": "https://en.wikipedia.org/wiki/Super_Bowl_I"
+  },
+  {
+    "date": "1967.01.27",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Apollo 1 fire kills three astronauts",
+    "source": "https://en.wikipedia.org/wiki/Apollo_1"
+  },
+  {
+    "date": "1967.04.21",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe"
+    ],
+    "summary": "Military junta seizes power in Greece",
+    "source": "https://en.wikipedia.org/wiki/Greek_junta"
+  },
+  {
+    "date": "1967.04.24",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "ussr"
+    ],
+    "summary": "Soyuz 1 crash kills Komarov",
+    "source": "https://en.wikipedia.org/wiki/Soyuz_1"
   },
   {
     "date": "1967.05.26",
@@ -2626,6 +2903,39 @@
     "source": "https://en.wikipedia.org/wiki/Six-Day_War"
   },
   {
+    "date": "1967.06.12",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "civil-rights",
+      "racism"
+    ],
+    "summary": "Loving v. Virginia strikes down bans",
+    "source": "https://en.wikipedia.org/wiki/Loving_v._Virginia"
+  },
+  {
+    "date": "1967.06.16",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "festival",
+      "music"
+    ],
+    "summary": "Monterey Pop Festival begins",
+    "source": "https://en.wikipedia.org/wiki/Monterey_International_Pop_Festival"
+  },
+  {
+    "date": "1967.10.09",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "death",
+      "cold-war"
+    ],
+    "summary": "Che Guevara is executed in Bolivia",
+    "source": "https://en.wikipedia.org/wiki/Che_Guevara"
+  },
+  {
     "date": "1967.12.03",
     "category": "science",
     "importance": 4,
@@ -2635,6 +2945,17 @@
     ],
     "summary": "First human heart transplant",
     "source": "https://en.wikipedia.org/wiki/Christiaan_Barnard"
+  },
+  {
+    "date": "1968.04.02",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "2001: A Space Odyssey premieres",
+    "source": "https://en.wikipedia.org/wiki/2001%3A_A_Space_Odyssey"
   },
   {
     "date": "1968.04.04",
@@ -2647,6 +2968,17 @@
     ],
     "summary": "Martin Luther King Jr. assassinated",
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr."
+  },
+  {
+    "date": "1968.06.05",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "assassination",
+      "usa"
+    ],
+    "summary": "Robert F. Kennedy is shot in LA",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Robert_F._Kennedy"
   },
   {
     "date": "1968.07.29",
@@ -2671,6 +3003,17 @@
     "source": "https://en.wikipedia.org/wiki/Prague_Spring"
   },
   {
+    "date": "1968.10.02",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "human-rights",
+      "social-movement"
+    ],
+    "summary": "Tlatelolco massacre in Mexico City",
+    "source": "https://en.wikipedia.org/wiki/Tlatelolco_massacre"
+  },
+  {
     "date": "1968.10.12",
     "category": "sport",
     "importance": 2,
@@ -2690,6 +3033,79 @@
     ],
     "summary": "Smith and Carlos raise fists at Olympics",
     "source": "https://en.wikipedia.org/wiki/1968_Olympics_Black_Power_salute"
+  },
+  {
+    "date": "1968.10.18",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "athletics",
+      "olympics"
+    ],
+    "summary": "Beamon leaps 8.90 m at Mexico City",
+    "source": "https://en.wikipedia.org/wiki/Bob_Beamon"
+  },
+  {
+    "date": "1968.12.09",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "computing"
+    ],
+    "summary": "Engelbart gives the Mother of All Demos",
+    "source": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos"
+  },
+  {
+    "date": "1968.12.21",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "human-spaceflight"
+    ],
+    "summary": "Apollo 8 launches for the Moon",
+    "source": "https://en.wikipedia.org/wiki/Apollo_8"
+  },
+  {
+    "date": "1969.01.12",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "football"
+    ],
+    "summary": "Jets upset Colts in Super Bowl III",
+    "source": "https://en.wikipedia.org/wiki/Super_Bowl_III"
+  },
+  {
+    "date": "1969.02.09",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "Boeing 747 makes its first flight",
+    "source": "https://en.wikipedia.org/wiki/Boeing_747"
+  },
+  {
+    "date": "1969.03.02",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "Concorde 001 makes its first flight",
+    "source": "https://en.wikipedia.org/wiki/Concorde"
+  },
+  {
+    "date": "1969.06.28",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "human-rights",
+      "social-movement"
+    ],
+    "summary": "Stonewall riots begin in New York",
+    "source": "https://en.wikipedia.org/wiki/Stonewall_riots"
   },
   {
     "date": "1969.07.20",
@@ -2725,6 +3141,17 @@
     "source": "https://en.wikipedia.org/wiki/Woodstock"
   },
   {
+    "date": "1969.09.26",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Beatles release Abbey Road",
+    "source": "https://en.wikipedia.org/wiki/Abbey_Road"
+  },
+  {
     "date": "1969.10.29",
     "category": "tech",
     "importance": 4,
@@ -2734,6 +3161,16 @@
     ],
     "summary": "First ARPANET message sent",
     "source": "https://en.wikipedia.org/wiki/ARPANET"
+  },
+  {
+    "date": "1969.11.10",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "television"
+    ],
+    "summary": "Sesame Street premieres",
+    "source": "https://en.wikipedia.org/wiki/Sesame_Street"
   },
   {
     "date": "1970.04.13",

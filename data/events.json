@@ -4566,6 +4566,28 @@
     "source": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
   },
   {
+    "date": "1980.07.19",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "cold-war"
+    ],
+    "summary": "Moscow Olympics open amid US boycott",
+    "source": "https://en.wikipedia.org/wiki/1980_Summer_Olympics"
+  },
+  {
+    "date": "1980.08.20",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "mountaineering",
+      "record"
+    ],
+    "summary": "Messner climbs Everest solo, no oxygen",
+    "source": "https://en.wikipedia.org/wiki/Reinhold_Messner"
+  },
+  {
     "date": "1980.08.31",
     "category": "politics",
     "importance": 4,
@@ -4610,6 +4632,17 @@
     "source": "https://en.wikipedia.org/wiki/Murder_of_John_Lennon"
   },
   {
+    "date": "1981.01.20",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "iran",
+      "usa"
+    ],
+    "summary": "Iran frees 52 US hostages",
+    "source": "https://en.wikipedia.org/wiki/Iran_hostage_crisis"
+  },
+  {
     "date": "1981.04.12",
     "category": "exploration",
     "importance": 4,
@@ -4620,6 +4653,17 @@
     ],
     "summary": "First Space Shuttle mission launches",
     "source": "https://en.wikipedia.org/wiki/STS-1"
+  },
+  {
+    "date": "1981.05.11",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "Cats opens in London's West End",
+    "source": "https://en.wikipedia.org/wiki/Cats_%28musical%29"
   },
   {
     "date": "1981.05.13",
@@ -4642,6 +4686,17 @@
     ],
     "summary": "CDC publishes first AIDS case report",
     "source": "https://en.wikipedia.org/wiki/Timeline_of_HIV/AIDS"
+  },
+  {
+    "date": "1981.06.12",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Raiders of the Lost Ark opens",
+    "source": "https://en.wikipedia.org/wiki/Raiders_of_the_Lost_Ark"
   },
   {
     "date": "1981.07.29",
@@ -4707,6 +4762,17 @@
     "source": "https://en.wikipedia.org/wiki/Falklands_War"
   },
   {
+    "date": "1982.05.02",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "maritime"
+    ],
+    "summary": "Belgrano sunk during Falklands War",
+    "source": "https://en.wikipedia.org/wiki/Sinking_of_ARA_General_Belgrano"
+  },
+  {
     "date": "1982.06.06",
     "category": "history",
     "importance": 3,
@@ -4729,6 +4795,17 @@
     "source": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
   },
   {
+    "date": "1982.06.25",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Blade Runner opens in US theaters",
+    "source": "https://en.wikipedia.org/wiki/Blade_Runner"
+  },
+  {
     "date": "1982.07.11",
     "category": "sport",
     "importance": 3,
@@ -4738,6 +4815,17 @@
     ],
     "summary": "Italy wins the World Cup in Madrid",
     "source": "https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_final"
+  },
+  {
+    "date": "1982.10.01",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "music",
+      "electronics"
+    ],
+    "summary": "Sony launches first CD player in Japan",
+    "source": "https://en.wikipedia.org/wiki/Sony_CDP-101"
   },
   {
     "date": "1982.11.29",
@@ -4761,6 +4849,61 @@
     "source": "https://en.wikipedia.org/wiki/ARPANET"
   },
   {
+    "date": "1983.03.23",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "cold-war",
+      "nuclear"
+    ],
+    "summary": "Reagan announces Star Wars defense plan",
+    "source": "https://en.wikipedia.org/wiki/Strategic_Defense_Initiative"
+  },
+  {
+    "date": "1983.06.18",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "human-spaceflight",
+      "nasa"
+    ],
+    "summary": "Sally Ride is first US woman in space",
+    "source": "https://en.wikipedia.org/wiki/STS-7"
+  },
+  {
+    "date": "1983.07.15",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "games",
+      "electronics"
+    ],
+    "summary": "Nintendo launches the Famicom in Japan",
+    "source": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System"
+  },
+  {
+    "date": "1983.09.01",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "cold-war"
+    ],
+    "summary": "Soviet fighter downs Korean Air 007",
+    "source": "https://en.wikipedia.org/wiki/Korean_Air_Lines_Flight_007"
+  },
+  {
+    "date": "1983.09.26",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "nuclear",
+      "ussr"
+    ],
+    "summary": "Petrov judges Soviet missile alert false",
+    "source": "https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident"
+  },
+  {
     "date": "1983.10.23",
     "category": "history",
     "importance": 3,
@@ -4770,6 +4913,17 @@
     ],
     "summary": "Beirut barracks bombings",
     "source": "https://en.wikipedia.org/wiki/1983_Beirut_barracks_bombings"
+  },
+  {
+    "date": "1983.10.25",
+    "category": "history",
+    "importance": 2,
+    "tags": [
+      "war",
+      "usa"
+    ],
+    "summary": "US-led forces invade Grenada",
+    "source": "https://en.wikipedia.org/wiki/United_States_invasion_of_Grenada"
   },
   {
     "date": "1984.01.24",
@@ -4794,6 +4948,28 @@
     "source": "https://en.wikipedia.org/wiki/1984_Summer_Olympics"
   },
   {
+    "date": "1984.09.10",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "genetics",
+      "biology"
+    ],
+    "summary": "Jeffreys discovers DNA fingerprinting",
+    "source": "https://en.wikipedia.org/wiki/Alec_Jeffreys"
+  },
+  {
+    "date": "1984.10.16",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "nobel",
+      "south-africa"
+    ],
+    "summary": "Desmond Tutu wins Nobel Peace Prize",
+    "source": "https://en.wikipedia.org/wiki/Desmond_Tutu"
+  },
+  {
     "date": "1984.10.31",
     "category": "politics",
     "importance": 4,
@@ -4803,6 +4979,17 @@
     ],
     "summary": "Indira Gandhi is assassinated",
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Indira_Gandhi"
+  },
+  {
+    "date": "1984.12.03",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "disaster",
+      "india"
+    ],
+    "summary": "Bhopal gas leak kills thousands",
+    "source": "https://en.wikipedia.org/wiki/Bhopal_disaster"
   },
   {
     "date": "1984.12.19",
@@ -4859,6 +5046,17 @@
     "source": "https://en.wikipedia.org/wiki/Back_to_the_Future"
   },
   {
+    "date": "1985.07.10",
+    "category": "history",
+    "importance": 2,
+    "tags": [
+      "maritime",
+      "terrorism"
+    ],
+    "summary": "French agents sink the Rainbow Warrior",
+    "source": "https://en.wikipedia.org/wiki/Sinking_of_the_Rainbow_Warrior"
+  },
+  {
     "date": "1985.07.13",
     "category": "pop",
     "importance": 5,
@@ -4891,6 +5089,61 @@
     ],
     "summary": "Super Mario Bros. released in Japan",
     "source": "https://en.wikipedia.org/wiki/Super_Mario_Bros."
+  },
+  {
+    "date": "1985.09.19",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "earthquake",
+      "natural-disaster"
+    ],
+    "summary": "Mexico City earthquake",
+    "source": "https://en.wikipedia.org/wiki/1985_Mexico_City_earthquake"
+  },
+  {
+    "date": "1985.09.22",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "economics",
+      "finance"
+    ],
+    "summary": "Plaza Accord is signed in New York",
+    "source": "https://en.wikipedia.org/wiki/Plaza_Accord"
+  },
+  {
+    "date": "1985.10.02",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "death",
+      "health"
+    ],
+    "summary": "Rock Hudson dies of AIDS",
+    "source": "https://en.wikipedia.org/wiki/Rock_Hudson"
+  },
+  {
+    "date": "1985.10.08",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "Les Miserables opens in London",
+    "source": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables_%28musical%29"
+  },
+  {
+    "date": "1985.11.13",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "natural-disaster",
+      "disaster"
+    ],
+    "summary": "Nevado del Ruiz eruption buries Armero",
+    "source": "https://en.wikipedia.org/wiki/Armero_tragedy"
   },
   {
     "date": "1985.11.20",
@@ -4982,6 +5235,50 @@
     "source": "https://en.wikipedia.org/wiki/1986_FIFA_World_Cup_final"
   },
   {
+    "date": "1986.10.09",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "Phantom of the Opera opens in London",
+    "source": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_%281986_musical%29"
+  },
+  {
+    "date": "1986.10.11",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "cold-war",
+      "nuclear"
+    ],
+    "summary": "Reagan and Gorbachev meet in Reykjavik",
+    "source": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Summit"
+  },
+  {
+    "date": "1986.10.27",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "finance",
+      "economics"
+    ],
+    "summary": "London's Big Bang deregulates markets",
+    "source": "https://en.wikipedia.org/wiki/Big_Bang_%28financial_markets%29"
+  },
+  {
+    "date": "1986.10.27",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "christianity"
+    ],
+    "summary": "Assisi day of prayer for peace",
+    "source": "https://en.wikipedia.org/wiki/Day_of_Prayer"
+  },
+  {
     "date": "1986.11.03",
     "category": "politics",
     "importance": 3,
@@ -4991,6 +5288,17 @@
     ],
     "summary": "Iran-Contra affair breaks",
     "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair"
+  },
+  {
+    "date": "1986.11.22",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "boxing",
+      "record"
+    ],
+    "summary": "Tyson is youngest heavyweight champion",
+    "source": "https://en.wikipedia.org/wiki/Trevor_Berbick_vs._Mike_Tyson"
   },
   {
     "date": "1986.12.23",
@@ -5016,6 +5324,17 @@
   },
   {
     "date": "1987.09.16",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Morrison's Beloved is published",
+    "source": "https://en.wikipedia.org/wiki/Beloved_%28novel%29"
+  },
+  {
+    "date": "1987.09.16",
     "category": "science",
     "importance": 3,
     "tags": [
@@ -5035,6 +5354,17 @@
     ],
     "summary": "Black Monday stock market crash",
     "source": "https://en.wikipedia.org/wiki/Black_Monday_%281987%29"
+  },
+  {
+    "date": "1987.11.11",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art",
+      "finance"
+    ],
+    "summary": "Van Gogh's Irises sells for $53.9M",
+    "source": "https://en.wikipedia.org/wiki/Irises_%28painting%29"
   },
   {
     "date": "1987.12.08",
@@ -5059,6 +5389,48 @@
     "source": "https://en.wikipedia.org/wiki/First_Intifada"
   },
   {
+    "date": "1988.06.23",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "climate"
+    ],
+    "summary": "Hansen warns the US Senate of warming",
+    "source": "https://en.wikipedia.org/wiki/Senate_Hearing_of_James_E._Hansen_%281988%29"
+  },
+  {
+    "date": "1988.07.03",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "iran"
+    ],
+    "summary": "USS Vincennes downs Iran Air 655",
+    "source": "https://en.wikipedia.org/wiki/Iran_Air_Flight_655"
+  },
+  {
+    "date": "1988.08.20",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "iran"
+    ],
+    "summary": "Iran-Iraq War ceasefire takes effect",
+    "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War"
+  },
+  {
+    "date": "1988.09.17",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Seoul Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1988_Summer_Olympics"
+  },
+  {
     "date": "1988.09.24",
     "category": "sport",
     "importance": 3,
@@ -5081,6 +5453,28 @@
     "source": "https://en.wikipedia.org/wiki/The_Satanic_Verses"
   },
   {
+    "date": "1988.11.15",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "ussr"
+    ],
+    "summary": "Soviet shuttle Buran flies uncrewed",
+    "source": "https://en.wikipedia.org/wiki/Buran_%28spacecraft%29"
+  },
+  {
+    "date": "1988.12.07",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "earthquake",
+      "natural-disaster"
+    ],
+    "summary": "Armenian earthquake devastates Spitak",
+    "source": "https://en.wikipedia.org/wiki/1988_Armenian_earthquake"
+  },
+  {
     "date": "1988.12.21",
     "category": "history",
     "importance": 4,
@@ -5092,6 +5486,16 @@
     "source": "https://en.wikipedia.org/wiki/Pan_Am_Flight_103"
   },
   {
+    "date": "1989.01.07",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "death"
+    ],
+    "summary": "Emperor Hirohito dies; Showa era ends",
+    "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Hirohito"
+  },
+  {
     "date": "1989.02.14",
     "category": "religion",
     "importance": 3,
@@ -5101,6 +5505,17 @@
     ],
     "summary": "Khomeini issues fatwa against Rushdie",
     "source": "https://en.wikipedia.org/wiki/Satanic_Verses_controversy"
+  },
+  {
+    "date": "1989.02.15",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "afghanistan",
+      "cold-war"
+    ],
+    "summary": "Last Soviet troops leave Afghanistan",
+    "source": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
   },
   {
     "date": "1989.03.12",
@@ -5168,6 +5583,28 @@
     "source": "https://en.wikipedia.org/wiki/Game_Boy"
   },
   {
+    "date": "1989.06.03",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "iran",
+      "death"
+    ],
+    "summary": "Khomeini dies in Tehran",
+    "source": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
+  },
+  {
+    "date": "1989.06.04",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "europe",
+      "cold-war"
+    ],
+    "summary": "Poland holds semi-free election",
+    "source": "https://en.wikipedia.org/wiki/1989_Polish_legislative_election"
+  },
+  {
     "date": "1989.06.04",
     "category": "politics",
     "importance": 4,
@@ -5179,6 +5616,27 @@
     "source": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
   },
   {
+    "date": "1989.06.30",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "racism"
+    ],
+    "summary": "Do the Right Thing opens in US",
+    "source": "https://en.wikipedia.org/wiki/Do_the_Right_Thing"
+  },
+  {
+    "date": "1989.07.23",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "cycling"
+    ],
+    "summary": "LeMond wins Tour by eight seconds",
+    "source": "https://en.wikipedia.org/wiki/1989_Tour_de_France"
+  },
+  {
     "date": "1989.08.23",
     "category": "politics",
     "importance": 4,
@@ -5188,6 +5646,40 @@
     ],
     "summary": "Baltic Way human chain",
     "source": "https://en.wikipedia.org/wiki/Baltic_Way"
+  },
+  {
+    "date": "1989.08.25",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Voyager 2 flies past Neptune",
+    "source": "https://en.wikipedia.org/wiki/Voyager_2"
+  },
+  {
+    "date": "1989.10.05",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "nobel",
+      "tibet",
+      "buddhism"
+    ],
+    "summary": "Dalai Lama wins Nobel Peace Prize",
+    "source": "https://en.wikipedia.org/wiki/14th_Dalai_Lama"
+  },
+  {
+    "date": "1989.10.17",
+    "category": "history",
+    "importance": 2,
+    "tags": [
+      "earthquake",
+      "natural-disaster"
+    ],
+    "summary": "Loma Prieta quake hits World Series",
+    "source": "https://en.wikipedia.org/wiki/1989_Loma_Prieta_earthquake"
   },
   {
     "date": "1989.11.09",
@@ -5210,6 +5702,17 @@
     ],
     "summary": "East Germany opens its borders",
     "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+  },
+  {
+    "date": "1989.11.17",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "europe"
+    ],
+    "summary": "Velvet Revolution begins in Prague",
+    "source": "https://en.wikipedia.org/wiki/Velvet_Revolution"
   },
   {
     "date": "1989.12.17",

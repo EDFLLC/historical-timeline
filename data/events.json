@@ -1189,6 +1189,28 @@
     "source": "https://en.wikipedia.org/wiki/Maracanazo"
   },
   {
+    "date": "1950.08.12",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Humani generis addresses evolution",
+    "source": "https://en.wikipedia.org/wiki/Humani_generis"
+  },
+  {
+    "date": "1950.08.25",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Rashomon premieres in Tokyo",
+    "source": "https://en.wikipedia.org/wiki/Rashomon"
+  },
+  {
     "date": "1950.10.02",
     "category": "pop",
     "importance": 2,
@@ -1243,6 +1265,16 @@
     "source": "https://en.wikipedia.org/wiki/I_Love_Lucy"
   },
   {
+    "date": "1951.10.15",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "Norethisterone is synthesized in Mexico",
+    "source": "https://en.wikipedia.org/wiki/Norethisterone"
+  },
+  {
     "date": "1952.02.06",
     "category": "politics",
     "importance": 3,
@@ -1251,6 +1283,17 @@
     ],
     "summary": "George VI dies; Elizabeth II accedes",
     "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_George_VI"
+  },
+  {
+    "date": "1952.03.27",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Singin' in the Rain premieres",
+    "source": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain"
   },
   {
     "date": "1952.05.02",
@@ -1282,6 +1325,28 @@
     ],
     "summary": "John Cage's silent piece premieres",
     "source": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3"
+  },
+  {
+    "date": "1952.09.01",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Old Man and the Sea runs in Life",
+    "source": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea"
+  },
+  {
+    "date": "1952.09.20",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "genetics",
+      "biology"
+    ],
+    "summary": "Hershey-Chase experiment confirms DNA",
+    "source": "https://en.wikipedia.org/wiki/Hershey-Chase_experiment"
   },
   {
     "date": "1952.11.01",
@@ -1340,6 +1405,26 @@
     "source": "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids"
   },
   {
+    "date": "1953.05.06",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "First heart-lung machine surgery",
+    "source": "https://en.wikipedia.org/wiki/John_Heysham_Gibbon"
+  },
+  {
+    "date": "1953.05.15",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "biology"
+    ],
+    "summary": "Miller-Urey experiment is published",
+    "source": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment"
+  },
+  {
     "date": "1953.05.29",
     "category": "exploration",
     "importance": 4,
@@ -1384,6 +1469,17 @@
     "source": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d'%C3%A9tat"
   },
   {
+    "date": "1953.10.19",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "dystopia"
+    ],
+    "summary": "Fahrenheit 451 is published",
+    "source": "https://en.wikipedia.org/wiki/Fahrenheit_451"
+  },
+  {
     "date": "1953.11.25",
     "category": "sport",
     "importance": 2,
@@ -1392,6 +1488,17 @@
     ],
     "summary": "Hungary beats England 6-3 at Wembley",
     "source": "https://en.wikipedia.org/wiki/Match_of_the_Century_%281953_England_v_Hungary_football_match%29"
+  },
+  {
+    "date": "1954.02.23",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "health",
+      "medicine"
+    ],
+    "summary": "Mass polio vaccination trial begins",
+    "source": "https://en.wikipedia.org/wiki/Polio_vaccine"
   },
   {
     "date": "1954.03.01",
@@ -1403,6 +1510,17 @@
     ],
     "summary": "Castle Bravo test spreads fallout",
     "source": "https://en.wikipedia.org/wiki/Castle_Bravo"
+  },
+  {
+    "date": "1954.04.26",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Seven Samurai opens in Japan",
+    "source": "https://en.wikipedia.org/wiki/Seven_Samurai"
   },
   {
     "date": "1954.05.06",
@@ -1461,6 +1579,61 @@
     "source": "https://en.wikipedia.org/wiki/That%27s_All_Right"
   },
   {
+    "date": "1954.07.29",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Fellowship of the Ring is published",
+    "source": "https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring"
+  },
+  {
+    "date": "1954.09.17",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Lord of the Flies is published",
+    "source": "https://en.wikipedia.org/wiki/Lord_of_the_Flies"
+  },
+  {
+    "date": "1954.09.29",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics",
+      "europe"
+    ],
+    "summary": "CERN is founded",
+    "source": "https://en.wikipedia.org/wiki/CERN"
+  },
+  {
+    "date": "1954.09.30",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "nuclear",
+      "maritime"
+    ],
+    "summary": "USS Nautilus is commissioned",
+    "source": "https://en.wikipedia.org/wiki/USS_Nautilus_%28SSN-571%29"
+  },
+  {
+    "date": "1954.10.18",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "electronics",
+      "radio"
+    ],
+    "summary": "Regency TR-1 transistor radio unveiled",
+    "source": "https://en.wikipedia.org/wiki/Regency_TR-1"
+  },
+  {
     "date": "1954.11.01",
     "category": "history",
     "importance": 4,
@@ -1470,6 +1643,16 @@
     ],
     "summary": "Algerian War begins with FLN attacks",
     "source": "https://en.wikipedia.org/wiki/Toussaint_Rouge"
+  },
+  {
+    "date": "1954.12.23",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "First successful kidney transplant",
+    "source": "https://en.wikipedia.org/wiki/Joseph_E._Murray"
   },
   {
     "date": "1955.04.12",
@@ -1494,6 +1677,17 @@
     "source": "https://en.wikipedia.org/wiki/Bandung_Conference"
   },
   {
+    "date": "1955.04.18",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics",
+      "death"
+    ],
+    "summary": "Albert Einstein dies in Princeton",
+    "source": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  {
     "date": "1955.05.14",
     "category": "politics",
     "importance": 3,
@@ -1504,6 +1698,17 @@
     ],
     "summary": "Warsaw Pact is signed",
     "source": "https://en.wikipedia.org/wiki/Warsaw_Pact"
+  },
+  {
+    "date": "1955.07.09",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "nuclear",
+      "cold-war"
+    ],
+    "summary": "Russell-Einstein anti-nuclear manifesto",
+    "source": "https://en.wikipedia.org/wiki/Russell%E2%80%93Einstein_Manifesto"
   },
   {
     "date": "1955.07.17",
@@ -1540,6 +1745,17 @@
     "source": "https://en.wikipedia.org/wiki/Lolita"
   },
   {
+    "date": "1955.09.30",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "death",
+      "film"
+    ],
+    "summary": "James Dean dies in a car crash",
+    "source": "https://en.wikipedia.org/wiki/Death_of_James_Dean"
+  },
+  {
     "date": "1955.12.01",
     "category": "politics",
     "importance": 4,
@@ -1551,6 +1767,17 @@
     "source": "https://en.wikipedia.org/wiki/Rosa_Parks"
   },
   {
+    "date": "1956.01.27",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "music"
+    ],
+    "summary": "Elvis releases Heartbreak Hotel",
+    "source": "https://en.wikipedia.org/wiki/Heartbreak_Hotel"
+  },
+  {
     "date": "1956.02.25",
     "category": "politics",
     "importance": 3,
@@ -1560,6 +1787,59 @@
     ],
     "summary": "Khrushchev's secret speech on Stalin",
     "source": "https://en.wikipedia.org/wiki/On_the_Cult_of_Personality_and_Its_Consequences"
+  },
+  {
+    "date": "1956.04.14",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "television",
+      "media"
+    ],
+    "summary": "Ampex unveils the videotape recorder",
+    "source": "https://en.wikipedia.org/wiki/Quadruplex_videotape"
+  },
+  {
+    "date": "1956.05.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "health"
+    ],
+    "summary": "Minamata disease is officially reported",
+    "source": "https://en.wikipedia.org/wiki/Minamata_disease"
+  },
+  {
+    "date": "1956.08.09",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "art",
+      "modernism"
+    ],
+    "summary": "This Is Tomorrow opens in London",
+    "source": "https://en.wikipedia.org/wiki/Whitechapel_Gallery"
+  },
+  {
+    "date": "1956.08.11",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art",
+      "death"
+    ],
+    "summary": "Jackson Pollock dies in a car crash",
+    "source": "https://en.wikipedia.org/wiki/Jackson_Pollock"
+  },
+  {
+    "date": "1956.08.27",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "nuclear"
+    ],
+    "summary": "Calder Hall joins the UK grid",
+    "source": "https://en.wikipedia.org/wiki/Sellafield"
   },
   {
     "date": "1956.09.09",
@@ -1694,6 +1974,16 @@
     "source": "https://en.wikipedia.org/wiki/Soviet_space_dogs"
   },
   {
+    "date": "1958.01.28",
+    "category": "tech",
+    "importance": 2,
+    "tags": [
+      "leisure"
+    ],
+    "summary": "Classic Lego brick is patented",
+    "source": "https://en.wikipedia.org/wiki/Lego"
+  },
+  {
     "date": "1958.03.02",
     "category": "exploration",
     "importance": 3,
@@ -1703,6 +1993,27 @@
     ],
     "summary": "Fuchs completes crossing of Antarctica",
     "source": "https://en.wikipedia.org/wiki/Commonwealth_Trans-Antarctic_Expedition"
+  },
+  {
+    "date": "1958.05.09",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Hitchcock's Vertigo premieres",
+    "source": "https://en.wikipedia.org/wiki/Vertigo_%28film%29"
+  },
+  {
+    "date": "1958.06.07",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "Obstetric ultrasound is introduced",
+    "source": "https://en.wikipedia.org/wiki/Ian_Donald"
   },
   {
     "date": "1958.06.29",
@@ -1749,6 +2060,16 @@
     "source": "https://en.wikipedia.org/wiki/Jack_Kilby"
   },
   {
+    "date": "1958.12.15",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Schawlow and Townes outline the laser",
+    "source": "https://en.wikipedia.org/wiki/Charles_H._Townes"
+  },
+  {
     "date": "1959.01.01",
     "category": "politics",
     "importance": 4,
@@ -1758,6 +2079,16 @@
     ],
     "summary": "Batista flees Cuba as rebels advance",
     "source": "https://en.wikipedia.org/wiki/Triumph_of_the_Revolution"
+  },
+  {
+    "date": "1959.01.02",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space"
+    ],
+    "summary": "Luna 1 launches toward the Moon",
+    "source": "https://en.wikipedia.org/wiki/Luna_1"
   },
   {
     "date": "1959.01.25",
@@ -1804,6 +2135,28 @@
     "source": "https://en.wikipedia.org/wiki/1959_Tibetan_uprising"
   },
   {
+    "date": "1959.04.09",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "nasa",
+      "human-spaceflight"
+    ],
+    "summary": "NASA names the Mercury Seven",
+    "source": "https://en.wikipedia.org/wiki/Mercury_Seven"
+  },
+  {
+    "date": "1959.07.17",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "archaeology",
+      "biology"
+    ],
+    "summary": "Leakeys find Zinjanthropus at Olduvai",
+    "source": "https://en.wikipedia.org/wiki/Paranthropus_boisei"
+  },
+  {
     "date": "1959.08.17",
     "category": "arts",
     "importance": 5,
@@ -1826,6 +2179,26 @@
     "source": "https://en.wikipedia.org/wiki/Luna_2"
   },
   {
+    "date": "1959.09.16",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "electronics"
+    ],
+    "summary": "Xerox 914 copier is introduced",
+    "source": "https://en.wikipedia.org/wiki/Xerox_914"
+  },
+  {
+    "date": "1959.10.07",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space"
+    ],
+    "summary": "Luna 3 photographs the Moon's far side",
+    "source": "https://en.wikipedia.org/wiki/Luna_3"
+  },
+  {
     "date": "1959.10.21",
     "category": "arts",
     "importance": 3,
@@ -1846,6 +2219,16 @@
     ],
     "summary": "Antarctic Treaty is signed",
     "source": "https://en.wikipedia.org/wiki/Antarctic_Treaty_System"
+  },
+  {
+    "date": "1959.12.29",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Feynman gives nanotechnology lecture",
+    "source": "https://en.wikipedia.org/wiki/There%27s_Plenty_of_Room_at_the_Bottom"
   },
   {
     "date": "1960.01.23",

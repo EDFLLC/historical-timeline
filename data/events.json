@@ -5759,6 +5759,27 @@
     "source": "https://en.wikipedia.org/wiki/Nelson_Mandela"
   },
   {
+    "date": "1990.02.14",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "space",
+      "astronomy"
+    ],
+    "summary": "Voyager 1 photographs Pale Blue Dot",
+    "source": "https://en.wikipedia.org/wiki/Pale_Blue_Dot"
+  },
+  {
+    "date": "1990.04.08",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "television"
+    ],
+    "summary": "Twin Peaks premieres on ABC",
+    "source": "https://en.wikipedia.org/wiki/Twin_Peaks"
+  },
+  {
     "date": "1990.04.24",
     "category": "tech",
     "importance": 4,
@@ -5768,6 +5789,27 @@
     ],
     "summary": "Hubble Space Telescope launched",
     "source": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+  },
+  {
+    "date": "1990.07.07",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "First Three Tenors concert in Rome",
+    "source": "https://en.wikipedia.org/wiki/The_Three_Tenors"
+  },
+  {
+    "date": "1990.07.08",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "West Germany wins World Cup in Rome",
+    "source": "https://en.wikipedia.org/wiki/1990_FIFA_World_Cup_final"
   },
   {
     "date": "1990.08.02",
@@ -5823,6 +5865,16 @@
     ],
     "summary": "World Wide Web opens to the public",
     "source": "https://en.wikipedia.org/wiki/World_Wide_Web"
+  },
+  {
+    "date": "1991.08.12",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Metallica releases the Black Album",
+    "source": "https://en.wikipedia.org/wiki/Metallica_%28album%29"
   },
   {
     "date": "1991.08.25",
@@ -5902,6 +5954,16 @@
     "source": "https://en.wikipedia.org/wiki/Earth_Summit"
   },
   {
+    "date": "1992.06.26",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "football"
+    ],
+    "summary": "Denmark wins Euro 1992",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1992_final"
+  },
+  {
     "date": "1992.07.25",
     "category": "sport",
     "importance": 3,
@@ -5910,6 +5972,27 @@
     ],
     "summary": "Barcelona Olympics open",
     "source": "https://en.wikipedia.org/wiki/1992_Summer_Olympics_opening_ceremony"
+  },
+  {
+    "date": "1992.08.30",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "First Kuiper belt object announced",
+    "source": "https://en.wikipedia.org/wiki/15760_Albion"
+  },
+  {
+    "date": "1992.10.11",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Catechism of the Catholic Church issued",
+    "source": "https://en.wikipedia.org/wiki/Catechism_of_the_Catholic_Church"
   },
   {
     "date": "1992.10.31",
@@ -5923,6 +6006,27 @@
     "source": "https://en.wikipedia.org/wiki/Galileo_affair"
   },
   {
+    "date": "1992.12.06",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "india",
+      "islam"
+    ],
+    "summary": "Babri Masjid is demolished in Ayodhya",
+    "source": "https://en.wikipedia.org/wiki/Demolition_of_the_Babri_Masjid"
+  },
+  {
+    "date": "1992.12.15",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Dr. Dre releases The Chronic",
+    "source": "https://en.wikipedia.org/wiki/The_Chronic"
+  },
+  {
     "date": "1993.01.01",
     "category": "politics",
     "importance": 3,
@@ -5932,6 +6036,17 @@
     ],
     "summary": "Czechoslovakia splits peacefully in two",
     "source": "https://en.wikipedia.org/wiki/Czechoslovakia"
+  },
+  {
+    "date": "1993.01.23",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "web",
+      "software"
+    ],
+    "summary": "Mosaic browser first released",
+    "source": "https://en.wikipedia.org/wiki/NCSA_Mosaic"
   },
   {
     "date": "1993.02.28",
@@ -5978,6 +6093,16 @@
     "source": "https://en.wikipedia.org/wiki/Oslo_I_Accord"
   },
   {
+    "date": "1993.10.06",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record"
+    ],
+    "summary": "Michael Jordan retires from the NBA",
+    "source": "https://en.wikipedia.org/wiki/Michael_Jordan"
+  },
+  {
     "date": "1993.12.02",
     "category": "exploration",
     "importance": 3,
@@ -6000,6 +6125,48 @@
     "source": "https://en.wikipedia.org/wiki/Schindler%27s_List"
   },
   {
+    "date": "1993.12.30",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "vatican",
+      "middle-east"
+    ],
+    "summary": "Holy See and Israel sign accord",
+    "source": "https://en.wikipedia.org/wiki/Fundamental_Agreement_Between_the_Holy_See_and_the_State_of_Israel"
+  },
+  {
+    "date": "1994.01.06",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "winter-sports"
+    ],
+    "summary": "Nancy Kerrigan is attacked in Detroit",
+    "source": "https://en.wikipedia.org/wiki/Assault_of_Nancy_Kerrigan"
+  },
+  {
+    "date": "1994.03.12",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "christianity"
+    ],
+    "summary": "Church of England ordains first women",
+    "source": "https://en.wikipedia.org/wiki/Ordination_of_women_in_the_Church_of_England"
+  },
+  {
+    "date": "1994.04.05",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "music",
+      "death"
+    ],
+    "summary": "Kurt Cobain dies",
+    "source": "https://en.wikipedia.org/wiki/Suicide_of_Kurt_Cobain"
+  },
+  {
     "date": "1994.04.07",
     "category": "history",
     "importance": 4,
@@ -6008,6 +6175,16 @@
     ],
     "summary": "Rwandan genocide begins",
     "source": "https://en.wikipedia.org/wiki/Rwandan_genocide"
+  },
+  {
+    "date": "1994.04.16",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "record"
+    ],
+    "summary": "Lara scores record 375 in Antigua",
+    "source": "https://en.wikipedia.org/wiki/Brian_Lara"
   },
   {
     "date": "1994.04.27",
@@ -6054,6 +6231,28 @@
     "source": "https://en.wikipedia.org/wiki/Nelson_Mandela"
   },
   {
+    "date": "1994.06.15",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "animation",
+      "film"
+    ],
+    "summary": "The Lion King premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Lion_King"
+  },
+  {
+    "date": "1994.06.17",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media",
+      "television"
+    ],
+    "summary": "O.J. Simpson's Bronco chase airs live",
+    "source": "https://en.wikipedia.org/wiki/White_Bronco_chase"
+  },
+  {
     "date": "1994.07.16",
     "category": "science",
     "importance": 3,
@@ -6073,6 +6272,16 @@
     ],
     "summary": "Brazil wins World Cup on penalties",
     "source": "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_final"
+  },
+  {
+    "date": "1994.09.22",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "television"
+    ],
+    "summary": "Friends premieres on NBC",
+    "source": "https://en.wikipedia.org/wiki/Friends"
   },
   {
     "date": "1994.10.14",
@@ -6141,6 +6350,17 @@
     "source": "https://en.wikipedia.org/wiki/1995_Rugby_World_Cup"
   },
   {
+    "date": "1995.06.29",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Shuttle Atlantis docks with Mir",
+    "source": "https://en.wikipedia.org/wiki/STS-71"
+  },
+  {
     "date": "1995.07.11",
     "category": "history",
     "importance": 4,
@@ -6161,6 +6381,16 @@
     ],
     "summary": "Amazon.com opens for business",
     "source": "https://en.wikipedia.org/wiki/History_of_Amazon"
+  },
+  {
+    "date": "1995.07.22",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "Hale-Bopp comet is discovered",
+    "source": "https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp"
   },
   {
     "date": "1995.08.24",
@@ -6239,6 +6469,17 @@
     "source": "https://en.wikipedia.org/wiki/Infinite_Jest"
   },
   {
+    "date": "1996.02.23",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Trainspotting opens in UK",
+    "source": "https://en.wikipedia.org/wiki/Trainspotting_%28film%29"
+  },
+  {
     "date": "1996.02.27",
     "category": "pop",
     "importance": 4,
@@ -6248,6 +6489,17 @@
     ],
     "summary": "Pokemon Red and Green released in Japan",
     "source": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow"
+  },
+  {
+    "date": "1996.03.20",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "health",
+      "medicine"
+    ],
+    "summary": "UK links mad cow disease to humans",
+    "source": "https://en.wikipedia.org/wiki/United_Kingdom_BSE_outbreak"
   },
   {
     "date": "1996.05.10",
@@ -6271,6 +6523,60 @@
     "source": "https://en.wikipedia.org/wiki/1996_Summer_Olympics"
   },
   {
+    "date": "1996.08.06",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "mars",
+      "astronomy"
+    ],
+    "summary": "NASA claims life signs in Mars rock",
+    "source": "https://en.wikipedia.org/wiki/Allan_Hills_84001"
+  },
+  {
+    "date": "1996.08.10",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Oasis play first Knebworth night",
+    "source": "https://en.wikipedia.org/wiki/Knebworth_1996"
+  },
+  {
+    "date": "1996.09.13",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "death"
+    ],
+    "summary": "Tupac Shakur dies after shooting",
+    "source": "https://en.wikipedia.org/wiki/Tupac_Shakur"
+  },
+  {
+    "date": "1996.09.27",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "afghanistan",
+      "islam"
+    ],
+    "summary": "Taliban capture Kabul",
+    "source": "https://en.wikipedia.org/wiki/Islamic_Emirate_of_Afghanistan_%281996%E2%80%932001%29"
+  },
+  {
+    "date": "1996.11.07",
+    "category": "exploration",
+    "importance": 2,
+    "tags": [
+      "mars",
+      "space"
+    ],
+    "summary": "Mars Global Surveyor launches",
+    "source": "https://en.wikipedia.org/wiki/Mars_Global_Surveyor"
+  },
+  {
     "date": "1997.02.22",
     "category": "science",
     "importance": 3,
@@ -6280,6 +6586,37 @@
     ],
     "summary": "Dolly the cloned sheep revealed",
     "source": "https://en.wikipedia.org/wiki/Dolly_%28sheep%29"
+  },
+  {
+    "date": "1997.03.09",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "death"
+    ],
+    "summary": "Notorious B.I.G. is shot dead in LA",
+    "source": "https://en.wikipedia.org/wiki/Murder_of_the_Notorious_B.I.G."
+  },
+  {
+    "date": "1997.03.24",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "cult"
+    ],
+    "summary": "Heaven's Gate mass suicide begins",
+    "source": "https://en.wikipedia.org/wiki/Heaven%27s_Gate_%28religious_group%29"
+  },
+  {
+    "date": "1997.04.13",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record"
+    ],
+    "summary": "Tiger Woods wins the Masters by 12",
+    "source": "https://en.wikipedia.org/wiki/1997_Masters_Tournament"
   },
   {
     "date": "1997.05.11",
@@ -6301,6 +6638,16 @@
     ],
     "summary": "First Harry Potter book published",
     "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+  },
+  {
+    "date": "1997.06.28",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "boxing"
+    ],
+    "summary": "Tyson bites Holyfield's ear",
+    "source": "https://en.wikipedia.org/wiki/Evander_Holyfield_vs._Mike_Tyson_II"
   },
   {
     "date": "1997.07.01",
@@ -6414,6 +6761,17 @@
     "source": "https://en.wikipedia.org/wiki/Cuba%E2%80%93Holy_See_relations"
   },
   {
+    "date": "1998.02.07",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "olympics",
+      "winter-sports"
+    ],
+    "summary": "Nagano Winter Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1998_Winter_Olympics"
+  },
+  {
     "date": "1998.04.10",
     "category": "politics",
     "importance": 3,
@@ -6423,6 +6781,16 @@
     ],
     "summary": "Good Friday Agreement signed",
     "source": "https://en.wikipedia.org/wiki/Good_Friday_Agreement"
+  },
+  {
+    "date": "1998.05.14",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "television"
+    ],
+    "summary": "Seinfeld finale draws 76 million",
+    "source": "https://en.wikipedia.org/wiki/Seinfeld"
   },
   {
     "date": "1998.06.14",
@@ -6501,6 +6869,17 @@
     "source": "https://en.wikipedia.org/wiki/Euro"
   },
   {
+    "date": "1999.03.19",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "aviation",
+      "record"
+    ],
+    "summary": "Balloon completes first nonstop circuit",
+    "source": "https://en.wikipedia.org/wiki/Breitling_Orbiter"
+  },
+  {
     "date": "1999.03.24",
     "category": "history",
     "importance": 4,
@@ -6530,6 +6909,27 @@
     ],
     "summary": "Columbine school shooting",
     "source": "https://en.wikipedia.org/wiki/Columbine_High_School_massacre"
+  },
+  {
+    "date": "1999.05.26",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football"
+    ],
+    "summary": "Manchester United completes the treble",
+    "source": "https://en.wikipedia.org/wiki/1999_UEFA_Champions_League_final"
+  },
+  {
+    "date": "1999.06.01",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "internet",
+      "music"
+    ],
+    "summary": "Napster launches",
+    "source": "https://en.wikipedia.org/wiki/Napster"
   },
   {
     "date": "1999.12.24",

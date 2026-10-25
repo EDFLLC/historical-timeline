@@ -1222,6 +1222,58 @@
     "source": "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye"
   },
   {
+    "date": "1951.09.08",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "usa"
+    ],
+    "summary": "San Francisco peace treaty with Japan",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_San_Francisco"
+  },
+  {
+    "date": "1951.10.15",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "television"
+    ],
+    "summary": "I Love Lucy premieres on CBS",
+    "source": "https://en.wikipedia.org/wiki/I_Love_Lucy"
+  },
+  {
+    "date": "1952.02.06",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe"
+    ],
+    "summary": "George VI dies; Elizabeth II accedes",
+    "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_George_VI"
+  },
+  {
+    "date": "1952.05.02",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "BOAC starts first jet airliner service",
+    "source": "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+  },
+  {
+    "date": "1952.07.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "egypt"
+    ],
+    "summary": "Egypt's Free Officers topple the king",
+    "source": "https://en.wikipedia.org/wiki/Egyptian_revolution_of_1952"
+  },
+  {
     "date": "1952.08.29",
     "category": "arts",
     "importance": 3,
@@ -1230,6 +1282,28 @@
     ],
     "summary": "John Cage's silent piece premieres",
     "source": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3"
+  },
+  {
+    "date": "1952.11.01",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "nuclear",
+      "cold-war"
+    ],
+    "summary": "Ivy Mike is the first H-bomb test",
+    "source": "https://en.wikipedia.org/wiki/Ivy_Mike"
+  },
+  {
+    "date": "1952.12.05",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "europe"
+    ],
+    "summary": "Great Smog blankets London",
+    "source": "https://en.wikipedia.org/wiki/Great_Smog_of_London"
   },
   {
     "date": "1953.01.05",
@@ -1241,6 +1315,18 @@
     ],
     "summary": "Waiting for Godot premieres in Paris",
     "source": "https://en.wikipedia.org/wiki/Waiting_for_Godot"
+  },
+  {
+    "date": "1953.03.05",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "ussr",
+      "cold-war",
+      "death"
+    ],
+    "summary": "Stalin dies after a stroke",
+    "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Joseph_Stalin"
   },
   {
     "date": "1953.04.25",
@@ -1264,6 +1350,17 @@
     "source": "https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition"
   },
   {
+    "date": "1953.06.02",
+    "category": "politics",
+    "importance": 2,
+    "tags": [
+      "europe",
+      "television"
+    ],
+    "summary": "Elizabeth II is crowned",
+    "source": "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II"
+  },
+  {
     "date": "1953.07.27",
     "category": "politics",
     "importance": 3,
@@ -1276,6 +1373,38 @@
     "source": "https://en.wikipedia.org/wiki/Korean_Armistice_Agreement"
   },
   {
+    "date": "1953.08.19",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "iran",
+      "cold-war"
+    ],
+    "summary": "Coup ousts Iran's PM Mosaddegh",
+    "source": "https://en.wikipedia.org/wiki/1953_Iranian_coup_d'%C3%A9tat"
+  },
+  {
+    "date": "1953.11.25",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "football"
+    ],
+    "summary": "Hungary beats England 6-3 at Wembley",
+    "source": "https://en.wikipedia.org/wiki/Match_of_the_Century_%281953_England_v_Hungary_football_match%29"
+  },
+  {
+    "date": "1954.03.01",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "nuclear",
+      "cold-war"
+    ],
+    "summary": "Castle Bravo test spreads fallout",
+    "source": "https://en.wikipedia.org/wiki/Castle_Bravo"
+  },
+  {
     "date": "1954.05.06",
     "category": "sport",
     "importance": 3,
@@ -1285,6 +1414,17 @@
     ],
     "summary": "Bannister runs four-minute mile",
     "source": "https://en.wikipedia.org/wiki/Roger_Bannister"
+  },
+  {
+    "date": "1954.05.07",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "vietnam"
+    ],
+    "summary": "Dien Bien Phu falls to the Viet Minh",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu"
   },
   {
     "date": "1954.05.17",
@@ -1299,6 +1439,17 @@
     "source": "https://en.wikipedia.org/wiki/Brown_v._Board_of_Education"
   },
   {
+    "date": "1954.07.04",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "world-cup",
+      "football"
+    ],
+    "summary": "West Germany wins the 1954 World Cup",
+    "source": "https://en.wikipedia.org/wiki/1954_FIFA_World_Cup_final"
+  },
+  {
     "date": "1954.07.05",
     "category": "pop",
     "importance": 3,
@@ -1308,6 +1459,17 @@
     ],
     "summary": "Elvis records That's All Right",
     "source": "https://en.wikipedia.org/wiki/That%27s_All_Right"
+  },
+  {
+    "date": "1954.11.01",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "independence"
+    ],
+    "summary": "Algerian War begins with FLN attacks",
+    "source": "https://en.wikipedia.org/wiki/Toussaint_Rouge"
   },
   {
     "date": "1955.04.12",
@@ -1321,6 +1483,29 @@
     "source": "https://en.wikipedia.org/wiki/Announcement_of_polio_vaccine_success"
   },
   {
+    "date": "1955.04.18",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence",
+      "social-movement"
+    ],
+    "summary": "Asian-African Bandung Conference opens",
+    "source": "https://en.wikipedia.org/wiki/Bandung_Conference"
+  },
+  {
+    "date": "1955.05.14",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "cold-war",
+      "treaty",
+      "ussr"
+    ],
+    "summary": "Warsaw Pact is signed",
+    "source": "https://en.wikipedia.org/wiki/Warsaw_Pact"
+  },
+  {
     "date": "1955.07.17",
     "category": "pop",
     "importance": 3,
@@ -1330,6 +1515,29 @@
     ],
     "summary": "Disneyland opens in California",
     "source": "https://en.wikipedia.org/wiki/Disneyland"
+  },
+  {
+    "date": "1955.08.28",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "civil-rights",
+      "racism",
+      "usa"
+    ],
+    "summary": "Emmett Till is murdered in Mississippi",
+    "source": "https://en.wikipedia.org/wiki/Emmett_Till"
+  },
+  {
+    "date": "1955.09.15",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Lolita is published in Paris",
+    "source": "https://en.wikipedia.org/wiki/Lolita"
   },
   {
     "date": "1955.12.01",
@@ -1343,6 +1551,51 @@
     "source": "https://en.wikipedia.org/wiki/Rosa_Parks"
   },
   {
+    "date": "1956.02.25",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "ussr",
+      "cold-war"
+    ],
+    "summary": "Khrushchev's secret speech on Stalin",
+    "source": "https://en.wikipedia.org/wiki/On_the_Cult_of_Personality_and_Its_Consequences"
+  },
+  {
+    "date": "1956.09.09",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "television"
+    ],
+    "summary": "Elvis appears on Ed Sullivan Show",
+    "source": "https://en.wikipedia.org/wiki/The_Ed_Sullivan_Show"
+  },
+  {
+    "date": "1956.09.25",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "telephony",
+      "transatlantic"
+    ],
+    "summary": "First transatlantic phone cable opens",
+    "source": "https://en.wikipedia.org/wiki/TAT-1"
+  },
+  {
+    "date": "1956.10.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "cold-war",
+      "ussr"
+    ],
+    "summary": "Hungarian Revolution begins in Budapest",
+    "source": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956"
+  },
+  {
     "date": "1956.10.29",
     "category": "history",
     "importance": 4,
@@ -1352,6 +1605,26 @@
     ],
     "summary": "Suez Crisis begins",
     "source": "https://en.wikipedia.org/wiki/Suez_Crisis"
+  },
+  {
+    "date": "1956.11.22",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Melbourne Olympic Games open",
+    "source": "https://en.wikipedia.org/wiki/1956_Summer_Olympics"
+  },
+  {
+    "date": "1957.03.06",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Ghana wins independence from Britain",
+    "source": "https://en.wikipedia.org/wiki/Independence_Day_%28Ghana%29"
   },
   {
     "date": "1957.03.25",
@@ -1364,6 +1637,39 @@
     ],
     "summary": "Treaty of Rome founds the EEC",
     "source": "https://en.wikipedia.org/wiki/Treaty_of_Rome"
+  },
+  {
+    "date": "1957.07.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics",
+      "cold-war"
+    ],
+    "summary": "International Geophysical Year begins",
+    "source": "https://en.wikipedia.org/wiki/International_Geophysical_Year"
+  },
+  {
+    "date": "1957.09.05",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "On the Road is published",
+    "source": "https://en.wikipedia.org/wiki/On_the_Road"
+  },
+  {
+    "date": "1957.10.02",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Bridge on the River Kwai premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Bridge_on_the_River_Kwai"
   },
   {
     "date": "1957.10.04",
@@ -1388,6 +1694,39 @@
     "source": "https://en.wikipedia.org/wiki/Soviet_space_dogs"
   },
   {
+    "date": "1958.03.02",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "polar",
+      "expedition"
+    ],
+    "summary": "Fuchs completes crossing of Antarctica",
+    "source": "https://en.wikipedia.org/wiki/Commonwealth_Trans-Antarctic_Expedition"
+  },
+  {
+    "date": "1958.06.29",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "world-cup",
+      "football"
+    ],
+    "summary": "Brazil wins World Cup; Pele stars",
+    "source": "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup_final"
+  },
+  {
+    "date": "1958.07.29",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "nasa",
+      "space"
+    ],
+    "summary": "Eisenhower signs the law creating NASA",
+    "source": "https://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Act"
+  },
+  {
     "date": "1958.08.03",
     "category": "exploration",
     "importance": 3,
@@ -1410,6 +1749,17 @@
     "source": "https://en.wikipedia.org/wiki/Jack_Kilby"
   },
   {
+    "date": "1959.01.01",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "cold-war"
+    ],
+    "summary": "Batista flees Cuba as rebels advance",
+    "source": "https://en.wikipedia.org/wiki/Triumph_of_the_Revolution"
+  },
+  {
     "date": "1959.01.25",
     "category": "religion",
     "importance": 3,
@@ -1420,6 +1770,27 @@
     ],
     "summary": "Pope announces Second Vatican Council",
     "source": "https://en.wikipedia.org/wiki/Second_Vatican_Council"
+  },
+  {
+    "date": "1959.02.03",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "rock-and-roll",
+      "death"
+    ],
+    "summary": "Buddy Holly dies in a plane crash",
+    "source": "https://en.wikipedia.org/wiki/Buddy_Holly"
+  },
+  {
+    "date": "1959.03.09",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "leisure"
+    ],
+    "summary": "Barbie debuts at New York Toy Fair",
+    "source": "https://en.wikipedia.org/wiki/Barbie"
   },
   {
     "date": "1959.03.17",
@@ -1464,6 +1835,17 @@
     ],
     "summary": "Guggenheim Museum opens in New York",
     "source": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum"
+  },
+  {
+    "date": "1959.12.01",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "polar",
+      "treaty"
+    ],
+    "summary": "Antarctic Treaty is signed",
+    "source": "https://en.wikipedia.org/wiki/Antarctic_Treaty_System"
   },
   {
     "date": "1960.01.23",

@@ -3806,6 +3806,17 @@
   },
   {
     "date": "1973.12.28",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "ussr"
+    ],
+    "summary": "The Gulag Archipelago is published",
+    "source": "https://en.wikipedia.org/wiki/The_Gulag_Archipelago"
+  },
+  {
+    "date": "1973.12.28",
     "category": "science",
     "importance": 3,
     "tags": [
@@ -4083,6 +4094,17 @@
     "source": "https://en.wikipedia.org/wiki/Concorde"
   },
   {
+    "date": "1976.02.08",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Taxi Driver premieres",
+    "source": "https://en.wikipedia.org/wiki/Taxi_Driver"
+  },
+  {
     "date": "1976.04.01",
     "category": "tech",
     "importance": 3,
@@ -4256,6 +4278,17 @@
     ],
     "summary": "Sex Pistols release their debut album",
     "source": "https://en.wikipedia.org/wiki/Never_Mind_the_Bollocks,_Here%27s_the_Sex_Pistols"
+  },
+  {
+    "date": "1977.12.12",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Saturday Night Fever premieres in NYC",
+    "source": "https://en.wikipedia.org/wiki/Saturday_Night_Fever"
   },
   {
     "date": "1978.06.25",
@@ -4489,6 +4522,17 @@
     "source": "https://en.wikipedia.org/wiki/Miracle_on_Ice"
   },
   {
+    "date": "1980.03.24",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "assassination",
+      "catholic"
+    ],
+    "summary": "Archbishop Romero is shot at Mass",
+    "source": "https://en.wikipedia.org/wiki/%C3%93scar_Romero"
+  },
+  {
     "date": "1980.05.08",
     "category": "science",
     "importance": 4,
@@ -4509,6 +4553,39 @@
     ],
     "summary": "Mount St. Helens erupts",
     "source": "https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens"
+  },
+  {
+    "date": "1980.05.21",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Empire Strikes Back opens",
+    "source": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
+  },
+  {
+    "date": "1980.08.31",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "social-movement",
+      "europe"
+    ],
+    "summary": "Gdansk Agreement; Solidarity is born",
+    "source": "https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement"
+  },
+  {
+    "date": "1980.09.22",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "middle-east"
+    ],
+    "summary": "Iraq invades Iran",
+    "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War"
   },
   {
     "date": "1980.11.04",
@@ -4567,6 +4644,16 @@
     "source": "https://en.wikipedia.org/wiki/Timeline_of_HIV/AIDS"
   },
   {
+    "date": "1981.07.29",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media"
+    ],
+    "summary": "Charles and Diana wed at St Paul's",
+    "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_Charles_and_Lady_Diana_Spencer"
+  },
+  {
     "date": "1981.08.01",
     "category": "pop",
     "importance": 2,
@@ -4588,6 +4675,71 @@
     "source": "https://en.wikipedia.org/wiki/IBM_Personal_Computer"
   },
   {
+    "date": "1981.10.06",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "assassination",
+      "egypt"
+    ],
+    "summary": "Sadat is assassinated in Cairo",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat"
+  },
+  {
+    "date": "1981.12.13",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "europe",
+      "cold-war"
+    ],
+    "summary": "Poland declares martial law",
+    "source": "https://en.wikipedia.org/wiki/Martial_law_in_Poland"
+  },
+  {
+    "date": "1982.04.02",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war"
+    ],
+    "summary": "Argentina invades the Falklands",
+    "source": "https://en.wikipedia.org/wiki/Falklands_War"
+  },
+  {
+    "date": "1982.06.06",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "middle-east"
+    ],
+    "summary": "Israel invades Lebanon",
+    "source": "https://en.wikipedia.org/wiki/1982_Lebanon_War"
+  },
+  {
+    "date": "1982.06.11",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "E.T. opens in US theaters",
+    "source": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
+  },
+  {
+    "date": "1982.07.11",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "Italy wins the World Cup in Madrid",
+    "source": "https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_final"
+  },
+  {
     "date": "1982.11.29",
     "category": "pop",
     "importance": 4,
@@ -4596,6 +4748,28 @@
     ],
     "summary": "Michael Jackson releases Thriller",
     "source": "https://en.wikipedia.org/wiki/Thriller_%28album%29"
+  },
+  {
+    "date": "1983.01.01",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "internet",
+      "computing"
+    ],
+    "summary": "ARPANET switches to TCP/IP",
+    "source": "https://en.wikipedia.org/wiki/ARPANET"
+  },
+  {
+    "date": "1983.10.23",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "terrorism",
+      "middle-east"
+    ],
+    "summary": "Beirut barracks bombings",
+    "source": "https://en.wikipedia.org/wiki/1983_Beirut_barracks_bombings"
   },
   {
     "date": "1984.01.24",
@@ -4609,6 +4783,50 @@
     "source": "https://en.wikipedia.org/wiki/Macintosh_128K"
   },
   {
+    "date": "1984.07.28",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "cold-war"
+    ],
+    "summary": "Los Angeles Olympics open amid boycott",
+    "source": "https://en.wikipedia.org/wiki/1984_Summer_Olympics"
+  },
+  {
+    "date": "1984.10.31",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "assassination",
+      "india"
+    ],
+    "summary": "Indira Gandhi is assassinated",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Indira_Gandhi"
+  },
+  {
+    "date": "1984.12.19",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "china"
+    ],
+    "summary": "Britain agrees to return Hong Kong",
+    "source": "https://en.wikipedia.org/wiki/Sino-British_Joint_Declaration"
+  },
+  {
+    "date": "1985.03.11",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "ussr",
+      "cold-war"
+    ],
+    "summary": "Gorbachev becomes Soviet leader",
+    "source": "https://en.wikipedia.org/wiki/General_secretaryship_of_Mikhail_Gorbachev"
+  },
+  {
     "date": "1985.05.16",
     "category": "science",
     "importance": 3,
@@ -4617,6 +4835,28 @@
     ],
     "summary": "Ozone hole over Antarctica reported",
     "source": "https://en.wikipedia.org/wiki/Ozone_depletion"
+  },
+  {
+    "date": "1985.05.29",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "disaster"
+    ],
+    "summary": "Heysel Stadium disaster",
+    "source": "https://en.wikipedia.org/wiki/Heysel_Stadium_disaster"
+  },
+  {
+    "date": "1985.07.03",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Back to the Future opens",
+    "source": "https://en.wikipedia.org/wiki/Back_to_the_Future"
   },
   {
     "date": "1985.07.13",
@@ -4653,6 +4893,28 @@
     "source": "https://en.wikipedia.org/wiki/Super_Mario_Bros."
   },
   {
+    "date": "1985.11.20",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "software",
+      "computing"
+    ],
+    "summary": "Microsoft ships Windows 1.0",
+    "source": "https://en.wikipedia.org/wiki/Windows_1.0"
+  },
+  {
+    "date": "1986.01.24",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Voyager 2 flies past Uranus",
+    "source": "https://en.wikipedia.org/wiki/Voyager_2"
+  },
+  {
     "date": "1986.01.28",
     "category": "history",
     "importance": 4,
@@ -4663,6 +4925,27 @@
     ],
     "summary": "Space Shuttle Challenger breaks apart",
     "source": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster"
+  },
+  {
+    "date": "1986.02.25",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution"
+    ],
+    "summary": "People Power ousts Marcos in Manila",
+    "source": "https://en.wikipedia.org/wiki/People_Power_Revolution"
+  },
+  {
+    "date": "1986.04.13",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "christianity"
+    ],
+    "summary": "John Paul II visits Rome's synagogue",
+    "source": "https://en.wikipedia.org/wiki/Great_Synagogue_of_Rome"
   },
   {
     "date": "1986.04.26",
@@ -4688,6 +4971,94 @@
     "source": "https://en.wikipedia.org/wiki/Argentina_v_England_%281986_FIFA_World_Cup%29"
   },
   {
+    "date": "1986.06.29",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "Argentina wins the Mexico World Cup",
+    "source": "https://en.wikipedia.org/wiki/1986_FIFA_World_Cup_final"
+  },
+  {
+    "date": "1986.11.03",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "usa",
+      "media"
+    ],
+    "summary": "Iran-Contra affair breaks",
+    "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair"
+  },
+  {
+    "date": "1986.12.23",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "record"
+    ],
+    "summary": "Voyager flies nonstop around the world",
+    "source": "https://en.wikipedia.org/wiki/Rutan_Voyager"
+  },
+  {
+    "date": "1987.06.12",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "germany",
+      "cold-war"
+    ],
+    "summary": "Reagan: tear down this wall",
+    "source": "https://en.wikipedia.org/wiki/Tear_down_this_wall!"
+  },
+  {
+    "date": "1987.09.16",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "climate",
+      "treaty"
+    ],
+    "summary": "Montreal Protocol is agreed",
+    "source": "https://en.wikipedia.org/wiki/Montreal_Protocol"
+  },
+  {
+    "date": "1987.10.19",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "economics",
+      "finance"
+    ],
+    "summary": "Black Monday stock market crash",
+    "source": "https://en.wikipedia.org/wiki/Black_Monday_%281987%29"
+  },
+  {
+    "date": "1987.12.08",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "nuclear",
+      "cold-war"
+    ],
+    "summary": "Reagan and Gorbachev sign INF Treaty",
+    "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty"
+  },
+  {
+    "date": "1987.12.09",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "middle-east"
+    ],
+    "summary": "First Intifada begins",
+    "source": "https://en.wikipedia.org/wiki/First_Intifada"
+  },
+  {
     "date": "1988.09.24",
     "category": "sport",
     "importance": 3,
@@ -4710,6 +5081,17 @@
     "source": "https://en.wikipedia.org/wiki/The_Satanic_Verses"
   },
   {
+    "date": "1988.12.21",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "terrorism",
+      "aviation"
+    ],
+    "summary": "Lockerbie bombing of Pan Am 103",
+    "source": "https://en.wikipedia.org/wiki/Pan_Am_Flight_103"
+  },
+  {
     "date": "1989.02.14",
     "category": "religion",
     "importance": 3,
@@ -4719,6 +5101,38 @@
     ],
     "summary": "Khomeini issues fatwa against Rushdie",
     "source": "https://en.wikipedia.org/wiki/Satanic_Verses_controversy"
+  },
+  {
+    "date": "1989.03.12",
+    "category": "tech",
+    "importance": 5,
+    "tags": [
+      "web",
+      "internet"
+    ],
+    "summary": "Berners-Lee proposes the World Wide Web",
+    "source": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+  },
+  {
+    "date": "1989.03.23",
+    "category": "science",
+    "importance": 2,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Cold fusion claim is announced",
+    "source": "https://en.wikipedia.org/wiki/Cold_fusion"
+  },
+  {
+    "date": "1989.03.24",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "maritime"
+    ],
+    "summary": "Exxon Valdez oil spill",
+    "source": "https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill"
   },
   {
     "date": "1989.03.29",
@@ -4732,6 +5146,28 @@
     "source": "https://en.wikipedia.org/wiki/Louvre_Pyramid"
   },
   {
+    "date": "1989.04.15",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "football",
+      "disaster"
+    ],
+    "summary": "Hillsborough disaster",
+    "source": "https://en.wikipedia.org/wiki/Hillsborough_disaster"
+  },
+  {
+    "date": "1989.04.21",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "games",
+      "electronics"
+    ],
+    "summary": "Game Boy launches in Japan",
+    "source": "https://en.wikipedia.org/wiki/Game_Boy"
+  },
+  {
     "date": "1989.06.04",
     "category": "politics",
     "importance": 4,
@@ -4741,6 +5177,17 @@
     ],
     "summary": "Tiananmen protests end in crackdown",
     "source": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
+  },
+  {
+    "date": "1989.08.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "independence",
+      "ussr"
+    ],
+    "summary": "Baltic Way human chain",
+    "source": "https://en.wikipedia.org/wiki/Baltic_Way"
   },
   {
     "date": "1989.11.09",
@@ -4763,6 +5210,39 @@
     ],
     "summary": "East Germany opens its borders",
     "source": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+  },
+  {
+    "date": "1989.12.17",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "television",
+      "animation"
+    ],
+    "summary": "The Simpsons premieres on Fox",
+    "source": "https://en.wikipedia.org/wiki/Simpsons_Roasting_on_an_Open_Fire"
+  },
+  {
+    "date": "1989.12.20",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "usa"
+    ],
+    "summary": "US invades Panama",
+    "source": "https://en.wikipedia.org/wiki/United_States_invasion_of_Panama"
+  },
+  {
+    "date": "1989.12.25",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "europe"
+    ],
+    "summary": "Ceausescus are executed in Romania",
+    "source": "https://en.wikipedia.org/wiki/Trial_and_execution_of_Nicolae_and_Elena_Ceau%C8%99escu"
   },
   {
     "date": "1990.02.11",
@@ -6059,452 +6539,5 @@
     ],
     "summary": "Spain win the World Cup",
     "source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_final"
-  },
-  {
-    "date": "1980.03.24",
-    "category": "religion",
-    "importance": 3,
-    "tags": [
-      "assassination",
-      "catholic"
-    ],
-    "summary": "Archbishop Romero is shot at Mass",
-    "source": "https://en.wikipedia.org/wiki/%C3%93scar_Romero"
-  },
-  {
-    "date": "1980.05.21",
-    "category": "pop",
-    "importance": 3,
-    "tags": [
-      "film",
-      "cinema"
-    ],
-    "summary": "The Empire Strikes Back opens",
-    "source": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
-  },
-  {
-    "date": "1980.08.31",
-    "category": "politics",
-    "importance": 4,
-    "tags": [
-      "labor",
-      "europe"
-    ],
-    "summary": "Gdansk Agreement; Solidarity is born",
-    "source": "https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement"
-  },
-  {
-    "date": "1980.09.22",
-    "category": "history",
-    "importance": 4,
-    "tags": [
-      "war",
-      "middle-east"
-    ],
-    "summary": "Iraq invades Iran",
-    "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War"
-  },
-  {
-    "date": "1981.07.29",
-    "category": "pop",
-    "importance": 3,
-    "tags": [
-      "media"
-    ],
-    "summary": "Charles and Diana wed at St Paul's",
-    "source": "https://en.wikipedia.org/wiki/Wedding_of_Prince_Charles_and_Lady_Diana_Spencer"
-  },
-  {
-    "date": "1981.10.06",
-    "category": "politics",
-    "importance": 4,
-    "tags": [
-      "assassination",
-      "egypt"
-    ],
-    "summary": "Sadat is assassinated in Cairo",
-    "source": "https://en.wikipedia.org/wiki/Assassination_of_Anwar_Sadat"
-  },
-  {
-    "date": "1981.12.13",
-    "category": "politics",
-    "importance": 4,
-    "tags": [
-      "europe",
-      "cold-war"
-    ],
-    "summary": "Poland declares martial law",
-    "source": "https://en.wikipedia.org/wiki/Martial_law_in_Poland"
-  },
-  {
-    "date": "1982.04.02",
-    "category": "history",
-    "importance": 4,
-    "tags": [
-      "war"
-    ],
-    "summary": "Argentina invades the Falklands",
-    "source": "https://en.wikipedia.org/wiki/Falklands_War"
-  },
-  {
-    "date": "1982.06.06",
-    "category": "history",
-    "importance": 3,
-    "tags": [
-      "war",
-      "middle-east"
-    ],
-    "summary": "Israel invades Lebanon",
-    "source": "https://en.wikipedia.org/wiki/1982_Lebanon_War"
-  },
-  {
-    "date": "1982.06.11",
-    "category": "pop",
-    "importance": 4,
-    "tags": [
-      "film",
-      "cinema"
-    ],
-    "summary": "E.T. opens in US theaters",
-    "source": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
-  },
-  {
-    "date": "1982.07.11",
-    "category": "sport",
-    "importance": 3,
-    "tags": [
-      "football",
-      "world-cup"
-    ],
-    "summary": "Italy wins the World Cup in Madrid",
-    "source": "https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_final"
-  },
-  {
-    "date": "1983.01.01",
-    "category": "tech",
-    "importance": 4,
-    "tags": [
-      "internet",
-      "computing"
-    ],
-    "summary": "ARPANET switches to TCP/IP",
-    "source": "https://en.wikipedia.org/wiki/ARPANET"
-  },
-  {
-    "date": "1983.10.23",
-    "category": "history",
-    "importance": 3,
-    "tags": [
-      "terrorism",
-      "middle-east"
-    ],
-    "summary": "Beirut barracks bombings",
-    "source": "https://en.wikipedia.org/wiki/1983_Beirut_barracks_bombings"
-  },
-  {
-    "date": "1984.07.28",
-    "category": "sport",
-    "importance": 3,
-    "tags": [
-      "olympics",
-      "cold-war"
-    ],
-    "summary": "Los Angeles Olympics open amid boycott",
-    "source": "https://en.wikipedia.org/wiki/1984_Summer_Olympics"
-  },
-  {
-    "date": "1984.10.31",
-    "category": "politics",
-    "importance": 4,
-    "tags": [
-      "assassination",
-      "india"
-    ],
-    "summary": "Indira Gandhi is assassinated",
-    "source": "https://en.wikipedia.org/wiki/Assassination_of_Indira_Gandhi"
-  },
-  {
-    "date": "1984.12.19",
-    "category": "politics",
-    "importance": 3,
-    "tags": [
-      "treaty",
-      "china"
-    ],
-    "summary": "Britain agrees to return Hong Kong",
-    "source": "https://en.wikipedia.org/wiki/Sino-British_Joint_Declaration"
-  },
-  {
-    "date": "1985.03.11",
-    "category": "politics",
-    "importance": 5,
-    "tags": [
-      "ussr",
-      "cold-war"
-    ],
-    "summary": "Gorbachev becomes Soviet leader",
-    "source": "https://en.wikipedia.org/wiki/General_secretaryship_of_Mikhail_Gorbachev"
-  },
-  {
-    "date": "1985.05.29",
-    "category": "sport",
-    "importance": 3,
-    "tags": [
-      "football",
-      "disaster"
-    ],
-    "summary": "Heysel Stadium disaster",
-    "source": "https://en.wikipedia.org/wiki/Heysel_Stadium_disaster"
-  },
-  {
-    "date": "1985.07.03",
-    "category": "pop",
-    "importance": 3,
-    "tags": [
-      "film",
-      "cinema"
-    ],
-    "summary": "Back to the Future opens",
-    "source": "https://en.wikipedia.org/wiki/Back_to_the_Future"
-  },
-  {
-    "date": "1985.11.20",
-    "category": "tech",
-    "importance": 3,
-    "tags": [
-      "software",
-      "computing"
-    ],
-    "summary": "Microsoft ships Windows 1.0",
-    "source": "https://en.wikipedia.org/wiki/Windows_1.0"
-  },
-  {
-    "date": "1986.01.24",
-    "category": "exploration",
-    "importance": 3,
-    "tags": [
-      "space",
-      "nasa"
-    ],
-    "summary": "Voyager 2 flies past Uranus",
-    "source": "https://en.wikipedia.org/wiki/Voyager_2"
-  },
-  {
-    "date": "1986.02.25",
-    "category": "politics",
-    "importance": 4,
-    "tags": [
-      "revolution"
-    ],
-    "summary": "People Power ousts Marcos in Manila",
-    "source": "https://en.wikipedia.org/wiki/People_Power_Revolution"
-  },
-  {
-    "date": "1986.04.13",
-    "category": "religion",
-    "importance": 3,
-    "tags": [
-      "catholic",
-      "christianity"
-    ],
-    "summary": "John Paul II visits Rome's synagogue",
-    "source": "https://en.wikipedia.org/wiki/Great_Synagogue_of_Rome"
-  },
-  {
-    "date": "1986.06.29",
-    "category": "sport",
-    "importance": 3,
-    "tags": [
-      "football",
-      "world-cup"
-    ],
-    "summary": "Argentina wins the Mexico World Cup",
-    "source": "https://en.wikipedia.org/wiki/1986_FIFA_World_Cup_final"
-  },
-  {
-    "date": "1986.11.03",
-    "category": "politics",
-    "importance": 3,
-    "tags": [
-      "usa",
-      "media"
-    ],
-    "summary": "Iran-Contra affair breaks",
-    "source": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair"
-  },
-  {
-    "date": "1986.12.23",
-    "category": "exploration",
-    "importance": 3,
-    "tags": [
-      "aviation",
-      "record"
-    ],
-    "summary": "Voyager flies nonstop around the world",
-    "source": "https://en.wikipedia.org/wiki/Rutan_Voyager"
-  },
-  {
-    "date": "1987.06.12",
-    "category": "politics",
-    "importance": 3,
-    "tags": [
-      "germany",
-      "cold-war"
-    ],
-    "summary": "Reagan: tear down this wall",
-    "source": "https://en.wikipedia.org/wiki/Tear_down_this_wall!"
-  },
-  {
-    "date": "1987.09.16",
-    "category": "science",
-    "importance": 3,
-    "tags": [
-      "climate",
-      "treaty"
-    ],
-    "summary": "Montreal Protocol is agreed",
-    "source": "https://en.wikipedia.org/wiki/Montreal_Protocol"
-  },
-  {
-    "date": "1987.10.19",
-    "category": "history",
-    "importance": 4,
-    "tags": [
-      "economics",
-      "finance"
-    ],
-    "summary": "Black Monday stock market crash",
-    "source": "https://en.wikipedia.org/wiki/Black_Monday_%281987%29"
-  },
-  {
-    "date": "1987.12.08",
-    "category": "politics",
-    "importance": 4,
-    "tags": [
-      "treaty",
-      "nuclear",
-      "cold-war"
-    ],
-    "summary": "Reagan and Gorbachev sign INF Treaty",
-    "source": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty"
-  },
-  {
-    "date": "1987.12.09",
-    "category": "politics",
-    "importance": 3,
-    "tags": [
-      "middle-east"
-    ],
-    "summary": "First Intifada begins",
-    "source": "https://en.wikipedia.org/wiki/First_Intifada"
-  },
-  {
-    "date": "1988.12.21",
-    "category": "history",
-    "importance": 4,
-    "tags": [
-      "terrorism",
-      "aviation"
-    ],
-    "summary": "Lockerbie bombing of Pan Am 103",
-    "source": "https://en.wikipedia.org/wiki/Pan_Am_Flight_103"
-  },
-  {
-    "date": "1989.03.12",
-    "category": "tech",
-    "importance": 5,
-    "tags": [
-      "web",
-      "internet"
-    ],
-    "summary": "Berners-Lee proposes the World Wide Web",
-    "source": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
-  },
-  {
-    "date": "1989.03.23",
-    "category": "science",
-    "importance": 2,
-    "tags": [
-      "physics"
-    ],
-    "summary": "Cold fusion claim is announced",
-    "source": "https://en.wikipedia.org/wiki/Cold_fusion"
-  },
-  {
-    "date": "1989.03.24",
-    "category": "history",
-    "importance": 3,
-    "tags": [
-      "disaster",
-      "maritime"
-    ],
-    "summary": "Exxon Valdez oil spill",
-    "source": "https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill"
-  },
-  {
-    "date": "1989.04.15",
-    "category": "history",
-    "importance": 3,
-    "tags": [
-      "football",
-      "disaster"
-    ],
-    "summary": "Hillsborough disaster",
-    "source": "https://en.wikipedia.org/wiki/Hillsborough_disaster"
-  },
-  {
-    "date": "1989.04.21",
-    "category": "pop",
-    "importance": 3,
-    "tags": [
-      "games",
-      "electronics"
-    ],
-    "summary": "Game Boy launches in Japan",
-    "source": "https://en.wikipedia.org/wiki/Game_Boy"
-  },
-  {
-    "date": "1989.08.23",
-    "category": "politics",
-    "importance": 4,
-    "tags": [
-      "independence",
-      "ussr"
-    ],
-    "summary": "Baltic Way human chain",
-    "source": "https://en.wikipedia.org/wiki/Baltic_Way"
-  },
-  {
-    "date": "1989.12.17",
-    "category": "pop",
-    "importance": 3,
-    "tags": [
-      "television",
-      "animation"
-    ],
-    "summary": "The Simpsons premieres on Fox",
-    "source": "https://en.wikipedia.org/wiki/Simpsons_Roasting_on_an_Open_Fire"
-  },
-  {
-    "date": "1989.12.20",
-    "category": "history",
-    "importance": 3,
-    "tags": [
-      "war",
-      "usa"
-    ],
-    "summary": "US invades Panama",
-    "source": "https://en.wikipedia.org/wiki/United_States_invasion_of_Panama"
-  },
-  {
-    "date": "1989.12.25",
-    "category": "politics",
-    "importance": 4,
-    "tags": [
-      "revolution",
-      "europe"
-    ],
-    "summary": "Ceausescus are executed in Romania",
-    "source": "https://en.wikipedia.org/wiki/Trial_and_execution_of_Nicolae_and_Elena_Ceau%C8%99escu"
   }
 ]

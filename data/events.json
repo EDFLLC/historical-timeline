@@ -5781,6 +5781,17 @@
     "source": "https://en.wikipedia.org/wiki/Iraqi_invasion_of_Kuwait"
   },
   {
+    "date": "1990.10.01",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "genomics",
+      "biology"
+    ],
+    "summary": "Human Genome Project officially begins",
+    "source": "https://en.wikipedia.org/wiki/Human_Genome_Project"
+  },
+  {
     "date": "1990.10.03",
     "category": "politics",
     "importance": 4,
@@ -5812,6 +5823,17 @@
     ],
     "summary": "World Wide Web opens to the public",
     "source": "https://en.wikipedia.org/wiki/World_Wide_Web"
+  },
+  {
+    "date": "1991.08.25",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "software",
+      "computing"
+    ],
+    "summary": "Torvalds announces Linux",
+    "source": "https://en.wikipedia.org/wiki/History_of_Linux"
   },
   {
     "date": "1991.09.24",
@@ -5847,6 +5869,39 @@
     "source": "https://en.wikipedia.org/wiki/Maastricht_Treaty"
   },
   {
+    "date": "1992.04.05",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "europe"
+    ],
+    "summary": "Siege of Sarajevo begins",
+    "source": "https://en.wikipedia.org/wiki/Siege_of_Sarajevo"
+  },
+  {
+    "date": "1992.04.29",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "racism",
+      "civil-rights"
+    ],
+    "summary": "Los Angeles riots erupt after verdicts",
+    "source": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots"
+  },
+  {
+    "date": "1992.06.03",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "climate",
+      "united-nations"
+    ],
+    "summary": "Rio Earth Summit opens",
+    "source": "https://en.wikipedia.org/wiki/Earth_Summit"
+  },
+  {
     "date": "1992.07.25",
     "category": "sport",
     "importance": 3,
@@ -5866,6 +5921,17 @@
     ],
     "summary": "John Paul II addresses Galileo case",
     "source": "https://en.wikipedia.org/wiki/Galileo_affair"
+  },
+  {
+    "date": "1993.01.01",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence",
+      "europe"
+    ],
+    "summary": "Czechoslovakia splits peacefully in two",
+    "source": "https://en.wikipedia.org/wiki/Czechoslovakia"
   },
   {
     "date": "1993.02.28",
@@ -5901,6 +5967,39 @@
     "source": "https://en.wikipedia.org/wiki/Jurassic_Park"
   },
   {
+    "date": "1993.09.13",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "middle-east",
+      "treaty"
+    ],
+    "summary": "Oslo Accords signed in Washington",
+    "source": "https://en.wikipedia.org/wiki/Oslo_I_Accord"
+  },
+  {
+    "date": "1993.12.02",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Shuttle crew launches Hubble repair",
+    "source": "https://en.wikipedia.org/wiki/STS-61"
+  },
+  {
+    "date": "1993.12.15",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "genocide"
+    ],
+    "summary": "Schindler's List opens in US",
+    "source": "https://en.wikipedia.org/wiki/Schindler%27s_List"
+  },
+  {
     "date": "1994.04.07",
     "category": "history",
     "importance": 4,
@@ -5909,6 +6008,39 @@
     ],
     "summary": "Rwandan genocide begins",
     "source": "https://en.wikipedia.org/wiki/Rwandan_genocide"
+  },
+  {
+    "date": "1994.04.27",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "south-africa",
+      "election"
+    ],
+    "summary": "South Africa's first all-race election",
+    "source": "https://en.wikipedia.org/wiki/1994_South_African_general_election"
+  },
+  {
+    "date": "1994.05.01",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "motorsport",
+      "death"
+    ],
+    "summary": "Ayrton Senna dies at Imola",
+    "source": "https://en.wikipedia.org/wiki/Death_of_Ayrton_Senna"
+  },
+  {
+    "date": "1994.05.06",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering",
+      "europe"
+    ],
+    "summary": "Channel Tunnel officially opens",
+    "source": "https://en.wikipedia.org/wiki/Channel_Tunnel"
   },
   {
     "date": "1994.05.10",
@@ -5922,6 +6054,60 @@
     "source": "https://en.wikipedia.org/wiki/Nelson_Mandela"
   },
   {
+    "date": "1994.07.16",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "Comet fragments begin hitting Jupiter",
+    "source": "https://en.wikipedia.org/wiki/Comet_Shoemaker%E2%80%93Levy_9"
+  },
+  {
+    "date": "1994.07.17",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "Brazil wins World Cup on penalties",
+    "source": "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_final"
+  },
+  {
+    "date": "1994.10.14",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Pulp Fiction opens in US",
+    "source": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+  },
+  {
+    "date": "1994.12.03",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "games",
+      "electronics"
+    ],
+    "summary": "Sony PlayStation launches in Japan",
+    "source": "https://en.wikipedia.org/wiki/PlayStation_%28console%29"
+  },
+  {
+    "date": "1994.12.11",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "europe"
+    ],
+    "summary": "First Chechen War begins",
+    "source": "https://en.wikipedia.org/wiki/First_Chechen_War"
+  },
+  {
     "date": "1995.03.20",
     "category": "history",
     "importance": 3,
@@ -5931,6 +6117,17 @@
     ],
     "summary": "Aum Shinrikyo attacks Tokyo subway",
     "source": "https://en.wikipedia.org/wiki/Tokyo_subway_sarin_attack"
+  },
+  {
+    "date": "1995.04.19",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "terrorism",
+      "usa"
+    ],
+    "summary": "Oklahoma City bombing",
+    "source": "https://en.wikipedia.org/wiki/Oklahoma_City_bombing"
   },
   {
     "date": "1995.06.24",
@@ -5944,6 +6141,60 @@
     "source": "https://en.wikipedia.org/wiki/1995_Rugby_World_Cup"
   },
   {
+    "date": "1995.07.11",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "genocide",
+      "war"
+    ],
+    "summary": "Srebrenica falls; massacre follows",
+    "source": "https://en.wikipedia.org/wiki/Srebrenica_massacre"
+  },
+  {
+    "date": "1995.07.16",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "internet",
+      "economics"
+    ],
+    "summary": "Amazon.com opens for business",
+    "source": "https://en.wikipedia.org/wiki/History_of_Amazon"
+  },
+  {
+    "date": "1995.08.24",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "software",
+      "computing"
+    ],
+    "summary": "Microsoft releases Windows 95",
+    "source": "https://en.wikipedia.org/wiki/Windows_95"
+  },
+  {
+    "date": "1995.10.06",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "First planet found around Sun-like star",
+    "source": "https://en.wikipedia.org/wiki/51_Pegasi_b"
+  },
+  {
+    "date": "1995.11.04",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "assassination",
+      "middle-east"
+    ],
+    "summary": "Yitzhak Rabin is assassinated",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_Yitzhak_Rabin"
+  },
+  {
     "date": "1995.11.22",
     "category": "pop",
     "importance": 4,
@@ -5953,6 +6204,71 @@
     ],
     "summary": "Toy Story opens, first CGI feature",
     "source": "https://en.wikipedia.org/wiki/Toy_Story"
+  },
+  {
+    "date": "1995.12.14",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "war"
+    ],
+    "summary": "Dayton Agreement signed in Paris",
+    "source": "https://en.wikipedia.org/wiki/Dayton_Agreement"
+  },
+  {
+    "date": "1996.01.15",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy",
+      "space"
+    ],
+    "summary": "Hubble Deep Field images released",
+    "source": "https://en.wikipedia.org/wiki/Hubble_Deep_Field"
+  },
+  {
+    "date": "1996.02.01",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Infinite Jest is published",
+    "source": "https://en.wikipedia.org/wiki/Infinite_Jest"
+  },
+  {
+    "date": "1996.02.27",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "games",
+      "electronics"
+    ],
+    "summary": "Pokemon Red and Green released in Japan",
+    "source": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow"
+  },
+  {
+    "date": "1996.05.10",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "mountaineering",
+      "disaster"
+    ],
+    "summary": "Everest blizzard kills eight climbers",
+    "source": "https://en.wikipedia.org/wiki/1996_Mount_Everest_disaster"
+  },
+  {
+    "date": "1996.07.19",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Atlanta Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1996_Summer_Olympics"
   },
   {
     "date": "1997.02.22",
@@ -5987,6 +6303,28 @@
     "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
   },
   {
+    "date": "1997.07.01",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "china",
+      "independence"
+    ],
+    "summary": "Hong Kong returns to Chinese rule",
+    "source": "https://en.wikipedia.org/wiki/Handover_of_Hong_Kong"
+  },
+  {
+    "date": "1997.07.02",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "economics",
+      "finance"
+    ],
+    "summary": "Thai baht floated; Asian crisis begins",
+    "source": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis"
+  },
+  {
     "date": "1997.07.04",
     "category": "exploration",
     "importance": 3,
@@ -5999,6 +6337,39 @@
     "source": "https://en.wikipedia.org/wiki/Mars_Pathfinder"
   },
   {
+    "date": "1997.08.31",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media",
+      "death"
+    ],
+    "summary": "Princess Diana dies in Paris crash",
+    "source": "https://en.wikipedia.org/wiki/Death_of_Diana%2C_Princess_of_Wales"
+  },
+  {
+    "date": "1997.09.05",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "death"
+    ],
+    "summary": "Mother Teresa dies in Calcutta",
+    "source": "https://en.wikipedia.org/wiki/Mother_Teresa"
+  },
+  {
+    "date": "1997.10.15",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "space",
+      "nasa"
+    ],
+    "summary": "Cassini-Huygens launches to Saturn",
+    "source": "https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens"
+  },
+  {
     "date": "1997.10.18",
     "category": "arts",
     "importance": 4,
@@ -6008,6 +6379,17 @@
     ],
     "summary": "Guggenheim Museum Bilbao opens",
     "source": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao"
+  },
+  {
+    "date": "1997.12.11",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "climate",
+      "treaty"
+    ],
+    "summary": "Kyoto Protocol is adopted",
+    "source": "https://en.wikipedia.org/wiki/Kyoto_Protocol"
   },
   {
     "date": "1997.12.19",
@@ -6043,6 +6425,16 @@
     "source": "https://en.wikipedia.org/wiki/Good_Friday_Agreement"
   },
   {
+    "date": "1998.06.14",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record"
+    ],
+    "summary": "Bulls win sixth title in eight years",
+    "source": "https://en.wikipedia.org/wiki/Game_6_of_the_1998_NBA_Finals"
+  },
+  {
     "date": "1998.07.12",
     "category": "sport",
     "importance": 4,
@@ -6065,6 +6457,17 @@
     "source": "https://en.wikipedia.org/wiki/History_of_Google"
   },
   {
+    "date": "1998.10.29",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "human-spaceflight",
+      "nasa"
+    ],
+    "summary": "John Glenn returns to space at 77",
+    "source": "https://en.wikipedia.org/wiki/STS-95"
+  },
+  {
     "date": "1998.11.20",
     "category": "exploration",
     "importance": 3,
@@ -6076,6 +6479,39 @@
     "source": "https://en.wikipedia.org/wiki/Zarya_%28ISS_module%29"
   },
   {
+    "date": "1998.12.19",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "usa",
+      "election"
+    ],
+    "summary": "House impeaches President Clinton",
+    "source": "https://en.wikipedia.org/wiki/Impeachment_of_Bill_Clinton"
+  },
+  {
+    "date": "1999.01.01",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "europe",
+      "economics"
+    ],
+    "summary": "Euro launches in eleven countries",
+    "source": "https://en.wikipedia.org/wiki/Euro"
+  },
+  {
+    "date": "1999.03.24",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "europe"
+    ],
+    "summary": "NATO begins bombing Yugoslavia",
+    "source": "https://en.wikipedia.org/wiki/NATO_bombing_of_Yugoslavia"
+  },
+  {
     "date": "1999.03.31",
     "category": "pop",
     "importance": 3,
@@ -6084,6 +6520,38 @@
     ],
     "summary": "The Matrix opens in US theaters",
     "source": "https://en.wikipedia.org/wiki/The_Matrix"
+  },
+  {
+    "date": "1999.04.20",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "usa"
+    ],
+    "summary": "Columbine school shooting",
+    "source": "https://en.wikipedia.org/wiki/Columbine_High_School_massacre"
+  },
+  {
+    "date": "1999.12.24",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "christianity"
+    ],
+    "summary": "Pope opens the Jubilee Holy Door",
+    "source": "https://en.wikipedia.org/wiki/Great_Jubilee"
+  },
+  {
+    "date": "1999.12.31",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "ussr",
+      "europe"
+    ],
+    "summary": "Yeltsin resigns; Putin takes over",
+    "source": "https://en.wikipedia.org/wiki/Vladimir_Putin%27s_rise_to_power"
   },
   {
     "date": "2000.03.12",

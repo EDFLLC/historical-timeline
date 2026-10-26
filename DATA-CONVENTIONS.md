@@ -87,7 +87,7 @@ Dates use calendar dates as Wikipedia gives them, in the Gregorian calendar.
 
 ## Ambiguous dates
 
-If sources disagree on the day (e.g. the Hahn-Strassmann fission experiment: 17 vs 19 Dec 1938), drop the event rather than guess. Use plain ASCII in summaries (no diacritics) to keep labels short.
+If sources disagree on the day or give only a month, do a little research and assign the best-supported date (the most widely cited, or the first day of the month when only the month is known). Do not drop an important event over a discrepancy of a few days. Use plain ASCII in summaries (no diacritics) to keep labels short.
 
 ## Audit (run before big releases)
 

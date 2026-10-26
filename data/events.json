@@ -633,6 +633,37 @@
     "source": "https://en.wikipedia.org/wiki/Clyde_Tombaugh"
   },
   {
+    "date": "1930.03.12",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "independence",
+      "india"
+    ],
+    "summary": "Gandhi begins the Salt March",
+    "source": "https://en.wikipedia.org/wiki/Salt_March"
+  },
+  {
+    "date": "1930.05.27",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art"
+    ],
+    "summary": "Chrysler Building opens in New York",
+    "source": "https://en.wikipedia.org/wiki/Chrysler_Building"
+  },
+  {
+    "date": "1930.07.11",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record"
+    ],
+    "summary": "Bradman scores 334 at Headingley",
+    "source": "https://en.wikipedia.org/wiki/Don_Bradman"
+  },
+  {
     "date": "1930.07.13",
     "category": "sport",
     "importance": 5,
@@ -642,6 +673,80 @@
     ],
     "summary": "First FIFA World Cup matches are played",
     "source": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup"
+  },
+  {
+    "date": "1930.09.27",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record"
+    ],
+    "summary": "Bobby Jones completes golf Grand Slam",
+    "source": "https://en.wikipedia.org/wiki/Bobby_Jones_%28golfer%29"
+  },
+  {
+    "date": "1930.11.02",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Haile Selassie crowned in Ethiopia",
+    "source": "https://en.wikipedia.org/wiki/Haile_Selassie"
+  },
+  {
+    "date": "1930.12.31",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Casti connubii issued by Pius XI",
+    "source": "https://en.wikipedia.org/wiki/Casti_connubii"
+  },
+  {
+    "date": "1931.02.12",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Dracula premieres with Bela Lugosi",
+    "source": "https://en.wikipedia.org/wiki/Dracula_%281931_English-language_film%29"
+  },
+  {
+    "date": "1931.04.14",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "europe"
+    ],
+    "summary": "Second Spanish Republic proclaimed",
+    "source": "https://en.wikipedia.org/wiki/Second_Spanish_Republic"
+  },
+  {
+    "date": "1931.05.01",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Empire State Building opens",
+    "source": "https://en.wikipedia.org/wiki/Empire_State_Building"
+  },
+  {
+    "date": "1931.05.15",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "economics"
+    ],
+    "summary": "Quadragesimo anno issued",
+    "source": "https://en.wikipedia.org/wiki/Quadragesimo_anno"
   },
   {
     "date": "1931.05.27",
@@ -655,6 +760,121 @@
     "source": "https://en.wikipedia.org/wiki/Auguste_Piccard"
   },
   {
+    "date": "1931.09.18",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "china"
+    ],
+    "summary": "Mukden Incident; Japan invades Manchuria",
+    "source": "https://en.wikipedia.org/wiki/Mukden_incident"
+  },
+  {
+    "date": "1931.10.12",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art"
+    ],
+    "summary": "Christ the Redeemer statue inaugurated",
+    "source": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_%28statue%29"
+  },
+  {
+    "date": "1931.11.21",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Frankenstein film released",
+    "source": "https://en.wikipedia.org/wiki/Frankenstein_%281931_film%29"
+  },
+  {
+    "date": "1932.02.04",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Brave New World published",
+    "source": "https://en.wikipedia.org/wiki/Brave_New_World"
+  },
+  {
+    "date": "1932.02.27",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Chadwick announces the neutron",
+    "source": "https://en.wikipedia.org/wiki/James_Chadwick"
+  },
+  {
+    "date": "1932.03.19",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Sydney Harbour Bridge opens",
+    "source": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+  },
+  {
+    "date": "1932.04.14",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics",
+      "nuclear"
+    ],
+    "summary": "Cockcroft and Walton split the atom",
+    "source": "https://en.wikipedia.org/wiki/John_Cockcroft"
+  },
+  {
+    "date": "1932.05.20",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Earhart flies solo across the Atlantic",
+    "source": "https://en.wikipedia.org/wiki/Amelia_Earhart"
+  },
+  {
+    "date": "1932.07.30",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Los Angeles Summer Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1932_Summer_Olympics"
+  },
+  {
+    "date": "1932.08.02",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Anderson discovers the positron",
+    "source": "https://en.wikipedia.org/wiki/Positron"
+  },
+  {
+    "date": "1933.01.14",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "record"
+    ],
+    "summary": "Woodfull struck in Bodyline Test",
+    "source": "https://en.wikipedia.org/wiki/Bodyline"
+  },
+  {
     "date": "1933.01.30",
     "category": "politics",
     "importance": 5,
@@ -666,6 +886,17 @@
     "source": "https://en.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power"
   },
   {
+    "date": "1933.02.27",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Reichstag fire in Berlin",
+    "source": "https://en.wikipedia.org/wiki/Reichstag_fire"
+  },
+  {
     "date": "1933.03.02",
     "category": "pop",
     "importance": 3,
@@ -675,6 +906,39 @@
     ],
     "summary": "King Kong premieres in New York",
     "source": "https://en.wikipedia.org/wiki/King_Kong_%281933_film%29"
+  },
+  {
+    "date": "1933.03.04",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "usa",
+      "economics"
+    ],
+    "summary": "Roosevelt inaugurated; New Deal begins",
+    "source": "https://en.wikipedia.org/wiki/First_inauguration_of_Franklin_D._Roosevelt"
+  },
+  {
+    "date": "1933.03.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Enabling Act gives Hitler full powers",
+    "source": "https://en.wikipedia.org/wiki/Enabling_Act_of_1933"
+  },
+  {
+    "date": "1933.04.03",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "First flight over Mount Everest",
+    "source": "https://en.wikipedia.org/wiki/Houston%E2%80%93Mount_Everest_flight_expedition"
   },
   {
     "date": "1933.07.20",
@@ -689,6 +953,38 @@
     "source": "https://en.wikipedia.org/wiki/Reichskonkordat"
   },
   {
+    "date": "1933.12.05",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "usa"
+    ],
+    "summary": "US repeals Prohibition",
+    "source": "https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution"
+  },
+  {
+    "date": "1934.05.31",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "germany"
+    ],
+    "summary": "Barmen Declaration adopted",
+    "source": "https://en.wikipedia.org/wiki/Barmen_Declaration"
+  },
+  {
+    "date": "1934.06.30",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Night of the Long Knives",
+    "source": "https://en.wikipedia.org/wiki/Night_of_the_Long_Knives"
+  },
+  {
     "date": "1934.08.15",
     "category": "exploration",
     "importance": 2,
@@ -698,6 +994,59 @@
     ],
     "summary": "Bathysphere dives to 923 meters",
     "source": "https://en.wikipedia.org/wiki/Bathysphere"
+  },
+  {
+    "date": "1934.10.16",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "china",
+      "war"
+    ],
+    "summary": "Red Army begins the Long March",
+    "source": "https://en.wikipedia.org/wiki/Long_March"
+  },
+  {
+    "date": "1935.02.28",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Carothers first synthesizes nylon",
+    "source": "https://en.wikipedia.org/wiki/Nylon"
+  },
+  {
+    "date": "1935.04.14",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "usa"
+    ],
+    "summary": "Black Sunday dust storm hits Plains",
+    "source": "https://en.wikipedia.org/wiki/Black_Sunday_%28storm%29"
+  },
+  {
+    "date": "1935.05.25",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record"
+    ],
+    "summary": "Owens sets records at Big Ten meet",
+    "source": "https://en.wikipedia.org/wiki/Jesse_Owens"
+  },
+  {
+    "date": "1935.08.14",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "usa",
+      "economics"
+    ],
+    "summary": "Roosevelt signs Social Security Act",
+    "source": "https://en.wikipedia.org/wiki/Social_Security_Act"
   },
   {
     "date": "1935.09.15",
@@ -710,6 +1059,71 @@
     ],
     "summary": "Nazi Germany enacts the Nuremberg Laws",
     "source": "https://en.wikipedia.org/wiki/Nuremberg_Laws"
+  },
+  {
+    "date": "1935.09.30",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "theatre"
+    ],
+    "summary": "Porgy and Bess premieres in Boston",
+    "source": "https://en.wikipedia.org/wiki/Porgy_and_Bess"
+  },
+  {
+    "date": "1935.10.03",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "fascism"
+    ],
+    "summary": "Italy invades Ethiopia",
+    "source": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War"
+  },
+  {
+    "date": "1935.11.05",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media"
+    ],
+    "summary": "Parker Brothers launches Monopoly",
+    "source": "https://en.wikipedia.org/wiki/Monopoly_%28game%29"
+  },
+  {
+    "date": "1935.11.22",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "China Clipper flies first Pacific mail",
+    "source": "https://en.wikipedia.org/wiki/China_Clipper"
+  },
+  {
+    "date": "1936.02.05",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Modern Times premieres",
+    "source": "https://en.wikipedia.org/wiki/Modern_Times_%28film%29"
+  },
+  {
+    "date": "1936.03.07",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Germany remilitarizes the Rhineland",
+    "source": "https://en.wikipedia.org/wiki/Remilitarisation_of_the_Rhineland"
   },
   {
     "date": "1936.06.30",
@@ -768,6 +1182,48 @@
     "source": "https://en.wikipedia.org/wiki/BBC_Television"
   },
   {
+    "date": "1936.11.12",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "computing"
+    ],
+    "summary": "Turing presents On Computable Numbers",
+    "source": "https://en.wikipedia.org/wiki/Turing_machine"
+  },
+  {
+    "date": "1936.12.10",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe"
+    ],
+    "summary": "Edward VIII abdicates the British throne",
+    "source": "https://en.wikipedia.org/wiki/Abdication_of_Edward_VIII"
+  },
+  {
+    "date": "1937.03.14",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "germany"
+    ],
+    "summary": "Mit brennender Sorge condemns Nazism",
+    "source": "https://en.wikipedia.org/wiki/Mit_brennender_Sorge"
+  },
+  {
+    "date": "1937.04.26",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "fascism"
+    ],
+    "summary": "Bombing of Guernica",
+    "source": "https://en.wikipedia.org/wiki/Bombing_of_Guernica"
+  },
+  {
     "date": "1937.05.06",
     "category": "history",
     "importance": 3,
@@ -777,6 +1233,47 @@
     ],
     "summary": "Hindenburg airship burns at Lakehurst",
     "source": "https://en.wikipedia.org/wiki/LZ_129_Hindenburg"
+  },
+  {
+    "date": "1937.05.27",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Golden Gate Bridge opens",
+    "source": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+  },
+  {
+    "date": "1937.06.08",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Carmina Burana premieres in Frankfurt",
+    "source": "https://en.wikipedia.org/wiki/Carmina_Burana_%28Orff%29"
+  },
+  {
+    "date": "1937.06.22",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "boxing"
+    ],
+    "summary": "Joe Louis wins heavyweight title",
+    "source": "https://en.wikipedia.org/wiki/James_Braddock_vs._Joe_Louis"
+  },
+  {
+    "date": "1937.07.02",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "disaster"
+    ],
+    "summary": "Earhart disappears over the Pacific",
+    "source": "https://en.wikipedia.org/wiki/Amelia_Earhart"
   },
   {
     "date": "1937.07.07",
@@ -790,6 +1287,38 @@
     "source": "https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident"
   },
   {
+    "date": "1937.07.12",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art"
+    ],
+    "summary": "Picasso's Guernica shown in Paris",
+    "source": "https://en.wikipedia.org/wiki/Guernica_%28Picasso%29"
+  },
+  {
+    "date": "1937.09.21",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "The Hobbit published",
+    "source": "https://en.wikipedia.org/wiki/The_Hobbit"
+  },
+  {
+    "date": "1937.12.13",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "genocide",
+      "china"
+    ],
+    "summary": "Nanjing Massacre begins",
+    "source": "https://en.wikipedia.org/wiki/Nanjing_Massacre"
+  },
+  {
     "date": "1937.12.21",
     "category": "pop",
     "importance": 4,
@@ -801,6 +1330,38 @@
     "source": "https://en.wikipedia.org/wiki/Snow_White_%281937_film%29"
   },
   {
+    "date": "1938.01.16",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "jazz",
+      "music"
+    ],
+    "summary": "Goodman plays Carnegie Hall",
+    "source": "https://en.wikipedia.org/wiki/The_Famous_1938_Carnegie_Hall_Jazz_Concert"
+  },
+  {
+    "date": "1938.03.12",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Germany annexes Austria (Anschluss)",
+    "source": "https://en.wikipedia.org/wiki/Anschluss"
+  },
+  {
+    "date": "1938.04.18",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "media"
+    ],
+    "summary": "Superman debuts in Action Comics #1",
+    "source": "https://en.wikipedia.org/wiki/Action_Comics"
+  },
+  {
     "date": "1938.06.22",
     "category": "sport",
     "importance": 3,
@@ -810,6 +1371,17 @@
     ],
     "summary": "Louis knocks out Schmeling in round one",
     "source": "https://en.wikipedia.org/wiki/Joe_Louis_vs._Max_Schmeling_II"
+  },
+  {
+    "date": "1938.09.30",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "europe"
+    ],
+    "summary": "Munich Agreement cedes the Sudetenland",
+    "source": "https://en.wikipedia.org/wiki/Munich_Agreement"
   },
   {
     "date": "1938.10.30",
@@ -834,6 +1406,102 @@
     "source": "https://en.wikipedia.org/wiki/Kristallnacht"
   },
   {
+    "date": "1938.12.19",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics",
+      "nuclear"
+    ],
+    "summary": "Hahn and Strassmann discover fission",
+    "source": "https://en.wikipedia.org/wiki/Discovery_of_nuclear_fission"
+  },
+  {
+    "date": "1938.12.22",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "biology"
+    ],
+    "summary": "Coelacanth found off South Africa",
+    "source": "https://en.wikipedia.org/wiki/Coelacanth"
+  },
+  {
+    "date": "1939.03.02",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Pius XII elected pope",
+    "source": "https://en.wikipedia.org/wiki/Pope_Pius_XII"
+  },
+  {
+    "date": "1939.03.15",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "germany",
+      "europe"
+    ],
+    "summary": "Germany occupies Bohemia and Moravia",
+    "source": "https://en.wikipedia.org/wiki/Occupation_of_Czechoslovakia_%281938%E2%80%931945%29"
+  },
+  {
+    "date": "1939.03.30",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media"
+    ],
+    "summary": "Batman debuts in Detective Comics 27",
+    "source": "https://en.wikipedia.org/wiki/Batman"
+  },
+  {
+    "date": "1939.04.14",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "The Grapes of Wrath published",
+    "source": "https://en.wikipedia.org/wiki/The_Grapes_of_Wrath"
+  },
+  {
+    "date": "1939.07.04",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Gehrig gives his farewell speech",
+    "source": "https://en.wikipedia.org/wiki/Lou_Gehrig"
+  },
+  {
+    "date": "1939.08.02",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "nuclear",
+      "physics"
+    ],
+    "summary": "Einstein-Szilard letter to Roosevelt",
+    "source": "https://en.wikipedia.org/wiki/Einstein%E2%80%93Szilard_letter"
+  },
+  {
+    "date": "1939.08.15",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Wizard of Oz premieres in Hollywood",
+    "source": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_%281939_film%29"
+  },
+  {
     "date": "1939.08.23",
     "category": "politics",
     "importance": 4,
@@ -846,6 +1514,16 @@
     "source": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact"
   },
   {
+    "date": "1939.08.27",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "First jet flight: Heinkel He 178",
+    "source": "https://en.wikipedia.org/wiki/Heinkel_He_178"
+  },
+  {
     "date": "1939.09.01",
     "category": "history",
     "importance": 5,
@@ -855,6 +1533,28 @@
     ],
     "summary": "Second World War begins",
     "source": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+  },
+  {
+    "date": "1939.09.17",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "ussr"
+    ],
+    "summary": "USSR invades eastern Poland",
+    "source": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland"
+  },
+  {
+    "date": "1939.11.30",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "ussr"
+    ],
+    "summary": "USSR invades Finland; Winter War",
+    "source": "https://en.wikipedia.org/wiki/Winter_War"
   },
   {
     "date": "1939.12.15",

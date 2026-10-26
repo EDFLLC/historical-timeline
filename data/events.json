@@ -1066,6 +1066,17 @@
     "source": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
   },
   {
+    "date": "1941.07.17",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball",
+      "record"
+    ],
+    "summary": "DiMaggio's 56-game hit streak ends",
+    "source": "https://en.wikipedia.org/wiki/Joe_DiMaggio"
+  },
+  {
     "date": "1941.08.14",
     "category": "politics",
     "importance": 3,
@@ -1643,6 +1654,17 @@
     "source": "https://en.wikipedia.org/wiki/United_Nations"
   },
   {
+    "date": "1945.10.25",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "nobel",
+      "medicine"
+    ],
+    "summary": "Nobel Prize honors penicillin",
+    "source": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+  },
+  {
     "date": "1945.11.20",
     "category": "politics",
     "importance": 4,
@@ -1683,6 +1705,17 @@
     ],
     "summary": "Churchill's Iron Curtain speech",
     "source": "https://en.wikipedia.org/wiki/Fulton_Speech"
+  },
+  {
+    "date": "1946.07.01",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "nuclear",
+      "cold-war"
+    ],
+    "summary": "Bikini Atoll Able atomic test",
+    "source": "https://en.wikipedia.org/wiki/Operation_Crossroads"
   },
   {
     "date": "1946.07.04",
@@ -1783,6 +1816,17 @@
     "source": "https://en.wikipedia.org/wiki/Marshall_Plan"
   },
   {
+    "date": "1947.06.10",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Camus publishes The Plague",
+    "source": "https://en.wikipedia.org/wiki/The_Plague_%28novel%29"
+  },
+  {
     "date": "1947.06.25",
     "category": "arts",
     "importance": 4,
@@ -1825,6 +1869,17 @@
     ],
     "summary": "India gains independence",
     "source": "https://en.wikipedia.org/wiki/Independence_Day_%28India%29"
+  },
+  {
+    "date": "1947.08.22",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "festival",
+      "music"
+    ],
+    "summary": "First Edinburgh International Festival",
+    "source": "https://en.wikipedia.org/wiki/Edinburgh_International_Festival"
   },
   {
     "date": "1947.09.27",
@@ -1888,6 +1943,17 @@
     ],
     "summary": "Burma becomes independent",
     "source": "https://en.wikipedia.org/wiki/British_rule_in_Burma"
+  },
+  {
+    "date": "1948.01.05",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "biology",
+      "social-movement"
+    ],
+    "summary": "Kinsey Report on male sexuality out",
+    "source": "https://en.wikipedia.org/wiki/Kinsey_Reports"
   },
   {
     "date": "1948.01.30",
@@ -1966,6 +2032,16 @@
     "source": "https://en.wikipedia.org/wiki/1948_South_African_general_election"
   },
   {
+    "date": "1948.06.03",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "Hale 200-inch telescope dedicated",
+    "source": "https://en.wikipedia.org/wiki/Hale_Telescope"
+  },
+  {
     "date": "1948.06.21",
     "category": "tech",
     "importance": 3,
@@ -1986,6 +2062,17 @@
     ],
     "summary": "Berlin Blockade begins",
     "source": "https://en.wikipedia.org/wiki/Berlin_Blockade"
+  },
+  {
+    "date": "1948.07.01",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "computing",
+      "electronics"
+    ],
+    "summary": "Shannon founds information theory",
+    "source": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication"
   },
   {
     "date": "1948.07.29",
@@ -2037,6 +2124,16 @@
     ],
     "summary": "North Korea is proclaimed",
     "source": "https://en.wikipedia.org/wiki/History_of_North_Korea"
+  },
+  {
+    "date": "1948.10.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "computing"
+    ],
+    "summary": "Wiener publishes Cybernetics",
+    "source": "https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine"
   },
   {
     "date": "1948.11.24",
@@ -2104,6 +2201,17 @@
     "source": "https://en.wikipedia.org/wiki/South_Pacific_%28musical%29"
   },
   {
+    "date": "1949.04.21",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "china"
+    ],
+    "summary": "Communists cross the Yangtze",
+    "source": "https://en.wikipedia.org/wiki/Yangtze_River_Crossing_campaign"
+  },
+  {
     "date": "1949.05.04",
     "category": "sport",
     "importance": 2,
@@ -2135,6 +2243,17 @@
     ],
     "summary": "West German Basic Law takes effect",
     "source": "https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany"
+  },
+  {
+    "date": "1949.06.01",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "human-rights"
+    ],
+    "summary": "Beauvoir's The Second Sex is published",
+    "source": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir"
   },
   {
     "date": "1949.06.08",

@@ -868,6 +868,139 @@
     "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_%28film%29"
   },
   {
+    "date": "1940.05.10",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "war",
+      "europe"
+    ],
+    "summary": "Germany invades France and Low Countries",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_France"
+  },
+  {
+    "date": "1940.05.10",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "europe"
+    ],
+    "summary": "Churchill becomes British prime minister",
+    "source": "https://en.wikipedia.org/wiki/Winston_Churchill"
+  },
+  {
+    "date": "1940.05.26",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Dunkirk evacuation begins",
+    "source": "https://en.wikipedia.org/wiki/Dunkirk_evacuation"
+  },
+  {
+    "date": "1940.06.22",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "treaty"
+    ],
+    "summary": "France signs armistice with Germany",
+    "source": "https://en.wikipedia.org/wiki/Armistice_of_22_June_1940"
+  },
+  {
+    "date": "1940.07.10",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "aviation"
+    ],
+    "summary": "Battle of Britain begins",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Britain"
+  },
+  {
+    "date": "1940.09.12",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "archaeology",
+      "art"
+    ],
+    "summary": "Lascaux cave paintings discovered",
+    "source": "https://en.wikipedia.org/wiki/Lascaux"
+  },
+  {
+    "date": "1940.09.27",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "treaty"
+    ],
+    "summary": "Axis powers sign Tripartite Pact",
+    "source": "https://en.wikipedia.org/wiki/Tripartite_Pact"
+  },
+  {
+    "date": "1940.10.15",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Chaplin's The Great Dictator premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+  },
+  {
+    "date": "1940.11.07",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering",
+      "disaster"
+    ],
+    "summary": "Tacoma Narrows Bridge collapses",
+    "source": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_%281940%29"
+  },
+  {
+    "date": "1940.11.13",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "animation"
+    ],
+    "summary": "Disney's Fantasia premieres in New York",
+    "source": "https://en.wikipedia.org/wiki/Fantasia_%281940_film%29"
+  },
+  {
+    "date": "1941.02.12",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "medicine",
+      "biology"
+    ],
+    "summary": "First patient treated with penicillin",
+    "source": "https://en.wikipedia.org/wiki/Albert_Alexander_%28police_officer%29"
+  },
+  {
+    "date": "1941.03.11",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "usa"
+    ],
+    "summary": "US Lend-Lease Act signed",
+    "source": "https://en.wikipedia.org/wiki/Lend-Lease"
+  },
+  {
     "date": "1941.05.01",
     "category": "pop",
     "importance": 4,
@@ -890,6 +1023,17 @@
     "source": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
   },
   {
+    "date": "1941.08.14",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "usa"
+    ],
+    "summary": "Atlantic Charter issued",
+    "source": "https://en.wikipedia.org/wiki/Atlantic_Charter"
+  },
+  {
     "date": "1941.12.07",
     "category": "history",
     "importance": 4,
@@ -900,6 +1044,61 @@
     ],
     "summary": "Japan attacks Pearl Harbor",
     "source": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+  },
+  {
+    "date": "1942.01.20",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "genocide",
+      "wwii"
+    ],
+    "summary": "Wannsee Conference plans the Holocaust",
+    "source": "https://en.wikipedia.org/wiki/Wannsee_Conference"
+  },
+  {
+    "date": "1942.06.04",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Battle of Midway",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Midway"
+  },
+  {
+    "date": "1942.10.23",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Second Battle of El Alamein begins",
+    "source": "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein"
+  },
+  {
+    "date": "1942.11.08",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Allies land in North Africa",
+    "source": "https://en.wikipedia.org/wiki/Operation_Torch"
+  },
+  {
+    "date": "1942.11.26",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Casablanca premieres in New York",
+    "source": "https://en.wikipedia.org/wiki/Casablanca_%28film%29"
   },
   {
     "date": "1942.12.02",
@@ -926,6 +1125,59 @@
     "source": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
   },
   {
+    "date": "1943.02.20",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "natural-disaster"
+    ],
+    "summary": "Paricutin volcano erupts in a cornfield",
+    "source": "https://en.wikipedia.org/wiki/Par%C3%ADcutin"
+  },
+  {
+    "date": "1943.04.19",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "genocide",
+      "wwii"
+    ],
+    "summary": "Warsaw Ghetto Uprising begins",
+    "source": "https://en.wikipedia.org/wiki/Warsaw_Ghetto_Uprising"
+  },
+  {
+    "date": "1943.04.19",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "Hofmann's first deliberate LSD trip",
+    "source": "https://en.wikipedia.org/wiki/Bicycle_Day_%28psychedelic_holiday%29"
+  },
+  {
+    "date": "1943.09.03",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "treaty"
+    ],
+    "summary": "Italy signs secret armistice with Allies",
+    "source": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile"
+  },
+  {
+    "date": "1943.10.19",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine",
+      "biology"
+    ],
+    "summary": "Streptomycin is first isolated",
+    "source": "https://en.wikipedia.org/wiki/Streptomycin"
+  },
+  {
     "date": "1944.06.06",
     "category": "history",
     "importance": 4,
@@ -935,6 +1187,83 @@
     ],
     "summary": "Allied forces land in Normandy",
     "source": "https://en.wikipedia.org/wiki/Normandy_landings"
+  },
+  {
+    "date": "1944.07.01",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "economics",
+      "finance"
+    ],
+    "summary": "Bretton Woods conference opens",
+    "source": "https://en.wikipedia.org/wiki/Bretton_Woods_Conference"
+  },
+  {
+    "date": "1944.07.20",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "assassination"
+    ],
+    "summary": "Plot to kill Hitler fails",
+    "source": "https://en.wikipedia.org/wiki/20_July_plot"
+  },
+  {
+    "date": "1944.08.01",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Warsaw Uprising begins",
+    "source": "https://en.wikipedia.org/wiki/Warsaw_Uprising"
+  },
+  {
+    "date": "1944.08.25",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "europe"
+    ],
+    "summary": "Paris is liberated",
+    "source": "https://en.wikipedia.org/wiki/Liberation_of_Paris"
+  },
+  {
+    "date": "1944.10.23",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "maritime"
+    ],
+    "summary": "Battle of Leyte Gulf begins",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf"
+  },
+  {
+    "date": "1944.12.16",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Battle of the Bulge begins",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_the_Bulge"
+  },
+  {
+    "date": "1945.01.27",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "genocide",
+      "wwii"
+    ],
+    "summary": "Soviet troops liberate Auschwitz",
+    "source": "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
   },
   {
     "date": "1945.02.04",
@@ -947,6 +1276,41 @@
     ],
     "summary": "Yalta Conference opens",
     "source": "https://en.wikipedia.org/wiki/Yalta_Conference"
+  },
+  {
+    "date": "1945.02.13",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Allied bombing of Dresden begins",
+    "source": "https://en.wikipedia.org/wiki/Bombing_of_Dresden"
+  },
+  {
+    "date": "1945.04.12",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "usa",
+      "death"
+    ],
+    "summary": "Franklin Roosevelt dies in office",
+    "source": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt"
+  },
+  {
+    "date": "1945.04.30",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "wwii",
+      "germany",
+      "death"
+    ],
+    "summary": "Hitler dies in his Berlin bunker",
+    "source": "https://en.wikipedia.org/wiki/Death_of_Adolf_Hitler"
   },
   {
     "date": "1945.05.08",
@@ -983,6 +1347,39 @@
     "source": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
   },
   {
+    "date": "1945.08.09",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "nuclear"
+    ],
+    "summary": "Atomic bomb dropped on Nagasaki",
+    "source": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+  },
+  {
+    "date": "1945.08.17",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Orwell publishes Animal Farm",
+    "source": "https://en.wikipedia.org/wiki/Animal_Farm"
+  },
+  {
+    "date": "1945.09.02",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "wwii",
+      "treaty"
+    ],
+    "summary": "Japan signs surrender aboard Missouri",
+    "source": "https://en.wikipedia.org/wiki/End_of_World_War_II_in_Asia"
+  },
+  {
     "date": "1945.10.24",
     "category": "politics",
     "importance": 5,
@@ -991,6 +1388,17 @@
     ],
     "summary": "United Nations is founded",
     "source": "https://en.wikipedia.org/wiki/United_Nations"
+  },
+  {
+    "date": "1945.11.20",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "human-rights"
+    ],
+    "summary": "Nuremberg trials open",
+    "source": "https://en.wikipedia.org/wiki/Nuremberg_trials"
   },
   {
     "date": "1946.02.14",
@@ -1002,6 +1410,38 @@
     ],
     "summary": "ENIAC computer unveiled to the public",
     "source": "https://en.wikipedia.org/wiki/ENIAC"
+  },
+  {
+    "date": "1946.03.05",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "cold-war"
+    ],
+    "summary": "Churchill's Iron Curtain speech",
+    "source": "https://en.wikipedia.org/wiki/Fulton_Speech"
+  },
+  {
+    "date": "1946.07.04",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence",
+      "usa"
+    ],
+    "summary": "Philippines gains independence",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Manila_%281946%29"
+  },
+  {
+    "date": "1947.03.12",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "cold-war",
+      "usa"
+    ],
+    "summary": "Truman Doctrine speech",
+    "source": "https://en.wikipedia.org/wiki/Truman_Doctrine"
   },
   {
     "date": "1947.04.15",
@@ -1038,6 +1478,17 @@
     "source": "https://en.wikipedia.org/wiki/Kon-Tiki_expedition"
   },
   {
+    "date": "1947.08.14",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "independence",
+      "india"
+    ],
+    "summary": "Pakistan becomes independent",
+    "source": "https://en.wikipedia.org/wiki/Dominion_of_Pakistan"
+  },
+  {
     "date": "1947.08.15",
     "category": "politics",
     "importance": 5,
@@ -1057,6 +1508,17 @@
     ],
     "summary": "Yeager breaks the sound barrier",
     "source": "https://en.wikipedia.org/wiki/Chuck_Yeager"
+  },
+  {
+    "date": "1947.11.29",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "united-nations",
+      "middle-east"
+    ],
+    "summary": "UN votes to partition Palestine",
+    "source": "https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine"
   },
   {
     "date": "1947.12.23",
@@ -1081,6 +1543,17 @@
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Mahatma_Gandhi"
   },
   {
+    "date": "1948.04.07",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "health",
+      "united-nations"
+    ],
+    "summary": "WHO constitution takes effect",
+    "source": "https://en.wikipedia.org/wiki/Establishment_of_the_World_Health_Organization"
+  },
+  {
     "date": "1948.05.14",
     "category": "politics",
     "importance": 4,
@@ -1089,6 +1562,39 @@
     ],
     "summary": "Israel declares independence",
     "source": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence"
+  },
+  {
+    "date": "1948.05.26",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "south-africa",
+      "racism"
+    ],
+    "summary": "Nationalists win South African election",
+    "source": "https://en.wikipedia.org/wiki/1948_South_African_general_election"
+  },
+  {
+    "date": "1948.06.21",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "music",
+      "electronics"
+    ],
+    "summary": "Columbia introduces the LP record",
+    "source": "https://en.wikipedia.org/wiki/LP_record"
+  },
+  {
+    "date": "1948.06.24",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "cold-war",
+      "germany"
+    ],
+    "summary": "Berlin Blockade begins",
+    "source": "https://en.wikipedia.org/wiki/Berlin_Blockade"
   },
   {
     "date": "1948.07.29",
@@ -1111,6 +1617,17 @@
     "source": "https://en.wikipedia.org/wiki/World_Council_of_Churches"
   },
   {
+    "date": "1948.11.24",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Bicycle Thieves opens in Italy",
+    "source": "https://en.wikipedia.org/wiki/Bicycle_Thieves"
+  },
+  {
     "date": "1948.12.10",
     "category": "politics",
     "importance": 4,
@@ -1120,6 +1637,16 @@
     ],
     "summary": "UN adopts Declaration of Human Rights",
     "source": "https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights"
+  },
+  {
+    "date": "1949.02.10",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre"
+    ],
+    "summary": "Death of a Salesman opens on Broadway",
+    "source": "https://en.wikipedia.org/wiki/Death_of_a_Salesman"
   },
   {
     "date": "1949.04.04",
@@ -1134,6 +1661,28 @@
     "source": "https://en.wikipedia.org/wiki/NATO"
   },
   {
+    "date": "1949.05.04",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "football",
+      "disaster"
+    ],
+    "summary": "Superga air disaster kills Torino team",
+    "source": "https://en.wikipedia.org/wiki/Grande_Torino"
+  },
+  {
+    "date": "1949.05.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "europe"
+    ],
+    "summary": "West German Basic Law takes effect",
+    "source": "https://en.wikipedia.org/wiki/Basic_Law_for_the_Federal_Republic_of_Germany"
+  },
+  {
     "date": "1949.06.08",
     "category": "arts",
     "importance": 5,
@@ -1146,6 +1695,50 @@
     "source": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
   },
   {
+    "date": "1949.07.27",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "aviation",
+      "engineering"
+    ],
+    "summary": "First jet airliner, the Comet, flies",
+    "source": "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+  },
+  {
+    "date": "1949.08.12",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "human-rights",
+      "treaty"
+    ],
+    "summary": "Geneva Conventions of 1949 adopted",
+    "source": "https://en.wikipedia.org/wiki/Geneva_Conventions"
+  },
+  {
+    "date": "1949.08.29",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "nuclear",
+      "ussr"
+    ],
+    "summary": "Soviet Union tests its first atomic bomb",
+    "source": "https://en.wikipedia.org/wiki/RDS-1"
+  },
+  {
+    "date": "1949.09.01",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Third Man released in Britain",
+    "source": "https://en.wikipedia.org/wiki/The_Third_Man"
+  },
+  {
     "date": "1949.10.01",
     "category": "politics",
     "importance": 5,
@@ -1155,6 +1748,16 @@
     ],
     "summary": "People's Republic of China proclaimed",
     "source": "https://en.wikipedia.org/wiki/Proclamation_of_the_People%27s_Republic_of_China"
+  },
+  {
+    "date": "1949.12.27",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Dutch transfer sovereignty to Indonesia",
+    "source": "https://en.wikipedia.org/wiki/United_States_of_Indonesia"
   },
   {
     "date": "1950.05.13",

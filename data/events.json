@@ -644,6 +644,17 @@
     "source": "https://en.wikipedia.org/wiki/Salt_March"
   },
   {
+    "date": "1930.05.24",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Amy Johnson lands in Australia solo",
+    "source": "https://en.wikipedia.org/wiki/Amy_Johnson"
+  },
+  {
     "date": "1930.05.27",
     "category": "arts",
     "importance": 3,
@@ -652,6 +663,16 @@
     ],
     "summary": "Chrysler Building opens in New York",
     "source": "https://en.wikipedia.org/wiki/Chrysler_Building"
+  },
+  {
+    "date": "1930.07.04",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "islam"
+    ],
+    "summary": "Nation of Islam founded in Detroit",
+    "source": "https://en.wikipedia.org/wiki/Nation_of_Islam"
   },
   {
     "date": "1930.07.11",
@@ -695,6 +716,16 @@
     "source": "https://en.wikipedia.org/wiki/Haile_Selassie"
   },
   {
+    "date": "1930.11.17",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Godel submits incompleteness theorems",
+    "source": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+  },
+  {
     "date": "1930.12.31",
     "category": "religion",
     "importance": 3,
@@ -717,6 +748,17 @@
     "source": "https://en.wikipedia.org/wiki/Dracula_%281931_English-language_film%29"
   },
   {
+    "date": "1931.02.12",
+    "category": "religion",
+    "importance": 2,
+    "tags": [
+      "vatican",
+      "media"
+    ],
+    "summary": "Vatican Radio begins broadcasting",
+    "source": "https://en.wikipedia.org/wiki/Vatican_Radio"
+  },
+  {
     "date": "1931.04.14",
     "category": "politics",
     "importance": 4,
@@ -736,6 +778,17 @@
     ],
     "summary": "Empire State Building opens",
     "source": "https://en.wikipedia.org/wiki/Empire_State_Building"
+  },
+  {
+    "date": "1931.05.10",
+    "category": "religion",
+    "importance": 2,
+    "tags": [
+      "catholic",
+      "europe"
+    ],
+    "summary": "Convent burnings begin in Spain",
+    "source": "https://en.wikipedia.org/wiki/Burning_of_convents_in_Spain_%281931%29"
   },
   {
     "date": "1931.05.15",
@@ -792,6 +845,17 @@
     "source": "https://en.wikipedia.org/wiki/Frankenstein_%281931_film%29"
   },
   {
+    "date": "1931.12.05",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "ussr"
+    ],
+    "summary": "Moscow's Christ the Saviour demolished",
+    "source": "https://en.wikipedia.org/wiki/Cathedral_of_Christ_the_Saviour"
+  },
+  {
     "date": "1932.02.04",
     "category": "arts",
     "importance": 4,
@@ -801,6 +865,17 @@
     ],
     "summary": "Brave New World published",
     "source": "https://en.wikipedia.org/wiki/Brave_New_World"
+  },
+  {
+    "date": "1932.02.04",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "winter-sports",
+      "olympics"
+    ],
+    "summary": "Lake Placid Winter Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1932_Winter_Olympics"
   },
   {
     "date": "1932.02.27",
@@ -865,6 +940,16 @@
     "source": "https://en.wikipedia.org/wiki/Positron"
   },
   {
+    "date": "1932.09.23",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "middle-east"
+    ],
+    "summary": "Kingdom of Saudi Arabia proclaimed",
+    "source": "https://en.wikipedia.org/wiki/Proclamation_of_the_Kingdom_of_Saudi_Arabia"
+  },
+  {
     "date": "1933.01.14",
     "category": "sport",
     "importance": 2,
@@ -919,6 +1004,17 @@
     "source": "https://en.wikipedia.org/wiki/First_inauguration_of_Franklin_D._Roosevelt"
   },
   {
+    "date": "1933.03.12",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media",
+      "usa"
+    ],
+    "summary": "Roosevelt gives first fireside chat",
+    "source": "https://en.wikipedia.org/wiki/Fireside_chats"
+  },
+  {
     "date": "1933.03.23",
     "category": "politics",
     "importance": 4,
@@ -941,6 +1037,37 @@
     "source": "https://en.wikipedia.org/wiki/Houston%E2%80%93Mount_Everest_flight_expedition"
   },
   {
+    "date": "1933.05.05",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "Jansky reports radio waves from space",
+    "source": "https://en.wikipedia.org/wiki/Karl_Guthe_Jansky"
+  },
+  {
+    "date": "1933.07.06",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "First MLB All-Star Game",
+    "source": "https://en.wikipedia.org/wiki/1933_Major_League_Baseball_All-Star_Game"
+  },
+  {
+    "date": "1933.07.19",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art",
+      "germany"
+    ],
+    "summary": "Bauhaus dissolves under Nazi pressure",
+    "source": "https://en.wikipedia.org/wiki/Bauhaus_Dessau"
+  },
+  {
     "date": "1933.07.20",
     "category": "religion",
     "importance": 3,
@@ -953,6 +1080,17 @@
     "source": "https://en.wikipedia.org/wiki/Reichskonkordat"
   },
   {
+    "date": "1933.07.22",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "record"
+    ],
+    "summary": "Wiley Post flies solo around the world",
+    "source": "https://en.wikipedia.org/wiki/Winnie_Mae"
+  },
+  {
     "date": "1933.12.05",
     "category": "politics",
     "importance": 3,
@@ -961,6 +1099,60 @@
     ],
     "summary": "US repeals Prohibition",
     "source": "https://en.wikipedia.org/wiki/Twenty-first_Amendment_to_the_United_States_Constitution"
+  },
+  {
+    "date": "1933.12.17",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "buddhism",
+      "tibet"
+    ],
+    "summary": "13th Dalai Lama dies",
+    "source": "https://en.wikipedia.org/wiki/13th_Dalai_Lama"
+  },
+  {
+    "date": "1934.01.22",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "ussr"
+    ],
+    "summary": "Lady Macbeth of Mtsensk premieres",
+    "source": "https://en.wikipedia.org/wiki/Lady_Macbeth_of_Mtsensk_%28opera%29"
+  },
+  {
+    "date": "1934.02.22",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "It Happened One Night released",
+    "source": "https://en.wikipedia.org/wiki/It_Happened_One_Night"
+  },
+  {
+    "date": "1934.03.22",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "first"
+    ],
+    "summary": "First Masters golf tournament",
+    "source": "https://en.wikipedia.org/wiki/1934_Masters_Tournament"
+  },
+  {
+    "date": "1934.05.27",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "Second FIFA World Cup opens in Italy",
+    "source": "https://en.wikipedia.org/wiki/1934_FIFA_World_Cup"
   },
   {
     "date": "1934.05.31",
@@ -996,6 +1188,17 @@
     "source": "https://en.wikipedia.org/wiki/Bathysphere"
   },
   {
+    "date": "1934.09.01",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Tropic of Cancer published in Paris",
+    "source": "https://en.wikipedia.org/wiki/Tropic_of_Cancer_%28novel%29"
+  },
+  {
     "date": "1934.10.16",
     "category": "history",
     "importance": 4,
@@ -1007,6 +1210,37 @@
     "source": "https://en.wikipedia.org/wiki/Long_March"
   },
   {
+    "date": "1934.10.22",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics",
+      "nuclear"
+    ],
+    "summary": "Fermi discovers slow neutrons",
+    "source": "https://en.wikipedia.org/wiki/Via_Panisperna_boys"
+  },
+  {
+    "date": "1935.02.15",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "Domagk publishes Prontosil results",
+    "source": "https://en.wikipedia.org/wiki/Prontosil"
+  },
+  {
+    "date": "1935.02.26",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "electronics"
+    ],
+    "summary": "Daventry experiment demonstrates radar",
+    "source": "https://en.wikipedia.org/wiki/Radar"
+  },
+  {
     "date": "1935.02.28",
     "category": "tech",
     "importance": 3,
@@ -1015,6 +1249,17 @@
     ],
     "summary": "Carothers first synthesizes nylon",
     "source": "https://en.wikipedia.org/wiki/Nylon"
+  },
+  {
+    "date": "1935.03.28",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "fascism"
+    ],
+    "summary": "Triumph of the Will premieres",
+    "source": "https://en.wikipedia.org/wiki/Triumph_of_the_Will"
   },
   {
     "date": "1935.04.14",
@@ -1028,6 +1273,16 @@
     "source": "https://en.wikipedia.org/wiki/Black_Sunday_%28storm%29"
   },
   {
+    "date": "1935.04.15",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "film"
+    ],
+    "summary": "Kodak announces Kodachrome",
+    "source": "https://en.wikipedia.org/wiki/Kodachrome"
+  },
+  {
     "date": "1935.05.25",
     "category": "sport",
     "importance": 3,
@@ -1036,6 +1291,27 @@
     ],
     "summary": "Owens sets records at Big Ten meet",
     "source": "https://en.wikipedia.org/wiki/Jesse_Owens"
+  },
+  {
+    "date": "1935.06.02",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Babe Ruth announces retirement",
+    "source": "https://en.wikipedia.org/wiki/Babe_Ruth"
+  },
+  {
+    "date": "1935.06.10",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "health",
+      "usa"
+    ],
+    "summary": "Alcoholics Anonymous founded in Akron",
+    "source": "https://en.wikipedia.org/wiki/History_of_Alcoholics_Anonymous"
   },
   {
     "date": "1935.08.14",
@@ -1093,6 +1369,17 @@
     "source": "https://en.wikipedia.org/wiki/Monopoly_%28game%29"
   },
   {
+    "date": "1935.11.11",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "record",
+      "aviation"
+    ],
+    "summary": "Explorer II balloon reaches 22 km",
+    "source": "https://en.wikipedia.org/wiki/Explorer_II"
+  },
+  {
     "date": "1935.11.22",
     "category": "exploration",
     "importance": 3,
@@ -1102,6 +1389,27 @@
     ],
     "summary": "China Clipper flies first Pacific mail",
     "source": "https://en.wikipedia.org/wiki/China_Clipper"
+  },
+  {
+    "date": "1935.12.17",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "Douglas DC-3 prototype first flies",
+    "source": "https://en.wikipedia.org/wiki/Douglas_DC-3"
+  },
+  {
+    "date": "1936.01.28",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "ussr"
+    ],
+    "summary": "Pravda attacks Shostakovich opera",
+    "source": "https://en.wikipedia.org/wiki/Muddle_Instead_of_Music"
   },
   {
     "date": "1936.02.05",
@@ -1115,6 +1423,28 @@
     "source": "https://en.wikipedia.org/wiki/Modern_Times_%28film%29"
   },
   {
+    "date": "1936.02.06",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "winter-sports",
+      "olympics"
+    ],
+    "summary": "Garmisch Winter Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1936_Winter_Olympics"
+  },
+  {
+    "date": "1936.03.05",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "wwii"
+    ],
+    "summary": "Spitfire prototype first flies",
+    "source": "https://en.wikipedia.org/wiki/Supermarine_Spitfire_prototype_K5054"
+  },
+  {
     "date": "1936.03.07",
     "category": "history",
     "importance": 4,
@@ -1126,6 +1456,27 @@
     "source": "https://en.wikipedia.org/wiki/Remilitarisation_of_the_Rhineland"
   },
   {
+    "date": "1936.05.02",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "ussr"
+    ],
+    "summary": "Peter and the Wolf premieres",
+    "source": "https://en.wikipedia.org/wiki/Peter_and_the_Wolf"
+  },
+  {
+    "date": "1936.05.27",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "maritime"
+    ],
+    "summary": "Queen Mary begins maiden voyage",
+    "source": "https://en.wikipedia.org/wiki/RMS_Queen_Mary"
+  },
+  {
     "date": "1936.06.30",
     "category": "arts",
     "importance": 3,
@@ -1135,6 +1486,16 @@
     ],
     "summary": "Gone with the Wind is published",
     "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_%28novel%29"
+  },
+  {
+    "date": "1936.07.04",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "record"
+    ],
+    "summary": "Fred Perry wins third Wimbledon title",
+    "source": "https://en.wikipedia.org/wiki/1936_Wimbledon_Championships_%E2%80%93_Men%27s_singles"
   },
   {
     "date": "1936.07.17",
@@ -1171,6 +1532,17 @@
     "source": "https://en.wikipedia.org/wiki/Jesse_Owens"
   },
   {
+    "date": "1936.08.29",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "first",
+      "india"
+    ],
+    "summary": "Nanda Devi first climbed",
+    "source": "https://en.wikipedia.org/wiki/Nanda_Devi"
+  },
+  {
     "date": "1936.11.02",
     "category": "tech",
     "importance": 3,
@@ -1192,6 +1564,16 @@
     "source": "https://en.wikipedia.org/wiki/Turing_machine"
   },
   {
+    "date": "1936.11.23",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "music"
+    ],
+    "summary": "Robert Johnson makes first recordings",
+    "source": "https://en.wikipedia.org/wiki/Robert_Johnson_recordings"
+  },
+  {
     "date": "1936.12.10",
     "category": "politics",
     "importance": 3,
@@ -1200,6 +1582,17 @@
     ],
     "summary": "Edward VIII abdicates the British throne",
     "source": "https://en.wikipedia.org/wiki/Abdication_of_Edward_VIII"
+  },
+  {
+    "date": "1937.02.25",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Of Mice and Men published",
+    "source": "https://en.wikipedia.org/wiki/Of_Mice_and_Men"
   },
   {
     "date": "1937.03.14",
@@ -1211,6 +1604,17 @@
     ],
     "summary": "Mit brennender Sorge condemns Nazism",
     "source": "https://en.wikipedia.org/wiki/Mit_brennender_Sorge"
+  },
+  {
+    "date": "1937.04.12",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "aviation",
+      "engineering"
+    ],
+    "summary": "Whittle's turbojet engine first runs",
+    "source": "https://en.wikipedia.org/wiki/Power_Jets_WU"
   },
   {
     "date": "1937.04.26",
@@ -1245,6 +1649,16 @@
     "source": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
   },
   {
+    "date": "1937.05.28",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "germany"
+    ],
+    "summary": "Volkswagen company founded",
+    "source": "https://en.wikipedia.org/wiki/Volkswagen"
+  },
+  {
     "date": "1937.06.08",
     "category": "arts",
     "importance": 3,
@@ -1253,6 +1667,28 @@
     ],
     "summary": "Carmina Burana premieres in Frankfurt",
     "source": "https://en.wikipedia.org/wiki/Carmina_Burana_%28Orff%29"
+  },
+  {
+    "date": "1937.06.08",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "La Grande Illusion released",
+    "source": "https://en.wikipedia.org/wiki/La_Grande_Illusion"
+  },
+  {
+    "date": "1937.06.20",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "ussr"
+    ],
+    "summary": "Chkalov flies over the pole to the US",
+    "source": "https://en.wikipedia.org/wiki/Chkalov_Transpolar_flight"
   },
   {
     "date": "1937.06.22",
@@ -1297,6 +1733,17 @@
     "source": "https://en.wikipedia.org/wiki/Guernica_%28Picasso%29"
   },
   {
+    "date": "1937.07.19",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art",
+      "fascism"
+    ],
+    "summary": "Degenerate Art exhibition opens",
+    "source": "https://en.wikipedia.org/wiki/Degenerate_Art_exhibition"
+  },
+  {
     "date": "1937.09.21",
     "category": "arts",
     "importance": 4,
@@ -1306,6 +1753,17 @@
     ],
     "summary": "The Hobbit published",
     "source": "https://en.wikipedia.org/wiki/The_Hobbit"
+  },
+  {
+    "date": "1937.11.01",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art",
+      "engineering"
+    ],
+    "summary": "Fallingwater completed",
+    "source": "https://en.wikipedia.org/wiki/Fallingwater"
   },
   {
     "date": "1937.12.13",
@@ -1341,6 +1799,16 @@
     "source": "https://en.wikipedia.org/wiki/The_Famous_1938_Carnegie_Hall_Jazz_Concert"
   },
   {
+    "date": "1938.02.04",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre"
+    ],
+    "summary": "Our Town opens on Broadway",
+    "source": "https://en.wikipedia.org/wiki/Our_Town"
+  },
+  {
     "date": "1938.03.12",
     "category": "history",
     "importance": 4,
@@ -1352,6 +1820,16 @@
     "source": "https://en.wikipedia.org/wiki/Anschluss"
   },
   {
+    "date": "1938.04.06",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Plunkett discovers Teflon",
+    "source": "https://en.wikipedia.org/wiki/Roy_J._Plunkett"
+  },
+  {
     "date": "1938.04.18",
     "category": "pop",
     "importance": 4,
@@ -1360,6 +1838,17 @@
     ],
     "summary": "Superman debuts in Action Comics #1",
     "source": "https://en.wikipedia.org/wiki/Action_Comics"
+  },
+  {
+    "date": "1938.06.19",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "world-cup"
+    ],
+    "summary": "Italy wins second World Cup",
+    "source": "https://en.wikipedia.org/wiki/1938_FIFA_World_Cup_final"
   },
   {
     "date": "1938.06.22",
@@ -1373,6 +1862,16 @@
     "source": "https://en.wikipedia.org/wiki/Joe_Louis_vs._Max_Schmeling_II"
   },
   {
+    "date": "1938.07.24",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "first"
+    ],
+    "summary": "Eiger north face first climbed",
+    "source": "https://en.wikipedia.org/wiki/North_face_of_the_Eiger"
+  },
+  {
     "date": "1938.09.30",
     "category": "politics",
     "importance": 4,
@@ -1384,6 +1883,16 @@
     "source": "https://en.wikipedia.org/wiki/Munich_Agreement"
   },
   {
+    "date": "1938.10.22",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "media"
+    ],
+    "summary": "First xerographic copy made",
+    "source": "https://en.wikipedia.org/wiki/Chester_Carlson"
+  },
+  {
     "date": "1938.10.30",
     "category": "pop",
     "importance": 3,
@@ -1393,6 +1902,16 @@
     ],
     "summary": "War of the Worlds radio drama airs",
     "source": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_%281938_radio_drama%29"
+  },
+  {
+    "date": "1938.11.05",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "music"
+    ],
+    "summary": "Barber's Adagio for Strings premieres",
+    "source": "https://en.wikipedia.org/wiki/Adagio_for_Strings"
   },
   {
     "date": "1938.11.09",
@@ -1425,6 +1944,17 @@
     ],
     "summary": "Coelacanth found off South Africa",
     "source": "https://en.wikipedia.org/wiki/Coelacanth"
+  },
+  {
+    "date": "1939.03.02",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Stagecoach released",
+    "source": "https://en.wikipedia.org/wiki/Stagecoach_%281939_film%29"
   },
   {
     "date": "1939.03.02",
@@ -1468,6 +1998,27 @@
     ],
     "summary": "The Grapes of Wrath published",
     "source": "https://en.wikipedia.org/wiki/The_Grapes_of_Wrath"
+  },
+  {
+    "date": "1939.04.20",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "jazz",
+      "racism"
+    ],
+    "summary": "Billie Holiday records Strange Fruit",
+    "source": "https://en.wikipedia.org/wiki/Strange_Fruit"
+  },
+  {
+    "date": "1939.05.08",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "archaeology"
+    ],
+    "summary": "Sutton Hoo ship burial excavation begins",
+    "source": "https://en.wikipedia.org/wiki/Sutton_Hoo"
   },
   {
     "date": "1939.07.04",

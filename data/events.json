@@ -868,6 +868,17 @@
     "source": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_%28film%29"
   },
   {
+    "date": "1940.02.22",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "buddhism",
+      "tibet"
+    ],
+    "summary": "14th Dalai Lama enthroned in Lhasa",
+    "source": "https://en.wikipedia.org/wiki/14th_Dalai_Lama"
+  },
+  {
     "date": "1940.05.10",
     "category": "history",
     "importance": 4,
@@ -957,6 +968,17 @@
     "source": "https://en.wikipedia.org/wiki/The_Great_Dictator"
   },
   {
+    "date": "1940.10.21",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "For Whom the Bell Tolls is published",
+    "source": "https://en.wikipedia.org/wiki/For_Whom_the_Bell_Tolls"
+  },
+  {
     "date": "1940.11.07",
     "category": "tech",
     "importance": 3,
@@ -1011,6 +1033,27 @@
     "source": "https://en.wikipedia.org/wiki/Citizen_Kane"
   },
   {
+    "date": "1941.05.27",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "maritime"
+    ],
+    "summary": "Battleship Bismarck is sunk",
+    "source": "https://en.wikipedia.org/wiki/Last_battle_of_Bismarck"
+  },
+  {
+    "date": "1941.06.18",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "boxing"
+    ],
+    "summary": "Joe Louis stops Billy Conn",
+    "source": "https://en.wikipedia.org/wiki/Joe_Louis_vs._Billy_Conn"
+  },
+  {
     "date": "1941.06.22",
     "category": "history",
     "importance": 4,
@@ -1032,6 +1075,39 @@
     ],
     "summary": "Atlantic Charter issued",
     "source": "https://en.wikipedia.org/wiki/Atlantic_Charter"
+  },
+  {
+    "date": "1941.09.08",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "ussr"
+    ],
+    "summary": "Siege of Leningrad begins",
+    "source": "https://en.wikipedia.org/wiki/Siege_of_Leningrad"
+  },
+  {
+    "date": "1941.09.28",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball",
+      "record"
+    ],
+    "summary": "Ted Williams finishes season at .406",
+    "source": "https://en.wikipedia.org/wiki/Ted_Williams"
+  },
+  {
+    "date": "1941.09.29",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "genocide",
+      "wwii"
+    ],
+    "summary": "Babi Yar massacre begins",
+    "source": "https://en.wikipedia.org/wiki/Babi_Yar"
   },
   {
     "date": "1941.12.07",
@@ -1057,6 +1133,27 @@
     "source": "https://en.wikipedia.org/wiki/Wannsee_Conference"
   },
   {
+    "date": "1942.02.15",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Singapore surrenders to Japan",
+    "source": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Singapore"
+  },
+  {
+    "date": "1942.05.29",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Crosby records White Christmas",
+    "source": "https://en.wikipedia.org/wiki/White_Christmas_%28song%29"
+  },
+  {
     "date": "1942.06.04",
     "category": "history",
     "importance": 4,
@@ -1066,6 +1163,28 @@
     ],
     "summary": "Battle of Midway",
     "source": "https://en.wikipedia.org/wiki/Battle_of_Midway"
+  },
+  {
+    "date": "1942.08.08",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "india",
+      "independence"
+    ],
+    "summary": "Gandhi gives Quit India speech",
+    "source": "https://en.wikipedia.org/wiki/Quit_India_speech"
+  },
+  {
+    "date": "1942.08.23",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "wwii",
+      "ussr"
+    ],
+    "summary": "Battle for Stalingrad's city begins",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
   },
   {
     "date": "1942.10.23",
@@ -1135,6 +1254,17 @@
     "source": "https://en.wikipedia.org/wiki/Par%C3%ADcutin"
   },
   {
+    "date": "1943.03.31",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "Oklahoma! opens on Broadway",
+    "source": "https://en.wikipedia.org/wiki/Oklahoma%21"
+  },
+  {
     "date": "1943.04.19",
     "category": "history",
     "importance": 4,
@@ -1156,6 +1286,17 @@
     "source": "https://en.wikipedia.org/wiki/Bicycle_Day_%28psychedelic_holiday%29"
   },
   {
+    "date": "1943.07.05",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "ussr"
+    ],
+    "summary": "Battle of Kursk begins",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Kursk"
+  },
+  {
     "date": "1943.09.03",
     "category": "politics",
     "importance": 3,
@@ -1165,6 +1306,17 @@
     ],
     "summary": "Italy signs secret armistice with Allies",
     "source": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile"
+  },
+  {
+    "date": "1943.09.30",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Pius XII opens door to Bible criticism",
+    "source": "https://en.wikipedia.org/wiki/Divino_afflante_Spiritu"
   },
   {
     "date": "1943.10.19",
@@ -1187,6 +1339,17 @@
     ],
     "summary": "Allied forces land in Normandy",
     "source": "https://en.wikipedia.org/wiki/Normandy_landings"
+  },
+  {
+    "date": "1944.06.20",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "space",
+      "engineering"
+    ],
+    "summary": "V-2 rocket reaches space",
+    "source": "https://en.wikipedia.org/wiki/MW_18014"
   },
   {
     "date": "1944.07.01",
@@ -1244,6 +1407,17 @@
     "source": "https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf"
   },
   {
+    "date": "1944.10.30",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "ballet"
+    ],
+    "summary": "Copland's Appalachian Spring premieres",
+    "source": "https://en.wikipedia.org/wiki/Appalachian_Spring"
+  },
+  {
     "date": "1944.12.16",
     "category": "history",
     "importance": 3,
@@ -1289,6 +1463,40 @@
     "source": "https://en.wikipedia.org/wiki/Bombing_of_Dresden"
   },
   {
+    "date": "1945.02.19",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Battle of Iwo Jima begins",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima"
+  },
+  {
+    "date": "1945.03.10",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwii",
+      "war"
+    ],
+    "summary": "Firebombing of Tokyo kills 100,000",
+    "source": "https://en.wikipedia.org/wiki/Bombing_of_Tokyo_%2810_March_1945%29"
+  },
+  {
+    "date": "1945.04.09",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "christianity",
+      "wwii",
+      "death"
+    ],
+    "summary": "Bonhoeffer is executed at Flossenburg",
+    "source": "https://en.wikipedia.org/wiki/Dietrich_Bonhoeffer"
+  },
+  {
     "date": "1945.04.12",
     "category": "politics",
     "importance": 4,
@@ -1299,6 +1507,18 @@
     ],
     "summary": "Franklin Roosevelt dies in office",
     "source": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt"
+  },
+  {
+    "date": "1945.04.28",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "fascism",
+      "wwii",
+      "death"
+    ],
+    "summary": "Mussolini is executed by partisans",
+    "source": "https://en.wikipedia.org/wiki/Benito_Mussolini"
   },
   {
     "date": "1945.04.30",
@@ -1324,6 +1544,17 @@
     "source": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
   },
   {
+    "date": "1945.06.07",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "theatre"
+    ],
+    "summary": "Britten's Peter Grimes premieres",
+    "source": "https://en.wikipedia.org/wiki/Peter_Grimes"
+  },
+  {
     "date": "1945.07.16",
     "category": "tech",
     "importance": 4,
@@ -1333,6 +1564,17 @@
     ],
     "summary": "First nuclear weapon test at Trinity",
     "source": "https://en.wikipedia.org/wiki/Trinity_%28nuclear_test%29"
+  },
+  {
+    "date": "1945.07.17",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "wwii",
+      "cold-war"
+    ],
+    "summary": "Potsdam Conference opens",
+    "source": "https://en.wikipedia.org/wiki/Potsdam_Conference"
   },
   {
     "date": "1945.08.06",
@@ -1380,6 +1622,17 @@
     "source": "https://en.wikipedia.org/wiki/End_of_World_War_II_in_Asia"
   },
   {
+    "date": "1945.09.27",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Rome, Open City sparks neorealism",
+    "source": "https://en.wikipedia.org/wiki/Rome%2C_Open_City"
+  },
+  {
     "date": "1945.10.24",
     "category": "politics",
     "importance": 5,
@@ -1399,6 +1652,16 @@
     ],
     "summary": "Nuremberg trials open",
     "source": "https://en.wikipedia.org/wiki/Nuremberg_trials"
+  },
+  {
+    "date": "1946.01.01",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "human-rights"
+    ],
+    "summary": "Hirohito disavows divinity",
+    "source": "https://en.wikipedia.org/wiki/Humanity_Declaration"
   },
   {
     "date": "1946.02.14",
@@ -1431,6 +1694,59 @@
     ],
     "summary": "Philippines gains independence",
     "source": "https://en.wikipedia.org/wiki/Treaty_of_Manila_%281946%29"
+  },
+  {
+    "date": "1946.09.20",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "film",
+      "festival"
+    ],
+    "summary": "First Cannes Film Festival opens",
+    "source": "https://en.wikipedia.org/wiki/1946_Cannes_Film_Festival"
+  },
+  {
+    "date": "1946.11.01",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "first"
+    ],
+    "summary": "First BAA game, forerunner of the NBA",
+    "source": "https://en.wikipedia.org/wiki/1946%E2%80%9347_BAA_season"
+  },
+  {
+    "date": "1946.12.19",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "vietnam"
+    ],
+    "summary": "First Indochina War begins",
+    "source": "https://en.wikipedia.org/wiki/First_Indochina_War"
+  },
+  {
+    "date": "1946.12.20",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "It's a Wonderful Life premieres",
+    "source": "https://en.wikipedia.org/wiki/It%27s_a_Wonderful_Life"
+  },
+  {
+    "date": "1947.02.12",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art"
+    ],
+    "summary": "Dior unveils the New Look",
+    "source": "https://en.wikipedia.org/wiki/Christian_Dior"
   },
   {
     "date": "1947.03.12",
@@ -1467,6 +1783,17 @@
     "source": "https://en.wikipedia.org/wiki/Marshall_Plan"
   },
   {
+    "date": "1947.06.25",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "genocide"
+    ],
+    "summary": "Anne Frank's diary is first published",
+    "source": "https://en.wikipedia.org/wiki/The_Diary_of_a_Young_Girl"
+  },
+  {
     "date": "1947.08.07",
     "category": "exploration",
     "importance": 3,
@@ -1500,6 +1827,17 @@
     "source": "https://en.wikipedia.org/wiki/Independence_Day_%28India%29"
   },
   {
+    "date": "1947.09.27",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "india"
+    ],
+    "summary": "Church of South India is inaugurated",
+    "source": "https://en.wikipedia.org/wiki/Church_of_South_India"
+  },
+  {
     "date": "1947.10.14",
     "category": "exploration",
     "importance": 3,
@@ -1521,6 +1859,16 @@
     "source": "https://en.wikipedia.org/wiki/United_Nations_Partition_Plan_for_Palestine"
   },
   {
+    "date": "1947.12.03",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre"
+    ],
+    "summary": "A Streetcar Named Desire opens",
+    "source": "https://en.wikipedia.org/wiki/A_Streetcar_Named_Desire"
+  },
+  {
     "date": "1947.12.23",
     "category": "tech",
     "importance": 4,
@@ -1532,6 +1880,16 @@
     "source": "https://en.wikipedia.org/wiki/Transistor"
   },
   {
+    "date": "1948.01.04",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Burma becomes independent",
+    "source": "https://en.wikipedia.org/wiki/British_rule_in_Burma"
+  },
+  {
     "date": "1948.01.30",
     "category": "politics",
     "importance": 3,
@@ -1541,6 +1899,39 @@
     ],
     "summary": "Gandhi is assassinated in Delhi",
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Mahatma_Gandhi"
+  },
+  {
+    "date": "1948.01.30",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "winter-sports"
+    ],
+    "summary": "St. Moritz Winter Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1948_Winter_Olympics"
+  },
+  {
+    "date": "1948.02.25",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "cold-war",
+      "europe"
+    ],
+    "summary": "Communists seize power in Czechoslovakia",
+    "source": "https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d%27%C3%A9tat"
+  },
+  {
+    "date": "1948.04.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics",
+      "astronomy"
+    ],
+    "summary": "Alpher-Bethe-Gamow Big Bang paper",
+    "source": "https://en.wikipedia.org/wiki/Alpher%E2%80%93Bethe%E2%80%93Gamow_paper"
   },
   {
     "date": "1948.04.07",
@@ -1607,6 +1998,27 @@
     "source": "https://en.wikipedia.org/wiki/1948_Summer_Olympics"
   },
   {
+    "date": "1948.08.15",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Republic of Korea is established",
+    "source": "https://en.wikipedia.org/wiki/First_Republic_of_Korea"
+  },
+  {
+    "date": "1948.08.16",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball",
+      "death"
+    ],
+    "summary": "Babe Ruth dies in New York",
+    "source": "https://en.wikipedia.org/wiki/Death_and_funeral_of_Babe_Ruth"
+  },
+  {
     "date": "1948.08.23",
     "category": "religion",
     "importance": 3,
@@ -1615,6 +2027,16 @@
     ],
     "summary": "World Council of Churches founded",
     "source": "https://en.wikipedia.org/wiki/World_Council_of_Churches"
+  },
+  {
+    "date": "1948.09.09",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "cold-war"
+    ],
+    "summary": "North Korea is proclaimed",
+    "source": "https://en.wikipedia.org/wiki/History_of_North_Korea"
   },
   {
     "date": "1948.11.24",
@@ -1626,6 +2048,16 @@
     ],
     "summary": "Bicycle Thieves opens in Italy",
     "source": "https://en.wikipedia.org/wiki/Bicycle_Thieves"
+  },
+  {
+    "date": "1948.11.26",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "electronics"
+    ],
+    "summary": "Polaroid Land Camera goes on sale",
+    "source": "https://en.wikipedia.org/wiki/Land_Camera"
   },
   {
     "date": "1948.12.10",
@@ -1661,6 +2093,17 @@
     "source": "https://en.wikipedia.org/wiki/NATO"
   },
   {
+    "date": "1949.04.07",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "South Pacific opens on Broadway",
+    "source": "https://en.wikipedia.org/wiki/South_Pacific_%28musical%29"
+  },
+  {
     "date": "1949.05.04",
     "category": "sport",
     "importance": 2,
@@ -1670,6 +2113,17 @@
     ],
     "summary": "Superga air disaster kills Torino team",
     "source": "https://en.wikipedia.org/wiki/Grande_Torino"
+  },
+  {
+    "date": "1949.05.05",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe",
+      "human-rights"
+    ],
+    "summary": "Council of Europe is founded",
+    "source": "https://en.wikipedia.org/wiki/Statute_of_the_Council_of_Europe"
   },
   {
     "date": "1949.05.23",
@@ -1693,6 +2147,17 @@
     ],
     "summary": "Orwell publishes Nineteen Eighty-Four",
     "source": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
+  },
+  {
+    "date": "1949.07.01",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "cold-war"
+    ],
+    "summary": "Holy Office decree targets communism",
+    "source": "https://en.wikipedia.org/wiki/Decree_against_Communism"
   },
   {
     "date": "1949.07.27",
@@ -1748,6 +2213,27 @@
     ],
     "summary": "People's Republic of China proclaimed",
     "source": "https://en.wikipedia.org/wiki/Proclamation_of_the_People%27s_Republic_of_China"
+  },
+  {
+    "date": "1949.10.28",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "boxing",
+      "aviation"
+    ],
+    "summary": "Boxer Marcel Cerdan dies in air crash",
+    "source": "https://en.wikipedia.org/wiki/Air_France_Flight_009"
+  },
+  {
+    "date": "1949.11.26",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "india"
+    ],
+    "summary": "India adopts its constitution",
+    "source": "https://en.wikipedia.org/wiki/Constitution_of_India"
   },
   {
     "date": "1949.12.27",

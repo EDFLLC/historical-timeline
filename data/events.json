@@ -181,6 +181,103 @@
     "source": "https://en.wikipedia.org/wiki/Bl%C3%A9riot_XI"
   },
   {
+    "date": "1910.05.31",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence",
+      "south-africa"
+    ],
+    "summary": "Union of South Africa is formed",
+    "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa"
+  },
+  {
+    "date": "1910.06.14",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity"
+    ],
+    "summary": "Edinburgh World Missionary Conference",
+    "source": "https://en.wikipedia.org/wiki/1910_World_Missionary_Conference"
+  },
+  {
+    "date": "1910.06.25",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "ballet",
+      "music"
+    ],
+    "summary": "The Firebird premieres in Paris",
+    "source": "https://en.wikipedia.org/wiki/The_Firebird"
+  },
+  {
+    "date": "1910.07.04",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "boxing",
+      "racism"
+    ],
+    "summary": "Johnson beats Jeffries in Reno",
+    "source": "https://en.wikipedia.org/wiki/Jack_Johnson_vs._James_J._Jeffries"
+  },
+  {
+    "date": "1910.08.29",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty"
+    ],
+    "summary": "Japan annexes Korea",
+    "source": "https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1910"
+  },
+  {
+    "date": "1910.09.01",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Pius X imposes Oath Against Modernism",
+    "source": "https://en.wikipedia.org/wiki/Oath_Against_Modernism"
+  },
+  {
+    "date": "1910.09.23",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Chavez flies across the Alps",
+    "source": "https://en.wikipedia.org/wiki/Jorge_Ch%C3%A1vez"
+  },
+  {
+    "date": "1910.10.05",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "europe"
+    ],
+    "summary": "Portugal becomes a republic",
+    "source": "https://en.wikipedia.org/wiki/5_October_1910_revolution"
+  },
+  {
+    "date": "1910.11.14",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Ely takes off from a warship",
+    "source": "https://en.wikipedia.org/wiki/Eugene_Burton_Ely"
+  },
+  {
     "date": "1910.11.20",
     "category": "history",
     "importance": 3,
@@ -189,6 +286,69 @@
     ],
     "summary": "Mexican Revolution begins",
     "source": "https://en.wikipedia.org/wiki/Mexican_Revolution"
+  },
+  {
+    "date": "1911.01.18",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Ely lands on USS Pennsylvania",
+    "source": "https://en.wikipedia.org/wiki/Eugene_Burton_Ely"
+  },
+  {
+    "date": "1911.03.25",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "usa"
+    ],
+    "summary": "Triangle Shirtwaist Factory fire",
+    "source": "https://en.wikipedia.org/wiki/Triangle_Shirtwaist_Factory_fire"
+  },
+  {
+    "date": "1911.04.08",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Onnes discovers superconductivity",
+    "source": "https://en.wikipedia.org/wiki/Superconductivity"
+  },
+  {
+    "date": "1911.05.01",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Rutherford publishes nuclear atom model",
+    "source": "https://en.wikipedia.org/wiki/Rutherford_model"
+  },
+  {
+    "date": "1911.05.30",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "motorsport"
+    ],
+    "summary": "First Indianapolis 500",
+    "source": "https://en.wikipedia.org/wiki/1911_Indianapolis_500"
+  },
+  {
+    "date": "1911.06.13",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "ballet",
+      "music"
+    ],
+    "summary": "Petrushka premieres in Paris",
+    "source": "https://en.wikipedia.org/wiki/Petrushka_%28ballet%29"
   },
   {
     "date": "1911.07.24",
@@ -200,6 +360,27 @@
     ],
     "summary": "Bingham reaches Machu Picchu",
     "source": "https://en.wikipedia.org/wiki/Hiram_Bingham_III"
+  },
+  {
+    "date": "1911.10.10",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "revolution",
+      "china"
+    ],
+    "summary": "Wuchang Uprising topples Qing",
+    "source": "https://en.wikipedia.org/wiki/Wuchang_Uprising"
+  },
+  {
+    "date": "1911.12.02",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "maritime"
+    ],
+    "summary": "Mawson's Antarctic expedition sails",
+    "source": "https://en.wikipedia.org/wiki/Australasian_Antarctic_Expedition"
   },
   {
     "date": "1911.12.14",
@@ -224,6 +405,26 @@
     "source": "https://en.wikipedia.org/wiki/Republic_of_China_%281912%E2%80%931949%29"
   },
   {
+    "date": "1912.01.06",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Wegener proposes continental drift",
+    "source": "https://en.wikipedia.org/wiki/Alfred_Wegener"
+  },
+  {
+    "date": "1912.01.08",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "independence"
+    ],
+    "summary": "African National Congress is founded",
+    "source": "https://en.wikipedia.org/wiki/African_National_Congress"
+  },
+  {
     "date": "1912.01.17",
     "category": "exploration",
     "importance": 4,
@@ -235,6 +436,26 @@
     "source": "https://en.wikipedia.org/wiki/Robert_Falcon_Scott"
   },
   {
+    "date": "1912.03.29",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "death"
+    ],
+    "summary": "Scott dies returning from the Pole",
+    "source": "https://en.wikipedia.org/wiki/Terra_Nova_Expedition"
+  },
+  {
+    "date": "1912.04.11",
+    "category": "religion",
+    "importance": 2,
+    "tags": [
+      "usa"
+    ],
+    "summary": "Abdul-Baha begins his tour of America",
+    "source": "https://en.wikipedia.org/wiki/%CA%BBAbdu%27l-Bah%C3%A1%27s_journeys_to_the_West"
+  },
+  {
     "date": "1912.04.15",
     "category": "history",
     "importance": 5,
@@ -244,6 +465,89 @@
     ],
     "summary": "Titanic sinks in the North Atlantic",
     "source": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic"
+  },
+  {
+    "date": "1912.04.20",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Fenway Park opens",
+    "source": "https://en.wikipedia.org/wiki/Fenway_Park"
+  },
+  {
+    "date": "1912.07.06",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Stockholm Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1912_Summer_Olympics"
+  },
+  {
+    "date": "1912.08.07",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics",
+      "astronomy"
+    ],
+    "summary": "Hess finds cosmic rays by balloon",
+    "source": "https://en.wikipedia.org/wiki/Cosmic_ray"
+  },
+  {
+    "date": "1912.10.08",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "europe"
+    ],
+    "summary": "First Balkan War begins",
+    "source": "https://en.wikipedia.org/wiki/First_Balkan_War"
+  },
+  {
+    "date": "1912.10.16",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Pierrot lunaire premieres in Berlin",
+    "source": "https://en.wikipedia.org/wiki/Pierrot_lunaire"
+  },
+  {
+    "date": "1912.12.18",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "archaeology"
+    ],
+    "summary": "Piltdown Man is announced",
+    "source": "https://en.wikipedia.org/wiki/Piltdown_Man"
+  },
+  {
+    "date": "1913.01.22",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Thorpe stripped of Olympic titles",
+    "source": "https://en.wikipedia.org/wiki/Jim_Thorpe"
+  },
+  {
+    "date": "1913.02.03",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "usa",
+      "economics"
+    ],
+    "summary": "Sixteenth Amendment ratified",
+    "source": "https://en.wikipedia.org/wiki/Sixteenth_Amendment_to_the_United_States_Constitution"
   },
   {
     "date": "1913.02.17",
@@ -268,6 +572,167 @@
     "source": "https://en.wikipedia.org/wiki/The_Rite_of_Spring"
   },
   {
+    "date": "1913.06.04",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "social-movement",
+      "death"
+    ],
+    "summary": "Emily Davison hit by Derby horse",
+    "source": "https://en.wikipedia.org/wiki/Emily_Davison"
+  },
+  {
+    "date": "1913.06.07",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "first"
+    ],
+    "summary": "First ascent of Denali",
+    "source": "https://en.wikipedia.org/wiki/Denali"
+  },
+  {
+    "date": "1913.07.01",
+    "category": "science",
+    "importance": 5,
+    "tags": [
+      "physics",
+      "quantum"
+    ],
+    "summary": "Bohr publishes his atomic model",
+    "source": "https://en.wikipedia.org/wiki/Bohr_model"
+  },
+  {
+    "date": "1913.09.09",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Oppau starts industrial ammonia",
+    "source": "https://en.wikipedia.org/wiki/Haber_process"
+  },
+  {
+    "date": "1913.10.07",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "engineering",
+      "usa"
+    ],
+    "summary": "Ford starts moving assembly line",
+    "source": "https://en.wikipedia.org/wiki/Assembly_line"
+  },
+  {
+    "date": "1913.10.16",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre"
+    ],
+    "summary": "Pygmalion premieres in Vienna",
+    "source": "https://en.wikipedia.org/wiki/Pygmalion_%28play%29"
+  },
+  {
+    "date": "1913.11.13",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Swann's Way is published",
+    "source": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time"
+  },
+  {
+    "date": "1913.11.13",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "nobel",
+      "literature"
+    ],
+    "summary": "Tagore wins Nobel in Literature",
+    "source": "https://en.wikipedia.org/wiki/1913_Nobel_Prize_in_Literature"
+  },
+  {
+    "date": "1913.12.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "usa",
+      "economics"
+    ],
+    "summary": "Federal Reserve Act signed",
+    "source": "https://en.wikipedia.org/wiki/Federal_Reserve_Act"
+  },
+  {
+    "date": "1914.01.01",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "First scheduled airline flight",
+    "source": "https://en.wikipedia.org/wiki/St._Petersburg%E2%80%93Tampa_Airboat_Line"
+  },
+  {
+    "date": "1914.01.05",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "economics",
+      "usa"
+    ],
+    "summary": "Ford announces the five-dollar day",
+    "source": "https://en.wikipedia.org/wiki/Five_Dollar_Day"
+  },
+  {
+    "date": "1914.02.07",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Chaplin's Tramp debuts on screen",
+    "source": "https://en.wikipedia.org/wiki/Kid_Auto_Races_at_Venice"
+  },
+  {
+    "date": "1914.02.12",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Squaw Man, a Hollywood feature",
+    "source": "https://en.wikipedia.org/wiki/The_Squaw_Man_%281914_film%29"
+  },
+  {
+    "date": "1914.04.18",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Cabiria premieres in Italy",
+    "source": "https://en.wikipedia.org/wiki/Cabiria"
+  },
+  {
+    "date": "1914.06.15",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature"
+    ],
+    "summary": "Joyce's Dubliners is published",
+    "source": "https://en.wikipedia.org/wiki/Dubliners"
+  },
+  {
     "date": "1914.06.28",
     "category": "history",
     "importance": 4,
@@ -277,6 +742,16 @@
     ],
     "summary": "Archduke Franz Ferdinand assassinated",
     "source": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+  },
+  {
+    "date": "1914.07.11",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Babe Ruth debuts for Red Sox",
+    "source": "https://en.wikipedia.org/wiki/Babe_Ruth"
   },
   {
     "date": "1914.07.28",
@@ -290,6 +765,16 @@
     "source": "https://en.wikipedia.org/wiki/World_War_I"
   },
   {
+    "date": "1914.08.08",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "maritime"
+    ],
+    "summary": "Endurance sails from Plymouth",
+    "source": "https://en.wikipedia.org/wiki/Imperial_Trans-Antarctic_Expedition"
+  },
+  {
     "date": "1914.08.15",
     "category": "tech",
     "importance": 4,
@@ -299,6 +784,60 @@
     ],
     "summary": "Panama Canal opens to traffic",
     "source": "https://en.wikipedia.org/wiki/Panama_Canal"
+  },
+  {
+    "date": "1914.09.03",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Benedict XV elected pope",
+    "source": "https://en.wikipedia.org/wiki/1914_conclave"
+  },
+  {
+    "date": "1914.09.06",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "wwi"
+    ],
+    "summary": "First Battle of the Marne",
+    "source": "https://en.wikipedia.org/wiki/First_Battle_of_the_Marne"
+  },
+  {
+    "date": "1914.12.24",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwi",
+      "war"
+    ],
+    "summary": "Christmas truce on the Western Front",
+    "source": "https://en.wikipedia.org/wiki/Christmas_truce"
+  },
+  {
+    "date": "1915.01.09",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "india"
+    ],
+    "summary": "Gandhi returns to India",
+    "source": "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+  },
+  {
+    "date": "1915.01.25",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "first",
+      "electronics"
+    ],
+    "summary": "Transcontinental telephone call",
+    "source": "https://en.wikipedia.org/wiki/First_transcontinental_telephone_call"
   },
   {
     "date": "1915.02.08",
@@ -312,6 +851,70 @@
     "source": "https://en.wikipedia.org/wiki/The_Birth_of_a_Nation"
   },
   {
+    "date": "1915.04.22",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwi",
+      "war"
+    ],
+    "summary": "Germany uses chlorine gas at Ypres",
+    "source": "https://en.wikipedia.org/wiki/Second_Battle_of_Ypres"
+  },
+  {
+    "date": "1915.04.24",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "genocide",
+      "middle-east"
+    ],
+    "summary": "Armenian genocide begins",
+    "source": "https://en.wikipedia.org/wiki/Armenian_genocide"
+  },
+  {
+    "date": "1915.04.25",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwi",
+      "war"
+    ],
+    "summary": "Gallipoli landings",
+    "source": "https://en.wikipedia.org/wiki/Gallipoli_campaign"
+  },
+  {
+    "date": "1915.05.07",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwi",
+      "maritime"
+    ],
+    "summary": "Lusitania is torpedoed",
+    "source": "https://en.wikipedia.org/wiki/Sinking_of_the_RMS_Lusitania"
+  },
+  {
+    "date": "1915.10.01",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature"
+    ],
+    "summary": "Kafka's Metamorphosis first printed",
+    "source": "https://en.wikipedia.org/wiki/The_Metamorphosis"
+  },
+  {
+    "date": "1915.11.21",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "maritime"
+    ],
+    "summary": "Endurance sinks in the Weddell Sea",
+    "source": "https://en.wikipedia.org/wiki/Endurance_%281912_ship%29"
+  },
+  {
     "date": "1915.11.25",
     "category": "science",
     "importance": 5,
@@ -321,6 +924,81 @@
     ],
     "summary": "Einstein presents his field equations",
     "source": "https://en.wikipedia.org/wiki/History_of_general_relativity"
+  },
+  {
+    "date": "1915.12.19",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art"
+    ],
+    "summary": "Malevich shows Black Square",
+    "source": "https://en.wikipedia.org/wiki/Black_Square"
+  },
+  {
+    "date": "1916.01.13",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics",
+      "astronomy"
+    ],
+    "summary": "Schwarzschild solution presented",
+    "source": "https://en.wikipedia.org/wiki/Karl_Schwarzschild"
+  },
+  {
+    "date": "1916.02.05",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art",
+      "theatre"
+    ],
+    "summary": "Cabaret Voltaire opens, Dada begins",
+    "source": "https://en.wikipedia.org/wiki/Cabaret_Voltaire_%28Z%C3%BCrich%29"
+  },
+  {
+    "date": "1916.02.21",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwi",
+      "war"
+    ],
+    "summary": "Battle of Verdun begins",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Verdun"
+  },
+  {
+    "date": "1916.04.24",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "maritime"
+    ],
+    "summary": "Shackleton sails the James Caird",
+    "source": "https://en.wikipedia.org/wiki/Voyage_of_the_James_Caird"
+  },
+  {
+    "date": "1916.04.24",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "independence",
+      "europe"
+    ],
+    "summary": "Easter Rising in Dublin",
+    "source": "https://en.wikipedia.org/wiki/Easter_Rising"
+  },
+  {
+    "date": "1916.05.31",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "wwi",
+      "maritime"
+    ],
+    "summary": "Battle of Jutland",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Jutland"
   },
   {
     "date": "1916.07.01",
@@ -334,6 +1012,104 @@
     "source": "https://en.wikipedia.org/wiki/Battle_of_the_Somme"
   },
   {
+    "date": "1916.09.15",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "wwi",
+      "war"
+    ],
+    "summary": "Tanks first used in combat",
+    "source": "https://en.wikipedia.org/wiki/Tanks_in_World_War_I"
+  },
+  {
+    "date": "1916.12.29",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "novel"
+    ],
+    "summary": "Joyce's Portrait of the Artist published",
+    "source": "https://en.wikipedia.org/wiki/A_Portrait_of_the_Artist_as_a_Young_Man"
+  },
+  {
+    "date": "1916.12.30",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "death",
+      "europe"
+    ],
+    "summary": "Rasputin is assassinated",
+    "source": "https://en.wikipedia.org/wiki/Grigori_Rasputin"
+  },
+  {
+    "date": "1917.01.17",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "wwi",
+      "usa"
+    ],
+    "summary": "Zimmermann telegram is sent",
+    "source": "https://en.wikipedia.org/wiki/Zimmermann_telegram"
+  },
+  {
+    "date": "1917.02.26",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "jazz",
+      "music"
+    ],
+    "summary": "First commercial jazz record",
+    "source": "https://en.wikipedia.org/wiki/Original_Dixieland_Jass_Band"
+  },
+  {
+    "date": "1917.03.08",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "revolution",
+      "europe"
+    ],
+    "summary": "February Revolution begins in Petrograd",
+    "source": "https://en.wikipedia.org/wiki/February_Revolution"
+  },
+  {
+    "date": "1917.03.15",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "europe"
+    ],
+    "summary": "Nicholas II abdicates",
+    "source": "https://en.wikipedia.org/wiki/Nicholas_II"
+  },
+  {
+    "date": "1917.04.06",
+    "category": "history",
+    "importance": 5,
+    "tags": [
+      "wwi",
+      "usa"
+    ],
+    "summary": "United States enters the First World War",
+    "source": "https://en.wikipedia.org/wiki/American_entry_into_World_War_I"
+  },
+  {
+    "date": "1917.04.10",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art"
+    ],
+    "summary": "Duchamp's Fountain is submitted",
+    "source": "https://en.wikipedia.org/wiki/Fountain_%28Duchamp%29"
+  },
+  {
     "date": "1917.05.13",
     "category": "religion",
     "importance": 3,
@@ -342,6 +1118,48 @@
     ],
     "summary": "First reported Fatima apparition",
     "source": "https://en.wikipedia.org/wiki/Our_Lady_of_F%C3%A1tima"
+  },
+  {
+    "date": "1917.05.27",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Code of Canon Law promulgated",
+    "source": "https://en.wikipedia.org/wiki/1917_Code_of_Canon_Law"
+  },
+  {
+    "date": "1917.11.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "Hooker telescope sees first light",
+    "source": "https://en.wikipedia.org/wiki/Hooker_Telescope"
+  },
+  {
+    "date": "1917.11.02",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "middle-east"
+    ],
+    "summary": "Balfour Declaration",
+    "source": "https://en.wikipedia.org/wiki/Balfour_Declaration"
+  },
+  {
+    "date": "1917.11.05",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "ussr"
+    ],
+    "summary": "Tikhon chosen Patriarch of Moscow",
+    "source": "https://en.wikipedia.org/wiki/1917%E2%80%9318_Local_Council_of_the_Russian_Orthodox_Church"
   },
   {
     "date": "1917.11.07",
@@ -355,6 +1173,50 @@
     "source": "https://en.wikipedia.org/wiki/October_Revolution"
   },
   {
+    "date": "1918.03.03",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "ussr"
+    ],
+    "summary": "Treaty of Brest-Litovsk signed",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Brest-Litovsk"
+  },
+  {
+    "date": "1918.03.04",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "health",
+      "medicine"
+    ],
+    "summary": "Spanish flu first recorded in Kansas",
+    "source": "https://en.wikipedia.org/wiki/Spanish_flu"
+  },
+  {
+    "date": "1918.07.17",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "death",
+      "ussr"
+    ],
+    "summary": "Romanov family is executed",
+    "source": "https://en.wikipedia.org/wiki/Murder_of_the_Romanov_family"
+  },
+  {
+    "date": "1918.11.09",
+    "category": "politics",
+    "importance": 5,
+    "tags": [
+      "revolution",
+      "germany"
+    ],
+    "summary": "Kaiser abdicates; Germany a republic",
+    "source": "https://en.wikipedia.org/wiki/German_revolution_of_1918%E2%80%931919"
+  },
+  {
     "date": "1918.11.11",
     "category": "history",
     "importance": 4,
@@ -364,6 +1226,50 @@
     ],
     "summary": "Armistice ends the First World War",
     "source": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"
+  },
+  {
+    "date": "1919.01.18",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "europe"
+    ],
+    "summary": "Paris Peace Conference opens",
+    "source": "https://en.wikipedia.org/wiki/Paris_Peace_Conference_%281919%E2%80%931920%29"
+  },
+  {
+    "date": "1919.02.05",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "United Artists is founded",
+    "source": "https://en.wikipedia.org/wiki/United_Artists"
+  },
+  {
+    "date": "1919.04.13",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "india",
+      "human-rights"
+    ],
+    "summary": "Amritsar massacre",
+    "source": "https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre"
+  },
+  {
+    "date": "1919.05.27",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "NC-4 makes first Atlantic air crossing",
+    "source": "https://en.wikipedia.org/wiki/Curtiss_NC-4"
   },
   {
     "date": "1919.05.29",
@@ -377,6 +1283,17 @@
     "source": "https://en.wikipedia.org/wiki/Arthur_Eddington"
   },
   {
+    "date": "1919.06.14",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Alcock and Brown fly the Atlantic",
+    "source": "https://en.wikipedia.org/wiki/Transatlantic_flight_of_Alcock_and_Brown"
+  },
+  {
     "date": "1919.06.28",
     "category": "politics",
     "importance": 4,
@@ -387,6 +1304,27 @@
     ],
     "summary": "Treaty of Versailles is signed",
     "source": "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+  },
+  {
+    "date": "1919.08.11",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "germany",
+      "europe"
+    ],
+    "summary": "Weimar Constitution is signed",
+    "source": "https://en.wikipedia.org/wiki/Weimar_Constitution"
+  },
+  {
+    "date": "1919.10.01",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Black Sox World Series begins",
+    "source": "https://en.wikipedia.org/wiki/Black_Sox_Scandal"
   },
   {
     "date": "1920.01.16",

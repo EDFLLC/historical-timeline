@@ -10,6 +10,49 @@
     "source": "https://en.wikipedia.org/wiki/1900_Summer_Olympics"
   },
   {
+    "date": "1900.06.20",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "war",
+      "china"
+    ],
+    "summary": "Siege of the Peking legations begins",
+    "source": "https://en.wikipedia.org/wiki/Siege_of_the_International_Legations"
+  },
+  {
+    "date": "1900.07.02",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "germany"
+    ],
+    "summary": "First Zeppelin airship flight",
+    "source": "https://en.wikipedia.org/wiki/Zeppelin_LZ_1"
+  },
+  {
+    "date": "1900.08.08",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "computing"
+    ],
+    "summary": "Hilbert presents his 23 problems",
+    "source": "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
+  },
+  {
+    "date": "1900.09.08",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "hurricane",
+      "disaster"
+    ],
+    "summary": "Galveston hurricane kills thousands",
+    "source": "https://en.wikipedia.org/wiki/Galveston_hurricane_of_1900"
+  },
+  {
     "date": "1900.12.14",
     "category": "science",
     "importance": 5,
@@ -29,6 +72,60 @@
     ],
     "summary": "Australian federation takes effect",
     "source": "https://en.wikipedia.org/wiki/Federation_of_Australia"
+  },
+  {
+    "date": "1901.01.22",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "europe",
+      "death"
+    ],
+    "summary": "Queen Victoria dies",
+    "source": "https://en.wikipedia.org/wiki/Queen_Victoria"
+  },
+  {
+    "date": "1901.08.06",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "polar",
+      "expedition"
+    ],
+    "summary": "Scott's Discovery Expedition sails",
+    "source": "https://en.wikipedia.org/wiki/Discovery_Expedition"
+  },
+  {
+    "date": "1901.09.06",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "assassination",
+      "usa"
+    ],
+    "summary": "McKinley is shot at Buffalo",
+    "source": "https://en.wikipedia.org/wiki/Assassination_of_William_McKinley"
+  },
+  {
+    "date": "1901.09.07",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "china"
+    ],
+    "summary": "Boxer Protocol is signed",
+    "source": "https://en.wikipedia.org/wiki/Boxer_Protocol"
+  },
+  {
+    "date": "1901.11.09",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Rachmaninoff's Second Piano Concerto",
+    "source": "https://en.wikipedia.org/wiki/Piano_Concerto_No._2_%28Rachmaninoff%29"
   },
   {
     "date": "1901.12.10",
@@ -52,6 +149,80 @@
     "source": "https://en.wikipedia.org/wiki/Signal_Hill,_Newfoundland_and_Labrador"
   },
   {
+    "date": "1902.01.30",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty"
+    ],
+    "summary": "Anglo-Japanese Alliance signed",
+    "source": "https://en.wikipedia.org/wiki/Anglo-Japanese_Alliance"
+  },
+  {
+    "date": "1902.05.08",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "volcano",
+      "disaster"
+    ],
+    "summary": "Mount Pelee destroys Saint-Pierre",
+    "source": "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e"
+  },
+  {
+    "date": "1902.05.20",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Republic of Cuba is established",
+    "source": "https://en.wikipedia.org/wiki/Republic_of_Cuba_%281902%E2%80%931959%29"
+  },
+  {
+    "date": "1902.05.31",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "war"
+    ],
+    "summary": "Treaty of Vereeniging ends Boer War",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Vereeniging"
+  },
+  {
+    "date": "1902.06.16",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "computing"
+    ],
+    "summary": "Russell tells Frege of his paradox",
+    "source": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
+  },
+  {
+    "date": "1902.09.01",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Melies' A Trip to the Moon released",
+    "source": "https://en.wikipedia.org/wiki/A_Trip_to_the_Moon"
+  },
+  {
+    "date": "1903.06.16",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "polar",
+      "expedition"
+    ],
+    "summary": "Amundsen sails Gjoa from Norway",
+    "source": "https://en.wikipedia.org/wiki/Gj%C3%B8a"
+  },
+  {
     "date": "1903.07.01",
     "category": "sport",
     "importance": 3,
@@ -60,6 +231,80 @@
     ],
     "summary": "First Tour de France begins",
     "source": "https://en.wikipedia.org/wiki/1903_Tour_de_France"
+  },
+  {
+    "date": "1903.08.04",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Pius X elected pope",
+    "source": "https://en.wikipedia.org/wiki/1903_papal_conclave"
+  },
+  {
+    "date": "1903.08.23",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "social-movement"
+    ],
+    "summary": "Zionist Congress debates Uganda plan",
+    "source": "https://en.wikipedia.org/wiki/Sixth_Zionist_Congress"
+  },
+  {
+    "date": "1903.10.01",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "First modern World Series",
+    "source": "https://en.wikipedia.org/wiki/1903_World_Series"
+  },
+  {
+    "date": "1903.10.10",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "suffrage",
+      "social-movement"
+    ],
+    "summary": "Pankhursts found the WSPU",
+    "source": "https://en.wikipedia.org/wiki/Women%27s_Social_and_Political_Union"
+  },
+  {
+    "date": "1903.11.03",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence"
+    ],
+    "summary": "Panama secedes from Colombia",
+    "source": "https://en.wikipedia.org/wiki/Secession_of_Panama_from_Colombia"
+  },
+  {
+    "date": "1903.12.01",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "The Great Train Robbery released",
+    "source": "https://en.wikipedia.org/wiki/The_Great_Train_Robbery_%281903_film%29"
+  },
+  {
+    "date": "1903.12.10",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "nobel",
+      "physics"
+    ],
+    "summary": "Curies and Becquerel win Nobel Prize",
+    "source": "https://en.wikipedia.org/wiki/Marie_Curie"
   },
   {
     "date": "1903.12.17",
@@ -71,6 +316,26 @@
     ],
     "summary": "Wright brothers achieve powered flight",
     "source": "https://en.wikipedia.org/wiki/Wright_Flyer"
+  },
+  {
+    "date": "1904.01.12",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "genocide"
+    ],
+    "summary": "Herero uprising and genocide begin",
+    "source": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide"
+  },
+  {
+    "date": "1904.01.17",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre"
+    ],
+    "summary": "The Cherry Orchard premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Cherry_Orchard"
   },
   {
     "date": "1904.02.08",
@@ -92,6 +357,60 @@
     ],
     "summary": "Madama Butterfly premieres at La Scala",
     "source": "https://en.wikipedia.org/wiki/Madama_Butterfly"
+  },
+  {
+    "date": "1904.04.08",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "treaty",
+      "europe"
+    ],
+    "summary": "Entente Cordiale signed",
+    "source": "https://en.wikipedia.org/wiki/Entente_Cordiale"
+  },
+  {
+    "date": "1904.05.04",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering",
+      "usa"
+    ],
+    "summary": "US begins building the Panama Canal",
+    "source": "https://en.wikipedia.org/wiki/History_of_the_Panama_Canal"
+  },
+  {
+    "date": "1904.05.21",
+    "category": "sport",
+    "importance": 4,
+    "tags": [
+      "football",
+      "first"
+    ],
+    "summary": "FIFA is founded in Paris",
+    "source": "https://en.wikipedia.org/wiki/FIFA"
+  },
+  {
+    "date": "1904.07.01",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "St. Louis Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1904_Summer_Olympics"
+  },
+  {
+    "date": "1904.08.03",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "tibet",
+      "expedition"
+    ],
+    "summary": "British expedition enters Lhasa",
+    "source": "https://en.wikipedia.org/wiki/Francis_Younghusband"
   },
   {
     "date": "1904.12.27",
@@ -116,6 +435,71 @@
     "source": "https://en.wikipedia.org/wiki/Russian_Revolution_of_1905"
   },
   {
+    "date": "1905.03.31",
+    "category": "politics",
+    "importance": 2,
+    "tags": [
+      "europe"
+    ],
+    "summary": "Kaiser visits Tangier; Moroccan crisis",
+    "source": "https://en.wikipedia.org/wiki/First_Moroccan_Crisis"
+  },
+  {
+    "date": "1905.05.27",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "war",
+      "maritime"
+    ],
+    "summary": "Battle of Tsushima",
+    "source": "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+  },
+  {
+    "date": "1905.06.07",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "independence",
+      "europe"
+    ],
+    "summary": "Norway dissolves union with Sweden",
+    "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_union_between_Norway_and_Sweden"
+  },
+  {
+    "date": "1905.06.19",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "First Nickelodeon opens in Pittsburgh",
+    "source": "https://en.wikipedia.org/wiki/Nickelodeon_%28movie_theater%29"
+  },
+  {
+    "date": "1905.06.27",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "revolution",
+      "ussr"
+    ],
+    "summary": "Battleship Potemkin mutiny",
+    "source": "https://en.wikipedia.org/wiki/Russian_battleship_Potemkin"
+  },
+  {
+    "date": "1905.06.28",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "social-movement",
+      "usa"
+    ],
+    "summary": "IWW is founded in Chicago",
+    "source": "https://en.wikipedia.org/wiki/Industrial_Workers_of_the_World"
+  },
+  {
     "date": "1905.06.30",
     "category": "science",
     "importance": 4,
@@ -124,6 +508,112 @@
     ],
     "summary": "Einstein submits relativity paper",
     "source": "https://en.wikipedia.org/wiki/Annus_mirabilis_papers"
+  },
+  {
+    "date": "1905.07.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "biology"
+    ],
+    "summary": "Binet and Simon publish first IQ test",
+    "source": "https://en.wikipedia.org/wiki/Binet%E2%80%93Simon_Intelligence_Test"
+  },
+  {
+    "date": "1905.09.05",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "war"
+    ],
+    "summary": "Portsmouth treaty ends Russo-Japan war",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Portsmouth"
+  },
+  {
+    "date": "1905.10.16",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "india"
+    ],
+    "summary": "Partition of Bengal takes effect",
+    "source": "https://en.wikipedia.org/wiki/Partition_of_Bengal_%281905%29"
+  },
+  {
+    "date": "1905.10.18",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "modernism",
+      "art"
+    ],
+    "summary": "Fauves shock the Salon d'Automne",
+    "source": "https://en.wikipedia.org/wiki/Salon_d%27Automne"
+  },
+  {
+    "date": "1905.10.30",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "ussr"
+    ],
+    "summary": "Nicholas II issues October Manifesto",
+    "source": "https://en.wikipedia.org/wiki/Russian_Revolution_of_1905"
+  },
+  {
+    "date": "1905.11.17",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty"
+    ],
+    "summary": "Korea becomes a Japanese protectorate",
+    "source": "https://en.wikipedia.org/wiki/Japan%E2%80%93Korea_Treaty_of_1905"
+  },
+  {
+    "date": "1905.12.09",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "theatre"
+    ],
+    "summary": "Strauss's Salome premieres in Dresden",
+    "source": "https://en.wikipedia.org/wiki/Salome_%28opera%29"
+  },
+  {
+    "date": "1905.12.09",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "catholic",
+      "europe"
+    ],
+    "summary": "France separates church and state",
+    "source": "https://en.wikipedia.org/wiki/1905_French_law_on_the_Separation_of_the_Churches_and_the_State"
+  },
+  {
+    "date": "1906.02.10",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "maritime",
+      "war"
+    ],
+    "summary": "HMS Dreadnought is launched",
+    "source": "https://en.wikipedia.org/wiki/HMS_Dreadnought_%281906%29"
+  },
+  {
+    "date": "1906.04.09",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "christianity"
+    ],
+    "summary": "Azusa Street revival begins",
+    "source": "https://en.wikipedia.org/wiki/Azusa_Street_Revival"
   },
   {
     "date": "1906.04.18",
@@ -138,6 +628,222 @@
     "source": "https://en.wikipedia.org/wiki/1906_San_Francisco_earthquake"
   },
   {
+    "date": "1906.04.19",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "death",
+      "physics"
+    ],
+    "summary": "Pierre Curie killed in Paris",
+    "source": "https://en.wikipedia.org/wiki/Pierre_Curie"
+  },
+  {
+    "date": "1906.04.22",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Athens Intercalated Games open",
+    "source": "https://en.wikipedia.org/wiki/1906_Intercalated_Games"
+  },
+  {
+    "date": "1906.06.30",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "usa",
+      "health"
+    ],
+    "summary": "Pure Food and Drug Act signed",
+    "source": "https://en.wikipedia.org/wiki/Pure_Food_and_Drug_Act"
+  },
+  {
+    "date": "1906.07.12",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe",
+      "human-rights"
+    ],
+    "summary": "Dreyfus is exonerated",
+    "source": "https://en.wikipedia.org/wiki/Dreyfus_affair"
+  },
+  {
+    "date": "1906.07.20",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "suffrage",
+      "europe"
+    ],
+    "summary": "Finland gives women vote and candidacy",
+    "source": "https://en.wikipedia.org/wiki/Women%27s_suffrage_by_country"
+  },
+  {
+    "date": "1906.08.05",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "revolution",
+      "middle-east"
+    ],
+    "summary": "Persian constitutional revolution",
+    "source": "https://en.wikipedia.org/wiki/Persian_Constitutional_Revolution"
+  },
+  {
+    "date": "1906.10.23",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Santos-Dumont flies the 14-bis",
+    "source": "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis"
+  },
+  {
+    "date": "1906.11.03",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine",
+      "health"
+    ],
+    "summary": "Alzheimer describes his first case",
+    "source": "https://en.wikipedia.org/wiki/Alois_Alzheimer"
+  },
+  {
+    "date": "1906.12.24",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "radio",
+      "first"
+    ],
+    "summary": "Fessenden's Christmas Eve broadcast",
+    "source": "https://en.wikipedia.org/wiki/Reginald_Fessenden"
+  },
+  {
+    "date": "1906.12.30",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "india",
+      "islam"
+    ],
+    "summary": "All-India Muslim League is founded",
+    "source": "https://en.wikipedia.org/wiki/All-India_Muslim_League"
+  },
+  {
+    "date": "1907.05.28",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "motorsport"
+    ],
+    "summary": "First Isle of Man TT race",
+    "source": "https://en.wikipedia.org/wiki/1907_Isle_of_Man_TT"
+  },
+  {
+    "date": "1907.06.01",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Autochrome color photography launched",
+    "source": "https://en.wikipedia.org/wiki/Autochrome_Lumi%C3%A8re"
+  },
+  {
+    "date": "1907.06.10",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "motorsport",
+      "automobile"
+    ],
+    "summary": "Peking to Paris race starts",
+    "source": "https://en.wikipedia.org/wiki/Peking_to_Paris"
+  },
+  {
+    "date": "1907.07.01",
+    "category": "arts",
+    "importance": 5,
+    "tags": [
+      "modernism",
+      "art"
+    ],
+    "summary": "Picasso paints Les Demoiselles d'Avignon",
+    "source": "https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon"
+  },
+  {
+    "date": "1907.08.31",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "europe"
+    ],
+    "summary": "Anglo-Russian Convention signed",
+    "source": "https://en.wikipedia.org/wiki/Anglo-Russian_Convention"
+  },
+  {
+    "date": "1907.09.08",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Pascendi condemns modernism",
+    "source": "https://en.wikipedia.org/wiki/Pascendi_Dominici_gregis"
+  },
+  {
+    "date": "1907.10.18",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "war"
+    ],
+    "summary": "Second Hague Conventions signed",
+    "source": "https://en.wikipedia.org/wiki/Hague_Conventions_of_1899_and_1907"
+  },
+  {
+    "date": "1907.11.07",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "nobel",
+      "literature"
+    ],
+    "summary": "Kipling wins the Nobel Prize",
+    "source": "https://en.wikipedia.org/wiki/1907_Nobel_Prize_in_Literature"
+  },
+  {
+    "date": "1908.04.27",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "London Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1908_Summer_Olympics"
+  },
+  {
+    "date": "1908.06.13",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Anne of Green Gables is published",
+    "source": "https://en.wikipedia.org/wiki/Anne_of_Green_Gables"
+  },
+  {
     "date": "1908.06.30",
     "category": "science",
     "importance": 3,
@@ -146,6 +852,17 @@
     ],
     "summary": "Tunguska event flattens Siberian forest",
     "source": "https://en.wikipedia.org/wiki/Tunguska_event"
+  },
+  {
+    "date": "1908.07.24",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "revolution",
+      "middle-east"
+    ],
+    "summary": "Young Turks restore the constitution",
+    "source": "https://en.wikipedia.org/wiki/Young_Turk_Revolution"
   },
   {
     "date": "1908.07.24",
@@ -159,6 +876,48 @@
     "source": "https://en.wikipedia.org/wiki/Dorando_Pietri"
   },
   {
+    "date": "1908.08.08",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "Wilbur Wright's Le Mans flights",
+    "source": "https://en.wikipedia.org/wiki/Wright_brothers"
+  },
+  {
+    "date": "1908.09.01",
+    "category": "tech",
+    "importance": 2,
+    "tags": [
+      "engineering",
+      "middle-east"
+    ],
+    "summary": "Hejaz Railway reaches Medina",
+    "source": "https://en.wikipedia.org/wiki/Hejaz_railway"
+  },
+  {
+    "date": "1908.09.16",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "automobile",
+      "manufacturing"
+    ],
+    "summary": "General Motors is founded",
+    "source": "https://en.wikipedia.org/wiki/General_Motors"
+  },
+  {
+    "date": "1908.09.21",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Minkowski presents spacetime",
+    "source": "https://en.wikipedia.org/wiki/Hermann_Minkowski"
+  },
+  {
     "date": "1908.10.01",
     "category": "tech",
     "importance": 4,
@@ -170,6 +929,132 @@
     "source": "https://en.wikipedia.org/wiki/Ford_Model_T"
   },
   {
+    "date": "1908.10.06",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "europe"
+    ],
+    "summary": "Austria annexes Bosnia",
+    "source": "https://en.wikipedia.org/wiki/Austro-Hungarian_rule_in_Bosnia_and_Herzegovina"
+  },
+  {
+    "date": "1908.10.08",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature"
+    ],
+    "summary": "The Wind in the Willows published",
+    "source": "https://en.wikipedia.org/wiki/The_Wind_in_the_Willows"
+  },
+  {
+    "date": "1908.11.15",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe"
+    ],
+    "summary": "Belgium takes over the Congo",
+    "source": "https://en.wikipedia.org/wiki/Belgian_Congo"
+  },
+  {
+    "date": "1908.12.26",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "boxing",
+      "racism"
+    ],
+    "summary": "Johnson wins the heavyweight title",
+    "source": "https://en.wikipedia.org/wiki/The_Burns-Johnson_Fight"
+  },
+  {
+    "date": "1908.12.28",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "earthquake",
+      "disaster"
+    ],
+    "summary": "Messina earthquake",
+    "source": "https://en.wikipedia.org/wiki/1908_Messina_earthquake"
+  },
+  {
+    "date": "1909.01.09",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "polar",
+      "expedition"
+    ],
+    "summary": "Shackleton reaches farthest south",
+    "source": "https://en.wikipedia.org/wiki/Nimrod_Expedition"
+  },
+  {
+    "date": "1909.02.05",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Baekeland announces Bakelite",
+    "source": "https://en.wikipedia.org/wiki/Bakelite"
+  },
+  {
+    "date": "1909.02.12",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "racism",
+      "human-rights"
+    ],
+    "summary": "NAACP is founded",
+    "source": "https://en.wikipedia.org/wiki/NAACP"
+  },
+  {
+    "date": "1909.02.20",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "modernism",
+      "art"
+    ],
+    "summary": "Futurist Manifesto published",
+    "source": "https://en.wikipedia.org/wiki/Manifesto_of_Futurism"
+  },
+  {
+    "date": "1909.04.06",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "polar",
+      "expedition"
+    ],
+    "summary": "Peary claims the North Pole",
+    "source": "https://en.wikipedia.org/wiki/Robert_Peary"
+  },
+  {
+    "date": "1909.05.13",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "cycling"
+    ],
+    "summary": "First Giro d'Italia begins",
+    "source": "https://en.wikipedia.org/wiki/1909_Giro_d%27Italia"
+  },
+  {
+    "date": "1909.07.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Haber demonstrates ammonia synthesis",
+    "source": "https://en.wikipedia.org/wiki/History_of_the_Haber_process"
+  },
+  {
     "date": "1909.07.25",
     "category": "exploration",
     "importance": 3,
@@ -179,6 +1064,27 @@
     ],
     "summary": "Bleriot flies across the Channel",
     "source": "https://en.wikipedia.org/wiki/Bl%C3%A9riot_XI"
+  },
+  {
+    "date": "1909.08.31",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "Hata confirms Ehrlich's Salvarsan",
+    "source": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+  },
+  {
+    "date": "1909.10.26",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "assassination",
+      "death"
+    ],
+    "summary": "Ito Hirobumi assassinated at Harbin",
+    "source": "https://en.wikipedia.org/wiki/It%C5%8D_Hirobumi"
   },
   {
     "date": "1910.05.31",

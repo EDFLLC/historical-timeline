@@ -61,6 +61,7 @@ caliphate
 buddhism
 
 # --- science ---
+mathematics
 quantum
 nobel
 physics
@@ -164,3 +165,13 @@ cult
 comics
 afghanistan
 streaming
+
+# --- added tag audit ---
+psychology
+geology
+hinduism
+bahai
+shinto
+basketball
+cricket
+golf

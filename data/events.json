@@ -1,13 +1,91 @@
 [
   {
+    "date": "1900.01.14",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "theatre"
+    ],
+    "summary": "Puccini's Tosca premieres in Rome",
+    "source": "https://en.wikipedia.org/wiki/Tosca"
+  },
+  {
+    "date": "1900.02.01",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "leisure",
+      "media"
+    ],
+    "summary": "Kodak Brownie goes on sale",
+    "source": "https://en.wikipedia.org/wiki/Kodak_Brownie"
+  },
+  {
+    "date": "1900.04.01",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "genetics",
+      "biology"
+    ],
+    "summary": "Mendel's heredity laws rediscovered",
+    "source": "https://en.wikipedia.org/wiki/Gregor_Mendel"
+  },
+  {
+    "date": "1900.04.14",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "europe",
+      "engineering"
+    ],
+    "summary": "Paris World's Fair opens",
+    "source": "https://en.wikipedia.org/wiki/Exposition_Universelle_%281900%29"
+  },
+  {
     "date": "1900.05.14",
     "category": "sport",
     "importance": 3,
     "tags": [
-      "olympics"
+      "olympics",
+      "europe"
     ],
     "summary": "Paris Olympics begin",
     "source": "https://en.wikipedia.org/wiki/1900_Summer_Olympics"
+  },
+  {
+    "date": "1900.05.17",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "The Wonderful Wizard of Oz printed",
+    "source": "https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz"
+  },
+  {
+    "date": "1900.05.17",
+    "category": "history",
+    "importance": 2,
+    "tags": [
+      "war",
+      "south-africa"
+    ],
+    "summary": "Siege of Mafeking is lifted",
+    "source": "https://en.wikipedia.org/wiki/Siege_of_Mafeking"
+  },
+  {
+    "date": "1900.06.14",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "motorsport",
+      "first"
+    ],
+    "summary": "First Gordon Bennett Cup race",
+    "source": "https://en.wikipedia.org/wiki/1900_Gordon_Bennett_Cup"
   },
   {
     "date": "1900.06.20",
@@ -32,11 +110,44 @@
     "source": "https://en.wikipedia.org/wiki/Zeppelin_LZ_1"
   },
   {
+    "date": "1900.07.11",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics",
+      "tennis"
+    ],
+    "summary": "Cooper is first women's Olympic champion",
+    "source": "https://en.wikipedia.org/wiki/Charlotte_Cooper_%28tennis%29"
+  },
+  {
+    "date": "1900.07.19",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering",
+      "europe"
+    ],
+    "summary": "Paris Metro opens",
+    "source": "https://en.wikipedia.org/wiki/Paris_Metro_Line_1"
+  },
+  {
+    "date": "1900.07.29",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "assassination",
+      "europe"
+    ],
+    "summary": "King Umberto I of Italy assassinated",
+    "source": "https://en.wikipedia.org/wiki/Gaetano_Bresci"
+  },
+  {
     "date": "1900.08.08",
     "category": "science",
     "importance": 4,
     "tags": [
-      "computing"
+      "mathematics"
     ],
     "summary": "Hilbert presents his 23 problems",
     "source": "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
@@ -47,10 +158,21 @@
     "importance": 3,
     "tags": [
       "hurricane",
-      "disaster"
+      "natural-disaster"
     ],
     "summary": "Galveston hurricane kills thousands",
     "source": "https://en.wikipedia.org/wiki/Galveston_hurricane_of_1900"
+  },
+  {
+    "date": "1900.10.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "medicine",
+      "health"
+    ],
+    "summary": "Reed: mosquitoes spread yellow fever",
+    "source": "https://en.wikipedia.org/wiki/Yellow_Fever_Commission"
   },
   {
     "date": "1900.12.14",
@@ -74,6 +196,27 @@
     "source": "https://en.wikipedia.org/wiki/Federation_of_Australia"
   },
   {
+    "date": "1901.01.01",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity"
+    ],
+    "summary": "Agnes Ozman speaks in tongues at Topeka",
+    "source": "https://en.wikipedia.org/wiki/Agnes_Ozman"
+  },
+  {
+    "date": "1901.01.01",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "medicine",
+      "health"
+    ],
+    "summary": "Landsteiner identifies ABO blood groups",
+    "source": "https://en.wikipedia.org/wiki/ABO_blood_group_system"
+  },
+  {
     "date": "1901.01.22",
     "category": "politics",
     "importance": 4,
@@ -83,6 +226,28 @@
     ],
     "summary": "Queen Victoria dies",
     "source": "https://en.wikipedia.org/wiki/Queen_Victoria"
+  },
+  {
+    "date": "1901.02.22",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "literature"
+    ],
+    "summary": "Tolstoy is excommunicated",
+    "source": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+  },
+  {
+    "date": "1901.08.01",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Hound of the Baskervilles serial begins",
+    "source": "https://en.wikipedia.org/wiki/The_Hound_of_the_Baskervilles"
   },
   {
     "date": "1901.08.06",
@@ -132,7 +297,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "nobel"
+      "nobel",
+      "first"
     ],
     "summary": "First Nobel Prizes are awarded",
     "source": "https://en.wikipedia.org/wiki/Nobel_Prize"
@@ -149,6 +315,16 @@
     "source": "https://en.wikipedia.org/wiki/Signal_Hill,_Newfoundland_and_Labrador"
   },
   {
+    "date": "1902.01.01",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "football"
+    ],
+    "summary": "First Rose Bowl game",
+    "source": "https://en.wikipedia.org/wiki/1902_Rose_Bowl"
+  },
+  {
     "date": "1902.01.30",
     "category": "politics",
     "importance": 3,
@@ -159,12 +335,45 @@
     "source": "https://en.wikipedia.org/wiki/Anglo-Japanese_Alliance"
   },
   {
+    "date": "1902.03.06",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "europe"
+    ],
+    "summary": "Real Madrid is founded",
+    "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+  },
+  {
+    "date": "1902.04.11",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "media"
+    ],
+    "summary": "Caruso makes his first recordings",
+    "source": "https://en.wikipedia.org/wiki/Enrico_Caruso"
+  },
+  {
+    "date": "1902.04.30",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "theatre"
+    ],
+    "summary": "Debussy's Pelleas et Melisande premieres",
+    "source": "https://en.wikipedia.org/wiki/Pell%C3%A9as_et_M%C3%A9lisande_%28opera%29"
+  },
+  {
     "date": "1902.05.08",
     "category": "history",
     "importance": 3,
     "tags": [
       "volcano",
-      "disaster"
+      "natural-disaster"
     ],
     "summary": "Mount Pelee destroys Saint-Pierre",
     "source": "https://en.wikipedia.org/wiki/1902_eruption_of_Mount_Pel%C3%A9e"
@@ -174,7 +383,8 @@
     "category": "politics",
     "importance": 3,
     "tags": [
-      "independence"
+      "independence",
+      "usa"
     ],
     "summary": "Republic of Cuba is established",
     "source": "https://en.wikipedia.org/wiki/Republic_of_Cuba_%281902%E2%80%931959%29"
@@ -195,10 +405,32 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "computing"
+      "mathematics"
     ],
     "summary": "Russell tells Frege of his paradox",
     "source": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
+  },
+  {
+    "date": "1902.07.04",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "hinduism",
+      "death",
+      "india"
+    ],
+    "summary": "Vivekananda dies",
+    "source": "https://en.wikipedia.org/wiki/Swami_Vivekananda"
+  },
+  {
+    "date": "1902.07.17",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "engineering"
+    ],
+    "summary": "Carrier designs modern air conditioning",
+    "source": "https://en.wikipedia.org/wiki/Willis_Carrier"
   },
   {
     "date": "1902.09.01",
@@ -212,6 +444,93 @@
     "source": "https://en.wikipedia.org/wiki/A_Trip_to_the_Moon"
   },
   {
+    "date": "1902.10.02",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature"
+    ],
+    "summary": "The Tale of Peter Rabbit published",
+    "source": "https://en.wikipedia.org/wiki/The_Tale_of_Peter_Rabbit"
+  },
+  {
+    "date": "1902.11.13",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Conrad's Heart of Darkness in book form",
+    "source": "https://en.wikipedia.org/wiki/Heart_of_Darkness"
+  },
+  {
+    "date": "1902.11.16",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media",
+      "usa"
+    ],
+    "summary": "Berryman cartoon inspires the teddy bear",
+    "source": "https://en.wikipedia.org/wiki/Teddy_bear"
+  },
+  {
+    "date": "1903.01.18",
+    "category": "tech",
+    "importance": 2,
+    "tags": [
+      "radio",
+      "transatlantic"
+    ],
+    "summary": "Roosevelt and Edward VII swap radio",
+    "source": "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
+  },
+  {
+    "date": "1903.04.19",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "racism",
+      "europe"
+    ],
+    "summary": "Kishinev pogrom",
+    "source": "https://en.wikipedia.org/wiki/Kishinev_pogrom"
+  },
+  {
+    "date": "1903.05.01",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "space",
+      "engineering"
+    ],
+    "summary": "Tsiolkovsky publishes rocket theory",
+    "source": "https://en.wikipedia.org/wiki/Konstantin_Tsiolkovsky"
+  },
+  {
+    "date": "1903.05.16",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "leisure",
+      "theme-park"
+    ],
+    "summary": "Luna Park opens at Coney Island",
+    "source": "https://en.wikipedia.org/wiki/Luna_Park_%28Coney_Island%2C_1903%29"
+  },
+  {
+    "date": "1903.06.11",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "assassination",
+      "europe"
+    ],
+    "summary": "Serbian May Coup kills King Alexander",
+    "source": "https://en.wikipedia.org/wiki/May_Coup_%28Serbia%29"
+  },
+  {
     "date": "1903.06.16",
     "category": "exploration",
     "importance": 3,
@@ -223,14 +542,37 @@
     "source": "https://en.wikipedia.org/wiki/Gj%C3%B8a"
   },
   {
+    "date": "1903.06.16",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "automobile",
+      "manufacturing"
+    ],
+    "summary": "Ford Motor Company is incorporated",
+    "source": "https://en.wikipedia.org/wiki/History_of_Ford_Motor_Company"
+  },
+  {
     "date": "1903.07.01",
     "category": "sport",
     "importance": 3,
     "tags": [
-      "cycling"
+      "cycling",
+      "europe"
     ],
     "summary": "First Tour de France begins",
     "source": "https://en.wikipedia.org/wiki/1903_Tour_de_France"
+  },
+  {
+    "date": "1903.07.20",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "death"
+    ],
+    "summary": "Pope Leo XIII dies",
+    "source": "https://en.wikipedia.org/wiki/Pope_Leo_XIII"
   },
   {
     "date": "1903.08.04",
@@ -248,7 +590,8 @@
     "category": "religion",
     "importance": 3,
     "tags": [
-      "social-movement"
+      "social-movement",
+      "middle-east"
     ],
     "summary": "Zionist Congress debates Uganda plan",
     "source": "https://en.wikipedia.org/wiki/Sixth_Zionist_Congress"
@@ -258,7 +601,8 @@
     "category": "sport",
     "importance": 3,
     "tags": [
-      "baseball"
+      "baseball",
+      "first"
     ],
     "summary": "First modern World Series",
     "source": "https://en.wikipedia.org/wiki/1903_World_Series"
@@ -279,7 +623,8 @@
     "category": "politics",
     "importance": 3,
     "tags": [
-      "independence"
+      "independence",
+      "usa"
     ],
     "summary": "Panama secedes from Colombia",
     "source": "https://en.wikipedia.org/wiki/Secession_of_Panama_from_Colombia"
@@ -312,17 +657,30 @@
     "importance": 5,
     "tags": [
       "aviation",
-      "engineering"
+      "engineering",
+      "first"
     ],
     "summary": "Wright brothers achieve powered flight",
     "source": "https://en.wikipedia.org/wiki/Wright_Flyer"
+  },
+  {
+    "date": "1903.12.30",
+    "category": "history",
+    "importance": 2,
+    "tags": [
+      "disaster",
+      "theatre"
+    ],
+    "summary": "Iroquois Theatre fire in Chicago",
+    "source": "https://en.wikipedia.org/wiki/Iroquois_Theatre_fire"
   },
   {
     "date": "1904.01.12",
     "category": "history",
     "importance": 4,
     "tags": [
-      "genocide"
+      "genocide",
+      "germany"
     ],
     "summary": "Herero uprising and genocide begin",
     "source": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide"
@@ -332,7 +690,8 @@
     "category": "arts",
     "importance": 3,
     "tags": [
-      "theatre"
+      "theatre",
+      "literature"
     ],
     "summary": "The Cherry Orchard premieres",
     "source": "https://en.wikipedia.org/wiki/The_Cherry_Orchard"
@@ -392,11 +751,23 @@
     "source": "https://en.wikipedia.org/wiki/FIFA"
   },
   {
+    "date": "1904.06.15",
+    "category": "history",
+    "importance": 2,
+    "tags": [
+      "disaster",
+      "maritime"
+    ],
+    "summary": "General Slocum steamboat disaster",
+    "source": "https://en.wikipedia.org/wiki/PS_General_Slocum"
+  },
+  {
     "date": "1904.07.01",
     "category": "sport",
     "importance": 2,
     "tags": [
-      "olympics"
+      "olympics",
+      "usa"
     ],
     "summary": "St. Louis Olympics open",
     "source": "https://en.wikipedia.org/wiki/1904_Summer_Olympics"
@@ -411,6 +782,48 @@
     ],
     "summary": "British expedition enters Lhasa",
     "source": "https://en.wikipedia.org/wiki/Francis_Younghusband"
+  },
+  {
+    "date": "1904.10.01",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity"
+    ],
+    "summary": "Welsh Revival begins",
+    "source": "https://en.wikipedia.org/wiki/1904%E2%80%931905_Welsh_revival"
+  },
+  {
+    "date": "1904.10.08",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "motorsport"
+    ],
+    "summary": "First Vanderbilt Cup race",
+    "source": "https://en.wikipedia.org/wiki/Vanderbilt_Cup"
+  },
+  {
+    "date": "1904.10.27",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering",
+      "usa"
+    ],
+    "summary": "New York City subway opens",
+    "source": "https://en.wikipedia.org/wiki/Interborough_Rapid_Transit_Company"
+  },
+  {
+    "date": "1904.11.16",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "electronics",
+      "radio"
+    ],
+    "summary": "Fleming patents the diode valve",
+    "source": "https://en.wikipedia.org/wiki/Fleming_valve"
   },
   {
     "date": "1904.12.27",
@@ -429,7 +842,7 @@
     "importance": 3,
     "tags": [
       "revolution",
-      "europe"
+      "ussr"
     ],
     "summary": "Bloody Sunday shootings in St Petersburg",
     "source": "https://en.wikipedia.org/wiki/Russian_Revolution_of_1905"
@@ -439,7 +852,8 @@
     "category": "politics",
     "importance": 2,
     "tags": [
-      "europe"
+      "europe",
+      "germany"
     ],
     "summary": "Kaiser visits Tangier; Moroccan crisis",
     "source": "https://en.wikipedia.org/wiki/First_Moroccan_Crisis"
@@ -454,6 +868,17 @@
     ],
     "summary": "Battle of Tsushima",
     "source": "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+  },
+  {
+    "date": "1905.06.07",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "modernism",
+      "art"
+    ],
+    "summary": "Die Brucke is founded in Dresden",
+    "source": "https://en.wikipedia.org/wiki/Die_Br%C3%BCcke"
   },
   {
     "date": "1905.06.07",
@@ -504,7 +929,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "physics",
+      "relativity"
     ],
     "summary": "Einstein submits relativity paper",
     "source": "https://en.wikipedia.org/wiki/Annus_mirabilis_papers"
@@ -514,10 +940,33 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "biology"
+      "psychology",
+      "first"
     ],
     "summary": "Binet and Simon publish first IQ test",
     "source": "https://en.wikipedia.org/wiki/Binet%E2%80%93Simon_Intelligence_Test"
+  },
+  {
+    "date": "1905.07.11",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "islam",
+      "egypt"
+    ],
+    "summary": "Muhammad Abduh dies",
+    "source": "https://en.wikipedia.org/wiki/Muhammad_Abduh"
+  },
+  {
+    "date": "1905.08.30",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball",
+      "first"
+    ],
+    "summary": "Ty Cobb debuts for Detroit",
+    "source": "https://en.wikipedia.org/wiki/Ty_Cobb"
   },
   {
     "date": "1905.09.05",
@@ -529,6 +978,27 @@
     ],
     "summary": "Portsmouth treaty ends Russo-Japan war",
     "source": "https://en.wikipedia.org/wiki/Treaty_of_Portsmouth"
+  },
+  {
+    "date": "1905.10.15",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Debussy's La mer premieres",
+    "source": "https://en.wikipedia.org/wiki/La_mer_%28Debussy%29"
+  },
+  {
+    "date": "1905.10.15",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "comics",
+      "media"
+    ],
+    "summary": "Little Nemo in Slumberland debuts",
+    "source": "https://en.wikipedia.org/wiki/Little_Nemo"
   },
   {
     "date": "1905.10.16",
@@ -595,6 +1065,27 @@
     "source": "https://en.wikipedia.org/wiki/1905_French_law_on_the_Separation_of_the_Churches_and_the_State"
   },
   {
+    "date": "1905.12.16",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "rugby"
+    ],
+    "summary": "Wales beat the Original All Blacks",
+    "source": "https://en.wikipedia.org/wiki/Match_of_the_Century_%28rugby_union%29"
+  },
+  {
+    "date": "1905.12.30",
+    "category": "arts",
+    "importance": 2,
+    "tags": [
+      "music",
+      "theatre"
+    ],
+    "summary": "The Merry Widow opens in Vienna",
+    "source": "https://en.wikipedia.org/wiki/The_Merry_Widow"
+  },
+  {
     "date": "1906.02.10",
     "category": "tech",
     "importance": 4,
@@ -604,6 +1095,17 @@
     ],
     "summary": "HMS Dreadnought is launched",
     "source": "https://en.wikipedia.org/wiki/HMS_Dreadnought_%281906%29"
+  },
+  {
+    "date": "1906.03.10",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "europe"
+    ],
+    "summary": "Courrieres mine disaster",
+    "source": "https://en.wikipedia.org/wiki/Courri%C3%A8res_mine_disaster"
   },
   {
     "date": "1906.04.09",
@@ -617,11 +1119,11 @@
   },
   {
     "date": "1906.04.18",
-    "category": "science",
+    "category": "history",
     "importance": 4,
     "tags": [
-      "natural-disaster",
       "earthquake",
+      "natural-disaster",
       "usa"
     ],
     "summary": "San Francisco earthquake strikes",
@@ -647,6 +1149,49 @@
     ],
     "summary": "Athens Intercalated Games open",
     "source": "https://en.wikipedia.org/wiki/1906_Intercalated_Games"
+  },
+  {
+    "date": "1906.05.19",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering",
+      "europe"
+    ],
+    "summary": "Simplon Tunnel opens",
+    "source": "https://en.wikipedia.org/wiki/Simplon_Tunnel"
+  },
+  {
+    "date": "1906.05.23",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "death"
+    ],
+    "summary": "Ibsen dies",
+    "source": "https://en.wikipedia.org/wiki/Henrik_Ibsen"
+  },
+  {
+    "date": "1906.06.07",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "maritime"
+    ],
+    "summary": "Cunard launches the Lusitania",
+    "source": "https://en.wikipedia.org/wiki/RMS_Lusitania"
+  },
+  {
+    "date": "1906.06.26",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "motorsport",
+      "first"
+    ],
+    "summary": "First French Grand Prix",
+    "source": "https://en.wikipedia.org/wiki/1906_French_Grand_Prix"
   },
   {
     "date": "1906.06.30",
@@ -737,6 +1282,18 @@
     "source": "https://en.wikipedia.org/wiki/All-India_Muslim_League"
   },
   {
+    "date": "1907.05.01",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "archaeology",
+      "china",
+      "buddhism"
+    ],
+    "summary": "Stein finds the Dunhuang Diamond Sutra",
+    "source": "https://en.wikipedia.org/wiki/Aurel_Stein"
+  },
+  {
     "date": "1907.05.28",
     "category": "sport",
     "importance": 3,
@@ -751,7 +1308,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "engineering"
+      "engineering",
+      "media"
     ],
     "summary": "Autochrome color photography launched",
     "source": "https://en.wikipedia.org/wiki/Autochrome_Lumi%C3%A8re"
@@ -777,6 +1335,17 @@
     ],
     "summary": "Picasso paints Les Demoiselles d'Avignon",
     "source": "https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon"
+  },
+  {
+    "date": "1907.08.01",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "leisure",
+      "social-movement"
+    ],
+    "summary": "Baden-Powell's first Scout camp",
+    "source": "https://en.wikipedia.org/wiki/Brownsea_Island"
   },
   {
     "date": "1907.08.31",
@@ -823,6 +1392,17 @@
     "source": "https://en.wikipedia.org/wiki/1907_Nobel_Prize_in_Literature"
   },
   {
+    "date": "1908.02.01",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "assassination",
+      "europe"
+    ],
+    "summary": "Portugal's King Carlos assassinated",
+    "source": "https://en.wikipedia.org/wiki/Lisbon_Regicide"
+  },
+  {
     "date": "1908.04.27",
     "category": "sport",
     "importance": 3,
@@ -831,6 +1411,27 @@
     ],
     "summary": "London Olympics open",
     "source": "https://en.wikipedia.org/wiki/1908_Summer_Olympics"
+  },
+  {
+    "date": "1908.05.10",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "leisure",
+      "usa"
+    ],
+    "summary": "First Mother's Day service",
+    "source": "https://en.wikipedia.org/wiki/Mother%27s_Day"
+  },
+  {
+    "date": "1908.05.15",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "ice-hockey"
+    ],
+    "summary": "International Ice Hockey League founded",
+    "source": "https://en.wikipedia.org/wiki/International_Ice_Hockey_Federation"
   },
   {
     "date": "1908.06.13",
@@ -848,6 +1449,7 @@
     "category": "science",
     "importance": 3,
     "tags": [
+      "astronomy",
       "natural-disaster"
     ],
     "summary": "Tunguska event flattens Siberian forest",
@@ -870,6 +1472,7 @@
     "importance": 3,
     "tags": [
       "olympics",
+      "running",
       "athletics"
     ],
     "summary": "Pietri collapses in Olympic marathon",
@@ -891,7 +1494,8 @@
     "importance": 2,
     "tags": [
       "engineering",
-      "middle-east"
+      "middle-east",
+      "islam"
     ],
     "summary": "Hejaz Railway reaches Medina",
     "source": "https://en.wikipedia.org/wiki/Hejaz_railway"
@@ -912,7 +1516,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "physics"
+      "physics",
+      "relativity"
     ],
     "summary": "Minkowski presents spacetime",
     "source": "https://en.wikipedia.org/wiki/Hermann_Minkowski"
@@ -975,10 +1580,21 @@
     "importance": 3,
     "tags": [
       "earthquake",
-      "disaster"
+      "natural-disaster"
     ],
     "summary": "Messina earthquake",
     "source": "https://en.wikipedia.org/wiki/1908_Messina_earthquake"
+  },
+  {
+    "date": "1909.01.01",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "genetics",
+      "biology"
+    ],
+    "summary": "Johannsen coins the word gene",
+    "source": "https://en.wikipedia.org/wiki/Wilhelm_Johannsen"
   },
   {
     "date": "1909.01.09",
@@ -996,7 +1612,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "engineering"
+      "engineering",
+      "manufacturing"
     ],
     "summary": "Baekeland announces Bakelite",
     "source": "https://en.wikipedia.org/wiki/Bakelite"
@@ -1060,7 +1677,8 @@
     "importance": 3,
     "tags": [
       "aviation",
-      "first"
+      "first",
+      "europe"
     ],
     "summary": "Bleriot flies across the Channel",
     "source": "https://en.wikipedia.org/wiki/Bl%C3%A9riot_XI"
@@ -1070,7 +1688,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "medicine"
+      "medicine",
+      "health"
     ],
     "summary": "Hata confirms Ehrlich's Salvarsan",
     "source": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
@@ -1151,6 +1770,16 @@
     "source": "https://en.wikipedia.org/wiki/Oath_Against_Modernism"
   },
   {
+    "date": "1910.09.12",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music"
+    ],
+    "summary": "Mahler's Eighth Symphony premieres",
+    "source": "https://en.wikipedia.org/wiki/Symphony_No._8_%28Mahler%29"
+  },
+  {
     "date": "1910.09.23",
     "category": "exploration",
     "importance": 3,
@@ -1182,6 +1811,17 @@
     ],
     "summary": "Ely takes off from a warship",
     "source": "https://en.wikipedia.org/wiki/Eugene_Burton_Ely"
+  },
+  {
+    "date": "1910.11.20",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "death",
+      "literature"
+    ],
+    "summary": "Tolstoy dies at Astapovo",
+    "source": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
   },
   {
     "date": "1910.11.20",
@@ -1230,7 +1870,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "physics",
+      "nuclear"
     ],
     "summary": "Rutherford publishes nuclear atom model",
     "source": "https://en.wikipedia.org/wiki/Rutherford_model"
@@ -1283,7 +1924,8 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "maritime"
+      "polar",
+      "expedition"
     ],
     "summary": "Mawson's Antarctic expedition sails",
     "source": "https://en.wikipedia.org/wiki/Australasian_Antarctic_Expedition"
@@ -1315,7 +1957,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "geology",
+      "first"
     ],
     "summary": "Wegener proposes continental drift",
     "source": "https://en.wikipedia.org/wiki/Alfred_Wegener"
@@ -1346,7 +1989,8 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "death"
+      "death",
+      "polar"
     ],
     "summary": "Scott dies returning from the Pole",
     "source": "https://en.wikipedia.org/wiki/Terra_Nova_Expedition"
@@ -1356,6 +2000,7 @@
     "category": "religion",
     "importance": 2,
     "tags": [
+      "bahai",
       "usa"
     ],
     "summary": "Abdul-Baha begins his tour of America",
@@ -1439,7 +2084,8 @@
     "category": "sport",
     "importance": 3,
     "tags": [
-      "olympics"
+      "olympics",
+      "athletics"
     ],
     "summary": "Thorpe stripped of Olympic titles",
     "source": "https://en.wikipedia.org/wiki/Jim_Thorpe"
@@ -1493,6 +2139,7 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
+      "mountaineering",
       "first"
     ],
     "summary": "First ascent of Denali",
@@ -1514,7 +2161,8 @@
     "category": "tech",
     "importance": 4,
     "tags": [
-      "engineering"
+      "engineering",
+      "manufacturing"
     ],
     "summary": "Oppau starts industrial ammonia",
     "source": "https://en.wikipedia.org/wiki/Haber_process"
@@ -1675,7 +2323,8 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "maritime"
+      "polar",
+      "expedition"
     ],
     "summary": "Endurance sails from Plymouth",
     "source": "https://en.wikipedia.org/wiki/Imperial_Trans-Antarctic_Expedition"
@@ -1739,8 +2388,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "first",
-      "electronics"
+      "telephony",
+      "first"
     ],
     "summary": "Transcontinental telephone call",
     "source": "https://en.wikipedia.org/wiki/First_transcontinental_telephone_call"
@@ -1815,7 +2464,8 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "maritime"
+      "polar",
+      "expedition"
     ],
     "summary": "Endurance sinks in the Weddell Sea",
     "source": "https://en.wikipedia.org/wiki/Endurance_%281912_ship%29"
@@ -1836,6 +2486,7 @@
     "category": "arts",
     "importance": 4,
     "tags": [
+      "modernism",
       "art"
     ],
     "summary": "Malevich shows Black Square",
@@ -1879,6 +2530,7 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
+      "polar",
       "maritime"
     ],
     "summary": "Shackleton sails the James Caird",
@@ -2010,6 +2662,7 @@
     "category": "arts",
     "importance": 4,
     "tags": [
+      "modernism",
       "art"
     ],
     "summary": "Duchamp's Fountain is submitted",
@@ -2094,8 +2747,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "health",
-      "medicine"
+      "pandemic",
+      "health"
     ],
     "summary": "Spanish flu first recorded in Kansas",
     "source": "https://en.wikipedia.org/wiki/Spanish_flu"
@@ -2106,7 +2759,8 @@
     "importance": 4,
     "tags": [
       "death",
-      "ussr"
+      "ussr",
+      "revolution"
     ],
     "summary": "Romanov family is executed",
     "source": "https://en.wikipedia.org/wiki/Murder_of_the_Romanov_family"
@@ -2227,7 +2881,8 @@
     "category": "sport",
     "importance": 3,
     "tags": [
-      "baseball"
+      "baseball",
+      "usa"
     ],
     "summary": "Black Sox World Series begins",
     "source": "https://en.wikipedia.org/wiki/Black_Sox_Scandal"
@@ -2312,8 +2967,8 @@
     "category": "religion",
     "importance": 3,
     "tags": [
-      "india",
-      "christianity"
+      "hinduism",
+      "usa"
     ],
     "summary": "Yogananda speaks at Boston congress",
     "source": "https://en.wikipedia.org/wiki/Paramahansa_Yogananda"
@@ -2407,6 +3062,7 @@
     "category": "religion",
     "importance": 3,
     "tags": [
+      "bahai",
       "death"
     ],
     "summary": "Abdu'l-Baha dies; Shoghi Effendi leads",
@@ -2429,7 +3085,7 @@
     "importance": 3,
     "tags": [
       "death",
-      "maritime"
+      "polar"
     ],
     "summary": "Shackleton dies on the Quest",
     "source": "https://en.wikipedia.org/wiki/Shackleton%E2%80%93Rowett_Expedition"
@@ -2439,7 +3095,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "medicine"
+      "medicine",
+      "health"
     ],
     "summary": "First insulin injection in a patient",
     "source": "https://en.wikipedia.org/wiki/Leonard_Thompson_%28diabetic%29"
@@ -2622,7 +3279,7 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "film",
+      "sound-film",
       "cinema"
     ],
     "summary": "Phonofilm sound films shown in New York",
@@ -2672,11 +3329,11 @@
   },
   {
     "date": "1923.09.01",
-    "category": "science",
+    "category": "history",
     "importance": 3,
     "tags": [
-      "natural-disaster",
-      "earthquake"
+      "earthquake",
+      "natural-disaster"
     ],
     "summary": "Great Kanto earthquake hits Japan",
     "source": "https://en.wikipedia.org/wiki/Great_Kant%C5%8D_Earthquake"
@@ -2784,7 +3441,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "physics"
+      "physics",
+      "quantum"
     ],
     "summary": "Bose sends Einstein quantum statistics",
     "source": "https://en.wikipedia.org/wiki/Satyendra_Nath_Bose"
@@ -2794,7 +3452,8 @@
     "category": "exploration",
     "importance": 4,
     "tags": [
-      "first"
+      "mountaineering",
+      "death"
     ],
     "summary": "Mallory and Irvine vanish on Everest",
     "source": "https://en.wikipedia.org/wiki/1924_British_Mount_Everest_expedition"
@@ -2836,6 +3495,7 @@
     "category": "arts",
     "importance": 4,
     "tags": [
+      "modernism",
       "art",
       "literature"
     ],
@@ -2847,7 +3507,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "physics"
+      "physics",
+      "quantum"
     ],
     "summary": "de Broglie defends matter-wave thesis",
     "source": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
@@ -2890,7 +3551,8 @@
     "importance": 3,
     "tags": [
       "christianity",
-      "ussr"
+      "ussr",
+      "death"
     ],
     "summary": "Patriarch Tikhon of Moscow dies",
     "source": "https://en.wikipedia.org/wiki/Patriarch_Tikhon_of_Moscow"
@@ -2987,7 +3649,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "physics",
+      "quantum"
     ],
     "summary": "Heisenberg's matrix mechanics paper",
     "source": "https://en.wikipedia.org/wiki/Umdeutung_paper"
@@ -3064,7 +3727,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "physics",
+      "quantum"
     ],
     "summary": "Schrodinger submits his wave equation",
     "source": "https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger"
@@ -3074,6 +3738,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "tennis",
       "record"
     ],
     "summary": "Lenglen beats Wills in Cannes match",
@@ -3106,8 +3771,8 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "aviation",
-      "first"
+      "polar",
+      "aviation"
     ],
     "summary": "Byrd claims flight over the North Pole",
     "source": "https://en.wikipedia.org/wiki/List_of_firsts_at_the_Geographic_North_Pole"
@@ -3161,7 +3826,7 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "film",
+      "sound-film",
       "cinema"
     ],
     "summary": "Vitaphone sound premieres with Don Juan",
@@ -3204,7 +3869,8 @@
     "category": "arts",
     "importance": 4,
     "tags": [
-      "art",
+      "architecture",
+      "modernism",
       "germany"
     ],
     "summary": "Bauhaus Dessau building opens",
@@ -3215,7 +3881,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "electronics"
+      "telephony",
+      "transatlantic"
     ],
     "summary": "Transatlantic telephone service opens",
     "source": "https://en.wikipedia.org/wiki/History_of_the_telephone"
@@ -3247,7 +3914,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "physics",
+      "quantum"
     ],
     "summary": "Heisenberg states uncertainty principle",
     "source": "https://en.wikipedia.org/wiki/Uncertainty_principle"
@@ -3300,7 +3968,8 @@
     "category": "sport",
     "importance": 2,
     "tags": [
-      "record"
+      "golf",
+      "first"
     ],
     "summary": "First official Ryder Cup begins",
     "source": "https://en.wikipedia.org/wiki/1927_Ryder_Cup"
@@ -3331,7 +4000,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "television"
+      "television",
+      "first"
     ],
     "summary": "Farnsworth sends first electronic image",
     "source": "https://en.wikipedia.org/wiki/Philo_Farnsworth"
@@ -3384,7 +4054,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "physics"
+      "physics",
+      "quantum"
     ],
     "summary": "Fifth Solvay Conference opens",
     "source": "https://en.wikipedia.org/wiki/Solvay_Conference"
@@ -3405,7 +4076,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "usa"
+      "automobile",
+      "manufacturing"
     ],
     "summary": "Ford unveils the Model A",
     "source": "https://en.wikipedia.org/wiki/Ford_Model_A_engine"
@@ -3448,7 +4120,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "physics"
+      "physics",
+      "quantum"
     ],
     "summary": "Dirac publishes his electron equation",
     "source": "https://en.wikipedia.org/wiki/Dirac_equation"
@@ -3502,8 +4175,8 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "disaster",
-      "first"
+      "polar",
+      "disaster"
     ],
     "summary": "Airship Italia crashes in the Arctic",
     "source": "https://en.wikipedia.org/wiki/Italia_%28airship%29"
@@ -3514,7 +4187,8 @@
     "importance": 3,
     "tags": [
       "death",
-      "aviation"
+      "aviation",
+      "polar"
     ],
     "summary": "Amundsen vanishes on a rescue flight",
     "source": "https://en.wikipedia.org/wiki/Roald_Amundsen"
@@ -3524,7 +4198,8 @@
     "category": "sport",
     "importance": 3,
     "tags": [
-      "olympics"
+      "olympics",
+      "athletics"
     ],
     "summary": "Amsterdam Olympics open; women run track",
     "source": "https://en.wikipedia.org/wiki/1928_Summer_Olympics"
@@ -3599,6 +4274,7 @@
     "category": "sport",
     "importance": 2,
     "tags": [
+      "cricket",
       "record"
     ],
     "summary": "Don Bradman makes his Test debut",
@@ -3609,8 +4285,8 @@
     "category": "pop",
     "importance": 3,
     "tags": [
-      "media",
-      "literature"
+      "comics",
+      "media"
     ],
     "summary": "Tintin debuts in Le Petit Vingtieme",
     "source": "https://en.wikipedia.org/wiki/Tintin_in_the_Land_of_the_Soviets"
@@ -3620,6 +4296,7 @@
     "category": "pop",
     "importance": 2,
     "tags": [
+      "comics",
       "media"
     ],
     "summary": "Popeye debuts in Thimble Theatre",
@@ -3717,7 +4394,7 @@
     "category": "arts",
     "importance": 3,
     "tags": [
-      "art",
+      "museum",
       "modernism"
     ],
     "summary": "Museum of Modern Art opens in New York",
@@ -3728,8 +4405,8 @@
     "category": "exploration",
     "importance": 4,
     "tags": [
-      "aviation",
-      "first"
+      "polar",
+      "aviation"
     ],
     "summary": "Byrd flies over the South Pole",
     "source": "https://en.wikipedia.org/wiki/Richard_E._Byrd"
@@ -3794,7 +4471,8 @@
     "category": "arts",
     "importance": 3,
     "tags": [
-      "art"
+      "architecture",
+      "usa"
     ],
     "summary": "Chrysler Building opens in New York",
     "source": "https://en.wikipedia.org/wiki/Chrysler_Building"
@@ -3804,7 +4482,8 @@
     "category": "religion",
     "importance": 3,
     "tags": [
-      "islam"
+      "islam",
+      "usa"
     ],
     "summary": "Nation of Islam founded in Detroit",
     "source": "https://en.wikipedia.org/wiki/Nation_of_Islam"
@@ -3814,6 +4493,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "cricket",
       "record"
     ],
     "summary": "Bradman scores 334 at Headingley",
@@ -3835,6 +4515,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "golf",
       "record"
     ],
     "summary": "Bobby Jones completes golf Grand Slam",
@@ -3855,7 +4536,7 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "mathematics"
     ],
     "summary": "Godel submits incompleteness theorems",
     "source": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
@@ -3888,7 +4569,7 @@
     "importance": 2,
     "tags": [
       "vatican",
-      "media"
+      "radio"
     ],
     "summary": "Vatican Radio begins broadcasting",
     "source": "https://en.wikipedia.org/wiki/Vatican_Radio"
@@ -3909,6 +4590,7 @@
     "category": "tech",
     "importance": 4,
     "tags": [
+      "architecture",
       "engineering"
     ],
     "summary": "Empire State Building opens",
@@ -3963,7 +4645,8 @@
     "category": "arts",
     "importance": 3,
     "tags": [
-      "art"
+      "art",
+      "catholic"
     ],
     "summary": "Christ the Redeemer statue inaugurated",
     "source": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_%28statue%29"
@@ -4017,7 +4700,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "physics",
+      "nuclear"
     ],
     "summary": "Chadwick announces the neutron",
     "source": "https://en.wikipedia.org/wiki/James_Chadwick"
@@ -4089,6 +4773,7 @@
     "category": "sport",
     "importance": 2,
     "tags": [
+      "cricket",
       "record"
     ],
     "summary": "Woodfull struck in Bodyline Test",
@@ -4166,7 +4851,8 @@
     "importance": 3,
     "tags": [
       "aviation",
-      "first"
+      "first",
+      "mountaineering"
     ],
     "summary": "First flight over Mount Everest",
     "source": "https://en.wikipedia.org/wiki/Houston%E2%80%93Mount_Everest_flight_expedition"
@@ -4176,7 +4862,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "astronomy"
+      "astronomy",
+      "radio"
     ],
     "summary": "Jansky reports radio waves from space",
     "source": "https://en.wikipedia.org/wiki/Karl_Guthe_Jansky"
@@ -4196,7 +4883,7 @@
     "category": "arts",
     "importance": 3,
     "tags": [
-      "art",
+      "modernism",
       "germany"
     ],
     "summary": "Bauhaus dissolves under Nazi pressure",
@@ -4273,6 +4960,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "golf",
       "first"
     ],
     "summary": "First Masters golf tournament",
@@ -4360,7 +5048,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "medicine"
+      "medicine",
+      "health"
     ],
     "summary": "Domagk publishes Prontosil results",
     "source": "https://en.wikipedia.org/wiki/Prontosil"
@@ -4380,7 +5069,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "engineering"
+      "engineering",
+      "manufacturing"
     ],
     "summary": "Carothers first synthesizes nylon",
     "source": "https://en.wikipedia.org/wiki/Nylon"
@@ -4401,7 +5091,7 @@
     "category": "history",
     "importance": 3,
     "tags": [
-      "disaster",
+      "natural-disaster",
       "usa"
     ],
     "summary": "Black Sunday dust storm hits Plains",
@@ -4412,7 +5102,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "film"
+      "film",
+      "engineering"
     ],
     "summary": "Kodak announces Kodachrome",
     "source": "https://en.wikipedia.org/wiki/Kodachrome"
@@ -4422,6 +5113,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "athletics",
       "record"
     ],
     "summary": "Owens sets records at Big Ten meet",
@@ -4498,7 +5190,8 @@
     "category": "pop",
     "importance": 3,
     "tags": [
-      "media"
+      "leisure",
+      "games"
     ],
     "summary": "Parker Brothers launches Monopoly",
     "source": "https://en.wikipedia.org/wiki/Monopoly_%28game%29"
@@ -4627,6 +5320,7 @@
     "category": "sport",
     "importance": 2,
     "tags": [
+      "tennis",
       "record"
     ],
     "summary": "Fred Perry wins third Wimbledon title",
@@ -4671,7 +5365,7 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "first",
+      "mountaineering",
       "india"
     ],
     "summary": "Nanda Devi first climbed",
@@ -4693,7 +5387,8 @@
     "category": "tech",
     "importance": 4,
     "tags": [
-      "computing"
+      "computing",
+      "mathematics"
     ],
     "summary": "Turing presents On Computable Numbers",
     "source": "https://en.wikipedia.org/wiki/Turing_machine"
@@ -4703,7 +5398,8 @@
     "category": "pop",
     "importance": 4,
     "tags": [
-      "music"
+      "music",
+      "usa"
     ],
     "summary": "Robert Johnson makes first recordings",
     "source": "https://en.wikipedia.org/wiki/Robert_Johnson_recordings"
@@ -4788,6 +5484,7 @@
     "category": "tech",
     "importance": 3,
     "tags": [
+      "automobile",
       "germany"
     ],
     "summary": "Volkswagen company founded",
@@ -4830,7 +5527,8 @@
     "category": "sport",
     "importance": 3,
     "tags": [
-      "boxing"
+      "boxing",
+      "usa"
     ],
     "summary": "Joe Louis wins heavyweight title",
     "source": "https://en.wikipedia.org/wiki/James_Braddock_vs._Joe_Louis"
@@ -4841,7 +5539,7 @@
     "importance": 3,
     "tags": [
       "aviation",
-      "disaster"
+      "death"
     ],
     "summary": "Earhart disappears over the Pacific",
     "source": "https://en.wikipedia.org/wiki/Amelia_Earhart"
@@ -4862,7 +5560,8 @@
     "category": "arts",
     "importance": 4,
     "tags": [
-      "art"
+      "art",
+      "war"
     ],
     "summary": "Picasso's Guernica shown in Paris",
     "source": "https://en.wikipedia.org/wiki/Guernica_%28Picasso%29"
@@ -4872,7 +5571,7 @@
     "category": "arts",
     "importance": 4,
     "tags": [
-      "art",
+      "modernism",
       "fascism"
     ],
     "summary": "Degenerate Art exhibition opens",
@@ -4894,8 +5593,7 @@
     "category": "arts",
     "importance": 4,
     "tags": [
-      "art",
-      "engineering"
+      "architecture"
     ],
     "summary": "Fallingwater completed",
     "source": "https://en.wikipedia.org/wiki/Fallingwater"
@@ -4906,7 +5604,8 @@
     "importance": 4,
     "tags": [
       "genocide",
-      "china"
+      "china",
+      "war"
     ],
     "summary": "Nanjing Massacre begins",
     "source": "https://en.wikipedia.org/wiki/Nanjing_Massacre"
@@ -4959,7 +5658,8 @@
     "category": "tech",
     "importance": 3,
     "tags": [
-      "engineering"
+      "engineering",
+      "manufacturing"
     ],
     "summary": "Plunkett discovers Teflon",
     "source": "https://en.wikipedia.org/wiki/Roy_J._Plunkett"
@@ -4969,6 +5669,7 @@
     "category": "pop",
     "importance": 4,
     "tags": [
+      "comics",
       "media"
     ],
     "summary": "Superman debuts in Action Comics #1",
@@ -5001,6 +5702,7 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
+      "mountaineering",
       "first"
     ],
     "summary": "Eiger north face first climbed",
@@ -5022,6 +5724,7 @@
     "category": "tech",
     "importance": 3,
     "tags": [
+      "engineering",
       "media"
     ],
     "summary": "First xerographic copy made",
@@ -5118,6 +5821,7 @@
     "category": "pop",
     "importance": 3,
     "tags": [
+      "comics",
       "media"
     ],
     "summary": "Batman debuts in Detective Comics 27",
@@ -5413,7 +6117,8 @@
     "category": "pop",
     "importance": 4,
     "tags": [
-      "film"
+      "film",
+      "cinema"
     ],
     "summary": "Citizen Kane opens in New York",
     "source": "https://en.wikipedia.org/wiki/Citizen_Kane"
@@ -5645,6 +6350,7 @@
     "category": "science",
     "importance": 3,
     "tags": [
+      "volcano",
       "natural-disaster"
     ],
     "summary": "Paricutin volcano erupts in a cornfield",
@@ -5677,7 +6383,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "medicine"
+      "medicine",
+      "health"
     ],
     "summary": "Hofmann's first deliberate LSD trip",
     "source": "https://en.wikipedia.org/wiki/Bicycle_Day_%28psychedelic_holiday%29"
@@ -5743,6 +6450,7 @@
     "importance": 4,
     "tags": [
       "space",
+      "wwii",
       "engineering"
     ],
     "summary": "V-2 rocket reaches space",
@@ -6066,7 +6774,8 @@
     "category": "religion",
     "importance": 4,
     "tags": [
-      "human-rights"
+      "shinto",
+      "wwii"
     ],
     "summary": "Hirohito disavows divinity",
     "source": "https://en.wikipedia.org/wiki/Humanity_Declaration"
@@ -6130,6 +6839,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "basketball",
       "first"
     ],
     "summary": "First BAA game, forerunner of the NBA",
@@ -6283,7 +6993,9 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "aviation"
+      "aviation",
+      "record",
+      "first"
     ],
     "summary": "Yeager breaks the sound barrier",
     "source": "https://en.wikipedia.org/wiki/Chuck_Yeager"
@@ -6335,7 +7047,7 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "biology",
+      "psychology",
       "social-movement"
     ],
     "summary": "Kinsey Report on male sexuality out",
@@ -6970,7 +7682,7 @@
     "importance": 3,
     "tags": [
       "disaster",
-      "europe"
+      "climate"
     ],
     "summary": "Great Smog blankets London",
     "source": "https://en.wikipedia.org/wiki/Great_Smog_of_London"
@@ -7014,7 +7726,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "medicine"
+      "medicine",
+      "first"
     ],
     "summary": "First heart-lung machine surgery",
     "source": "https://en.wikipedia.org/wiki/John_Heysham_Gibbon"
@@ -7297,7 +8010,7 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics",
+      "relativity",
       "death"
     ],
     "summary": "Albert Einstein dies in Princeton",
@@ -7442,7 +8155,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "health"
+      "health",
+      "disaster"
     ],
     "summary": "Minamata disease is officially reported",
     "source": "https://en.wikipedia.org/wiki/Minamata_disease"
@@ -7808,7 +8522,8 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "space"
+      "space",
+      "ussr"
     ],
     "summary": "Luna 1 launches toward the Moon",
     "source": "https://en.wikipedia.org/wiki/Luna_1"
@@ -7916,7 +8631,8 @@
     "category": "exploration",
     "importance": 3,
     "tags": [
-      "space"
+      "space",
+      "ussr"
     ],
     "summary": "Luna 3 photographs the Moon's far side",
     "source": "https://en.wikipedia.org/wiki/Luna_3"
@@ -7948,7 +8664,8 @@
     "category": "science",
     "importance": 3,
     "tags": [
-      "physics"
+      "physics",
+      "engineering"
     ],
     "summary": "Feynman gives nanotechnology lecture",
     "source": "https://en.wikipedia.org/wiki/There%27s_Plenty_of_Room_at_the_Bottom"
@@ -8021,7 +8738,7 @@
   },
   {
     "date": "1960.05.22",
-    "category": "science",
+    "category": "history",
     "importance": 4,
     "tags": [
       "earthquake",
@@ -8156,7 +8873,8 @@
     "category": "arts",
     "importance": 3,
     "tags": [
-      "art"
+      "art",
+      "usa"
     ],
     "summary": "Warhol's Soup Cans first exhibited",
     "source": "https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans"
@@ -8178,7 +8896,8 @@
     "importance": 4,
     "tags": [
       "literature",
-      "biology"
+      "biology",
+      "climate"
     ],
     "summary": "Silent Spring is published",
     "source": "https://en.wikipedia.org/wiki/Silent_Spring"
@@ -8199,7 +8918,8 @@
     "category": "pop",
     "importance": 3,
     "tags": [
-      "film"
+      "film",
+      "cinema"
     ],
     "summary": "Dr. No premieres in London",
     "source": "https://en.wikipedia.org/wiki/Dr._No_%28film%29"
@@ -8354,6 +9074,7 @@
     "importance": 3,
     "tags": [
       "film",
+      "cinema",
       "cold-war"
     ],
     "summary": "Dr. Strangelove is released",
@@ -8382,7 +9103,7 @@
   },
   {
     "date": "1964.03.27",
-    "category": "science",
+    "category": "history",
     "importance": 3,
     "tags": [
       "earthquake",
@@ -8623,6 +9344,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "football",
       "usa"
     ],
     "summary": "First Super Bowl is played",
@@ -8666,7 +9388,8 @@
     "importance": 3,
     "tags": [
       "space",
-      "ussr"
+      "ussr",
+      "death"
     ],
     "summary": "Soyuz 1 crash kills Komarov",
     "source": "https://en.wikipedia.org/wiki/Soyuz_1"
@@ -8948,7 +9671,8 @@
     "importance": 5,
     "tags": [
       "space",
-      "nasa"
+      "human-spaceflight",
+      "first"
     ],
     "summary": "Apollo 11 lands humans on the Moon",
     "source": "https://en.wikipedia.org/wiki/Apollo_11"
@@ -9175,7 +9899,8 @@
     "category": "history",
     "importance": 3,
     "tags": [
-      "ireland"
+      "ireland",
+      "human-rights"
     ],
     "summary": "Bloody Sunday in Derry",
     "source": "https://en.wikipedia.org/wiki/Bloody_Sunday_%281972%29"
@@ -9231,7 +9956,8 @@
     "importance": 4,
     "tags": [
       "ussr",
-      "cold-war"
+      "cold-war",
+      "games"
     ],
     "summary": "Fischer-Spassky chess match begins",
     "source": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
@@ -9241,7 +9967,8 @@
     "category": "sport",
     "importance": 3,
     "tags": [
-      "olympics"
+      "olympics",
+      "record"
     ],
     "summary": "Spitz wins his seventh Olympic gold",
     "source": "https://en.wikipedia.org/wiki/Mark_Spitz"
@@ -9446,7 +10173,8 @@
     "category": "sport",
     "importance": 3,
     "tags": [
-      "baseball"
+      "baseball",
+      "record"
     ],
     "summary": "Hank Aaron hits his 715th home run",
     "source": "https://en.wikipedia.org/wiki/Hank_Aaron"
@@ -9479,7 +10207,8 @@
     "importance": 3,
     "tags": [
       "europe",
-      "war"
+      "war",
+      "turkey"
     ],
     "summary": "Turkey invades Cyprus",
     "source": "https://en.wikipedia.org/wiki/Turkish_invasion_of_Cyprus"
@@ -9584,7 +10313,8 @@
     "category": "history",
     "importance": 4,
     "tags": [
-      "genocide"
+      "genocide",
+      "war"
     ],
     "summary": "Khmer Rouge take Phnom Penh",
     "source": "https://en.wikipedia.org/wiki/Khmer_Rouge"
@@ -9814,7 +10544,9 @@
     "category": "pop",
     "importance": 5,
     "tags": [
-      "film"
+      "film",
+      "cinema",
+      "blockbuster"
     ],
     "summary": "Star Wars opens in theaters",
     "source": "https://en.wikipedia.org/wiki/Star_Wars_%28film%29"
@@ -9868,7 +10600,8 @@
     "category": "arts",
     "importance": 3,
     "tags": [
-      "music"
+      "music",
+      "rock-and-roll"
     ],
     "summary": "Sex Pistols release their debut album",
     "source": "https://en.wikipedia.org/wiki/Never_Mind_the_Bollocks,_Here%27s_the_Sex_Pistols"
@@ -10139,7 +10872,7 @@
   },
   {
     "date": "1980.05.18",
-    "category": "science",
+    "category": "history",
     "importance": 3,
     "tags": [
       "natural-disaster",
@@ -10154,7 +10887,8 @@
     "importance": 3,
     "tags": [
       "film",
-      "cinema"
+      "cinema",
+      "blockbuster"
     ],
     "summary": "The Empire Strikes Back opens",
     "source": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
@@ -10275,6 +11009,7 @@
     "category": "science",
     "importance": 4,
     "tags": [
+      "pandemic",
       "health",
       "medicine"
     ],
@@ -10297,6 +11032,7 @@
     "category": "pop",
     "importance": 3,
     "tags": [
+      "europe",
       "media"
     ],
     "summary": "Charles and Diana wed at St Paul's",
@@ -10350,7 +11086,8 @@
     "category": "history",
     "importance": 4,
     "tags": [
-      "war"
+      "war",
+      "maritime"
     ],
     "summary": "Argentina invades the Falklands",
     "source": "https://en.wikipedia.org/wiki/Falklands_War"
@@ -10459,7 +11196,8 @@
     "importance": 3,
     "tags": [
       "human-spaceflight",
-      "nasa"
+      "nasa",
+      "first"
     ],
     "summary": "Sally Ride is first US woman in space",
     "source": "https://en.wikipedia.org/wiki/STS-7"
@@ -10712,7 +11450,7 @@
     "importance": 2,
     "tags": [
       "death",
-      "health"
+      "pandemic"
     ],
     "summary": "Rock Hudson dies of AIDS",
     "source": "https://en.wikipedia.org/wiki/Rock_Hudson"
@@ -10734,7 +11472,7 @@
     "importance": 3,
     "tags": [
       "natural-disaster",
-      "disaster"
+      "volcano"
     ],
     "summary": "Nevado del Ruiz eruption buries Armero",
     "source": "https://en.wikipedia.org/wiki/Armero_tragedy"
@@ -11030,7 +11768,8 @@
     "importance": 3,
     "tags": [
       "olympics",
-      "athletics"
+      "athletics",
+      "running"
     ],
     "summary": "Ben Johnson wins 100m, then disqualified",
     "source": "https://en.wikipedia.org/wiki/Ben_Johnson_%28Canadian_sprinter%29"
@@ -11127,7 +11866,8 @@
     "category": "science",
     "importance": 2,
     "tags": [
-      "physics"
+      "physics",
+      "nuclear"
     ],
     "summary": "Cold fusion claim is announced",
     "source": "https://en.wikipedia.org/wiki/Cold_fusion"
@@ -11215,6 +11955,7 @@
     "importance": 3,
     "tags": [
       "film",
+      "cinema",
       "racism"
     ],
     "summary": "Do the Right Thing opens in US",
@@ -11605,7 +12346,8 @@
     "importance": 4,
     "tags": [
       "india",
-      "islam"
+      "islam",
+      "hinduism"
     ],
     "summary": "Babri Masjid is demolished in Ayodhya",
     "source": "https://en.wikipedia.org/wiki/Demolition_of_the_Babri_Masjid"
@@ -11691,6 +12433,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "basketball",
       "record"
     ],
     "summary": "Michael Jordan retires from the NBA",
@@ -11713,6 +12456,7 @@
     "importance": 4,
     "tags": [
       "film",
+      "cinema",
       "genocide"
     ],
     "summary": "Schindler's List opens in US",
@@ -11775,6 +12519,7 @@
     "category": "sport",
     "importance": 2,
     "tags": [
+      "cricket",
       "record"
     ],
     "summary": "Lara scores record 375 in Antigua",
@@ -12207,6 +12952,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "golf",
       "record"
     ],
     "summary": "Tiger Woods wins the Masters by 12",
@@ -12228,7 +12974,8 @@
     "category": "arts",
     "importance": 3,
     "tags": [
-      "literature"
+      "literature",
+      "novel"
     ],
     "summary": "First Harry Potter book published",
     "source": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
@@ -12391,6 +13138,7 @@
     "category": "sport",
     "importance": 3,
     "tags": [
+      "basketball",
       "record"
     ],
     "summary": "Bulls win sixth title in eight years",
@@ -12489,7 +13237,9 @@
     "category": "pop",
     "importance": 3,
     "tags": [
-      "film"
+      "film",
+      "cinema",
+      "blockbuster"
     ],
     "summary": "The Matrix opens in US theaters",
     "source": "https://en.wikipedia.org/wiki/The_Matrix"
@@ -12660,11 +13410,11 @@
   },
   {
     "date": "2004.12.26",
-    "category": "science",
+    "category": "history",
     "importance": 4,
     "tags": [
-      "natural-disaster",
-      "earthquake"
+      "earthquake",
+      "natural-disaster"
     ],
     "summary": "Indian Ocean tsunami strikes",
     "source": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
@@ -12837,7 +13587,7 @@
   },
   {
     "date": "2010.01.12",
-    "category": "science",
+    "category": "history",
     "importance": 3,
     "tags": [
       "earthquake",
@@ -12882,7 +13632,7 @@
   },
   {
     "date": "2011.03.11",
-    "category": "science",
+    "category": "history",
     "importance": 4,
     "tags": [
       "earthquake",
@@ -12917,7 +13667,8 @@
     "category": "science",
     "importance": 4,
     "tags": [
-      "physics"
+      "physics",
+      "quantum"
     ],
     "summary": "Higgs boson discovery announced",
     "source": "https://en.wikipedia.org/wiki/Higgs_boson"

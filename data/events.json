@@ -464,6 +464,17 @@
     "source": "https://en.wikipedia.org/wiki/History_of_the_National_Football_League"
   },
   {
+    "date": "1920.10.06",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "india",
+      "christianity"
+    ],
+    "summary": "Yogananda speaks at Boston congress",
+    "source": "https://en.wikipedia.org/wiki/Paramahansa_Yogananda"
+  },
+  {
     "date": "1920.11.02",
     "category": "pop",
     "importance": 3,
@@ -473,6 +484,16 @@
     ],
     "summary": "KDKA broadcasts election returns",
     "source": "https://en.wikipedia.org/wiki/KDKA_%28AM%29"
+  },
+  {
+    "date": "1920.11.16",
+    "category": "tech",
+    "importance": 2,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "Qantas founded in Queensland",
+    "source": "https://en.wikipedia.org/wiki/Qantas"
   },
   {
     "date": "1921.01.21",
@@ -497,6 +518,16 @@
     "source": "https://en.wikipedia.org/wiki/Tulsa_race_massacre"
   },
   {
+    "date": "1921.07.02",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "boxing"
+    ],
+    "summary": "Dempsey beats Carpentier before $1M gate",
+    "source": "https://en.wikipedia.org/wiki/Jack_Dempsey_vs._Georges_Carpentier"
+  },
+  {
     "date": "1921.07.23",
     "category": "politics",
     "importance": 4,
@@ -506,6 +537,26 @@
     ],
     "summary": "Chinese Communist Party first congress",
     "source": "https://en.wikipedia.org/wiki/1st_National_Congress_of_the_Chinese_Communist_Party"
+  },
+  {
+    "date": "1921.08.02",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Black Sox players acquitted at trial",
+    "source": "https://en.wikipedia.org/wiki/Black_Sox_Scandal"
+  },
+  {
+    "date": "1921.09.08",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "usa"
+    ],
+    "summary": "First Miss America pageant held",
+    "source": "https://en.wikipedia.org/wiki/Miss_America_1921"
   },
   {
     "date": "1921.11.28",
@@ -529,6 +580,17 @@
     "source": "https://en.wikipedia.org/wiki/Anglo-Irish_Treaty"
   },
   {
+    "date": "1922.01.05",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "death",
+      "maritime"
+    ],
+    "summary": "Shackleton dies on the Quest",
+    "source": "https://en.wikipedia.org/wiki/Shackleton%E2%80%93Rowett_Expedition"
+  },
+  {
     "date": "1922.01.11",
     "category": "science",
     "importance": 4,
@@ -547,6 +609,28 @@
     ],
     "summary": "Joyce's Ulysses is published",
     "source": "https://en.wikipedia.org/wiki/Ulysses_%28novel%29"
+  },
+  {
+    "date": "1922.02.04",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "india",
+      "independence"
+    ],
+    "summary": "Chauri Chaura incident in India",
+    "source": "https://en.wikipedia.org/wiki/Chauri_Chaura_incident"
+  },
+  {
+    "date": "1922.02.05",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "media",
+      "usa"
+    ],
+    "summary": "First issue of Reader's Digest",
+    "source": "https://en.wikipedia.org/wiki/Reader%27s_Digest"
   },
   {
     "date": "1922.02.06",
@@ -580,6 +664,16 @@
     ],
     "summary": "Nosferatu premieres in Berlin",
     "source": "https://en.wikipedia.org/wiki/Nosferatu"
+  },
+  {
+    "date": "1922.07.09",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record"
+    ],
+    "summary": "Weissmuller swims 100m in under a minute",
+    "source": "https://en.wikipedia.org/wiki/Johnny_Weissmuller"
   },
   {
     "date": "1922.10.16",
@@ -637,6 +731,38 @@
     "source": "https://en.wikipedia.org/wiki/Treaty_on_the_Creation_of_the_Union_of_Soviet_Socialist_Republics"
   },
   {
+    "date": "1923.01.09",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "engineering"
+    ],
+    "summary": "Cierva autogyro makes first flight",
+    "source": "https://en.wikipedia.org/wiki/Cierva_C.4"
+  },
+  {
+    "date": "1923.01.30",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "middle-east"
+    ],
+    "summary": "Greece and Turkey agree to swap peoples",
+    "source": "https://en.wikipedia.org/wiki/Convention_Concerning_the_Exchange_of_Greek_and_Turkish_Populations"
+  },
+  {
+    "date": "1923.02.16",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "archaeology"
+    ],
+    "summary": "Tutankhamun's burial chamber opened",
+    "source": "https://en.wikipedia.org/wiki/Discovery_of_the_tomb_of_Tutankhamun"
+  },
+  {
     "date": "1923.03.03",
     "category": "pop",
     "importance": 3,
@@ -646,6 +772,27 @@
     ],
     "summary": "First issue of Time magazine",
     "source": "https://en.wikipedia.org/wiki/Time_%28magazine%29"
+  },
+  {
+    "date": "1923.04.15",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Phonofilm sound films shown in New York",
+    "source": "https://en.wikipedia.org/wiki/Phonofilm"
+  },
+  {
+    "date": "1923.04.18",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball"
+    ],
+    "summary": "Yankee Stadium opens",
+    "source": "https://en.wikipedia.org/wiki/Yankee_Stadium_%281923%29"
   },
   {
     "date": "1923.04.28",
@@ -689,6 +836,17 @@
     ],
     "summary": "Great Kanto earthquake hits Japan",
     "source": "https://en.wikipedia.org/wiki/Great_Kant%C5%8D_Earthquake"
+  },
+  {
+    "date": "1923.10.16",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "animation",
+      "film"
+    ],
+    "summary": "Disney Brothers Cartoon Studio founded",
+    "source": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
   },
   {
     "date": "1923.10.29",
@@ -758,6 +916,16 @@
     "source": "https://en.wikipedia.org/wiki/Abolition_of_the_Caliphate"
   },
   {
+    "date": "1924.04.01",
+    "category": "tech",
+    "importance": 2,
+    "tags": [
+      "aviation"
+    ],
+    "summary": "Imperial Airways formed",
+    "source": "https://en.wikipedia.org/wiki/Imperial_Airways"
+  },
+  {
     "date": "1924.05.24",
     "category": "politics",
     "importance": 3,
@@ -766,6 +934,16 @@
     ],
     "summary": "US Immigration Act sets national quotas",
     "source": "https://en.wikipedia.org/wiki/Immigration_Act_of_1924"
+  },
+  {
+    "date": "1924.06.04",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Bose sends Einstein quantum statistics",
+    "source": "https://en.wikipedia.org/wiki/Satyendra_Nath_Bose"
   },
   {
     "date": "1924.06.08",
@@ -852,6 +1030,28 @@
     "source": "https://en.wikipedia.org/wiki/Taung_Child"
   },
   {
+    "date": "1925.02.21",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media",
+      "literature"
+    ],
+    "summary": "First issue of The New Yorker",
+    "source": "https://en.wikipedia.org/wiki/The_New_Yorker"
+  },
+  {
+    "date": "1925.04.07",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "ussr"
+    ],
+    "summary": "Patriarch Tikhon of Moscow dies",
+    "source": "https://en.wikipedia.org/wiki/Patriarch_Tikhon_of_Moscow"
+  },
+  {
     "date": "1925.04.10",
     "category": "arts",
     "importance": 4,
@@ -883,6 +1083,27 @@
     ],
     "summary": "Mrs Dalloway published",
     "source": "https://en.wikipedia.org/wiki/Mrs_Dalloway"
+  },
+  {
+    "date": "1925.06.01",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "baseball",
+      "record"
+    ],
+    "summary": "Gehrig's consecutive-game streak begins",
+    "source": "https://en.wikipedia.org/wiki/Lou_Gehrig"
+  },
+  {
+    "date": "1925.06.10",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity"
+    ],
+    "summary": "United Church of Canada formed",
+    "source": "https://en.wikipedia.org/wiki/United_Church_of_Canada"
   },
   {
     "date": "1925.06.26",
@@ -918,6 +1139,16 @@
     "source": "https://en.wikipedia.org/wiki/Mein_Kampf"
   },
   {
+    "date": "1925.07.29",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Heisenberg's matrix mechanics paper",
+    "source": "https://en.wikipedia.org/wiki/Umdeutung_paper"
+  },
+  {
     "date": "1925.11.12",
     "category": "arts",
     "importance": 4,
@@ -927,6 +1158,17 @@
     ],
     "summary": "Armstrong's Hot Five begins recording",
     "source": "https://en.wikipedia.org/wiki/Louis_Armstrong_and_His_Hot_Five"
+  },
+  {
+    "date": "1925.11.28",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "media"
+    ],
+    "summary": "Grand Ole Opry begins as WSM Barn Dance",
+    "source": "https://en.wikipedia.org/wiki/Grand_Ole_Opry"
   },
   {
     "date": "1925.12.01",
@@ -952,6 +1194,17 @@
     "source": "https://en.wikipedia.org/wiki/Battleship_Potemkin"
   },
   {
+    "date": "1926.01.06",
+    "category": "tech",
+    "importance": 2,
+    "tags": [
+      "aviation",
+      "germany"
+    ],
+    "summary": "Deutsche Luft Hansa founded",
+    "source": "https://en.wikipedia.org/wiki/Deutsche_Luft_Hansa"
+  },
+  {
     "date": "1926.01.26",
     "category": "tech",
     "importance": 3,
@@ -963,6 +1216,59 @@
     "source": "https://en.wikipedia.org/wiki/John_Logie_Baird"
   },
   {
+    "date": "1926.01.27",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Schrodinger submits his wave equation",
+    "source": "https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger"
+  },
+  {
+    "date": "1926.02.16",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record"
+    ],
+    "summary": "Lenglen beats Wills in Cannes match",
+    "source": "https://en.wikipedia.org/wiki/Match_of_the_Century_%28tennis%29"
+  },
+  {
+    "date": "1926.03.16",
+    "category": "tech",
+    "importance": 4,
+    "tags": [
+      "space",
+      "first"
+    ],
+    "summary": "Goddard launches liquid-fuel rocket",
+    "source": "https://en.wikipedia.org/wiki/Robert_H._Goddard"
+  },
+  {
+    "date": "1926.05.04",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "europe",
+      "social-movement"
+    ],
+    "summary": "UK General Strike begins",
+    "source": "https://en.wikipedia.org/wiki/1926_United_Kingdom_general_strike"
+  },
+  {
+    "date": "1926.05.09",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Byrd claims flight over the North Pole",
+    "source": "https://en.wikipedia.org/wiki/List_of_firsts_at_the_Geographic_North_Pole"
+  },
+  {
     "date": "1926.05.12",
     "category": "exploration",
     "importance": 3,
@@ -972,6 +1278,17 @@
     ],
     "summary": "Norge airship flies over North Pole",
     "source": "https://en.wikipedia.org/wiki/Roald_Amundsen"
+  },
+  {
+    "date": "1926.05.18",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity",
+      "media"
+    ],
+    "summary": "Aimee Semple McPherson vanishes",
+    "source": "https://en.wikipedia.org/wiki/Disappearance_of_Aimee_Semple_McPherson"
   },
   {
     "date": "1926.08.03",
@@ -994,6 +1311,17 @@
     ],
     "summary": "Ederle swims the English Channel",
     "source": "https://en.wikipedia.org/wiki/Gertrude_Ederle"
+  },
+  {
+    "date": "1926.08.06",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Vitaphone sound premieres with Don Juan",
+    "source": "https://en.wikipedia.org/wiki/Don_Juan_%281926_film%29"
   },
   {
     "date": "1926.10.14",
@@ -1060,6 +1388,17 @@
     "source": "https://en.wikipedia.org/wiki/Metropolis_%281927_film%29"
   },
   {
+    "date": "1927.03.20",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "india",
+      "social-movement"
+    ],
+    "summary": "Ambedkar leads Mahad Satyagraha",
+    "source": "https://en.wikipedia.org/wiki/Mahad_Satyagraha"
+  },
+  {
     "date": "1927.03.23",
     "category": "science",
     "importance": 4,
@@ -1068,6 +1407,16 @@
     ],
     "summary": "Heisenberg states uncertainty principle",
     "source": "https://en.wikipedia.org/wiki/Uncertainty_principle"
+  },
+  {
+    "date": "1927.03.26",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "motorsport"
+    ],
+    "summary": "First Mille Miglia road race",
+    "source": "https://en.wikipedia.org/wiki/Mille_Miglia"
   },
   {
     "date": "1927.04.12",
@@ -1101,6 +1450,26 @@
     ],
     "summary": "Lindbergh completes solo Atlantic flight",
     "source": "https://en.wikipedia.org/wiki/Spirit_of_St._Louis"
+  },
+  {
+    "date": "1927.06.03",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "record"
+    ],
+    "summary": "First official Ryder Cup begins",
+    "source": "https://en.wikipedia.org/wiki/1927_Ryder_Cup"
+  },
+  {
+    "date": "1927.08.03",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "christianity"
+    ],
+    "summary": "Faith and Order conference opens",
+    "source": "https://en.wikipedia.org/wiki/Lausanne_Conference"
   },
   {
     "date": "1927.08.23",
@@ -1145,6 +1514,17 @@
     "source": "https://en.wikipedia.org/wiki/Babe_Ruth"
   },
   {
+    "date": "1927.10.04",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "art",
+      "usa"
+    ],
+    "summary": "Carving of Mount Rushmore begins",
+    "source": "https://en.wikipedia.org/wiki/Construction_of_Mount_Rushmore"
+  },
+  {
     "date": "1927.10.06",
     "category": "pop",
     "importance": 5,
@@ -1166,6 +1546,17 @@
     "source": "https://en.wikipedia.org/wiki/Solvay_Conference"
   },
   {
+    "date": "1927.11.13",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "engineering",
+      "usa"
+    ],
+    "summary": "Holland Tunnel opens to traffic",
+    "source": "https://en.wikipedia.org/wiki/Holland_Tunnel"
+  },
+  {
     "date": "1927.12.02",
     "category": "tech",
     "importance": 3,
@@ -1174,6 +1565,71 @@
     ],
     "summary": "Ford unveils the Model A",
     "source": "https://en.wikipedia.org/wiki/Ford_Model_A_engine"
+  },
+  {
+    "date": "1927.12.04",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "jazz",
+      "music"
+    ],
+    "summary": "Ellington begins Cotton Club residency",
+    "source": "https://en.wikipedia.org/wiki/Cotton_Club"
+  },
+  {
+    "date": "1927.12.15",
+    "category": "religion",
+    "importance": 2,
+    "tags": [
+      "christianity",
+      "europe"
+    ],
+    "summary": "Commons rejects revised Prayer Book",
+    "source": "https://en.wikipedia.org/wiki/Book_of_Common_Prayer_%281928%2C_England%29"
+  },
+  {
+    "date": "1927.12.27",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "Show Boat opens on Broadway",
+    "source": "https://en.wikipedia.org/wiki/Show_Boat"
+  },
+  {
+    "date": "1928.01.02",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Dirac publishes his electron equation",
+    "source": "https://en.wikipedia.org/wiki/Dirac_equation"
+  },
+  {
+    "date": "1928.01.06",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "christianity"
+    ],
+    "summary": "Mortalium animos rejects ecumenism",
+    "source": "https://en.wikipedia.org/wiki/Mortalium_animos"
+  },
+  {
+    "date": "1928.02.28",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics",
+      "india"
+    ],
+    "summary": "Raman observes the Raman effect",
+    "source": "https://en.wikipedia.org/wiki/C._V._Raman"
   },
   {
     "date": "1928.03.22",
@@ -1185,6 +1641,39 @@
     ],
     "summary": "Muslim Brotherhood founded in Egypt",
     "source": "https://en.wikipedia.org/wiki/Muslim_Brotherhood"
+  },
+  {
+    "date": "1928.04.15",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Wilkins and Eielson cross the Arctic",
+    "source": "https://en.wikipedia.org/wiki/Hubert_Wilkins"
+  },
+  {
+    "date": "1928.05.25",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "disaster",
+      "first"
+    ],
+    "summary": "Airship Italia crashes in the Arctic",
+    "source": "https://en.wikipedia.org/wiki/Italia_%28airship%29"
+  },
+  {
+    "date": "1928.06.18",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "death",
+      "aviation"
+    ],
+    "summary": "Amundsen vanishes on a rescue flight",
+    "source": "https://en.wikipedia.org/wiki/Roald_Amundsen"
   },
   {
     "date": "1928.07.28",
@@ -1230,6 +1719,16 @@
     "source": "https://en.wikipedia.org/wiki/Alexander_Fleming"
   },
   {
+    "date": "1928.10.12",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "Iron lung first used on a patient",
+    "source": "https://en.wikipedia.org/wiki/Iron_lung"
+  },
+  {
     "date": "1928.11.18",
     "category": "pop",
     "importance": 3,
@@ -1250,6 +1749,37 @@
     ],
     "summary": "Ravel's Bolero premieres",
     "source": "https://en.wikipedia.org/wiki/Bol%C3%A9ro"
+  },
+  {
+    "date": "1928.11.30",
+    "category": "sport",
+    "importance": 2,
+    "tags": [
+      "record"
+    ],
+    "summary": "Don Bradman makes his Test debut",
+    "source": "https://en.wikipedia.org/wiki/Don_Bradman"
+  },
+  {
+    "date": "1929.01.10",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media",
+      "literature"
+    ],
+    "summary": "Tintin debuts in Le Petit Vingtieme",
+    "source": "https://en.wikipedia.org/wiki/Tintin_in_the_Land_of_the_Soviets"
+  },
+  {
+    "date": "1929.01.17",
+    "category": "pop",
+    "importance": 2,
+    "tags": [
+      "media"
+    ],
+    "summary": "Popeye debuts in Thimble Theatre",
+    "source": "https://en.wikipedia.org/wiki/Popeye"
   },
   {
     "date": "1929.01.29",

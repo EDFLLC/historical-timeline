@@ -389,6 +389,59 @@
     "source": "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
   },
   {
+    "date": "1920.01.16",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "united-nations",
+      "europe"
+    ],
+    "summary": "League of Nations Council first meets",
+    "source": "https://en.wikipedia.org/wiki/League_of_Nations"
+  },
+  {
+    "date": "1920.01.17",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "usa"
+    ],
+    "summary": "US Prohibition takes effect",
+    "source": "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States"
+  },
+  {
+    "date": "1920.02.26",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Cabinet of Dr. Caligari premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Cabinet_of_Dr._Caligari"
+  },
+  {
+    "date": "1920.08.10",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "music",
+      "jazz"
+    ],
+    "summary": "Mamie Smith records Crazy Blues",
+    "source": "https://en.wikipedia.org/wiki/Crazy_Blues"
+  },
+  {
+    "date": "1920.08.14",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Antwerp Summer Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1920_Summer_Olympics"
+  },
+  {
     "date": "1920.08.18",
     "category": "politics",
     "importance": 4,
@@ -398,6 +451,17 @@
     ],
     "summary": "US women win the right to vote",
     "source": "https://en.wikipedia.org/wiki/Nineteenth_Amendment_to_the_United_States_Constitution"
+  },
+  {
+    "date": "1920.09.17",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "usa"
+    ],
+    "summary": "NFL's predecessor founded in Ohio",
+    "source": "https://en.wikipedia.org/wiki/History_of_the_National_Football_League"
   },
   {
     "date": "1920.11.02",
@@ -411,6 +475,70 @@
     "source": "https://en.wikipedia.org/wiki/KDKA_%28AM%29"
   },
   {
+    "date": "1921.01.21",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Chaplin's The Kid premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Kid_%281921_film%29"
+  },
+  {
+    "date": "1921.05.31",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "racism",
+      "usa"
+    ],
+    "summary": "Tulsa race massacre begins",
+    "source": "https://en.wikipedia.org/wiki/Tulsa_race_massacre"
+  },
+  {
+    "date": "1921.07.23",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "china",
+      "revolution"
+    ],
+    "summary": "Chinese Communist Party first congress",
+    "source": "https://en.wikipedia.org/wiki/1st_National_Congress_of_the_Chinese_Communist_Party"
+  },
+  {
+    "date": "1921.11.28",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "death"
+    ],
+    "summary": "Abdu'l-Baha dies; Shoghi Effendi leads",
+    "source": "https://en.wikipedia.org/wiki/%CA%BBAbdu%27l-Bah%C3%A1"
+  },
+  {
+    "date": "1921.12.06",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "independence"
+    ],
+    "summary": "Anglo-Irish Treaty signed",
+    "source": "https://en.wikipedia.org/wiki/Anglo-Irish_Treaty"
+  },
+  {
+    "date": "1922.01.11",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "medicine"
+    ],
+    "summary": "First insulin injection in a patient",
+    "source": "https://en.wikipedia.org/wiki/Leonard_Thompson_%28diabetic%29"
+  },
+  {
     "date": "1922.02.02",
     "category": "arts",
     "importance": 5,
@@ -419,6 +547,61 @@
     ],
     "summary": "Joyce's Ulysses is published",
     "source": "https://en.wikipedia.org/wiki/Ulysses_%28novel%29"
+  },
+  {
+    "date": "1922.02.06",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "maritime"
+    ],
+    "summary": "Washington Naval Treaty signed",
+    "source": "https://en.wikipedia.org/wiki/Washington_Naval_Treaty"
+  },
+  {
+    "date": "1922.02.06",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "catholic",
+      "vatican"
+    ],
+    "summary": "Pius XI elected pope",
+    "source": "https://en.wikipedia.org/wiki/1922_papal_conclave"
+  },
+  {
+    "date": "1922.03.04",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Nosferatu premieres in Berlin",
+    "source": "https://en.wikipedia.org/wiki/Nosferatu"
+  },
+  {
+    "date": "1922.10.16",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "literature",
+      "art"
+    ],
+    "summary": "The Waste Land first published",
+    "source": "https://en.wikipedia.org/wiki/The_Waste_Land"
+  },
+  {
+    "date": "1922.10.28",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "fascism",
+      "europe"
+    ],
+    "summary": "Fascists march on Rome",
+    "source": "https://en.wikipedia.org/wiki/March_on_Rome"
   },
   {
     "date": "1922.11.04",
@@ -432,6 +615,71 @@
     "source": "https://en.wikipedia.org/wiki/Discovery_of_the_tomb_of_Tutankhamun"
   },
   {
+    "date": "1922.11.14",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media",
+      "europe"
+    ],
+    "summary": "BBC begins radio broadcasting",
+    "source": "https://en.wikipedia.org/wiki/British_Broadcasting_Company"
+  },
+  {
+    "date": "1922.12.30",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "ussr",
+      "revolution"
+    ],
+    "summary": "Soviet Union formally created",
+    "source": "https://en.wikipedia.org/wiki/Treaty_on_the_Creation_of_the_Union_of_Soviet_Socialist_Republics"
+  },
+  {
+    "date": "1923.03.03",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "media",
+      "usa"
+    ],
+    "summary": "First issue of Time magazine",
+    "source": "https://en.wikipedia.org/wiki/Time_%28magazine%29"
+  },
+  {
+    "date": "1923.04.28",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "football",
+      "europe"
+    ],
+    "summary": "White Horse Final opens Wembley",
+    "source": "https://en.wikipedia.org/wiki/1923_FA_Cup_final"
+  },
+  {
+    "date": "1923.05.26",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "motorsport"
+    ],
+    "summary": "First 24 Hours of Le Mans",
+    "source": "https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans"
+  },
+  {
+    "date": "1923.07.24",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "middle-east"
+    ],
+    "summary": "Treaty of Lausanne signed",
+    "source": "https://en.wikipedia.org/wiki/Treaty_of_Lausanne"
+  },
+  {
     "date": "1923.09.01",
     "category": "science",
     "importance": 3,
@@ -441,6 +689,17 @@
     ],
     "summary": "Great Kanto earthquake hits Japan",
     "source": "https://en.wikipedia.org/wiki/Great_Kant%C5%8D_Earthquake"
+  },
+  {
+    "date": "1923.10.29",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "middle-east",
+      "revolution"
+    ],
+    "summary": "Turkey proclaimed a republic",
+    "source": "https://en.wikipedia.org/wiki/Republic_Day_%28Turkey%29"
   },
   {
     "date": "1923.11.08",
@@ -454,6 +713,17 @@
     "source": "https://en.wikipedia.org/wiki/Beer_Hall_Putsch"
   },
   {
+    "date": "1924.01.21",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "ussr",
+      "death"
+    ],
+    "summary": "Lenin dies",
+    "source": "https://en.wikipedia.org/wiki/Vladimir_Lenin"
+  },
+  {
     "date": "1924.01.25",
     "category": "sport",
     "importance": 3,
@@ -463,6 +733,17 @@
     ],
     "summary": "First Winter Olympics open in Chamonix",
     "source": "https://en.wikipedia.org/wiki/1924_Winter_Olympics"
+  },
+  {
+    "date": "1924.02.12",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "music",
+      "jazz"
+    ],
+    "summary": "Rhapsody in Blue premieres",
+    "source": "https://en.wikipedia.org/wiki/Rhapsody_in_Blue"
   },
   {
     "date": "1924.03.03",
@@ -477,6 +758,100 @@
     "source": "https://en.wikipedia.org/wiki/Abolition_of_the_Caliphate"
   },
   {
+    "date": "1924.05.24",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "usa"
+    ],
+    "summary": "US Immigration Act sets national quotas",
+    "source": "https://en.wikipedia.org/wiki/Immigration_Act_of_1924"
+  },
+  {
+    "date": "1924.06.08",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "first"
+    ],
+    "summary": "Mallory and Irvine vanish on Everest",
+    "source": "https://en.wikipedia.org/wiki/1924_British_Mount_Everest_expedition"
+  },
+  {
+    "date": "1924.07.05",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Paris Summer Olympics open",
+    "source": "https://en.wikipedia.org/wiki/1924_Summer_Olympics"
+  },
+  {
+    "date": "1924.09.28",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "First aerial circumnavigation completed",
+    "source": "https://en.wikipedia.org/wiki/First_aerial_circumnavigation"
+  },
+  {
+    "date": "1924.10.13",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "islam",
+      "middle-east"
+    ],
+    "summary": "Ibn Saud takes Mecca",
+    "source": "https://en.wikipedia.org/wiki/Saudi_conquest_of_Hejaz"
+  },
+  {
+    "date": "1924.10.15",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art",
+      "literature"
+    ],
+    "summary": "Breton publishes Surrealist Manifesto",
+    "source": "https://en.wikipedia.org/wiki/Surrealist_Manifesto"
+  },
+  {
+    "date": "1924.11.25",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics"
+    ],
+    "summary": "de Broglie defends matter-wave thesis",
+    "source": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+  },
+  {
+    "date": "1925.01.01",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "Hubble shows Andromeda is a galaxy",
+    "source": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+  },
+  {
+    "date": "1925.02.07",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "archaeology",
+      "biology"
+    ],
+    "summary": "Dart describes the Taung Child",
+    "source": "https://en.wikipedia.org/wiki/Taung_Child"
+  },
+  {
     "date": "1925.04.10",
     "category": "arts",
     "importance": 4,
@@ -488,6 +863,39 @@
     "source": "https://en.wikipedia.org/wiki/The_Great_Gatsby"
   },
   {
+    "date": "1925.04.26",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Kafka's The Trial published",
+    "source": "https://en.wikipedia.org/wiki/The_Trial"
+  },
+  {
+    "date": "1925.05.14",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "Mrs Dalloway published",
+    "source": "https://en.wikipedia.org/wiki/Mrs_Dalloway"
+  },
+  {
+    "date": "1925.06.26",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Chaplin's The Gold Rush premieres",
+    "source": "https://en.wikipedia.org/wiki/The_Gold_Rush"
+  },
+  {
     "date": "1925.07.10",
     "category": "religion",
     "importance": 3,
@@ -497,6 +905,39 @@
     ],
     "summary": "Scopes trial begins in Tennessee",
     "source": "https://en.wikipedia.org/wiki/Scopes_trial"
+  },
+  {
+    "date": "1925.07.18",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "germany",
+      "fascism"
+    ],
+    "summary": "Mein Kampf, volume one, published",
+    "source": "https://en.wikipedia.org/wiki/Mein_Kampf"
+  },
+  {
+    "date": "1925.11.12",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "jazz",
+      "music"
+    ],
+    "summary": "Armstrong's Hot Five begins recording",
+    "source": "https://en.wikipedia.org/wiki/Louis_Armstrong_and_His_Hot_Five"
+  },
+  {
+    "date": "1925.12.01",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "europe"
+    ],
+    "summary": "Locarno Treaties signed in London",
+    "source": "https://en.wikipedia.org/wiki/Locarno_Treaties"
   },
   {
     "date": "1925.12.21",
@@ -533,6 +974,124 @@
     "source": "https://en.wikipedia.org/wiki/Roald_Amundsen"
   },
   {
+    "date": "1926.08.03",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "catholic",
+      "war"
+    ],
+    "summary": "Cristero War begins in Mexico",
+    "source": "https://en.wikipedia.org/wiki/Cristero_War"
+  },
+  {
+    "date": "1926.08.06",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "record",
+      "first"
+    ],
+    "summary": "Ederle swims the English Channel",
+    "source": "https://en.wikipedia.org/wiki/Gertrude_Ederle"
+  },
+  {
+    "date": "1926.10.14",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "literature"
+    ],
+    "summary": "Winnie-the-Pooh published",
+    "source": "https://en.wikipedia.org/wiki/Winnie-the-Pooh_%28book%29"
+  },
+  {
+    "date": "1926.10.22",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "The Sun Also Rises published",
+    "source": "https://en.wikipedia.org/wiki/The_Sun_Also_Rises"
+  },
+  {
+    "date": "1926.11.11",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "usa",
+      "engineering"
+    ],
+    "summary": "US Route 66 established",
+    "source": "https://en.wikipedia.org/wiki/U.S._Route_66"
+  },
+  {
+    "date": "1926.12.04",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "art",
+      "germany"
+    ],
+    "summary": "Bauhaus Dessau building opens",
+    "source": "https://en.wikipedia.org/wiki/Bauhaus_Dessau"
+  },
+  {
+    "date": "1927.01.07",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "electronics"
+    ],
+    "summary": "Transatlantic telephone service opens",
+    "source": "https://en.wikipedia.org/wiki/History_of_the_telephone"
+  },
+  {
+    "date": "1927.01.10",
+    "category": "pop",
+    "importance": 4,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "Metropolis premieres in Berlin",
+    "source": "https://en.wikipedia.org/wiki/Metropolis_%281927_film%29"
+  },
+  {
+    "date": "1927.03.23",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Heisenberg states uncertainty principle",
+    "source": "https://en.wikipedia.org/wiki/Uncertainty_principle"
+  },
+  {
+    "date": "1927.04.12",
+    "category": "history",
+    "importance": 4,
+    "tags": [
+      "china",
+      "war"
+    ],
+    "summary": "Shanghai massacre ends KMT-CCP alliance",
+    "source": "https://en.wikipedia.org/wiki/Northern_Expedition"
+  },
+  {
+    "date": "1927.05.05",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "literature"
+    ],
+    "summary": "To the Lighthouse published",
+    "source": "https://en.wikipedia.org/wiki/To_the_Lighthouse"
+  },
+  {
     "date": "1927.05.21",
     "category": "exploration",
     "importance": 5,
@@ -542,6 +1101,37 @@
     ],
     "summary": "Lindbergh completes solo Atlantic flight",
     "source": "https://en.wikipedia.org/wiki/Spirit_of_St._Louis"
+  },
+  {
+    "date": "1927.08.23",
+    "category": "history",
+    "importance": 3,
+    "tags": [
+      "usa",
+      "death"
+    ],
+    "summary": "Sacco and Vanzetti executed",
+    "source": "https://en.wikipedia.org/wiki/Sacco_and_Vanzetti"
+  },
+  {
+    "date": "1927.09.07",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "television"
+    ],
+    "summary": "Farnsworth sends first electronic image",
+    "source": "https://en.wikipedia.org/wiki/Philo_Farnsworth"
+  },
+  {
+    "date": "1927.09.22",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "boxing"
+    ],
+    "summary": "Tunney beats Dempsey in Long Count fight",
+    "source": "https://en.wikipedia.org/wiki/The_Long_Count_Fight"
   },
   {
     "date": "1927.09.30",
@@ -566,6 +1156,69 @@
     "source": "https://en.wikipedia.org/wiki/The_Jazz_Singer"
   },
   {
+    "date": "1927.10.24",
+    "category": "science",
+    "importance": 3,
+    "tags": [
+      "physics"
+    ],
+    "summary": "Fifth Solvay Conference opens",
+    "source": "https://en.wikipedia.org/wiki/Solvay_Conference"
+  },
+  {
+    "date": "1927.12.02",
+    "category": "tech",
+    "importance": 3,
+    "tags": [
+      "usa"
+    ],
+    "summary": "Ford unveils the Model A",
+    "source": "https://en.wikipedia.org/wiki/Ford_Model_A_engine"
+  },
+  {
+    "date": "1928.03.22",
+    "category": "religion",
+    "importance": 4,
+    "tags": [
+      "islam",
+      "middle-east"
+    ],
+    "summary": "Muslim Brotherhood founded in Egypt",
+    "source": "https://en.wikipedia.org/wiki/Muslim_Brotherhood"
+  },
+  {
+    "date": "1928.07.28",
+    "category": "sport",
+    "importance": 3,
+    "tags": [
+      "olympics"
+    ],
+    "summary": "Amsterdam Olympics open; women run track",
+    "source": "https://en.wikipedia.org/wiki/1928_Summer_Olympics"
+  },
+  {
+    "date": "1928.08.27",
+    "category": "politics",
+    "importance": 3,
+    "tags": [
+      "treaty",
+      "europe"
+    ],
+    "summary": "Kellogg-Briand Pact signed",
+    "source": "https://en.wikipedia.org/wiki/Kellogg%E2%80%93Briand_Pact"
+  },
+  {
+    "date": "1928.08.31",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "theatre",
+      "music"
+    ],
+    "summary": "Threepenny Opera premieres in Berlin",
+    "source": "https://en.wikipedia.org/wiki/The_Threepenny_Opera"
+  },
+  {
     "date": "1928.09.28",
     "category": "science",
     "importance": 5,
@@ -588,6 +1241,28 @@
     "source": "https://en.wikipedia.org/wiki/Steamboat_Willie"
   },
   {
+    "date": "1928.11.22",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "music",
+      "ballet"
+    ],
+    "summary": "Ravel's Bolero premieres",
+    "source": "https://en.wikipedia.org/wiki/Bol%C3%A9ro"
+  },
+  {
+    "date": "1929.01.29",
+    "category": "arts",
+    "importance": 4,
+    "tags": [
+      "novel",
+      "wwi"
+    ],
+    "summary": "All Quiet on the Western Front published",
+    "source": "https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front"
+  },
+  {
     "date": "1929.02.11",
     "category": "religion",
     "importance": 3,
@@ -598,6 +1273,59 @@
     ],
     "summary": "Lateran Treaty creates Vatican City",
     "source": "https://en.wikipedia.org/wiki/Lateran_Treaty"
+  },
+  {
+    "date": "1929.03.15",
+    "category": "science",
+    "importance": 4,
+    "tags": [
+      "astronomy"
+    ],
+    "summary": "Hubble publishes his expansion law",
+    "source": "https://en.wikipedia.org/wiki/Hubble%27s_law"
+  },
+  {
+    "date": "1929.05.16",
+    "category": "pop",
+    "importance": 3,
+    "tags": [
+      "film",
+      "cinema"
+    ],
+    "summary": "First Academy Awards ceremony",
+    "source": "https://en.wikipedia.org/wiki/1st_Academy_Awards"
+  },
+  {
+    "date": "1929.08.03",
+    "category": "religion",
+    "importance": 3,
+    "tags": [
+      "cult"
+    ],
+    "summary": "Krishnamurti dissolves Order of the Star",
+    "source": "https://en.wikipedia.org/wiki/Jiddu_Krishnamurti"
+  },
+  {
+    "date": "1929.08.08",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "aviation",
+      "record"
+    ],
+    "summary": "Graf Zeppelin begins world flight",
+    "source": "https://en.wikipedia.org/wiki/LZ_127_Graf_Zeppelin"
+  },
+  {
+    "date": "1929.09.27",
+    "category": "arts",
+    "importance": 3,
+    "tags": [
+      "novel",
+      "wwi"
+    ],
+    "summary": "A Farewell to Arms published",
+    "source": "https://en.wikipedia.org/wiki/A_Farewell_to_Arms"
   },
   {
     "date": "1929.10.29",
@@ -620,6 +1348,39 @@
     ],
     "summary": "Museum of Modern Art opens in New York",
     "source": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art"
+  },
+  {
+    "date": "1929.11.29",
+    "category": "exploration",
+    "importance": 4,
+    "tags": [
+      "aviation",
+      "first"
+    ],
+    "summary": "Byrd flies over the South Pole",
+    "source": "https://en.wikipedia.org/wiki/Richard_E._Byrd"
+  },
+  {
+    "date": "1929.12.02",
+    "category": "exploration",
+    "importance": 3,
+    "tags": [
+      "archaeology",
+      "china"
+    ],
+    "summary": "Peking Man skullcap discovered",
+    "source": "https://en.wikipedia.org/wiki/Peking_Man"
+  },
+  {
+    "date": "1929.12.31",
+    "category": "politics",
+    "importance": 4,
+    "tags": [
+      "india",
+      "independence"
+    ],
+    "summary": "Congress adopts Purna Swaraj in Lahore",
+    "source": "https://en.wikipedia.org/wiki/Purna_Swaraj"
   },
   {
     "date": "1930.02.18",

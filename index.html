@@ -98,7 +98,11 @@
   svg .evt-sum { font-size: 11.5px; }
   svg .lbl-year { font-size: 12px; letter-spacing: 0.05em; }
   svg .lane { stroke: var(--fg); stroke-width: 0.75; opacity: 0.28; }
-  svg .lane-label { font-size: 9.5px; letter-spacing: 0.14em; opacity: 0.85; cursor: grab; }
+  svg .badge { cursor: grab; color: var(--fg); }
+  svg .badge .bbox { fill: var(--bg); stroke: var(--fg); stroke-width: 1; }
+  svg .badge:hover .bbox { fill: var(--fg); }
+  svg .badge:hover .bicon { color: var(--bg); }
+  .cat svg.cicon { width: 15px; height: 15px; display: inline-block; flex-shrink: 0; opacity: 0.85; }
   svg .lbl-month { font-size: 10.5px; opacity: 0.85; }
   svg .lbl-day { font-size: 9.5px; opacity: 0.7; }
 
@@ -185,6 +189,24 @@ const CATEGORIES = {
   sport:       "Sport",
   exploration: "Exploration & Discovery"
 };
+
+/* Lane icons: 24x24 line art, drawn with currentColor so they follow the theme. */
+const ICONS = {
+  history:     '<path d="M3 9.5 12 4l9 5.5z"/><path d="M5.5 11.5V18M9.8 11.5V18M14.2 11.5V18M18.5 11.5V18"/><path d="M3 20.5h18"/>',
+  politics:    '<rect x="4" y="12.5" width="16" height="8" rx="1"/><path d="M9 12.5h6"/><path d="M8 12.5V5h8v7.5"/><path d="m10.5 8.6 1.4 1.4 2.3-2.7"/>',
+  religion:    '<path d="M12 2.5C8.5 7 7.5 11 8.2 15.5l3.8 4.5 3.8-4.5C16.5 11 15.5 7 12 2.5z"/><path d="M12 8v12"/><path d="M9.2 18.3 7 21M14.8 18.3 17 21"/>',
+  science:     '<path d="M3.5 10.5 15.5 4 18 8.5 6 15z"/><path d="M15.5 4 17 3.2l3 4.5-2 .8"/><path d="M10.5 14 7 21M10.5 14 14 21M10.5 14v7"/>',
+  tech:        '<circle cx="12" cy="12" r="8.4" stroke-width="3" stroke-dasharray="3.3 3.17"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2.4"/>',
+  arts:        '<path d="M12 3l5 8.5-5 9.5-5-9.5z"/><circle cx="12" cy="10.5" r="1.4"/><path d="M12 12v9"/>',
+  pop:         '<path d="M9 18V6l11-2v12"/><path d="M9 10l11-2"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/>',
+  sport:       '<path d="M8 4h8v5a4 4 0 0 1-8 0z"/><path d="M8 6H5v2a3 3 0 0 0 3 3M16 6h3v2a3 3 0 0 1-3 3"/><path d="M12 13v4M9 20h6M10 17h4"/>',
+  exploration: '<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.2 4.8-4.8 2.2 2.2-4.8z"/><circle cx="12" cy="12" r="0.9"/>'
+};
+function iconHtml(key, px) { // standalone <svg> string, used in the side panel
+  return '<svg class="cicon" viewBox="0 0 24 24" width="' + px + '" height="' + px +
+    '" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">' +
+    ICONS[key] + '</svg>';
+}
 
 let EVENTS = [];  // loaded from data/events.json at startup (see loadEvents below)
 
@@ -369,25 +391,32 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
     const linePos = axisPos + offs[i];
     const thr = laneThreshold(key, firstDay, lastDay);
 
-    // lane guide line
-    svg.appendChild(H
-      ? el("line", { class: "lane", x1: 0, y1: linePos, x2: W, y2: linePos })
-      : el("line", { class: "lane", x1: linePos, y1: 0, x2: linePos, y2: Ht }));
+    // icon badge (also the drag handle). It sits on the lane line, in the
+    // narrow zone between the date/summary rows, so it never covers a label.
+    const BADGE = 26;
+    const bx = H ? (state.panelOpen ? 240 : 12) : linePos - BADGE / 2;
+    const by = H ? linePos - BADGE / 2 : 8;
+    const bEnd = (H ? bx : by) + BADGE;      // far edge of the badge along the time axis
+    const hideBefore = bEnd + (H ? 8 : 16);  // events scrolling under the badge are hidden
 
-    // lane label = drag handle
-    let lbl;
-    if (H) {
-      const lx = state.panelOpen ? 246 : 14;
-      lbl = el("text", { class: "lane-label", x: lx, y: linePos - 6 }, CATEGORIES[key].toUpperCase());
-    } else {
-      const ly = linePos + 5;
-      lbl = el("text", { class: "lane-label", x: ly, y: 12, transform: "rotate(90 " + ly + " 12)" }, CATEGORIES[key].toUpperCase());
-    }
-    lbl.addEventListener("mousedown", ev => {
+    // lane guide line, starting just after the badge
+    svg.appendChild(H
+      ? el("line", { class: "lane", x1: bEnd + 4, y1: linePos, x2: W, y2: linePos })
+      : el("line", { class: "lane", x1: linePos, y1: bEnd + 4, x2: linePos, y2: Ht }));
+
+    const badge = el("g", { class: "badge" });
+    const bt = el("title", {}, CATEGORIES[key]);
+    badge.appendChild(bt);
+    badge.appendChild(el("rect", { class: "bbox", x: bx, y: by, width: BADGE, height: BADGE }));
+    const ic = el("g", { class: "bicon", transform: "translate(" + (bx + 2) + " " + (by + 2) + ") scale(" + (22 / 24) + ")",
+      fill: "none", stroke: "currentColor", "stroke-width": 1.7, "stroke-linecap": "round", "stroke-linejoin": "round" });
+    ic.innerHTML = ICONS[key];
+    badge.appendChild(ic);
+    badge.addEventListener("mousedown", ev => {
       ev.stopPropagation(); ev.preventDefault();
       laneDrag = { key };
     });
-    svg.appendChild(lbl);
+    svg.appendChild(badge);
 
     // this category's visible events, grouped by date (shared dot per date)
     const groups = new Map();
@@ -407,6 +436,7 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
 
     dots.forEach(([day, evts]) => {
       const p = dayToPx(day);
+      if (p < hideBefore && state.flash !== day) return; // tucked under the badge
 
       // dot is unconditional
       const dot = el("circle", { class: "dot", cx: H ? p : linePos, cy: H ? linePos : p, r: evts.length > 1 ? 5 : 3.5 });
@@ -633,7 +663,7 @@ const catsBox = document.getElementById("cats");
 for (const key in CATEGORIES) {
   const lbl = document.createElement("label");
   lbl.className = "cat";
-  lbl.innerHTML = '<input type="checkbox" checked data-key="' + key + '"><span class="box"></span>' + CATEGORIES[key];
+  lbl.innerHTML = '<input type="checkbox" checked data-key="' + key + '"><span class="box"></span>' + iconHtml(key, 15) + '<span>' + CATEGORIES[key] + '</span>';
   catsBox.appendChild(lbl);
 }
 catsBox.addEventListener("change", ev => {

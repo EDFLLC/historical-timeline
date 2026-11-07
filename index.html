@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Historical Timeline</title>
 <style>
   /* ============ THEME ============ */
@@ -132,6 +132,74 @@
   #tip .t-date { font-weight: 600; margin-bottom: 5px; }
   #tip .t-evt { margin-bottom: 4px; }
   #tip .t-cat { opacity: 0.6; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em; }
+  /* ============ TOUCH + SHEET + LANE BAR (shared) ============ */
+  :root { --bar: 0px; }
+  html, body { overscroll-behavior: none; }
+  #stage { touch-action: none; -webkit-tap-highlight-color: transparent; }
+  #viewopts, #lanebar, #attrib { display: none; }
+  #sheet {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 35;
+    background: var(--bg); color: var(--fg); border-top: 1px solid var(--fg);
+    padding: 18px 18px calc(18px + env(safe-area-inset-bottom));
+    max-height: 60vh; overflow-y: auto;
+    transform: translateY(105%); transition: transform 0.2s;
+  }
+  #sheet.open { transform: none; }
+  #sheet .s-close { position: absolute; top: 8px; right: 10px; }
+  #sheet .s-date { font-weight: 600; font-size: 13px; letter-spacing: 0.08em; margin-bottom: 10px; }
+  #sheet .s-evt { margin-bottom: 16px; }
+  #sheet .s-sum { font-size: 18px; line-height: 1.3; }
+  #sheet .s-meta { font-size: 12px; opacity: 0.65; margin: 5px 0 10px; }
+  #sheet a.s-link {
+    display: inline-block; border: 1px solid var(--fg); border-radius: 999px;
+    padding: 10px 18px; color: var(--fg); text-decoration: none; font-size: 14px;
+  }
+  #toast {
+    position: fixed; left: 50%; bottom: calc(var(--bar) + 14px); transform: translateX(-50%);
+    z-index: 30; background: var(--bg); color: var(--fg); border: 1px solid var(--fg);
+    border-radius: 999px; padding: 7px 16px; font-size: 13px; white-space: nowrap;
+    opacity: 0; pointer-events: none; transition: opacity 0.2s;
+  }
+  #toast.show { opacity: 1; }
+  @media (pointer: coarse) { #hint { display: none; } }
+
+  /* ============ PHONE LAYOUT ============ */
+  @media (max-width: 700px) {
+    :root { --bar: calc(58px + env(safe-area-inset-bottom)); }
+    #topbar { padding: 0 10px; gap: 8px; }
+    #topbar h1, #orientToggle, #dirToggle, #themeToggle, #hint, #footer,
+    #cats, .panel-actions, #catsH { display: none; }
+    #searchWrap { flex: 1; min-width: 0; }
+    #search { width: 100%; font-size: 16px; padding: 7px 14px; }
+    #results { position: fixed; top: 56px; left: 10px; width: calc(100vw - 20px); max-height: 50vh; }
+    .res { padding: 13px 12px; font-size: 14px; }
+    .btn { font-size: 14px; padding: 9px 16px; }
+    .btn.icon { width: 38px; height: 38px; }
+    #panel { width: min(300px, 90vw); bottom: auto; max-height: calc(100% - 52px - var(--bar)); border-bottom: 1px solid var(--fg); }
+    #viewopts { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 4px; }
+    #attrib { display: block; font-size: 11px; opacity: 0.6; margin-top: 14px; line-height: 1.5; }
+    #attrib a { color: var(--fg); }
+    #stage { bottom: var(--bar); }
+    #zoomctl { display: none; } /* phones pinch to zoom; +/- live in the menu */
+    svg .evt-sum { font-size: 12px; }
+    svg .evt-date { font-size: 11px; }
+    svg .lbl-year { font-size: 12px; }
+    #lanebar {
+      display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 25;
+      height: var(--bar); padding-bottom: env(safe-area-inset-bottom);
+      background: var(--bg); border-top: 1px solid var(--fg);
+    }
+    #lanebar button {
+      flex: 1; position: relative; background: none; border: 0; color: var(--fg);
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0.35; -webkit-tap-highlight-color: transparent; cursor: pointer;
+    }
+    #lanebar button.on { opacity: 1; }
+    #lanebar button.on::before {
+      content: ""; position: absolute; top: -1px; left: 22%; right: 22%; height: 2px; background: var(--fg);
+    }
+    #lanebar svg.cicon { width: 25px; height: 25px; display: block; opacity: 1; }
+  }
 </style>
 </head>
 <body>
@@ -149,12 +217,20 @@
 </div>
 
 <div id="panel">
-  <h2>Categories</h2>
+  <div id="viewopts">
+    <button class="btn" data-act="orient">Vertical</button>
+    <button class="btn" data-act="dir">⇄ Reverse</button>
+    <button class="btn" data-act="theme">Cream</button>
+    <button class="btn" data-act="zin" aria-label="Zoom in">Zoom +</button>
+    <button class="btn" data-act="zout" aria-label="Zoom out">Zoom −</button>
+  </div>
+  <h2 id="catsH">Categories</h2>
   <div id="cats"></div>
   <div class="panel-actions">
     <button class="btn" id="allCats">All</button>
     <button class="btn" id="noCats">None</button>
   </div>
+  <div id="attrib">Some source material from <a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</div>
 </div>
 
 <div id="stage"><svg id="svg"></svg></div>
@@ -166,6 +242,9 @@
 <div id="hint">Scroll or ⌘↑ / ⌘↓ to zoom · arrows, side-scroll or drag to traverse</div>
 <footer id="footer">Some source material from <a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</footer>
 <div id="tip"></div>
+<nav id="lanebar" aria-label="Show or hide lanes"></nav>
+<div id="sheet" role="dialog" aria-live="polite"></div>
+<div id="toast"></div>
 
 <script>
 "use strict";
@@ -246,6 +325,10 @@ const state = {
   flash: null              // day index to highlight after a search jump
 };
 
+const isMobile = () => matchMedia("(max-width: 700px)").matches;
+const isCoarse = () => matchMedia("(pointer: coarse)").matches;
+let HITS = [];   // tappable dots from the last render: {x, y, evts}
+
 const svg = document.getElementById("svg");
 const stage = document.getElementById("stage");
 const tip = document.getElementById("tip");
@@ -302,11 +385,19 @@ function pxToDay(px) {
   return state.center + chronoDir() * (px - viewLen() / 2) / state.ppd;
 }
 
+let rafPending = 0;
+function scheduleRender() { // coalesce rapid touch/drag events into one draw per frame
+  if (rafPending) return;
+  rafPending = requestAnimationFrame(() => { rafPending = 0; render(); });
+}
+
 function render() {
   svg.innerHTML = "";
+  HITS = [];
   const H = state.orient === "horizontal";
   const W = stage.clientWidth, Ht = stage.clientHeight;
-  const axisPos = (H ? Ht / 2 : W / 2) + state.cross; // cross-axis position of the line
+  const phoneV = isMobile() && !H; // phone with time running down: axis hugs the left edge
+  const axisPos = phoneV ? 54 : (H ? Ht / 2 : W / 2) + state.cross; // cross-axis position of the line
   const len = viewLen();
   const dA = pxToDay(0), dB = pxToDay(len);
   const firstDay = Math.max(START_DAY, Math.floor(Math.min(dA, dB)));
@@ -367,7 +458,8 @@ function tick(H, axisPos, p, size, cls, label, lblOff) {
     if (label) svg.appendChild(el("text", { class: cls, x: p, y: axisPos + lblOff + 6, "text-anchor": "middle" }, label));
   } else {
     svg.appendChild(el("line", { class: "tick", x1: axisPos - size, y1: p, x2: axisPos + size, y2: p }));
-    if (label) svg.appendChild(el("text", { class: cls, x: axisPos - lblOff - 6, y: p + 3, "text-anchor": "end" }, label));
+    const off = isMobile() ? Math.min(lblOff, 8) : lblOff;
+    if (label) svg.appendChild(el("text", { class: cls, x: axisPos - off - 6, y: p + 3, "text-anchor": "end" }, label));
   }
 }
 
@@ -383,18 +475,40 @@ function laneOffsets(n, H) {
     i < nA ? -(nA - i) * step : (i - nA + 1) * step);
 }
 
+function wrapText(str, maxChars, maxLines) { // greedy word wrap for phone labels
+  const lines = []; let cur = "";
+  for (let w of str.split(" ")) {
+    while (w.length > maxChars) { // hard-break a very long word
+      if (cur) { lines.push(cur); cur = ""; }
+      lines.push(w.slice(0, maxChars)); w = w.slice(maxChars);
+    }
+    if (!cur) cur = w;
+    else if ((cur + " " + w).length <= maxChars) cur += " " + w;
+    else { lines.push(cur); cur = w; }
+  }
+  if (cur) lines.push(cur);
+  if (lines.length > maxLines) {
+    lines.length = maxLines;
+    lines[maxLines - 1] = lines[maxLines - 1].replace(/.$/, "…");
+  }
+  return lines;
+}
+
 function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
   const lanes = activeLanes();
   if (!lanes.length) return;
+  const M = isMobile() && !H;                       // phone, time running down the screen
+  const coarse = isCoarse();
   const offs = laneOffsets(lanes.length, H);
+  const mStep = Math.min(130, (W - axisPos - 12) / lanes.length); // column width on a phone
   lanes.forEach((key, i) => {
-    const linePos = axisPos + offs[i];
+    const linePos = M ? axisPos + 16 + i * mStep : axisPos + offs[i];
     const thr = laneThreshold(key, firstDay, lastDay);
 
-    // icon badge (also the drag handle). It sits on the lane line, in the
-    // narrow zone between the date/summary rows, so it never covers a label.
+    // icon badge (also the drag handle). On the horizontal layout it sits on the
+    // lane line between the date/summary rows; on a phone it heads its column.
     const BADGE = 26;
-    const bx = H ? (state.panelOpen ? 240 : 12) : linePos - BADGE / 2;
+    const bx = H ? (state.panelOpen && !isMobile() ? 240 : 12) : linePos - BADGE / 2;
     const by = H ? linePos - BADGE / 2 : 8;
     const bEnd = (H ? bx : by) + BADGE;      // far edge of the badge along the time axis
     const hideBefore = bEnd + (H ? 8 : 16);  // events scrolling under the badge are hidden
@@ -410,20 +524,22 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
       fill: "none", stroke: "currentColor", "stroke-width": 1.7, "stroke-linecap": "round", "stroke-linejoin": "round" });
     ic.innerHTML = ICONS[key];
     badge.appendChild(ic);
-    const showName = ev => {
-      tip.innerHTML = '<div class="t-evt">' + CATEGORIES[key] + "</div>";
-      tip.style.display = "block";
-      tip.style.left = Math.min(ev.clientX + 14, innerWidth - 310) + "px";
-      tip.style.top = (ev.clientY + 14) + "px";
-    };
-    badge.addEventListener("mouseenter", showName);
-    badge.addEventListener("mousemove", showName);
-    badge.addEventListener("mouseleave", () => { tip.style.display = "none"; });
-    badge.addEventListener("mousedown", ev => {
-      ev.stopPropagation(); ev.preventDefault();
-      tip.style.display = "none";
-      laneDrag = { key };
-    });
+    if (!coarse) { // hover name + drag-to-reorder are mouse features
+      const showName = ev => {
+        tip.innerHTML = '<div class="t-evt">' + CATEGORIES[key] + "</div>";
+        tip.style.display = "block";
+        tip.style.left = Math.min(ev.clientX + 14, innerWidth - 310) + "px";
+        tip.style.top = (ev.clientY + 14) + "px";
+      };
+      badge.addEventListener("mouseenter", showName);
+      badge.addEventListener("mousemove", showName);
+      badge.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+      badge.addEventListener("mousedown", ev => {
+        ev.stopPropagation(); ev.preventDefault();
+        tip.style.display = "none";
+        laneDrag = { key };
+      });
+    }
     svg.appendChild(badge);
 
     // this category's visible events, grouped by date (shared dot per date)
@@ -447,18 +563,39 @@ function drawLanes(H, axisPos, firstDay, lastDay, W, Ht) {
       if (p < hideBefore && state.flash !== day) return; // tucked under the badge
 
       // dot is unconditional
-      const dot = el("circle", { class: "dot", cx: H ? p : linePos, cy: H ? linePos : p, r: evts.length > 1 ? 5 : 3.5 });
+      const cx = H ? p : linePos, cy = H ? linePos : p;
+      const dot = el("circle", { class: "dot", cx, cy, r: (evts.length > 1 ? 5 : 3.5) + (coarse ? 1 : 0) });
       attachTip(dot, evts);
       svg.appendChild(dot);
+      HITS.push({ x: cx, y: cy, day, evts });
 
-      // search-jump highlight ring
+      // search-jump / tap highlight ring
       if (state.flash === day) {
-        svg.appendChild(el("circle", { class: "flash", cx: H ? p : linePos, cy: H ? linePos : p, r: 10 }));
+        svg.appendChild(el("circle", { class: "flash", cx, cy, r: 10 }));
+      }
+
+      const label = evts[0].summary + (evts.length > 1 ? "  (+" + (evts.length - 1) + ")" : "");
+      const dateTxt = displayDate(evts[0].date);
+
+      // ---- phone layout: wrapped label to the right of the lane line ----
+      if (M) {
+        const maxChars = Math.floor((mStep - 20) / 6.5);
+        if (maxChars < 9) return; // too many lanes for text: dot only, tap for details
+        const lines = wrapText(label.replace("  (+", " (+"), maxChars, 4);
+        const top = p - 11, bottom = p + 10 + (lines.length - 1) * 13 + 4;
+        if (top < lastEnd[0] + GAP) return;
+        lastEnd[0] = bottom;
+        const g = el("g", {});
+        svg.appendChild(el("line", { class: "connector", x1: linePos + 4, y1: p, x2: linePos + 8, y2: p }));
+        g.appendChild(el("text", { class: "evt-date", x: linePos + 10, y: p - 3, "text-anchor": "start" }, dateTxt));
+        lines.forEach((ln, k) =>
+          g.appendChild(el("text", { class: "evt-sum", x: linePos + 10, y: p + 10 + k * 13, "text-anchor": "start" }, ln)));
+        attachTip(g, evts);
+        svg.appendChild(g);
+        return;
       }
 
       // decide whether a text label fits: try the emptier side, then the other
-      const label = evts[0].summary + (evts.length > 1 ? "  (+" + (evts.length - 1) + ")" : "");
-      const dateTxt = displayDate(evts[0].date);
       const extent = H ? Math.max(label.length, dateTxt.length) * 6.6 + 10 : 26;
       let s = lastEnd[0] <= lastEnd[1] ? 0 : 1;
       let fits = (p - extent / 2) >= lastEnd[s] + GAP;
@@ -514,6 +651,7 @@ window.addEventListener("mouseup", () => { laneDrag = null; });
 
 /* ---- tooltip listing every event on the dot ---- */
 function attachTip(node, evts) {
+  if (isCoarse()) return; // touch: taps are handled by handleTap() -> bottom sheet
   node.style.cursor = "pointer";
   node.addEventListener("mousemove", ev => {
     tip.innerHTML = '<div class="t-date">' + displayDate(evts[0].date) + "</div>" +
@@ -570,37 +708,92 @@ window.addEventListener("mousemove", ev => {
   const dpx = state.orient === "horizontal" ? ev.clientX - drag.x : ev.clientY - drag.y;
   state.center = drag.center - chronoDir() * dpx / state.ppd;
   clampCenter();
-  render();
+  scheduleRender();
 });
 window.addEventListener("mouseup", () => { drag = null; stage.classList.remove("dragging"); });
 
-// touch: one-finger pan, two-finger pinch zoom
+// touch: one-finger pan, two-finger pinch zoom, tap = open details sheet
 let touch = null;
 stage.addEventListener("touchstart", ev => {
   if (ev.touches.length === 1) {
-    touch = { mode: "pan", x: ev.touches[0].clientX, y: ev.touches[0].clientY, center: state.center };
+    touch = { mode: "pan", x: ev.touches[0].clientX, y: ev.touches[0].clientY, center: state.center, t: Date.now(), moved: false };
   } else if (ev.touches.length === 2) {
-    const d = dist(ev.touches);
-    touch = { mode: "pinch", d, ppd: state.ppd };
+    touch = { mode: "pinch", d: dist(ev.touches), ppd: state.ppd, moved: true };
   }
 }, { passive: true });
 stage.addEventListener("touchmove", ev => {
   if (!touch) return;
   if (touch.mode === "pan" && ev.touches.length === 1) {
-    const dpx = state.orient === "horizontal"
-      ? ev.touches[0].clientX - touch.x : ev.touches[0].clientY - touch.y;
+    const dx = ev.touches[0].clientX - touch.x, dy = ev.touches[0].clientY - touch.y;
+    if (!touch.moved && Math.hypot(dx, dy) < 8) return; // still a tap, not a pan
+    touch.moved = true;
+    const dpx = state.orient === "horizontal" ? dx : dy;
     state.center = touch.center - chronoDir() * dpx / state.ppd;
-    clampCenter(); render();
+    clampCenter(); scheduleRender();
   } else if (touch.mode === "pinch" && ev.touches.length === 2) {
     state.ppd = Math.max(minPpd(), Math.min(MAX_PPD, touch.ppd * dist(ev.touches) / touch.d));
-    clampCenter(); render();
+    clampCenter(); scheduleRender();
   }
 }, { passive: true });
-stage.addEventListener("touchend", () => { touch = null; });
+stage.addEventListener("touchend", () => {
+  if (touch && touch.mode === "pan" && !touch.moved && Date.now() - touch.t < 500) handleTap(touch.x, touch.y);
+  touch = null;
+});
 function dist(t) { return Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY); }
 
-document.getElementById("zin").onclick = () => zoomAt(viewLen() / 2, 1.5);
-document.getElementById("zout").onclick = () => zoomAt(viewLen() / 2, 1 / 1.5);
+/* ---- tap on a dot -> bottom sheet with details + Wikipedia link ---- */
+const sheet = document.getElementById("sheet");
+function openSheet(evts) {
+  sheet.innerHTML = '<button class="btn icon s-close" aria-label="Close">×</button>' +
+    '<div class="s-date">' + displayDate(evts[0].date) + "</div>" +
+    evts.map(e => '<div class="s-evt"><div class="s-sum">' + escapeHtml(e.summary) + "</div>" +
+      '<div class="s-meta">' + CATEGORIES[e.category] +
+      ((e.tags && e.tags.length) ? "  ·  " + e.tags.map(t => "#" + t).join(" ") : "") + "</div>" +
+      '<a class="s-link" href="' + escapeHtml(e.source) + '" target="_blank" rel="noopener">Read on Wikipedia ↗</a></div>').join("");
+  sheet.scrollTop = 0;
+  sheet.classList.add("open");
+}
+function closeSheet() {
+  if (!sheet.classList.contains("open")) return;
+  sheet.classList.remove("open");
+  if (state.flash !== null) { state.flash = null; render(); }
+}
+sheet.addEventListener("click", ev => { if (ev.target.closest(".s-close")) closeSheet(); });
+
+function closePanelOnPhone() {
+  if (isMobile() && state.panelOpen) document.getElementById("panelToggle").click();
+}
+function handleTap(clientX, clientY) {
+  const r = stage.getBoundingClientRect();
+  const x = clientX - r.left, y = clientY - r.top;
+  let best = null, bd = 32; // finger-sized pick radius
+  for (const h of HITS) {
+    const d = Math.hypot(h.x - x, h.y - y);
+    if (d < bd) { bd = d; best = h; }
+  }
+  closePanelOnPhone();
+  if (!best) { closeSheet(); return; }
+  // keep the tapped dot clear of the sheet that is about to cover the lower part of the screen
+  const H = state.orient === "horizontal";
+  if (!H && best.y > stage.clientHeight * 0.45) {
+    state.center = best.day - chronoDir() * (stage.clientHeight * 0.28 - viewLen() / 2) / state.ppd;
+    clampCenter();
+  }
+  state.flash = best.day;
+  render();
+  openSheet(best.evts);
+}
+
+let toastTimer = null;
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove("show"), 1300);
+}
+
+document.querySelectorAll("#zin,[data-act=zin]").forEach(b => b.onclick = () => zoomAt(viewLen() / 2, 1.5));
+document.querySelectorAll("#zout,[data-act=zout]").forEach(b => b.onclick = () => zoomAt(viewLen() / 2, 1 / 1.5));
 
 /* ---- keyboard: arrows traverse in four directions; Cmd/Ctrl+Up/Down zooms ---- */
 function clampCross(v) {
@@ -639,27 +832,36 @@ window.addEventListener("keydown", ev => {
   render();
 });
 
-/* ---- toggles ---- */
-document.getElementById("themeToggle").onclick = function () {
+/* ---- toggles (top bar on desktop, menu panel on phones) ---- */
+function syncToggleLabels() {
+  const H = state.orient === "horizontal";
+  document.querySelectorAll("#orientToggle,[data-act=orient]").forEach(b => b.textContent = H ? "Vertical" : "Horizontal");
+  document.querySelectorAll("#themeToggle,[data-act=theme]").forEach(b => b.textContent = state.theme === "black" ? "Cream" : "Black");
+}
+function toggleTheme() {
   state.theme = state.theme === "black" ? "cream" : "black";
   document.body.classList.toggle("cream", state.theme === "cream");
-  this.textContent = state.theme === "black" ? "Cream" : "Black";
-};
-document.getElementById("orientToggle").onclick = function () {
+  syncToggleLabels();
+}
+function toggleOrient() {
   state.orient = state.orient === "horizontal" ? "vertical" : "horizontal";
-  this.textContent = state.orient === "horizontal" ? "Vertical" : "Horizontal";
   state.cross = 0;
   state.ppd = Math.max(state.ppd, minPpd());
+  syncToggleLabels();
   clampCenter(); render();
-};
-document.getElementById("dirToggle").onclick = function () {
+}
+function toggleDir() {
   state.reversed = !state.reversed;
   const H = state.orient === "horizontal";
-  this.title = state.reversed
+  const t = state.reversed
     ? "Newest at " + (H ? "left" : "top") + " — click to restore"
     : "Reverse chronological direction";
+  document.querySelectorAll("#dirToggle,[data-act=dir]").forEach(b => b.title = t);
   render();
-};
+}
+document.querySelectorAll("#themeToggle,[data-act=theme]").forEach(b => b.onclick = toggleTheme);
+document.querySelectorAll("#orientToggle,[data-act=orient]").forEach(b => b.onclick = toggleOrient);
+document.querySelectorAll("#dirToggle,[data-act=dir]").forEach(b => b.onclick = toggleDir);
 document.getElementById("panelToggle").onclick = () => {
   state.panelOpen = !state.panelOpen;
   document.getElementById("panel").classList.toggle("hidden", !state.panelOpen);
@@ -674,9 +876,29 @@ for (const key in CATEGORIES) {
   lbl.innerHTML = '<input type="checkbox" checked data-key="' + key + '"><span class="box"></span>' + iconHtml(key, 15) + '<span>' + CATEGORIES[key] + '</span>';
   catsBox.appendChild(lbl);
 }
+// bottom lane bar (phones): the lane icons double as on/off toggles
+const laneBar = document.getElementById("lanebar");
+for (const key in CATEGORIES) {
+  const b = document.createElement("button");
+  b.dataset.key = key;
+  b.setAttribute("aria-label", CATEGORIES[key]);
+  b.innerHTML = iconHtml(key, 25);
+  b.addEventListener("click", () => {
+    if (state.active.has(key)) state.active.delete(key); else state.active.add(key);
+    syncLaneUI();
+    toast(CATEGORIES[key] + (state.active.has(key) ? "" : " – hidden"));
+    render();
+  });
+  laneBar.appendChild(b);
+}
+function syncLaneUI() { // keep the panel checkboxes and the lane bar in step with state.active
+  catsBox.querySelectorAll("input").forEach(i => { i.checked = state.active.has(i.dataset.key); });
+  laneBar.querySelectorAll("button").forEach(b => b.classList.toggle("on", state.active.has(b.dataset.key)));
+}
 catsBox.addEventListener("change", ev => {
   const key = ev.target.dataset.key;
   if (ev.target.checked) state.active.add(key); else state.active.delete(key);
+  syncLaneUI();
   render();
 });
 document.getElementById("allCats").onclick = () => setAll(true);
@@ -686,6 +908,7 @@ function setAll(on) {
     i.checked = on;
     if (on) state.active.add(i.dataset.key); else state.active.delete(i.dataset.key);
   });
+  syncLaneUI();
   render();
 }
 
@@ -707,8 +930,7 @@ function goToEvent(e) {
   // make sure the event's category lane is visible
   if (!state.active.has(e.category)) {
     state.active.add(e.category);
-    const cb = catsBox.querySelector('input[data-key="' + e.category + '"]');
-    if (cb) cb.checked = true;
+    syncLaneUI();
   }
   state.ppd = Math.min(MAX_PPD, Math.max(state.ppd, neededPpd(e.importance)));
   state.center = e.day;
@@ -716,8 +938,14 @@ function goToEvent(e) {
   state.flash = e.day;
   render();
   clearTimeout(flashTimer);
-  flashTimer = setTimeout(() => { state.flash = null; render(); }, 2500);
   closeResults();
+  if (isCoarse()) { // phones: show the details sheet instead of a timed highlight
+    searchBox.blur();
+    closePanelOnPhone();
+    openSheet(EVENTS.filter(x => x.day === e.day && x.category === e.category));
+  } else {
+    flashTimer = setTimeout(() => { state.flash = null; render(); }, 2500);
+  }
 }
 
 function goToDate(day, minZoom) {
@@ -777,7 +1005,8 @@ function runSearch() {
       const d = document.createElement("div");
       d.className = "res";
       d.innerHTML = it.html;
-      d.addEventListener("mousedown", ev => { ev.preventDefault(); it.act(); }); // mousedown beats input blur
+      d._act = it.act;
+      d.addEventListener("pointerdown", ev => { ev.preventDefault(); it.act(); }); // fires before the input blurs
       resultsBox.appendChild(d);
     });
   }
@@ -789,13 +1018,13 @@ searchBox.addEventListener("focus", runSearch);
 searchBox.addEventListener("keydown", ev => {
   if (ev.key === "Enter") {
     const first = resultsBox.querySelector(".res:not(.none)");
-    if (first) first.dispatchEvent(new MouseEvent("mousedown", { bubbles: true, cancelable: true }));
+    if (first) first._act();
   } else if (ev.key === "Escape") {
     closeResults();
     searchBox.blur();
   }
 });
-document.addEventListener("mousedown", ev => {
+document.addEventListener("pointerdown", ev => {
   if (!ev.target.closest || !ev.target.closest("#searchWrap")) closeResults();
 });
 
@@ -804,6 +1033,18 @@ window.addEventListener("resize", () => {
   state.ppd = Math.max(state.ppd, minPpd());
   clampCenter(); render();
 });
+
+// Phone defaults: vertical time axis, three lanes, menu closed.
+function applyPhoneDefaults() {
+  if (!isMobile()) { syncLaneUI(); return; }
+  state.orient = "vertical";
+  state.panelOpen = false;
+  state.active = new Set(["history", "politics", "science"]);
+  const panel = document.getElementById("panel");
+  panel.style.transition = "none"; panel.classList.add("hidden"); void panel.offsetWidth; panel.style.transition = "";
+  syncToggleLabels(); syncLaneUI();
+}
+applyPhoneDefaults();
 
 // Load the event data from data/events.json, then draw.
 async function loadEvents() {

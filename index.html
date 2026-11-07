@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>Historical Timeline</title>
 <style>
   /* ============ THEME ============ */
@@ -134,7 +134,7 @@
   #tip .t-cat { opacity: 0.6; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em; }
   /* ============ TOUCH + SHEET + LANE BAR (shared) ============ */
   :root { --bar: 0px; }
-  html, body { overscroll-behavior: none; }
+  html, body { overscroll-behavior: none; touch-action: manipulation; } /* no double-tap page zoom */
   #stage { touch-action: none; -webkit-tap-highlight-color: transparent; }
   #viewopts, #lanebar, #attrib { display: none; }
   #sheet {
@@ -1027,6 +1027,10 @@ searchBox.addEventListener("keydown", ev => {
 document.addEventListener("pointerdown", ev => {
   if (!ev.target.closest || !ev.target.closest("#searchWrap")) closeResults();
 });
+
+/* ---- stop the browser zooming the whole page (iOS Safari ignores user-scalable) ---- */
+["gesturestart", "gesturechange", "gestureend"].forEach(t =>
+  document.addEventListener(t, ev => ev.preventDefault(), { passive: false }));
 
 /* ---- init ---- */
 window.addEventListener("resize", () => {
